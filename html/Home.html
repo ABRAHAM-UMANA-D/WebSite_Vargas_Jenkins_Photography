@@ -2,15 +2,24 @@
 <html lang="es">
 
 <head>
-    <link rel="stylesheet" href="../style/Home.css">
+    <link rel="stylesheet" href="../style/custom.css">
+    <link rel="stylesheet" href="../style/normalize.css">
 </head>
 
 <body>
+    <header>
+        <!--AQUI VA EL MENU DE NAVEGACION--->
+        <section>
+            <!--AQUI VA EL BANNER PRINCIPAL-->
+        </section>
+    </header>
     <main>
+        <!------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--ABOUT SECTION-->
         <section class="about">
             <div class="about_container container">
                 <figure class="about_picture">
-                    <img class="about_image" src="../images/IMG SOBRE NOSOTROS - PAGINA PRINCIPAL.png" alt="">
+                    <img class="about_image" src="../images/about_img.png" alt="">
                 </figure>
                 <div class="about_text">
                     <h2 class="subtitle"> AGENCIA VARGAS JENKINS PHOTOGRAPHY </h2>
@@ -34,6 +43,7 @@
             </div>
         </section>
         <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--SERVICES SECTION-->
         <section class="container services">
             <h2 class="subtitle">Fotografia profesional, de la mano de
                 personal capacitado, que brinda extrema calidad.</h2>
@@ -42,36 +52,89 @@
             <div class="service_main">
                 <article class="service_icons">
 
-                    <img src="" alt="" class="service_icon">
-                    <h3 class="service_title"></h3>
-                    <p class="service_paragraph"></p>
-                    <a class="service_btn"></a>
+                    <img src="../images/Wedding Rings.png" alt="" class="service_icon">
+                    <h3 class="service_title"> Matrimonios </h3>
+                    <p class="service_paragraph"> Ayudamos con sesiones completas de fotos a matrimonios, con
+                        escenarios diferentes desde distintos angulos, para cultivar una experiencia agradable.</p>
+                    <a class="service_btn" href="#">Contáctanos <img src="../images/Ringer Volume.png"></a>
 
                 </article>
 
                 <article class="service_icons">
 
-                    <img src="" alt="" class="service_icon">
-                    <h3 class="service_title"></h3>
-                    <p class="service_paragraph"></p>
-                    <a class="service_btn"></a>
+                    <img src="../images/Student Male.png" alt="" class="service_icon">
+                    <h3 class="service_title"> Graduaciones </h3>
+                    <p class="service_paragraph"> Ayudamos con sesiones completas de fotos para graduaciones, con
+                        escenarios diferentes desde distintos angulos, para cultivar una experiencia agradable.</p>
+                    <a class="service_btn" href="#">Contáctanos <img src="../images/Ringer Volume.png"></a>
 
                 </article>
 
                 <article class="service_icons">
 
-                    <img src="" alt="" class="service_icon">
-                    <h3 class="service_title"></h3>
-                    <p class="service_paragraph"></p>
-                    <a class="service_btn"></a>
+                    <img src="../images/Gift.png" alt="" class="service_icon">
+                    <h3 class="service_title"> Cumpleaños</h3>
+                    <p class="service_paragraph"> Ayudamos con sesiones completas de fotos a personas cumpleañeras, con
+                        escenarios diferentes desde distintos angulos, para cultivar una experiencia agradable.</p>
+                    <a class="service_btn" href="#">Contáctanos <img src="../images/Ringer Volume.png"></a>
 
                 </article>
             </div>
         </section>
         <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
-        <section>
-            
+        <!--GALERY SECTION-->
+        <section class="galery">
+            <div class="galery_container container">
+                <h2 class="portfolio_subtitle">Nuestro portafolio de clientes</h2>
+                <section>
+                    <div class="galery_options">
+                        <span class="graduation_galery"> Graduaciones </span>
+                        <span class="marriage_galery"> Matrimonios </span>
+                        <span class="birthday_galery"> Cumpleaños </span>
+                    </div>
+                    <!--AQUI IRIA LA INCLUSION DE LAS IMAGENES DE LA GALERIA-->
+                </section>
+            </div>
+        </section>
+        <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--NEWSLETERR SECTION-->
+        <section class="newsletter">
+            <div class="newsletter_container container">
+                <figure class="newsletter_picture">
+                    <img class="newsletter_image" src="../images/image-boletin.png" alt="">
+                </figure>
+                <div class="news_form">
+                    <form class="newsletter_form" action="" method="POST">
+                        <h2 class="newsletter_subtitle"> Suscribete a nuestro newsletter, no esperes más </h2>
+                        <p class="newsletter_paragrah"> Recibe correos semanales, sobre actualizaciones en nuestros
+                            paquetes </p>
+                        <div class="newsletter_inputs">
+                            <h3 class="form_subtitle"> Nombre completo </h3>
+                            <input type="text" name="name" placeholder="Escribe tu nombre completo."
+                                class="newsletter_input">
+                            <h3 class="form_subtitle"> Correo electrónico </h3>
+                            <input type="email" name="email" placeholder="Escribe tu correo electrónico."
+                                class="newsletter_input">
+                            <input type="submit" value="Suscribirme" class="newsletter_submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--CALL TO ACTION SECTION-->
+        <section class="cta">
+            <div class="cta_container container">
+                <div class="cta_text">
+                    <h2 class="cta_subtitle"> Quieres fotos de calidad </h2>
+                    <p class="cta_paragraph"> Te las tomamos, para que cultives momentos extraordinarios que puedas
+                        guardar para toda la vida</p>
+                    <a href="#" class="cta_contact"> Contactános <img src="../images/Ringer Volume.png"></a>
+                </div>
+                <figure>
+                    <img src="../images/Video.png" class="cta_img">
+                </figure>
+            </div>
         </section>
     </main>
 </body>

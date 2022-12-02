@@ -1,0 +1,158 @@
+/*------------------------------------------------------------------ GENERAL PROPERTIES ------------------------------------------------------*/
+
+:root {
+    --padding-container: 100px 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+/*------------------------------------------------------------------ NAVBAR PROPERTIES ------------------------------------------------------*/
+
+.navbar {
+    position: absolute;
+    width: 1728px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: radial-gradient(136.95% 136.95% at 50.65% -27.09%, rgba(255, 255, 255, 0) 0.83%, rgba(255, 255, 255, 7.89793e-09) 58.12%, rgba(255, 255, 255, 0.2) 100%), #000000;
+    background-blend-mode: difference, normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.navbar-items {
+    position: absolute;
+    width: 1109px;
+    height: 51px;
+    left: 50%;
+    top: 50%;
+
+}
+
+.social-networks {
+    margin: auto;
+    display: inline;
+    padding: 0%;
+}
+
+.social-networks .nav-item {
+    list-style: none;
+    color: #ffff;
+    display: inline;
+    margin: 5px;
+}
+
+.nav-item {
+    margin: 10px;
+    list-style: none;
+    align-content: center;
+    color: #ffff;
+    position: relative;
+    display: inline;
+}
+
+.nav-item a {
+    list-style: none;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.nav-item .item:hover {
+    color: #E2B853;
+    border-bottom: 2px solid #E2B853;
+}
+
+.nav-item .icon:hover {
+    color: #E2B853;
+}
+
+.contact-button {
+    border-radius: 8px;
+    background-color: #ffff;
+}
+
+.contact-button:hover {
+    background-color: #E2B853;
+    border-radius: 8px;
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 83px;
+    top: 5px;
+}
+
+/*----------------------------------------------------------------- HOME PAGE PROPERTIES --------------------------------------------------------*/
+
+/*MAIN AND ABOUT BANNER PROPIERTIES*/
+
+/*HOME AND ABOUT SECTION PROPERTIES*/
+
+/*SERVICES SECTION PROPERTIES*/
+
+/*GALERY SECTION PROPERTIES*/
+
+/*NEWSLETTER SECTION PROPERTIES*/
+
+/*HOME AND CONTACT CALL TO ACTION SECTION PROPERTIES*/
+
+
+/*---------------------------------------------------------------- ABOUT PAGE PROPERTIES --------------------------------------------------------*/
+
+/*ABOUT BANNER PROPIERTIES*/
+
+/*ABOUT DESCRIPTION PROPERTIES*/
+
+/*---------------------------------------------------------------- SERVICES PAGE PROPERTIES --------------------------------------------------------*/
+
+/*SERVICES BANNER PROPERTIES*/
+
+/*SERVICES DESCRIPTION PROPERTIES*/
+
+/*---------------------------------------------------------------- GALERY PAGE PROPERTIES --------------------------------------------------------*/
+
+/*GALERY BANNER PROPERTIES*/
+
+/*GALERY DESCRIPTION PROPERTIES*/
+
+/*GALERY PHOTOS - CUSTOMER BLOG PAGE PROPERTIES*/
+
+/*GALERY - CUSTOMER BLOG PAGE CALL TO ACTION PROPERTIES*/
+
+/*---------------------------------------------------------------- CUSTOMER BLOG PAGE PROPERTIES --------------------------------------------------------*/
+
+/*BANNER - CUSTOMER BLOG DESCRIPTION PROPERTIES*/
+
+/*CUSTOMER BLOG SLIDER PROPERTIES*/
+
+
+/*---------------------------------------------------------------- CONTACT PAGE PROPERTIES --------------------------------------------------------*/
+
+/*CONTACT BANNER PROPERTIES*/
+
+/*CONTACT FORM PROPERTIES*/
+
+/*---------------------------------------------------------------- LOGIN PAGE PROPERTIES --------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------- FOOTER PROPERTIES --------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
+
