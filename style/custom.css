@@ -101,8 +101,115 @@ body {
 /*----------------------------------------------------------------- HOME PAGE PROPERTIES --------------------------------------------------------*/
 
 /*MAIN AND ABOUT BANNER PROPIERTIES*/
+.banner {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 80px;
+
+}
+
+.home_image {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 20px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    border: 0px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtitle-banner {
+    color: #ffff;
+    margin: 10px;
+}
+
+.title-banner {
+    color: #ffff;
+    margin: 10px;
+}
+
+.info-banner {
+    position: absolute;
+    width: 1088px;
+    height: 193px;
+    left: 116px;
+    top: 476px;
+}
+
+.buttons{
+    margin-top: 30px;
+    top: 500px;
+}
+
+.button-banner {
+    text-decoration: none;
+    margin-top: 50px;
+    margin: 10px;
+    padding: 10px;
+    background: #ffff;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.button-banner:hover{
+    background: #E2B853;
+    color: #ffff;
+}
+
+/*MAIN*/
+.main{
+    position: absolute;
+    top:700px;
+    width: 100%;
+}
 
 /*HOME AND ABOUT SECTION PROPERTIES*/
+.about{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.about_image{
+    width: 500px;
+}
+
+.about_container{
+    width: 100%;
+    display: flex;
+}
+
+.about_picture{
+    width: 520px;
+}
+
+.subtitle{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.about_paragrah{
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.galery_btn{
+    text-decoration: none;
+    margin-top: 60px;
+    margin: 10px;
+    padding: 10px;
+    background: #000000;
+    border-radius: 7px;
+    color: #ffff;
+}
+
+.galery_btn:hover{
+    background: #E2B853;
+}
 
 /*SERVICES SECTION PROPERTIES*/
 
