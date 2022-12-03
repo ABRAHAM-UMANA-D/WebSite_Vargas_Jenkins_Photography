@@ -19,9 +19,11 @@ body {
 
 /*------------------------------------------------------------------ NAVBAR PROPERTIES ------------------------------------------------------*/
 
+/*NAVBAR*/
+
 .navbar {
     position: absolute;
-    width: 1728px;
+    width: 100%;
     height: 100px;
     left: 0px;
     top: 0px;
@@ -32,9 +34,9 @@ body {
 
 }
 
-.navbar-items {
+.navbar-nav {
     position: absolute;
-    width: 1109px;
+    width: 595px;
     height: 51px;
     left: 50%;
     top: 50%;
@@ -69,7 +71,7 @@ body {
     color: #ffff;
 }
 
-.nav-item .item:hover {
+.nav-item .nav-link:hover {
     color: #E2B853;
     border-bottom: 2px solid #E2B853;
 }
