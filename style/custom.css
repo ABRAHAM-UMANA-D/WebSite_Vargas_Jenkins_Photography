@@ -111,6 +111,7 @@ body {
 }
 
 .home_image {
+    align-content: center;
     box-sizing: border-box;
     position: absolute;
     width: 100%;
@@ -130,6 +131,7 @@ body {
 .title-banner {
     color: #ffff;
     margin: 10px;
+    width: 500px;
 }
 
 .info-banner {
@@ -137,10 +139,11 @@ body {
     width: 1088px;
     height: 193px;
     left: 116px;
-    top: 476px;
+    top: 400px;
 }
 
 .buttons{
+    height: 40px;
     margin-top: 30px;
     top: 500px;
 }
@@ -205,6 +208,13 @@ body {
     background: #000000;
     border-radius: 7px;
     color: #ffff;
+}
+
+.btn_galery{
+    margin: 10px;
+    padding: 10px;
+    right: 50%;
+    text-align: center;
 }
 
 .galery_btn:hover{
