@@ -186,6 +186,7 @@ body {
     background: #ffff;
     border-radius: 5px;
     color: #000000;
+    font-weight: bold;
 }
 
 .button-banner:hover {
