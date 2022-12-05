@@ -188,15 +188,21 @@
 }
 
 .subtitle-banner {
+    display: flex;
     color: #ffff;
     margin: 10px;
     width: 500px;
+    -webkit-text-stroke: 1px #000000;
+    margin-bottom: 20px;
+    font-weight: 800;
 }
 
 .title-banner {
     color: #ffff;
     margin: 10px;
-    width: 500px;
+    width: 700px;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .info-banner {
@@ -204,7 +210,7 @@
     width: 600px;
     height: 193px;
     left: 116px;
-    top: 400px;
+    top: 300px;
 }
 
 .buttons {
@@ -283,11 +289,13 @@
 .galery_btn {
     text-decoration: none;
     margin-top: 60px;
-    margin: 10px;
-    padding: 10px;
+    margin: 15px;
+    padding: 14px;
     background: #000000;
     border-radius: 7px;
     color: #ffff;
+    font-size:13px;
+    font-weight: bold;
 }
 
 .btn_galery {
@@ -308,6 +316,10 @@
     margin-bottom: 25px;
     left: 130px;
     top: 2223px;
+}
+
+.title-color{
+    color: #E2B853;
 }
 
 /*GALERY SECTION PROPERTIES*/
