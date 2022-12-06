@@ -78,12 +78,13 @@
     color: black;
     font-size: 20px;
     padding: 4px 9px;
+    font-weight: bold;
 }
 
 .contact-button:hover {
     background-color: #E2B853;
     border-radius: 8px;
-    font-weight: 535;
+    font-weight: bold;
 }
 
 .logo_enlace {
@@ -156,7 +157,7 @@
 
 /*----------------------------------------------------------------- HOME PAGE PROPERTIES --------------------------------------------------------*/
 
-.btn{
+.btn {
     text-decoration: none;
     margin-top: 50px;
     margin: 10px;
@@ -230,7 +231,7 @@
     top: 500px;
 }
 
-.button-banner { 
+.button-banner {
     background: #FFFF;
     color: #000000;
 }
@@ -312,7 +313,7 @@
 
 /*SERVICES SECTION PROPERTIES*/
 
-.services{
+.services {
     position: relative;
     background-position: 0 0, 10px 10px;
     overflow: hidden;
@@ -321,33 +322,33 @@
     display: grid;
 }
 
-.services_container{
+.services_container {
     margin-top: 50px;
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
 }
 
-.service_header{
+.service_header {
     display: grid;
     grid-template-columns: 50% 50%;
     align-content: center;
     margin-bottom: 50px;
 }
 
-.col{
+.col {
     width: 400px;
     margin-left: 50px;
-    
+
 }
 
-.col-paragraph{
+.col-paragraph {
     width: 350px;
     justify-self: center;
     margin-right: 50px;
 }
 
-.services_paragraph{
+.services_paragraph {
     text-align: justify;
     font-size: 20px;
     font-weight: 450;
@@ -362,15 +363,15 @@
     top: 2223px;
 }
 
-.title-color{
+.title-color {
     color: #E2B853;
 }
 
-.subtitle-service{
+.subtitle-service {
     margin-left: 30px;
 }
 
-.service_main{
+.service_main {
     margin-bottom: 50px;
     padding: 50px;
     display: grid;
@@ -378,34 +379,34 @@
     position: relative;
 }
 
-.service_icon{
+.service_icon {
     position: relative;
     margin-bottom: 5px;
 }
 
-.service_title{
+.service_title {
     position: relative;
     margin-bottom: 20px;
 }
 
-.service_paragraph{
+.service_paragraph {
     position: relative;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     text-align: justify;
 }
 
-.service_btn{
+.service_btn {
     color: #000000;
     background-color: #E2B853;
 }
 
-.service_icons{
+.service_icons {
     padding: 20px;
     margin: 20px;
 }
 
 /*GALERY SECTION PROPERTIES*/
-.galery{
+.galery {
     position: relative;
     margin-top: 30px;
     background-position: 0 0, 10px 10px;
@@ -414,7 +415,7 @@
 }
 
 /*NEWSLETTER SECTION PROPERTIES*/
-.newsletter{
+.newsletter {
     position: relative;
     margin-top: 30px;
     background-position: 0 0, 10px 10px;
@@ -423,7 +424,7 @@
 }
 
 /*HOME AND CONTACT CALL TO ACTION SECTION PROPERTIES*/
-.cta{
+.cta {
     position: relative;
     margin-top: 30px;
     background-position: 0 0, 10px 10px;
