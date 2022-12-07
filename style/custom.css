@@ -167,9 +167,9 @@
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
-    padding-left: 20px;
     position: relative;
-    top: -80px;
+    font-family: 'Roboto';
+    
 }
 
 .btn_contact {
@@ -354,27 +354,28 @@
     display: grid;
     grid-template-columns: 50% 50%;
     align-content: center;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .col {
-    width: 400px;
+    width: 425px;
     margin-left: 50px;
-
+    font-family: 'Roboto';
 }
 
 .col-paragraph {
-    width: 350px;
-    justify-self: center;
+    width: 375px;
+    /* justify-self: center; */
+    justify-self: end;
     margin-right: 50px;
+    font-family: 'Roboto';
 }
 
 .services_paragraph {
-    text-align: justify;
     font-size: 20px;
     font-weight: 450;
 }
-
 
 
 .subtitle {
@@ -408,21 +409,31 @@
 .service_title {
     position: relative;
     margin-bottom: 20px;
+    font-family: 'Roboto';
 }
 
 .service_paragraph {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: justify;
+    font-family: 'Roboto';
 }
 
 .service_btn {
     color: #000000;
     background-color: #E2B853;
+    text-align: center;
+    margin: 0;
+    border: 1px solid #000000;
+}
+
+.service_btn:hover{
+    color: #fff;
+    background-color: #000000;
 }
 
 .service_icons {
-    padding: 20px;
+    padding: 50px;
     margin: 20px;
 }
 
