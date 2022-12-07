@@ -169,7 +169,7 @@
     font-weight: bold;
     position: relative;
     font-family: 'Roboto';
-    
+
 }
 
 .btn_contact {
@@ -427,7 +427,7 @@
     border: 1px solid #000000;
 }
 
-.service_btn:hover{
+.service_btn:hover {
     color: #fff;
     background-color: #000000;
 }
@@ -454,6 +454,18 @@
     overflow: hidden;
     background-size: 20px 20px;
 }
+
+.newsletter_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.newsletter_image {
+    width: 500px;
+    display: block;
+}
+
+
 
 /*HOME AND CONTACT CALL TO ACTION SECTION PROPERTIES*/
 .cta {
