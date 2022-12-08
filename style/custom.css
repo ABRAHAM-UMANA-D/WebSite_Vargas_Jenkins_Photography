@@ -313,6 +313,8 @@
 .subtitle {
     margin-top: 10px;
     text-align: center;
+    margin-left: 10px;
+    font-weight: bold;
 }
 
 .about_paragrah {
@@ -326,14 +328,7 @@
     font-size: 17px;
     line-height: 1.7;
     margin-bottom: 15px;
-}
-
-.galery_btn {
-    background: #000000 !important;
-    border-radius: 7px !important;
-    color: #ffff !important;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
+    margin-left: 20px;
 }
 
 .btn_galery {
@@ -341,6 +336,21 @@
     padding: 10px !important;
     right: 50% !important;
     text-align: center !important;
+}
+
+.galery_btn {
+    border-radius: 7px !important;
+    color: #ffff !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background: rgb(0, 0, 0) !important;
+    text-align: center;
+    color: white;
+    font-weight: bold !important;
+    transition: all 0.3s ease;
 }
 
 .galery_btn:hover {
@@ -537,13 +547,13 @@
     font-weight: bold;
 }
 
-.cta_video{
+.cta_video {
     width: 100%;
     display: block;
-
+    border-radius: ;
 }
 
-.video_cta{
+.video_cta {
     margin-top: 50px;
     width: 600px;
     height: 465px;
