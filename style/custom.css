@@ -57,7 +57,7 @@
     font-size: 20px !important;
     padding: 7px 13px !important;
     border-radius: 3px !important;
-    font-family: 'Roboto'!important;
+    font-family: 'Roboto' !important;
     font-weight: 499 !important;
 }
 
@@ -72,7 +72,7 @@
 
 .icon {
     color: #fff;
-    font-size: larger ;
+    font-size: larger;
 }
 
 .contact-button {
@@ -164,7 +164,7 @@
 /*----------------------------------------------------------------- HOME PAGE PROPERTIES --------------------------------------------------------*/
 
 .btn {
-    text-decoration: none ;
+    text-decoration: none;
     margin-top: 50px;
     margin: 10px;
     padding: 10px;
@@ -206,8 +206,8 @@
 
 .title-banner {
     color: #ffff;
-    margin: 10px;
-    width: 700px;
+    /* margin: 10px; */
+    width: 650px;
     font-size: 40px;
     font-family: 'Arial Black';
     -webkit-text-stroke: 0.2px #000000;
@@ -220,7 +220,7 @@
     font-family: 'Roboto' !important;
     color: #ffff !important;
     margin: 10px !important;
-    width: 500px !important;
+    /* width: 500px !important; */
     margin-bottom: 20px !important;
     font-weight: bold !important;
     font-size: 22px !important;
@@ -232,9 +232,9 @@
 .info-banner {
     padding-top: 50px;
     position: absolute !important;
-    width: 600px;
+    /* width: 600px; */
     height: 300px !important;
-    left: 116px;
+    /* left: 116px; */
     top: 350px !important;
 }
 
@@ -246,22 +246,31 @@
 
 .button-banner {
     background: #FFFF !important;
-    color: #000000 !important;;
-    font-family: 'Roboto'!important;;
-    font-weight: bold !important;;
-    font-size: 18px !important;;
-    position: relative !important;;
-    top: -80px !important;;
+    color: #000000 !important;
+    ;
+    font-family: 'Roboto' !important;
+    ;
+    font-weight: bold !important;
+    ;
+    font-size: 18px !important;
+    ;
+    position: relative !important;
+    ;
+    top: -80px !important;
+    ;
 }
 
 .button-banner:hover {
     background: #E2B853 !important;
-    color: #000000 !important;;
+    color: #000000 !important;
+    ;
 }
 
 .img_services {
-    width: 30px !important;;
-    height: 27px !important;;
+    width: 30px !important;
+    ;
+    height: 27px !important;
+    ;
     position: relative !important;
 }
 
@@ -275,11 +284,12 @@
 /*HOME AND ABOUT SECTION PROPERTIES*/
 .about {
     position: relative;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     background-position: 0 0, 10px 10px;
     overflow: hidden;
-    background-size: 20px 20px;
-    padding: 50px;
+    /* background-size: 20px 20px; */
+    padding: 10px;
+    padding-top: 100px;
 }
 
 .about_image {
@@ -288,10 +298,10 @@
 }
 
 .about_container {
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     align-items: center;
-    gap: 2em;
-    display: grid;
+    /* gap: 2em; */
+    /* display: grid; */
 }
 
 .about_picture {
@@ -435,7 +445,7 @@
 }
 
 .service_icons {
-    padding: 20px;  
+    padding: 20px;
 }
 
 /*GALERY SECTION PROPERTIES*/
@@ -456,7 +466,7 @@
     background-size: 20px 20px;
 }
 
-.newsletter_subtitle{
+.newsletter_subtitle {
     font-weight: bold;
 }
 
@@ -466,35 +476,31 @@
     display: block;
 }
 
-.newsletter_picture{
+.newsletter_picture {
     display: flex;
 }
 
-.newsletter_submit{
+.newsletter_submit {
     margin: auto;
 }
 
-.newsletter_submit:hover{
+.newsletter_submit:hover {
     background-color: #E2B853 !important;
     color: #000000 !important;
     border-color: #E2B853 !important;
 }
 
-.form_subtitle{
+.form_subtitle {
     font-size: 20px;
 }
 
-.newsletter_paragrah{
+.newsletter_paragrah {
     font-size: 20px;
 }
 
-.newsletter_form{
-    margin: 10px ;
+.newsletter_form {
+    margin: 10px;
     margin-right: 20px;
-}
-
-.cta_text{
-    justify-items: center;
 }
 
 
@@ -508,7 +514,7 @@
     background-size: 20px 20px;
 }
 
-.cta_contact:hover{
+.cta_contact:hover {
     background-color: #E2B853 !important;
     color: #000000 !important;
     border-color: #E2B853 !important;
