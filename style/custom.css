@@ -361,11 +361,11 @@
     margin-bottom: 20px;
 }
 
-.col {
+/* .col {
     width: 425px;
     margin-left: 50px;
     font-family: 'Roboto';
-}
+} */
 
 .col-paragraph {
     width: 375px;
@@ -392,13 +392,12 @@
     color: #E2B853;
 }
 
-.subtitle-service {
+/* .subtitle-service {
     margin-left: 30px;
-}
+} */
 
 .service_main {
     margin-bottom: 50px;
-    padding: 50px;
     display: grid;
     grid-template-columns: 455px 455px 455px;
     position: relative;
@@ -436,8 +435,7 @@
 }
 
 .service_icons {
-    padding: 20px;
-    
+    padding: 20px;  
 }
 
 /*GALERY SECTION PROPERTIES*/
@@ -463,8 +461,13 @@
 }
 
 .newsletter_image {
-    width: 500px;
+    width: 600px;
+    height: 500px;
     display: block;
+}
+
+.newsletter_picture{
+    display: flex;
 }
 
 .newsletter_submit{
@@ -475,8 +478,23 @@
     background-color: #E2B853 !important;
     color: #000000 !important;
     border-color: #E2B853 !important;
-    
+}
 
+.form_subtitle{
+    font-size: 20px;
+}
+
+.newsletter_paragrah{
+    font-size: 20px;
+}
+
+.newsletter_form{
+    margin: 10px ;
+    margin-right: 20px;
+}
+
+.cta_text{
+    justify-items: center;
 }
 
 
@@ -488,6 +506,12 @@
     background-position: 0 0, 10px 10px;
     overflow: hidden;
     background-size: 20px 20px;
+}
+
+.cta_contact:hover{
+    background-color: #E2B853 !important;
+    color: #000000 !important;
+    border-color: #E2B853 !important;
 }
 
 
