@@ -501,25 +501,11 @@
     font-size: 20px;
 }
 
-<<<<<<< Updated upstream
-=======
-.newsletter_input {
-    background-color: #F3F3F3 !important;
-}
-
->>>>>>> Stashed changes
 .newsletter_form {
     margin: 10px;
     margin-right: 20px;
 }
 
-<<<<<<< Updated upstream
-=======
-.cta_text {
-    justify-items: center;
-}
-
->>>>>>> Stashed changes
 
 
 /*HOME AND CONTACT CALL TO ACTION SECTION PROPERTIES*/
@@ -531,13 +517,12 @@
     background-size: 20px 20px;
 }
 
-<<<<<<< Updated upstream
-=======
 .cta_contact {
     background-color: #000000 !important;
+    margin: 0;
+    font-weight: bold !important;
 }
 
->>>>>>> Stashed changes
 .cta_contact:hover {
     background-color: #E2B853 !important;
     color: #000000 !important;
