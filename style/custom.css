@@ -332,6 +332,8 @@
     background: #000000 !important;
     border-radius: 7px !important;
     color: #ffff !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
 }
 
 .btn_galery {
@@ -343,6 +345,8 @@
 
 .galery_btn:hover {
     background: #E2B853 !important;
+    font-weight: bold !important;
+    color: #000000 !important;
 }
 
 /*SERVICES SECTION PROPERTIES*/
@@ -379,15 +383,14 @@
 
 .col-paragraph {
     width: 375px;
-    /* justify-self: center; */
     justify-self: end;
-    margin-right: 50px;
+    margin-right: 9px;
     font-family: 'Roboto';
 }
 
 .services_paragraph {
-    font-size: 20px;
-    font-weight: 450;
+    font-size: 25px;
+    font-weight: 499;
 }
 
 
@@ -401,10 +404,6 @@
 .title-color {
     color: #E2B853;
 }
-
-/* .subtitle-service {
-    margin-left: 30px;
-} */
 
 .service_main {
     margin-bottom: 50px;
@@ -436,12 +435,14 @@
     background-color: #E2B853 !important;
     text-align: center !important;
     margin: 0 !important;
-    border: 1px solid #000000 !important;
+    border: 0.4px solid black !important;
+    font-weight: bold !important;
 }
 
 .service_btn:hover {
     color: #fff !important;
     background-color: #000000 !important;
+    font-weight: bold !important;
 }
 
 .service_icons {
@@ -482,12 +483,14 @@
 
 .newsletter_submit {
     margin: auto;
+    background-color: #000000 !important;
 }
 
 .newsletter_submit:hover {
     background-color: #E2B853 !important;
     color: #000000 !important;
     border-color: #E2B853 !important;
+    font-weight: bold;
 }
 
 .form_subtitle {
@@ -498,11 +501,25 @@
     font-size: 20px;
 }
 
+<<<<<<< Updated upstream
+=======
+.newsletter_input {
+    background-color: #F3F3F3 !important;
+}
+
+>>>>>>> Stashed changes
 .newsletter_form {
     margin: 10px;
     margin-right: 20px;
 }
 
+<<<<<<< Updated upstream
+=======
+.cta_text {
+    justify-items: center;
+}
+
+>>>>>>> Stashed changes
 
 
 /*HOME AND CONTACT CALL TO ACTION SECTION PROPERTIES*/
@@ -514,10 +531,17 @@
     background-size: 20px 20px;
 }
 
+<<<<<<< Updated upstream
+=======
+.cta_contact {
+    background-color: #000000 !important;
+}
+
+>>>>>>> Stashed changes
 .cta_contact:hover {
     background-color: #E2B853 !important;
     color: #000000 !important;
-    border-color: #E2B853 !important;
+    font-weight: bold;
 }
 
 
