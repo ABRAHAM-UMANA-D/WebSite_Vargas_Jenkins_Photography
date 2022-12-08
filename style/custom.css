@@ -276,8 +276,6 @@
 
 /*MAIN*/
 .main {
-    position: fixed;
-    position: absolute;
     width: 100%;
 }
 
@@ -511,7 +509,6 @@
     background-color: #E2B853 !important;
     color: #000000 !important;
     border-color: #E2B853 !important;
-    font-weight: bold;
 }
 
 .form_subtitle {
@@ -576,6 +573,7 @@
     background-color: #E2B853 !important;
     color: #000000 !important;
     font-weight: bold;
+    border: #E2B853;
 }
 
 .cta_video {
@@ -591,6 +589,17 @@
     grid-row: 1/2;
     justify-self: center;
     align-self: center;
+}
+
+.cta_subtitle{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.cta_paragraph{
+    font-size: 20px;
+    width: 480px;
+    text-align: justify;
 }
 
 
@@ -634,6 +643,99 @@
 
 
 /*---------------------------------------------------------------- FOOTER PROPERTIES --------------------------------------------------------*/
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1A1919;
+    padding: 30px;
+    padding-top: 80px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.logo_footer{
+    position: relative;
+    top: -20px;
+    width: 230px;
+    height: 220px;
+}
+
+.col-brand .icon{
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.col-brand .icon:hover{
+    color: #E2B853;
+}
+
+.social{
+    position: relative;
+    display: flex;
+    gap: 15px;
+    left: 30px;
+    top: -70px;
+}
+
+.suscribe-footer{
+    background-color: #F3F3F3 !important;
+    margin: auto !important;
+    font-weight: bold !important;
+}
+
+.suscribe-footer:hover{
+    background-color: #E2B853 !important;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.data-contact{
+    font-weight: bold;
+}
+
+.btn-login{
+    background-color: #F3F3F3 !important;
+    font-weight: bold !important;
+    margin: auto !important;
+}
+
+.btn-login:hover{
+    background-color: #E2B853 !important;
+}
+
+.privacy-policies{
+    margin-left: 100px;
+    text-decoration: none; 
+}
+
+.privacy-policies:hover{
+    color: #E2B853 !important;
+}
+
+.policies{
+    position: relative;
+    left: 120px;
+}
+
+.copyright-policies{
+    margin-top: 40px !important;
+    justify-content: center;
+}
+
+.info-contact{
+    position: relative;
+    left: -75px;
+}
+
+.title-contact, .title-newsletter{
+    font-weight: bold;
+}
+
+
+
 
 
 
