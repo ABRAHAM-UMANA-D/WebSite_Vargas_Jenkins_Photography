@@ -26,6 +26,7 @@
 }
 
 .navbar-nav {
+    margin-top: 25px;
     padding: 14px;
     float: right;
     /* margin-right: 20px; */
@@ -47,7 +48,7 @@
 
 .item {
     display: inline-block !important;
-    line-height: 80px !important;
+    /* line-height: 80px !important; */
     margin: 0 5px !important;
 }
 
@@ -112,6 +113,72 @@
 
 .nav_close {
     display: var(--show, none);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-galery {
+    float: left;
+    overflow: hidden;
+}
+
+.menu-galery .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover {
+    background-color: red;
+}
+
+.dropdown-content {
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 15px;
+}
+
+.menu-item {
+    border-radius: 10px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    /* line-height: 20px !important; */
+}
+
+.dropdown-content .menu-item:hover {
+    background-color: #E2B853;
+    color: #000000;
+}
+
+.show {
+    display: block;
 }
 
 
@@ -591,12 +658,12 @@
     align-self: center;
 }
 
-.cta_subtitle{
+.cta_subtitle {
     font-weight: bold;
     font-size: 40px;
 }
 
-.cta_paragraph{
+.cta_paragraph {
     font-size: 20px;
     width: 480px;
     text-align: justify;
@@ -643,7 +710,7 @@
 
 
 /*---------------------------------------------------------------- FOOTER PROPERTIES --------------------------------------------------------*/
-.footer{
+.footer {
     display: flex;
     flex-wrap: wrap;
     background-color: #1A1919;
@@ -654,23 +721,23 @@
     margin-top: 70px;
 }
 
-.logo_footer{
+.logo_footer {
     position: relative;
     top: -20px;
     width: 230px;
     height: 220px;
 }
 
-.col-brand .icon{
+.col-brand .icon {
     font-size: 25px;
     margin-right: 8px;
 }
 
-.col-brand .icon:hover{
+.col-brand .icon:hover {
     color: #E2B853;
 }
 
-.social{
+.social {
     position: relative;
     display: flex;
     gap: 15px;
@@ -678,61 +745,118 @@
     top: -70px;
 }
 
-.suscribe-footer{
+.suscribe-footer {
     background-color: #F3F3F3 !important;
     margin: auto !important;
     font-weight: bold !important;
 }
 
-.suscribe-footer:hover{
+.suscribe-footer:hover {
     background-color: #E2B853 !important;
 }
 
-.text-white{
+.text-white {
     color: #fff;
 }
 
-.data-contact{
+.data-contact {
     font-weight: bold;
 }
 
-.btn-login{
+.btn-login {
     background-color: #F3F3F3 !important;
     font-weight: bold !important;
     margin: auto !important;
 }
 
-.btn-login:hover{
+.btn-login:hover {
     background-color: #E2B853 !important;
 }
 
-.privacy-policies{
-    margin-left: 100px;
-    text-decoration: none; 
+.privacy-policies {
+    text-decoration: none;
 }
 
-.privacy-policies:hover{
+.privacy-policies:hover {
     color: #E2B853 !important;
 }
 
-.policies{
+.policies-conditions {
+    margin-left: 200px;
+}
+
+.policies {
     position: relative;
     left: 120px;
 }
 
-.copyright-policies{
+.copyright-policies {
     margin-top: 40px !important;
     justify-content: center;
 }
 
-.info-contact{
+.info-contact {
     position: relative;
     left: -75px;
 }
 
-.title-contact, .title-newsletter{
+.title-contact,
+.title-newsletter {
     font-weight: bold;
 }
+
+/* FLOAT BUTTON*/
+.float-button {
+    position: fixed;
+    width: 250px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+}
+
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+
+}
+
+.whatsapp:hover,
+.text:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.text {
+    position: fixed;
+    background-color: #25d366;
+    color: #fff;
+    right: 105px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 180px;
+    height: 27px;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.whatsapp-icon {
+    margin-top: 5px;
+}
+
+
 
 
 
