@@ -673,6 +673,12 @@
 /*---------------------------------------------------------------- ABOUT PAGE PROPERTIES --------------------------------------------------------*/
 
 /*ABOUT BANNER PROPIERTIES*/
+.banner-about {
+    position: relative;
+    height: 700px;
+    background-position: top;
+    background-image: url(../images/Banner-about.png) !important;
+}
 
 /*ABOUT DESCRIPTION PROPERTIES*/
 
