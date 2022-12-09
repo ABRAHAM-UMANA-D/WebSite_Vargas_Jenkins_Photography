@@ -685,8 +685,42 @@
 /*---------------------------------------------------------------- SERVICES PAGE PROPERTIES --------------------------------------------------------*/
 
 /*SERVICES BANNER PROPERTIES*/
+.banner-services{
+    height: 440px;
+    background-image: url(../images/Banner-services.png) !important; 
+}
+
+.banner-services .info-banner{
+    top: 220px !important;
+}
 
 /*SERVICES DESCRIPTION PROPERTIES*/
+.figure-service{
+    width: 760px;
+} 
+
+.figure-service img{
+    height: 600px;
+    width: 100%;
+}
+
+.service{ 
+    position: relative !important;
+    height: 600px !important;
+    padding-bottom: 0px !important;
+    width: 100% !important;
+}
+
+.image-service{
+    position: relative;
+    padding-bottom: 0 !important;
+    top: -4;
+}
+
+.services-container{
+    margin: 0 !important;
+}
+
 
 /*---------------------------------------------------------------- GALERY PAGE PROPERTIES --------------------------------------------------------*/
 
