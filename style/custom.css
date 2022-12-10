@@ -26,6 +26,7 @@
 }
 
 .navbar-nav {
+    margin-top: 25px;
     padding: 14px;
     float: right;
     /* margin-right: 20px; */
@@ -47,7 +48,7 @@
 
 .item {
     display: inline-block !important;
-    line-height: 80px !important;
+    /* line-height: 80px !important; */
     margin: 0 5px !important;
 }
 
@@ -112,6 +113,72 @@
 
 .nav_close {
     display: var(--show, none);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-galery {
+    float: left;
+    overflow: hidden;
+}
+
+.menu-galery .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover {
+    background-color: red;
+}
+
+.dropdown-content {
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 15px;
+}
+
+.menu-item {
+    border-radius: 10px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    /* line-height: 20px !important; */
+}
+
+.dropdown-content .menu-item:hover {
+    background-color: #E2B853;
+    color: #000000;
+}
+
+.show {
+    display: block;
 }
 
 
@@ -623,14 +690,54 @@
 /*---------------------------------------------------------------- ABOUT PAGE PROPERTIES --------------------------------------------------------*/
 
 /*ABOUT BANNER PROPIERTIES*/
+.banner-about {
+    position: relative;
+    height: 700px;
+    background-position: top;
+    background-image: url(../images/Banner-about.png) !important;
+}
 
 /*ABOUT DESCRIPTION PROPERTIES*/
 
 /*---------------------------------------------------------------- SERVICES PAGE PROPERTIES --------------------------------------------------------*/
 
 /*SERVICES BANNER PROPERTIES*/
+.banner-services{
+    height: 440px;
+    background-image: url(../images/Banner-services.png) !important; 
+}
+
+.banner-services .info-banner{
+    top: 220px !important;
+}
 
 /*SERVICES DESCRIPTION PROPERTIES*/
+.figure-service{
+    width: 760px;
+} 
+
+.figure-service img{
+    height: 600px;
+    width: 100%;
+}
+
+.service{ 
+    position: relative !important;
+    height: 600px !important;
+    padding-bottom: 0px !important;
+    width: 100% !important;
+}
+
+.image-service{
+    position: relative;
+    padding-bottom: 0 !important;
+    top: -4;
+}
+
+.services-container{
+    margin: 0 !important;
+}
+
 
 /*---------------------------------------------------------------- GALERY PAGE PROPERTIES --------------------------------------------------------*/
 
@@ -723,16 +830,16 @@
     background-color: #E2B853 !important;
 }
 
-.privacy-policies {
+.privacy-policies{
     margin-left: 100px;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .privacy-policies:hover {
     color: #E2B853 !important;
 }
 
-.policies {
+.policies{
     position: relative;
     left: 120px;
 }
@@ -751,6 +858,58 @@
 .title-newsletter {
     font-weight: bold;
 }
+
+/* FLOAT BUTTON*/
+.float-button {
+    position: fixed;
+    width: 250px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+}
+
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+
+}
+
+.whatsapp:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.text {
+    position: fixed;
+    background-color: #25d366;
+    color: #fff;
+    right: 105px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 180px;
+    height: 27px;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.whatsapp-icon {
+    margin-top: 5px;
+}
+
+
 
 
 
