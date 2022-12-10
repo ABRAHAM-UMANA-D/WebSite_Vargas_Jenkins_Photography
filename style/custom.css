@@ -524,6 +524,35 @@
 }
 
 /*GALERY SECTION PROPERTIES*/
+
+.galery {
+    background-color: #000000;
+}
+
+.galery_container {
+    height: 1050px;
+}
+
+.portfolio_subtitle {
+    position: relative;
+    top: 30px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.galery_options {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 65px;
+    text-decoration: none;
+}
+
 .galery_collage {
     display: grid;
     height: 900px;
@@ -533,12 +562,22 @@
         "img1 img2 img3"
         "img4 img5 img6"
         "img7 img8 img9";
+    position: relative;
+    top: 100px;
 }
 
 .galery_img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /*Proteccion para que las imgs no se deformen*/
+}
+
+.galery_img:hover {
+    filter: brightness(50%);
+    /*Esta propiedad lo que hace es aplicar una sombra tipo hover cuando te posicionas sobre una img*/
+    cursor: pointer;
+    transition: filter .5s;
 }
 
 .img_1 {
@@ -547,6 +586,34 @@
 
 .img_2 {
     grid-area: img2;
+}
+
+.img_3 {
+    grid-area: img3;
+}
+
+.img_4 {
+    grid-area: img4;
+}
+
+.img_5 {
+    grid-area: img5;
+}
+
+.img_6 {
+    grid-area: img6;
+}
+
+.img_7 {
+    grid-area: img7;
+}
+
+.img_8 {
+    grid-area: img8;
+}
+
+.img_9 {
+    grid-area: img9;
 }
 
 /*NEWSLETTER SECTION PROPERTIES*/
@@ -702,39 +769,39 @@
 /*---------------------------------------------------------------- SERVICES PAGE PROPERTIES --------------------------------------------------------*/
 
 /*SERVICES BANNER PROPERTIES*/
-.banner-services{
+.banner-services {
     height: 440px;
-    background-image: url(../images/Banner-services.png) !important; 
+    background-image: url(../images/Banner-services.png) !important;
 }
 
-.banner-services .info-banner{
+.banner-services .info-banner {
     top: 220px !important;
 }
 
 /*SERVICES DESCRIPTION PROPERTIES*/
-.figure-service{
+.figure-service {
     width: 760px;
-} 
+}
 
-.figure-service img{
+.figure-service img {
     height: 600px;
     width: 100%;
 }
 
-.service{ 
+.service {
     position: relative !important;
     height: 600px !important;
     padding-bottom: 0px !important;
     width: 100% !important;
 }
 
-.image-service{
+.image-service {
     position: relative;
     padding-bottom: 0 !important;
     top: -4;
 }
 
-.services-container{
+.services-container {
     margin: 0 !important;
 }
 
@@ -830,16 +897,16 @@
     background-color: #E2B853 !important;
 }
 
-.privacy-policies{
+.privacy-policies {
     margin-left: 100px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .privacy-policies:hover {
     color: #E2B853 !important;
 }
 
-.policies{
+.policies {
     position: relative;
     left: 120px;
 }
