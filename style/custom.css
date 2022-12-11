@@ -603,7 +603,8 @@
     margin-top: 70px;
     margin-bottom: 15px;
     position: relative;
-    top: 50px !important;
+    transition: all 400ms ease-out;
+    top: 55px !important;
     left: 138px !important;
 }
 
@@ -611,7 +612,7 @@
     margin-top: 70px;
     margin-bottom: 15px;
     position: relative;
-    top: 50px;
+    top: 55px;
     left: 35%;
     background: rgba(144, 144, 144, 0.2);
     background-blend-mode: soft-light;
@@ -620,6 +621,7 @@
     cursor: pointer;
     text-decoration: none;
     color: #fff;
+    font-size: 18px;
 }
 
 .contenedor_imagen_1:hover>.capa a:hover {
