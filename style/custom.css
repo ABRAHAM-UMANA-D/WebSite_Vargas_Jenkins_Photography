@@ -653,7 +653,8 @@
     object-fit: cover;
 }
 
-.contenedor_imagen_1 .capa {
+/* .contenedor_imagen_1 .capa  */
+.capa {
     position: absolute;
     top: 0;
     width: 506.4px;
@@ -663,15 +664,17 @@
     transition: all 400ms ease-out;
     color: #FFF;
     opacity: 0;
-    visibility: hidden;
+    /* visibility: hidden; */
+    z-index: -1;
 }
 
-.contenedor_imagen_1:hover>.capa {
+.contenedor_imagen_1:hover .capa {
     opacity: 1;
-    visibility: visible;
+    /* visibility: visible; */
+    z-index: 1;
 }
 
-.contenedor_imagen_1:hover>.capa h4 {
+.contenedor_imagen_1 .capa h4 {
     margin-top: 70px;
     margin-bottom: 15px;
     position: relative;
@@ -929,22 +932,43 @@
 }
 
 .service {
-    position: relative !important;
     height: 600px !important;
     padding-bottom: 0px !important;
     width: 100% !important;
+    padding-right: 0 !important;
+    margin-right: 0% !important;
 }
 
 .image-service {
-    position: relative;
+    /* position: relative; */
     padding-bottom: 0 !important;
     top: -4;
 }
 
-.services-container {
+/* .services-container {
     margin: 0 !important;
+} */
+
+.col-right{
+    padding: 100px;
 }
 
+.col-left{
+    padding: 100px;   
+}
+
+.img-right{
+    position: relative;
+    float: right !important;
+    padding-right: 0 !important;
+    left: 10px;
+
+}
+
+.button-service:hover{
+    background-color: #E2B853 !important;
+    color: #000000 !important;
+}
 
 /*---------------------------------------------------------------- GALERY PAGE PROPERTIES --------------------------------------------------------*/
 
