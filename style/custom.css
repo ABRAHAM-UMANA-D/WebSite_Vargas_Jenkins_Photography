@@ -558,7 +558,8 @@
 
 .options:hover {
     color: #E2B853;
-    border-bottom: 2px solid #E2B853;
+    /* border-bottom: 2px solid #E2B853;
+    border-bottom-style: double;*/
 }
 
 .galery_collage {
@@ -602,9 +603,34 @@
     margin-top: 70px;
     margin-bottom: 15px;
     position: relative;
-    top: 40px !important;
+    top: 50px !important;
     left: 138px !important;
 }
+
+.contenedor_imagen_1:hover>.capa a {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 50px;
+    left: 35%;
+    background: rgba(144, 144, 144, 0.2);
+    background-blend-mode: soft-light;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.contenedor_imagen_1:hover>.capa a:hover {
+    background: rgba(0, 0, 0, 0.60);
+    color: #FFF;
+}
+
+/*.btn_galery:hover {
+    background: #E2B853;
+    color: #000000;
+}*/
 
 /*.contenedor_imagen_1.capa h4 {
     font-weight: 400;
