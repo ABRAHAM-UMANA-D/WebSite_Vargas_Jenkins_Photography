@@ -344,6 +344,7 @@
 /*MAIN*/
 .main {
     width: 100%;
+    margin-bottom: 70px;
 }
 
 /*HOME AND ABOUT SECTION PROPERTIES*/
@@ -797,12 +798,16 @@
 
 /*SERVICES DESCRIPTION PROPERTIES*/
 .figure-service {
-    width: 760px;
+    width: 758px;
 }
 
 .figure-service img {
     height: 600px;
     width: 100%;
+}
+
+.main-services{
+    margin-bottom: 0;
 }
 
 .service {
@@ -839,9 +844,24 @@
 
 }
 
+.button-service{
+    margin-left: 0 !important;
+    font-weight: bold !important;
+}
+
 .button-service:hover {
+    border: #E2B853 !important;
     background-color: #E2B853 !important;
     color: #000000 !important;
+}
+
+.title-service{
+    font-weight: bold;
+}
+
+.paragraph-service{
+    font-size: 20px;
+    text-align: justify;
 }
 
 /*---------------------------------------------------------------- GALERY PAGE PROPERTIES --------------------------------------------------------*/
@@ -880,7 +900,7 @@
     padding-top: 80px;
     bottom: 0;
     width: 100%;
-    margin-top: 70px;
+    /* margin-top: 70px; */
 }
 
 .logo_footer {
@@ -947,6 +967,10 @@
 .policies {
     position: relative;
     left: 120px;
+}
+
+.conditions{
+    margin-left: 0;
 }
 
 .copyright-policies {
