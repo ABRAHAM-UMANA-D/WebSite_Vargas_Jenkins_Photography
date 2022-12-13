@@ -163,18 +163,22 @@
 }
 
 .menu-item {
-    border-radius: 10px;
+    border-radius: 2px;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-    /* line-height: 20px !important; */
+    transition: all 150ms ease;
 }
 
 .dropdown-content .menu-item:hover {
-    background-color: #E2B853;
+    background: #E2B853;
     color: #000000;
+    transform: scale(1.2);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .show {
@@ -407,22 +411,19 @@
 .galery_btn {
     border-radius: 7px !important;
     color: #ffff !important;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
-    display: inline-block;
-    width: 30%;
-    padding: 20px;
-    background: rgb(0, 0, 0) !important;
-    text-align: center;
+    padding: 10px 25px !important;
+    background: #000000 !important;
     color: white;
     font-weight: bold !important;
-    transition: all 0.3s ease;
+    width: 200px !important;
+    font-size: 18px !important;
 }
 
 .galery_btn:hover {
     background: #E2B853 !important;
     font-weight: bold !important;
     color: #000000 !important;
+
 }
 
 /*SERVICES SECTION PROPERTIES*/
@@ -806,7 +807,7 @@
     width: 100%;
 }
 
-.main-services{
+.main-services {
     margin-bottom: 0;
 }
 
@@ -844,9 +845,13 @@
 
 }
 
-.button-service{
+.button-service {
     margin-left: 0 !important;
     font-weight: bold !important;
+    background: #000000 !important;
+    color: #fff !important;
+    padding: 10px 15px !important;
+    font-size: 18px !important;
 }
 
 .button-service:hover {
@@ -855,11 +860,11 @@
     color: #000000 !important;
 }
 
-.title-service{
+.title-service {
     font-weight: bold;
 }
 
-.paragraph-service{
+.paragraph-service {
     font-size: 20px;
     text-align: justify;
 }
@@ -969,7 +974,7 @@
     left: 120px;
 }
 
-.conditions{
+.conditions {
     margin-left: 0;
 }
 
@@ -997,6 +1002,20 @@
     right: 40px;
 }
 
+@keyframes palpito {
+    from {
+        transform: none;
+    }
+
+    75% {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: none;
+    }
+}
+
 .whatsapp {
     position: fixed;
     width: 60px;
@@ -1010,7 +1029,7 @@
     font-size: 40px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
-
+    animation: palpito .9s infinite;
 }
 
 .whatsapp:hover {
@@ -1023,7 +1042,7 @@
     position: fixed;
     background-color: #25d366;
     color: #fff;
-    right: 105px;
+    right: 70px;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
