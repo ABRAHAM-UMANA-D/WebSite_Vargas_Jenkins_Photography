@@ -307,7 +307,7 @@
 }
 
 .info-banner {
-    padding-top: 50px;
+    padding-top: 60px;
     position: absolute !important;
     /* width: 600px; */
     height: 300px !important;
@@ -895,8 +895,50 @@
 /*---------------------------------------------------------------- CONTACT PAGE PROPERTIES --------------------------------------------------------*/
 
 /*CONTACT BANNER PROPERTIES*/
+.banner-contact{
+    height: 440px;
+    background-image: url(../images/Banner-services.png) !important;
+}
+
+.banner-contact .info-banner {
+    top: 220px !important;
+}
+
+.subtitle-contact{
+    margin-left: 0 !important;
+    margin-bottom: 5px !important;
+    -webkit-text-stroke: 0.1px #000000 !important;
+}
 
 /*CONTACT FORM PROPERTIES*/
+
+.contact{
+    position: relative;
+    /* margin-top: 40px; */
+    background-position: 0 0, 10px 10px;
+    overflow: hidden;
+    /* background-size: 20px 20px; */
+    padding: 10px;
+    padding-top: 100px;
+}
+
+.contact-video{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+.row-video{
+    padding-top: 100px;
+}
+
+.video{
+    width: 500px;
+    height: 300px;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+}
 
 /*---------------------------------------------------------------- LOGIN PAGE PROPERTIES --------------------------------------------------------*/
 
