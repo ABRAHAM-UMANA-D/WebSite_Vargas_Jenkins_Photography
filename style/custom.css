@@ -106,7 +106,7 @@
 }
 
 
-.logo_enlace .logo.top:hover{
+.logo_enlace .logo.top:hover {
     opacity: 0;
 }
 
@@ -878,12 +878,81 @@
 /*---------------------------------------------------------------- GALERY PAGE PROPERTIES --------------------------------------------------------*/
 
 /*GALERY BANNER PROPERTIES*/
+.galery-banner {
+    height: 430px;
+    width: 100%;
+    padding: 1px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/galery-banner.png);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    border-bottom: 3px solid #000000;
+}
 
 /*GALERY DESCRIPTION PROPERTIES*/
 
-/*GALERY PHOTOS - CUSTOMER BLOG PAGE PROPERTIES*/
+.galery-header {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.galery-title {
+    font-family: 'Acme';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.galery-subtitle {
+    position: relative;
+    margin-top: 10px;
+    font-family: 'Abhaya Libre';
+}
+
+.galery-description {
+    position: relative;
+    margin: 40px 0px;
+    font-family: 'Abhaya Libre';
+    text-align: justify;
+    font-size: 22px;
+}
+
+.galery-section {
+    background-color: #FFF;
+}
+
+.galery_content {
+    height: 900px;
+}
+
+.container-img {
+    position: relative;
+    top: -100px;
+}
 
 /*GALERY - CUSTOMER BLOG PAGE CALL TO ACTION PROPERTIES*/
+
+.cta-section {
+    height: 270px;
+}
+
+.cta-content {
+    flex-direction: row;
+    justify-items: center;
+    text-align: justify;
+    position: relative;
+    top: 75px;
+}
+
+.galery-cta-subtitle {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.galery-txt {
+    font-weight: bold;
+}
 
 /*---------------------------------------------------------------- CUSTOMER BLOG PAGE PROPERTIES --------------------------------------------------------*/
 
@@ -895,7 +964,7 @@
 /*---------------------------------------------------------------- CONTACT PAGE PROPERTIES --------------------------------------------------------*/
 
 /*CONTACT BANNER PROPERTIES*/
-.banner-contact{
+.banner-contact {
     height: 440px;
     background-image: url(../images/Banner-services.png) !important;
 }
@@ -904,7 +973,7 @@
     top: 220px !important;
 }
 
-.subtitle-contact{
+.subtitle-contact {
     margin-left: 0 !important;
     margin-bottom: 5px !important;
     -webkit-text-stroke: 0.1px #000000 !important;
@@ -912,7 +981,7 @@
 
 /*CONTACT FORM PROPERTIES*/
 
-.contact{
+.contact {
     position: relative;
     /* margin-top: 40px; */
     background-position: 0 0, 10px 10px;
@@ -922,17 +991,17 @@
     padding-top: 100px;
 }
 
-.contact-video{
+.contact-video {
     width: 100%;
     display: block;
     border-radius: 20px;
 }
 
-.row-video{
+.row-video {
     padding-top: 100px;
 }
 
-.video{
+.video {
     width: 500px;
     height: 300px;
     grid-row: 1/2;
@@ -963,7 +1032,7 @@
     height: 220px;
 }
 
-.logo_footer.top:hover{
+.logo_footer.top:hover {
     opacity: 0;
 }
 
@@ -1112,9 +1181,83 @@
 
 
 
+/*-------------------------------------------------------------------- THANK YOU MODAL PAGE ---------------------------------------------------------*/
 
+.thank-you-modal-container {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.btn-submit {
+    padding: 10px 60px;
+    background: #fff;
+    color: #000;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+}
 
+.thank-you-popup {
+    width: 400px;
+    background: #FFF;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    color: #333;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
 
+.thank-you-popup img {
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.thank-you-title {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 30px 0 10px;
+}
+
+.thank-you-paragraph {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+}
+
+.btn-ok {
+    cursor: pointer;
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #4bcf1b;
+    color: #FFF;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
 
 /*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
