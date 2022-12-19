@@ -19,7 +19,7 @@
         <nav class="menu navbar-expand-lg ">
             <div class="container">
                 <a href="Home.html" class="logo_enlace">
-                    <img class="logo" src="../images/DTS (Logo)-04.png"> 
+                    <img class="logo" src="../images/DTS (Logo)-04.png">
                     <img class="logo top" src="../images/DTS (Logo)-02.png">
                 </a>
                 <ul class="navbar-nav navbar-nav--menu">
@@ -72,57 +72,66 @@
 
     <main class="main">
         <section class="contact">
-            <div class="contact-container container"> 
+            <div class="contact-container container">
                 <div class="row">
                     <div class="col">
-                        <h2>Contáctanos</h2>
-                        <p class="paragraph">Completa este formulario y en menos de 
+                        <h2 class="contact-title">Contáctanos</h2>
+                        <p class="paragraph-form">Completa este formulario y en menos de
                             <span class="hours-bold">24 horas</span> una persona de nuestro equipo
                             se comunicará contigo:
                         </p>
                     </div>
                     <div class="col">
                         <form class="form-contact" action="" method="POST">
-                            <div class="mb-3">
-                                <label class="form-label" for="contact-person">Persona que contacta </label>
-                                <input type="text" name="contact-person" id="contact-person" placeholder="Nombre completo"
-                                    class="form-control">
+                            <div class="row row-form">
+                                <div class="col">
+                                    <label class="form-label label-form" for="contact-person">Persona que contacta
+                                    </label>
+                                    <input type="text" name="contact-person" id="contact-person"
+                                        placeholder="Nombre completo" class="form-control input-contact">
+                                </div>
+                                <div class="col">
+                                    <label class="form-label label-form" for="email"> Correo electrónico </label>
+                                    <input type="email" name="email" id="email" placeholder="Correo electrónico."
+                                        class="form-control input-contact">
+                                </div>
                             </div>
-                            <div class="mb-3">
-                                <label class="form-label" for="email"> Correo electrónico </label>
-                                <input type="email" name="email" id="email" placeholder="Correo electrónico."
-                                    class="form-control">
+                            <div class="row row-form">
+                                <div class="col">
+                                    <label class="form-label label-form" for="service-type"> Tipo de servicio a
+                                        necesitar</label>
+                                    <input type="text" name="service-type" id="service-type"
+                                        placeholder="Tipo de servicio" class="form-control input-contact">
+                                </div>
+                                <div class="col">
+                                    <label class="form-label label-form" for="tel">Teléfono</label>
+                                    <input type="tel" name="tel" id="tel" placeholder="Telefono (opcional)"
+                                        class="form-control input-contact">
+                                </div>
                             </div>
-                            <div class="mb-3">
-                                <label class="form-label" for="service-type"> Tipo de servicio a necesitar</label>
-                                <input type="text" name="service-type" id="service-type" placeholder="Tipo de servicio"
-                                    class="form-control">
+                            <div class="row row-form">
+                                <div class="col">
+                                    <label class="form-label label-form" for="message">Escribe un mensaje personalizado
+                                        (detalles)</label>
+                                    <textarea class="form-control input-contact" id="message" rows="5"
+                                        placeholder="Escribe un mensaje personalizado (detalles)"></textarea>
+                                </div>
                             </div>
-                            <div class="mb-3">
-                                <label class="form-label" for="tel">Teléfono</label>
-                                <input type="tel" name="tel" id="tel" placeholder="Telefono (opcional)"
-                                    class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label" for="message"> Tipo de servicio a necesitar</label>
-                               <!--  <textarea name="message" id="message" cols="30" rows="10">Escribe un mensaje personalizado (detalles)</textarea> -->
-                                <input type="text" name="message" id="message" placeholder="Escribe un mensaje bien detallado"
-                                    class="form-control">
-                            </div>
-                            <input type="submit" value="Suscribirme" class="btn suscribe-footer">
+                            <input type="submit" value="Enviar" class="btn sent-btn btn-dark">
                         </form>
                     </div>
                 </div>
                 <div class="row row-video">
                     <div class="col">
-                        <h2 class="title-">Quieres fotos de calidad</h2>
-                        <p>Te las tomamos, para que cultives momentos extraordinarios que puedas guardar para toda la vida.</p>
+                        <h2 class="title-video">Quieres fotos de calidad</h2>
+                        <p class="paragraph-video">Te las tomamos, para que cultives momentos extraordinarios que puedas
+                            guardar para toda la vida.</p>
                         <button class="btn btn-dark button-contact">Contáctanos</button>
                     </div>
                     <div class="col">
                         <figure class="video img-fluid">
                             <video class="contact-video" src="../images/video.mp4" controls></video>
-                        </figure>    
+                        </figure>
                     </div>
                 </div>
             </div>

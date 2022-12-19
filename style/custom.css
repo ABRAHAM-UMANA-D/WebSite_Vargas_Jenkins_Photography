@@ -976,7 +976,7 @@
 .subtitle-contact {
     margin-left: 0 !important;
     margin-bottom: 5px !important;
-    -webkit-text-stroke: 0.1px #000000 !important;
+    -webkit-text-stroke: 0 #000000 !important;
 }
 
 /*CONTACT FORM PROPERTIES*/
@@ -1007,6 +1007,66 @@
     grid-row: 1/2;
     justify-self: center;
     align-self: center;
+}
+
+.contact-title{
+    font-weight: bold;
+}
+
+.label-form{
+    font-weight: bold !important;
+}
+
+.input-contact{
+    background-color: #F3F3F3 !important;
+}
+
+.sent-btn{
+    margin-left: 0 !important;
+    font-weight: bold  !important;
+}
+
+.sent-btn:hover{
+    background-color: #E2B853 !important;
+    border-color: #E2B853 !important;
+    color: #000000 !important;
+}
+
+.title-video{
+    font-weight: bold;
+}
+
+.paragraph-form{
+    font-size: 18px;
+    text-align: justify;
+    width: 400px;
+}
+
+.hours-bold{
+    font-weight: bold;
+}
+
+.paragraph-video{
+    width: 400px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.button-contact{
+    margin-left: 0 !important;
+    font-weight: bold !important;
+}
+
+.button-contact:hover{
+    color: #000000 !important;
+    background-color: #E2B853 !important;
+    border-color: #E2B853 !important;
+
+}
+
+.row-form{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /*---------------------------------------------------------------- LOGIN PAGE PROPERTIES --------------------------------------------------------*/
