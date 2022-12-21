@@ -1037,7 +1037,7 @@
 }
 
 .paragraph-form{
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     width: 400px;
 }
@@ -1047,9 +1047,9 @@
 }
 
 .paragraph-video{
-    width: 400px;
+    width: 500px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .button-contact{

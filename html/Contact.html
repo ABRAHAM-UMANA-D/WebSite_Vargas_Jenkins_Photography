@@ -82,7 +82,7 @@
                         </p>
                     </div>
                     <div class="col">
-                        <form class="form-contact" action="" method="POST">
+                        <form class="form-contact" action="" method="POST" id="form-contact">
                             <div class="row row-form">
                                 <div class="col">
                                     <label class="form-label label-form" for="contact-person">Persona que contacta
@@ -100,8 +100,15 @@
                                 <div class="col">
                                     <label class="form-label label-form" for="service-type"> Tipo de servicio a
                                         necesitar</label>
-                                    <input type="text" name="service-type" id="service-type"
-                                        placeholder="Tipo de servicio" class="form-control input-contact">
+                                        <select class="form-select input-contact select-services" aria-label="Default" name="service-type" id="service-type">
+                                            <option selected>Selecciona el tipo de servicio</option>
+                                            <option value="1">Graduaciones</option>
+                                            <option value="2">Cenas de graduación</option>
+                                            <option value="3">Cumpleaños</option>
+                                            <option value="4">Bodas</option>
+                                        </select>
+                                    <!-- <input type="text" name="service-type" id="service-type"
+                                        placeholder="Tipo de servicio" class="form-control input-contact"> -->
                                 </div>
                                 <div class="col">
                                     <label class="form-label label-form" for="tel">Teléfono</label>
@@ -126,7 +133,7 @@
                         <h2 class="title-video">Quieres fotos de calidad</h2>
                         <p class="paragraph-video">Te las tomamos, para que cultives momentos extraordinarios que puedas
                             guardar para toda la vida.</p>
-                        <button class="btn btn-dark button-contact">Contáctanos</button>
+                        <a href="#form-contact" class="btn btn-dark button-contact">Contáctanos <i class="bi bi-caret-up-fill"></i></a>
                     </div>
                     <div class="col">
                         <figure class="video img-fluid">
