@@ -805,7 +805,7 @@
 
 /*SERVICES DESCRIPTION PROPERTIES*/
 .figure-service {
-    width: 758px;
+    width: 100%;
 }
 
 .figure-service img {
@@ -818,6 +818,8 @@
 }
 
 .service {
+    display: grid;
+    grid-template-columns: 50% 50%;
     height: 600px !important;
     padding-bottom: 0px !important;
     width: 100% !important;
@@ -843,13 +845,13 @@
     padding: 100px;
 }
 
-.img-right {
+/* .img-right {
     position: relative;
     float: right !important;
     padding-right: 0 !important;
     left: 10px;
 
-}
+} */
 
 .button-service {
     margin-left: 0 !important;
