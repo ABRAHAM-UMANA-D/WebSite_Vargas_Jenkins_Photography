@@ -962,6 +962,9 @@
 /*---------------------------------------------------------------- CUSTOMER BLOG PAGE PROPERTIES --------------------------------------------------------*/
 
 /*BANNER - CUSTOMER BLOG DESCRIPTION PROPERTIES*/
+.customer-blog{
+    padding-top: 100px;
+}
 
 /*CUSTOMER BLOG SLIDER PROPERTIES*/
 
