@@ -562,6 +562,9 @@
 .options {
     color: #FFF;
     text-decoration: none;
+    background-color: #000000;
+    font-weight: bold;
+    border: #000;
 }
 
 .options:hover {
