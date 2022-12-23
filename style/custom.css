@@ -537,9 +537,101 @@
     background-color: #000000;
 }
 
+/*GALERIA OFICIAL --------------------------------*/
+
+.galery-content {
+    height: 685px;
+}
+
+.galery-photos {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 550px;
+    border-radius: 3px;
+    top: 81px;
+}
+
+.galery-card {
+    width: 506.4px;
+    height: 100%;
+    position: relative;
+    box-shadow: 0px 0.5px 3px 0px rgba(0, 0, 0, .90);
+}
+
+.galery-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .galery_container {
     height: 1050px;
 }
+
+.galery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.70);
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.galery-overlay h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.galery-overlay p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    position: relative;
+    top: 38%;
+    left: 50%;
+    width: 85%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.galery-card:hover .galery-overlay {
+    height: 100%;
+}
+
+.galery-overlay a {
+    position: relative;
+    top: 180px;
+    left: 37%;
+    background: rgba(144, 144, 144, 0.2);
+    background-blend-mode: soft-light;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF !important;
+    text-decoration: none;
+    font-size: 18px;
+    outline: 1px solid;
+    outline-color: rgba(49, 138, 172, 0.4);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+.galery-overlay a:hover {
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+}
+
+/*GALERIA OFICIAL -------------------------------*/
 
 .portfolio_subtitle {
     position: relative;
@@ -585,7 +677,7 @@
     position: relative;
     top: 100px;
     height: 300px;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
 }
 
 .imagen img {
@@ -959,16 +1051,6 @@
     font-weight: bold;
 }
 
-/*---------------------------------------------------------------- CUSTOMER BLOG PAGE PROPERTIES --------------------------------------------------------*/
-
-/*BANNER - CUSTOMER BLOG DESCRIPTION PROPERTIES*/
-.customer-blog{
-    padding-top: 100px;
-}
-
-/*CUSTOMER BLOG SLIDER PROPERTIES*/
-
-
 /*---------------------------------------------------------------- CONTACT PAGE PROPERTIES --------------------------------------------------------*/
 
 /*CONTACT BANNER PROPERTIES*/
@@ -1017,62 +1099,62 @@
     align-self: center;
 }
 
-.contact-title{
+.contact-title {
     font-weight: bold;
 }
 
-.label-form{
+.label-form {
     font-weight: bold !important;
 }
 
-.input-contact{
+.input-contact {
     background-color: #F3F3F3 !important;
 }
 
-.sent-btn{
+.sent-btn {
     margin-left: 0 !important;
-    font-weight: bold  !important;
+    font-weight: bold !important;
 }
 
-.sent-btn:hover{
+.sent-btn:hover {
     background-color: #E2B853 !important;
     border-color: #E2B853 !important;
     color: #000000 !important;
 }
 
-.title-video{
+.title-video {
     font-weight: bold;
 }
 
-.paragraph-form{
+.paragraph-form {
     font-size: 20px;
     text-align: justify;
     width: 400px;
 }
 
-.hours-bold{
+.hours-bold {
     font-weight: bold;
 }
 
-.paragraph-video{
+.paragraph-video {
     width: 500px;
     text-align: justify;
     font-size: 20px;
 }
 
-.button-contact{
+.button-contact {
     margin-left: 0 !important;
     font-weight: bold !important;
 }
 
-.button-contact:hover{
+.button-contact:hover {
     color: #000000 !important;
     background-color: #E2B853 !important;
     border-color: #E2B853 !important;
 
 }
 
-.row-form{
+.row-form {
     padding-top: 10px;
     padding-bottom: 10px;
 }

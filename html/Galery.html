@@ -80,20 +80,35 @@
             </div>
         </section><br>
 
-        <section class="galery galery-section">
-            <div class="galery_content">
-                <div class="galery_collage">
-                    <div class="contenedor-imagenes container-img">
+        <section class="galery">
+            <div class="galery_container">
+                <div>
+                    <h2 class="portfolio_subtitle container">Nuestro portafolio <span class="title-color">de
+                            clientes</span>
+                    </h2>
+                </div>
 
+                <div class="galery_options">
+                    <button class="options active" onclick="currentDiv(1)">
+                        SET FOTOGRÁFICO 1
+                    </button>
+                    <button class="options" href="#" onclick="currentDiv(2)">
+                        SET FOTOGRÁFICO 2
+                    </button>
+                    <button class="options" href="#" onclick="currentDiv(3)">
+                        SET FOTOGRÁFICO 3
+                    </button>
+                </div>
+                <div class="galery_collage">
+                    <div class="contenedor-imagenes mySlides">
                         <!-----GALERIA GRADUACIONES------->
                         <div class="imagen">
                             <img src="../images/1.png" alt="">
                             <div class="overlay">
                                 <h2> Colegio de Escazú</h2>
-                                <a href="CustomerBlog.html"> Ver detalles </a>
+                                <a> Ver detalles </a>
                             </div>
                         </div>
-
                         <div class="imagen">
                             <img src="../images/2.png" alt="">
                             <div class="overlay">
@@ -101,7 +116,6 @@
                                 <a> Ver detalles </a>
                             </div>
                         </div>
-
                         <div class="imagen">
                             <img src="../images/3.png" alt="">
                             <div class="overlay">
@@ -109,7 +123,6 @@
                                 <a> Ver detalles </a>
                             </div>
                         </div>
-
                         <div class="imagen">
                             <img src="../images/4.png" alt="">
                             <div class="overlay">
@@ -117,7 +130,6 @@
                                 <a> Ver detalles </a>
                             </div>
                         </div>
-
                         <div class="imagen">
                             <img src="../images/5.png" alt="">
                             <div class="overlay">
@@ -125,7 +137,6 @@
                                 <a> Ver detalles </a>
                             </div>
                         </div>
-
                         <div class="imagen">
                             <img src="../images/Fotografía de graduaciones número 6.png" alt="">
                             <div class="overlay">
@@ -133,7 +144,6 @@
                                 <a> Ver detalles </a>
                             </div>
                         </div>
-
                         <div class="imagen">
                             <img src="../images/7.png" alt="">
                             <div class="overlay">
@@ -141,7 +151,6 @@
                                 <a> Ver detalles </a>
                             </div>
                         </div>
-
                         <div class="imagen">
                             <img src="../images/8.png" alt="">
                             <div class="overlay">
@@ -149,7 +158,6 @@
                                 <a> Ver detalles </a>
                             </div>
                         </div>
-
                         <div class="imagen">
                             <img src="../images/9.png" alt="">
                             <div class="overlay">
@@ -157,80 +165,6 @@
                                 <a> Ver detalles </a>
                             </div>
                         </div>
-
-                        <!-----GALERIA MATRIMONIOS------->
-
-                        <!--             <div class="imagen">
-                                    <img src="../images/Boda 1.png" alt="">
-                                    <div class="overlay">
-                                        <h2> Boda en Upala </h2>
-                                        <a> Ver detalles </a>
-                                    </div>
-                                </div>
-    
-                                <div class="imagen">
-                                    <img src="../images/Boda 2.png" alt="">
-                                    <div class="overlay">
-                                        <h2> Boda en Tilarán </h2>
-                                        <a> Ver detalles </a>
-                                    </div>
-                                </div>
-    
-                                <div class="imagen">
-                                    <img src="../images/Boda 3.png" alt="">
-                                    <div class="overlay">
-                                        <h2> Boda en Cañas </h2>
-                                        <a> Ver detalles </a>
-                                    </div>
-                                </div>
-    
-                                <div class="imagen">
-                                    <img src="../images/Boda 4.png" alt="">
-                                    <div class="overlay">
-                                        <h2> Boda en Guapiles </h2>
-                                        <a> Ver detalles </a>
-                                    </div>
-                                </div>
-    
-                                <div class="imagen">
-                                    <img src="../images/Boda 5.png" alt="">
-                                    <div class="overlay">
-                                        <h2> Boda en Liberia </h2>
-                                        <a> Ver detalles </a>
-                                    </div>
-                                </div>
-    
-                                <div class="imagen">
-                                    <img src="../images/Boda 6.png" alt="">
-                                    <div class="overlay">
-                                        <h2> Boda en Sarapiquí </h2>
-                                        <a> Ver detalles </a>
-                                    </div>
-                                </div>
-    
-                                <div class="imagen">
-                                    <img src="../images/Boda 7.png" alt="">
-                                    <div class="overlay">
-                                        <h2> Boda en Heredia </h2>
-                                        <a> Ver detalles </a>
-                                    </div>
-                                </div>
-    
-                                <div class="imagen">
-                                    <img src="../images/Boda 8.png" alt="">
-                                    <div class="overlay">
-                                        <h2> Boda en Alajuela </h2>
-                                        <a> Ver detalles </a>
-                                    </div>
-                                </div>
-    
-                                <div class="imagen">
-                                    <img src="../images/Boda 9.png" alt="">
-                                    <div class="overlay">
-                                        <h2> Boda en Limón </h2>
-                                        <a> Ver detalles </a>
-                                    </div>
-                                </div>-->
                     </div>
                 </div>
             </div>
@@ -238,7 +172,8 @@
 
         <section class="cta-section">
             <div class="cta-content container">
-                <h2 class="galery-cta-subtitle"> ¿Necesitas <span class="title-color galery-txt">que te ayudemos</span> con nuestro
+                <h2 class="galery-cta-subtitle"> ¿Necesitas <span class="title-color galery-txt">que te ayudemos</span>
+                    con nuestro
                     servicio de fotografía?
                 </h2>
                 <a class="btn button-service" href="Contact.html" role="button">Contáctanos <i
