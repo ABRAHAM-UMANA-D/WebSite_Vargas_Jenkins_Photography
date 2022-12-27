@@ -94,10 +94,6 @@
     color: #000000;
 }
 
-/* .logo_enlace {
-    padding-left: 100px;
-} */
-
 .logo_enlace .logo {
     height: 145px;
     width: 150px;
@@ -297,7 +293,6 @@
     font-family: 'Roboto' !important;
     color: #ffff !important;
     margin: 10px !important;
-    /* width: 500px !important; */
     margin-bottom: 20px !important;
     font-weight: bold !important;
     font-size: 22px !important;
@@ -309,9 +304,7 @@
 .info-banner {
     padding-top: 60px;
     position: absolute !important;
-    /* width: 600px; */
     height: 300px !important;
-    /* left: 116px; */
     top: 350px !important;
 }
 
@@ -458,11 +451,6 @@
     margin-bottom: 20px;
 }
 
-/*.col {
-    position: relative !important;
-    top: -130px !important;
-}*/
-
 .col-paragraph {
     width: 375px;
     justify-self: end;
@@ -546,8 +534,7 @@
 }
 
 /*GALERIA SECTION PROPERTIES --------------------------------*/
-
-.galery-content {
+.galery-container {
     height: 685px;
 }
 
@@ -575,7 +562,7 @@
 }
 
 .galery_container {
-    height: 1050px;
+    height: 1093px;
 }
 
 .galery-overlay h2 {
@@ -625,12 +612,12 @@
 /*NEWSLETTER SECTION PROPERTIES*/
 .newsletter {
     position: relative;
-    margin-top: 30px;
+    margin-top: 35px;
     background-position: 0 0, 10px 10px;
     overflow: hidden;
     background-size: 20px 20px;
     padding-top: 100px;
-    height: 585px;
+    height: 523px;
 }
 
 .newsletter_subtitle {
@@ -695,25 +682,24 @@
 /*HOME AND CONTACT CALL TO ACTION SECTION PROPERTIES*/
 .cta {
     position: relative;
-    margin-top: 30px;
     background-position: 0 0, 10px 10px;
     overflow: hidden;
     background-size: 20px 20px;
-    padding-top: 80px;
 }
 
 .cta_subtitle {
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .cta_paragraph {
     font-size: 20px;
+    width: 450px !important;
 }
 
 
 .cta_content {
     position: relative;
-    top: -75px;
+    top: 100px !important;
 }
 
 .cta_contact {
@@ -723,6 +709,7 @@
     padding-left: 15px !important;
     padding-right: 15px !important;
     font-weight: bold !important;
+    color: #FFF !important;
     font-size: 20px !important;
 }
 
@@ -739,6 +726,14 @@
     border-radius: 20px;
 }
 
+.cta-content {
+    flex-direction: row;
+    justify-items: center;
+    text-align: justify;
+    position: relative;
+    top: 75px;
+}
+
 .video_cta {
     margin-top: 50px;
     width: 600px;
@@ -746,11 +741,6 @@
     grid-row: 1/2;
     justify-self: center;
     align-self: center;
-}
-
-.cta_subtitle {
-    font-weight: bold;
-    font-size: 40px;
 }
 
 .cta_paragraph {
@@ -871,6 +861,10 @@
     background-image: url(../images/galery-banner.png);
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
     border-bottom: 3px solid #000000;
+}
+
+.galery-content {
+    height: 400px;
 }
 
 /*GALERY DESCRIPTION PROPERTIES*/
@@ -1030,7 +1024,6 @@
 .image-box .slide {
     position: absolute;
     top: 50%;
-    /* transform: translateY(-50%);*/
     color: #fff;
     font-size: 30px;
     cursor: pointer;
@@ -1072,12 +1065,13 @@
     height: 270px;
 }
 
-.cta-content {
+
+.cta-gallery {
     flex-direction: row;
     justify-items: center;
     text-align: justify;
     position: relative;
-    top: 75px;
+    top: 70px;
 }
 
 .galery-cta-subtitle {
@@ -1101,44 +1095,48 @@
     top: 220px !important;
 }
 
+.main-title {
+    font-size: 50px !important;
+}
+
 .subtitle-contact {
     margin-left: 0 !important;
     margin-bottom: 5px !important;
     -webkit-text-stroke: 0 #000000 !important;
+    font-size: 30px !important;
+    font-family: 'Roboto' !important;
+    font-weight: 500 !important;
 }
 
 /*CONTACT FORM PROPERTIES*/
 
 .contact {
     position: relative;
-    /* margin-top: 40px; */
     background-position: 0 0, 10px 10px;
     overflow: hidden;
-    /* background-size: 20px 20px; */
     padding: 10px;
     padding-top: 100px;
+}
+
+.video {
+    height: 407px !important;
+    width: 600px !important;
 }
 
 .contact-video {
     width: 100%;
     display: block;
-    border-radius: 20px;
+    border-radius: 5px;
+    height: 100%;
 }
 
 .row-video {
     padding-top: 100px;
 }
 
-.video {
-    width: 500px;
-    height: 300px;
-    grid-row: 1/2;
-    justify-self: center;
-    align-self: center;
-}
-
 .contact-title {
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 32px;
 }
 
 .label-form {
@@ -1146,12 +1144,15 @@
 }
 
 .input-contact {
-    background-color: #F3F3F3 !important;
+    background-color: #EFEFEF !important;
 }
 
 .sent-btn {
     margin-left: 0 !important;
     font-weight: bold !important;
+    background-color: #000 !important;
+    color: #FFF !important;
+    padding: 10px 20px !important;
 }
 
 .sent-btn:hover {
@@ -1161,13 +1162,14 @@
 }
 
 .title-video {
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 32px;
 }
 
 .paragraph-form {
     font-size: 20px;
     text-align: justify;
-    width: 400px;
+    width: 450px !important;
 }
 
 .hours-bold {
@@ -1175,7 +1177,7 @@
 }
 
 .paragraph-video {
-    width: 500px;
+    width: 400px;
     text-align: justify;
     font-size: 20px;
 }
@@ -1183,13 +1185,15 @@
 .button-contact {
     margin-left: 0 !important;
     font-weight: bold !important;
+    color: #FFF !important;
+    background: #000 !important;
+    padding: 8px 15px !important;
 }
 
 .button-contact:hover {
     color: #000000 !important;
     background-color: #E2B853 !important;
     border-color: #E2B853 !important;
-
 }
 
 .row-form {
@@ -1447,5 +1451,7 @@
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
 }
+
+
 
 /*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
