@@ -929,21 +929,28 @@
     border: #000;
 }
 
+.options-color{
+    color: #E2B853;
+}
+
 .options:hover {
     color: #E2B853;
 }
 
 .contenedor-imagenes {
-    display: flex;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    /* grid-template-rows: 100% 100% 100%; */
     width: 100%;
-    margin: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
+   /*  margin: auto; */
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
     border-radius: 3px;
 }
 
+
 .imagen {
-    width: 506.4px;
+    width: 100%;
     position: relative;
     top: 100px;
     height: 300px;
@@ -960,6 +967,10 @@
     height: 100%;
     object-fit: cover;
     transition: all 0.3s ease;
+}
+
+.galery-paragraph, .galery-title, .galery-subtitle{
+    font-family: 'Roboto';
 }
 
 /*LIGHTBOX EFECT*/
