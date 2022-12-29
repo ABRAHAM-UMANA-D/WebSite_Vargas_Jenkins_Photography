@@ -548,10 +548,10 @@
 }
 
 .galery-card {
-    width: 506.4px;
+    /* width: 506.4px; */
     height: 100%;
     position: relative;
-    box-shadow: 0px 0.5px 3px 0px rgba(0, 0, 0, .90);
+    box-shadow: 0px 0.5px 3px 0px rgba(0.5, 0, 0,0.75);
 }
 
 .galery-card img {
@@ -559,11 +559,23 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    opacity: 1;
+    transition: .5s ease;
 }
+
+.galery-card:hover .imagenes{
+    opacity: 0.3;
+}
+
 
 .galery_container {
     height: 1093px;
 }
+
+.galery-overlay{
+    transition: .5s ease;
+}
+
 
 .galery-overlay h2 {
     position: absolute;
