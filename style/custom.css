@@ -20,20 +20,20 @@
 .menu {
     height: 100px !important;
     width: 100% !important;
-    background: radial-gradient(136.95% 136.95% at 50.65% -27.09%, rgba(255, 255, 255, 0) 0.83%, rgba(255, 255, 255, 7.89793e-09) 58.12%, rgba(255, 255, 255, 0.2) 100%), #000000;
-    background-blend-mode: difference, normal;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: radial-gradient(136.95% 136.95% at 50.65% -27.09%, rgba(255, 255, 255, 0) 0.83%, rgba(255, 255, 255, 7.89793e-09) 58.12%, rgba(255, 255, 255, 0.2) 100%), #000000 !important;
+    background-blend-mode: difference, normal !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
 }
 
 .navbar-nav {
-    margin-top: 25px;
-    padding: 14px;
-    float: right;
+    margin-top: 25px !important;
+    padding: 14px !important;
+    float: right !important;
     /* margin-right: 20px; */
 }
 
 .social-networks {
-    padding: 1px;
+    padding: 1px ;
     padding-left: 30px;
     float: right;
     margin-right: 5px;
@@ -41,9 +41,9 @@
 }
 
 .social-networks .item {
-    color: #ffff;
-    display: inline;
-    margin: 5px;
+    color: #ffff !important;
+    display: inline !important;
+    margin: 5px !important;
 }
 
 .item {
@@ -64,15 +64,17 @@
 
 .item .nav_link:hover {
     color: #E2B853 !important;
+    border: none;
     border-bottom: 2px solid #E2B853 !important;
 }
 
 .item .icon:hover {
     color: #E2B853 !important;
+    border: none !important;
 }
 
 .icon {
-    color: #fff;
+    color: #fff ;
     font-size: larger;
 }
 
@@ -148,9 +150,9 @@
     margin: 0;
 }
 
-.navbar a:hover {
+/* .navbar a:hover {
     background-color: red;
-}
+} */
 
 .dropdown-content {
     border-radius: 10px;
@@ -192,6 +194,8 @@
 @media (max-width: 800px) {
     .nav_menu {
         display: block;
+        float: right;
+        margin-top: 40px;
     }
 
     .navbar-nav--menu {
@@ -213,9 +217,9 @@
         transition: .7s opacity;
     }
 
-    .logo_enlace {
-        padding-left: 50px;
-    }
+    /* .logo_enlace {
+        padding-left: 10px;
+    } */
 
 
     .navbar-nav--show {
@@ -230,6 +234,11 @@
         right: 30px;
         width: 30px;
         cursor: pointer;
+    }
+
+    .nav_img{
+        margin-right: 10px;
+        width: 40px;
     }
 
 }
