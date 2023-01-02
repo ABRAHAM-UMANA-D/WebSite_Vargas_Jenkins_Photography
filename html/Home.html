@@ -222,7 +222,7 @@
         <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
         <!--NEWSLETERR SECTION-->
         <section class="newsletter">
-            <div class="newsletter_container container">
+            <div class="newsletter_container">
                 <div class="row ">
                     <div class="col">
                         <figure class="newsletter_picture img-fluid">
@@ -255,17 +255,74 @@
             </div>
         </section>
 
+        <!-- <div class="testimony_subtitle">
+                
+            </div>-->
+
         <!--TESTIMONY SECTION -------------------------------------------------------------------------------------------------------------------------->
 
         <section class="testimony">
-            <div class="testimony-container container">
-                <div class="testimony-text">
-                    <h2 class="testimony-title">QUE DICEN NUESTROS CLIENTES DE NUESTROS SERVICIOS</h2>
-                    <p class="testimony-paragraph"></p>
-                </div>
-                <div class="testimony-items">
+            <div class="container">
+                <h2 class="testimony_sub"> Lo que dicen nuestros clientes<span class="title-color"> sobre nosotros </span> </h2>
+            </div>
+            <div class="testimony_container contain">
+                <img src="../images/leftarrow.svg" class="testimony_arrow" id="before">
+                <section class="testimony_body testimony_body--show" data-id="1">
+                    <figure class="testimony_picture">
+                        <img src="../images/face4.jpg" alt="testimonio" class="testimony_img">
+                    </figure>
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es kevin Ramires,<span class="testimony_course"> estudiante
+                                de
+                                fotografia.</span></h2>
+                        <p class="testimony_review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Corporis impedit debitis
+                            explicabo adipisci soluta praesentium recusandae assumenda nesciunt iusto sequi magnam
+                            dicta
+                            totam repudiandae omnis, numquam sapiente sed perferendis iure.</p>
+                    </div>
+                </section>
 
-                </div>
+                <section class="testimony_body" data-id="2">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Alejandra Perez,<span class="testimony_course"> estudiante
+                                de
+                                fotografia.</span></h2>
+                        <p class="testimony_review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Corporis impedit debitis</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="../images/face2.jpg" alt="testimonio" class="testimony_img">
+                    </figure>
+                </section>
+
+                <section class="testimony_body" data-id="3">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Pedro Acuña,<span class="testimony_course"> estudiante de
+                                fotografia.</span></h2>
+                        <p class="testimony_review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Corporis impedit debitis
+                            explicabo adipisci soluta praesentium recusandae.</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="../images/face3.jpg" alt="testimonio" class="testimony_img">
+                    </figure>
+                </section>
+
+                <section class="testimony_body" data-id="4">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Jeimmy Lopez,<span class="testimony_course"> estudiante de
+                                fotografia.</span></h2>
+                        <p class="testimony_review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Corporis impedit debitis
+                            explicabo adipisci soluta praesentium recusandae.</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="../images/face.jpg" alt="testimonio" class="testimony_img">
+                    </figure>
+                </section>
+
+                <img src="../images/rightarrow.svg" class="testimony_arrow" id="next">
             </div>
         </section>
 
@@ -278,12 +335,11 @@
                         <h2 class="cta_subtitle">Quieres fotos de calidad</h2>
                         <p class="cta_paragraph">Te las tomamos, para que cultives momentos extraordinarios que puedas
                             guardar para toda la vida.</p>
-                        <a href="#form-contact" class="btn cta_contact">Contáctanos <i
-                                class="bi bi-caret-up-fill"></i></a>
+                        <a href="#form-contact" class="btn cta_contact">Contáctanos</a>
                     </div>
                     <div class="col">
                         <figure class="video img-fluid">
-                            <video class="contact-video" src="../images/Diseño sin título.mp4" controls></video>
+                            <video class="contact-video" src="../images/Video cta.mp4" controls></video>
                         </figure>
                     </div>
                 </div>
@@ -368,6 +424,7 @@
     <!-- SCRIPTS -->
     <script src="../js/navbar.js"></script>
     <script src="../js/dropdown.js"></script>
+    <script src="../js/testimony.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>

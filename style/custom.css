@@ -33,7 +33,7 @@
 }
 
 .social-networks {
-    padding: 1px ;
+    padding: 1px;
     padding-left: 30px;
     float: right;
     margin-right: 5px;
@@ -74,7 +74,7 @@
 }
 
 .icon {
-    color: #fff ;
+    color: #fff;
     font-size: larger;
 }
 
@@ -236,7 +236,7 @@
         cursor: pointer;
     }
 
-    .nav_img{
+    .nav_img {
         margin-right: 10px;
         width: 40px;
     }
@@ -522,11 +522,10 @@
 /*GALERY GENERAL PROPERTIES*/
 
 .galery {
-    background-color: #000000;
+    background-color: #0e0d0d;
 }
 
 .portfolio_subtitle {
-    display: flex;
     position: relative;
     top: 30px;
     color: #FFF;
@@ -716,6 +715,117 @@
     background-color: #F3F3F3 !important;
 }
 
+/*TESTIMONY SECTION*/
+
+.testimony {
+    background-color: #0e0d0d;
+    background-image: radial-gradient(#E2B853 0.5px, transparent 0.5px), radial-gradient(#E2B853 0.5px, #0e0d0d 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    overflow: hidden;
+    color: #FFF;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    height: 530px;
+}
+
+.contain {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+
+.testimony_sub {
+    position: relative;
+    top: 30px;
+    color: #FFF;
+    font-size: 46px;
+    height: 78px;
+}
+
+.testimony_container {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    top: 30px;
+}
+
+.testimony_arrow {
+    width: 90%;
+    cursor: pointer;
+}
+
+.testimony_body {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    /*Esta propiedad sirve para que el contenido de la seccion se vaya hasta las 
+    esquinas y se centre verticalmente*/
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+    /*Propiedad que usa para que los elementos no puedan ser seleccionados con el mouse
+    esto obliga a que la unica manera de deslizar es darle clic a la flecha derecha o izquierda*/
+}
+
+.testimony_texts {
+    max-width: 700px;
+}
+
+.testimony_img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 30%;
+    /*Esta propiedad ajusta la imagen un 50% horizontal y 30% vertical*/
+}
+
+.testimony_course {
+    background-color: #E2B853;
+    border-radius: 7px;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+
+.testimony_body--show {
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+/*----------*/
+/*.testimony {
+    height: 685px;
+}
+
+.testimony-container {
+    color: #FFF;
+    text-align: center;
+}
+
+.testimony-title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.testimony-paragraph {
+    line-height: 150px;
+}
+
+.testimony-items {}*/
+
 
 /*HOME AND CONTACT CALL TO ACTION SECTION PROPERTIES*/
 .cta {
@@ -842,10 +952,6 @@
     top: -4;
 }
 
-/* .services-container {
-    margin: 0 !important;
-} */
-
 .col-right {
     padding: 100px;
 }
@@ -853,14 +959,6 @@
 .col-left {
     padding: 100px;
 }
-
-/* .img-right {
-    position: relative;
-    float: right !important;
-    padding-right: 0 !important;
-    left: 10px;
-
-} */
 
 .button-service {
     margin-left: 0 !important;
@@ -978,11 +1076,7 @@
 .contenedor-imagenes {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    /* grid-template-rows: 100% 100% 100%; */
     width: 100%;
-    /*  margin: auto; */
-    /* justify-content: space-around; */
-    /* flex-wrap: wrap; */
     border-radius: 3px;
 }
 
@@ -1019,7 +1113,6 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    /* transform: translate(-50%, -50%) scale(0.9);*/
     background: #000;
     color: #FFF;
     max-width: 700px;
@@ -1519,14 +1612,14 @@
         width: 100% !important;
         font-size: 18px !important;
         margin-bottom: 10px !important;
-        justify-content: center !important;   
+        justify-content: center !important;
         /* text-align: center; */
     }
-    
-    .title-banner{
+
+    .title-banner {
         width: 100% !important;
         font-size: 25px;
-        justify-content: center !important; 
+        justify-content: center !important;
         text-align: center;
     }
 
@@ -1539,11 +1632,11 @@
     .button-banner {
         font-size: 18px !important;
         position: relative !important;
-       /*  width: 80%; */
-       /*  top: -90px !important; */
+        /*  width: 80%; */
+        /*  top: -90px !important; */
     }
 
-    .banner{
+    .banner {
         height: 400px;
     }
 
