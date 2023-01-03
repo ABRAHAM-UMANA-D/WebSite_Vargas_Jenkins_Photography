@@ -782,6 +782,11 @@
     cursor: pointer;
 }
 
+.testimony_arrow:hover {
+    background-color: #E2B853;
+    border-radius: 5px;
+}
+
 .testimony_body {
     display: grid;
     grid-template-columns: 1fr max-content;
