@@ -736,12 +736,30 @@
 }
 
 
-.testimony_sub {
+.testimony_title {
     position: relative;
     top: 30px;
     color: #FFF;
     font-size: 46px;
     height: 78px;
+}
+
+.btn_social {
+    background-color: #FFF;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    left: 371px;
+    top: -85px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.btn_social:hover {
+    background-color: #E2B853;
+    color: #000;
 }
 
 .testimony_container {
