@@ -18,7 +18,7 @@
     <header>
         <nav class="menu navbar-expand-lg">
             <div class="container">
-                <a href="Home.html" class="logo_enlace" title="Ir a la página principal">
+                <a href="Home.html" class="logo_enlace">
                     <img class="logo" src="../images/DTS (Logo)-04.png">
                     <img class="logo top" src="../images/DTS (Logo)-02.png">
                 </a>
@@ -87,43 +87,92 @@
             <div class="about_container container">
                 <div class="row">
                     <div class="col">
-                        <figure class="about_picture">
-                            <img class="about_image" src="../images/about-us.png" alt="">
+                        <figure class="img-fluid about-figure">
+                            <img class="img-fluid about_image " src="../images/about_img.png" alt="">
                         </figure>
                     </div>
                     <div class=" col about_text">
-                        <h2 class="subtitle"> AGENCIA VARGAS JENKINS PHOTOGRAPHY </h2>
+                        <h2 class="subtitle"> ESPECIALISTAS EN FOTOGRAFÍA PROFESIONAL </h2>
                         <p class="about_paragrah">Entusiasta y aventurero creo que esas son la palabras que describen mi
-                            pasión
-                            por la fotografía, espero que se sienta
-                            como en casa y pueda explorar cada rincón de este sitio. Cree este espacio para contarles de
-                            mis
-                            aventuras fotográficas
-                            por Costa Rica y el mundo, de esa experiencia que a lo largo de los años se han llenado de
-                            muchos
+                            pasión por la fotografía, espero que se sienta como en casa y pueda explorar cada rincón de
+                            este sitio.
+                            Cree este espacio para contarles de mis aventuras fotográficas por Costa Rica y el mundo, de
+                            esa experiencia
+                            que a lo largo de los años se han llenado de muchos
                             aciertos pero también
                             de errores, en donde he aprendido hacer fotos con mi particular visión y sobre todo con
                             mucho
                             cariño.<br>Aquí puede encontrar diferentes colecciones fotográficas que he hecho en
-                            diferentes
-                            disciplinas, también he visto la
-                            oportunidad para compartir el conocimiento que he conseguido.<br>Les ofrezco mis servicios y
-                            los
-                            invito a aventurarse en el sitio donde podrá encontrar toda clase de temas relacionadas
-                            de este bello mundo de capturar momentos de luz. ¡Bienvenido! A un lugar de hermosos
-                            paisajes.
+                            diferentes disciplinas, también he visto la
+                            oportunidad para compartir el conocimiento que he conseguido.
                         </p>
-                        <div class="btn_galery">
-                            <a href="#" class="btn galery_btn" role="button"> VER GALERIAS </a>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4 about-galeries">
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="../images/Graduation-services-page.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Galería Graduaciones</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="Galery.html" class="btn btn-dark btn-card">Ver Galería</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="../images/Marriage-services-page.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Galería Matrimonios</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-dark btn-card">Ver Galería</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="../images/Birthday-services-page.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Galería Cumpleaños</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-dark btn-card">Ver Galería</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="out-teamwork">
+            <div class="about-team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="title-team">NUESTRO EQUIPO DE <span class="title-color">TRABAJO</span></h2>
                         </div>
                     </div>
-
                 </div>
-
+                <div class="row-images">
+                    <div class="team-pictures">
+                        <img class="image-team" src="../images/Testimony_profile1.svg" alt="">
+                        <img class="image-team" src="../images/Testimony_profile2.svg" alt="">
+                        <img class="image-team" src="../images/Testimony_Profile3.svg" alt="">
+                        <img class="image-team" src="../images/Testimony_Profile4.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-about">
+            <div class="container about-contact">
+                <div class="row">
+                    <div class="col">
+                        <h2>Te ayudamos a crear una <span class="title-color">experiencia soñada</span></h2>
+                        <a class="btn button-service" href="Contact.html" role="button">Contáctanos <i
+                                class="bi bi-telephone-inbound-fill"></i></a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-
     <footer class="footer">
         <div class="container">
             <div class="row brand">
@@ -209,6 +258,7 @@
     <!-- SCRIPTS -->
     <script src="../js/navbar.js"></script>
     <script src="../js/dropdown.js"></script>
+    <script src="../js/about.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
