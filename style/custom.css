@@ -511,6 +511,10 @@
     padding: 20px;
 }
 
+.subtitle-service span{
+    font-weight: bold;
+}
+
 /*GALERY GENERAL PROPERTIES*/
 
 .galery {
@@ -521,7 +525,7 @@
     position: relative;
     top: 30px;
     color: #FFF;
-    font-size: 46px;
+    font-size: 40px;
     height: 60px;
     font-weight: bold;
 }
@@ -626,7 +630,7 @@
     font-size: 20px;
     outline: 1px solid;
     outline-color: rgba(49, 138, 172, 0.4);
-    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1)
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .galery-overlay a:hover {
@@ -640,7 +644,7 @@
 /*NEWSLETTER SECTION PROPERTIES*/
 .newsletter {
     position: relative;
-    margin-top: 35px;
+    /* margin-top: 35px; */
     background-position: 0 0, 10px 10px;
     overflow: hidden;
     background-size: 20px 20px;
@@ -714,8 +718,8 @@
     overflow: hidden;
     color: #FFF;
     position: relative;
-    margin-top: 120px;
-    margin-bottom: 40px;
+    margin-top: 100px;
+    /* margin-bottom: 40px; */
     background-blend-mode: soft-light;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
 }
@@ -821,26 +825,6 @@
     transition: opacity 1.5s ease-in-out;
 }
 
-/*----------*/
-/*.testimony {
-    height: 685px;
-}
-
-.testimony-container {
-    color: #FFF;
-    text-align: center;
-}
-
-.testimony-title {
-    font-weight: bold;
-    font-size: 40px;
-}
-
-.testimony-paragraph {
-    line-height: 150px;
-}
-
-.testimony-items {}*/
 
 
 /*HOME AND CONTACT CALL TO ACTION SECTION PROPERTIES*/
@@ -849,6 +833,7 @@
     background-position: 0 0, 10px 10px;
     overflow: hidden;
     background-size: 20px 20px;
+    padding-top: 100px;
 }
 
 .cta_subtitle {
@@ -942,13 +927,14 @@
     margin-top: 20px;
     margin-bottom: 30px;
     font-weight: bold;
+    font-size: 40px;
 }
 
 .our-teamwork {
     margin-bottom: 20px;
     background-color: #000;
     width: 100%;
-    height: 520px;
+    height: 530px;
     display: flex;
     justify-content: center;
 }
@@ -958,11 +944,24 @@
     padding-bottom: 100px !important;
 }
 
+.btn-card{
+    /* cursor: pointer !important; */
+    outline: 1px solid !important;
+    outline-color: rgba(49, 138, 172, 0.4) !important;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
+
+}
+
 .btn-card:hover {
+    box-shadow: inset 0 0 20px rgba(37, 44, 47, 0.5), 0 0 20px rgba(12, 14, 15, 0.4);
     background-color: #E2B853 !important;
     color: #000 !important;
     font-weight: bold;
     border: #E2B853;
+    /* background-blend-mode: soft-light !important; */
+    outline-color: rgba(49, 138, 172, 0) !important;
+    outline-offset: 100px;
+    text-shadow: 1px 1px 6px #fff;
 }
 
 .card-service {
@@ -977,8 +976,12 @@
     transform: scale(1.1);
 }
 
+.card-service:hover a{
+    animation: pulse .8s infinite;
+}
+
 .team-work {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     height: 430px;
@@ -1375,9 +1378,9 @@
     height: 100%;
 }
 
-.row-video {
+/* .row-video {
     padding-top: 100px;
-}
+} */
 
 .contact-title {
     font-weight: 600;
