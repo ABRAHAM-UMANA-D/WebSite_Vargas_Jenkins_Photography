@@ -1,5 +1,5 @@
 //Creating all variables necesary
-const imageContainer = document.querySelectorAll(".imagen"),
+const imageContainer = document.querySelectorAll(".galery-page-card"),
   modalContainer = document.querySelector(".Modal-container"),
   previewImg = modalContainer.querySelector("img"),
   closeIcon = modalContainer.querySelector(".icon"),
