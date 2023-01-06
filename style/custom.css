@@ -97,15 +97,16 @@
 }
 
 .logo_enlace .logo {
-    height: 145px;
-    width: 150px;
-    top: -22px;
+    height: 210px;
+    width: 210px;
+    top: -55px;
     position: absolute;
 }
 
 
 .logo_enlace .logo.top:hover {
     opacity: 0;
+    
 }
 
 .nav_menu {
