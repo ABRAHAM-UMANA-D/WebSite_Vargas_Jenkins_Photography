@@ -968,6 +968,7 @@
     margin-bottom: 20px;
     background-color: #000;
     width: 100%;
+    height: 460px;
     display: flex;
     justify-content: center;
 }
@@ -1007,10 +1008,11 @@
 .slider-wrapper {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    flex-direction: row;
+    flex-direction: row ;
+    justify-content: space-evenly ;
 }
-
 
 .card-team {
     position: relative;
@@ -1018,7 +1020,7 @@
     border-radius: 20px;
     margin-right: 10px;
     width: 18rem;
-    height: 18rem;
+    height: 20rem;
 }
 
 .card-team::before {
@@ -1041,8 +1043,8 @@
 }
 
 .card-content .image {
-    height: 140px;
-    width: 140px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
     padding: 3px;
     background: #E2B853;
@@ -1085,13 +1087,33 @@
 }
 
 .name{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .profession{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
+}
+
+.control-slider i{
+    color: #FFF;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.control-slider button{
+    background-color: #000;
+    border: none;
+}
+
+.about-contact{
+    margin-top: 50px;
+}
+
+.about-contact h2{
+    font-size: 40px;
+    font-weight: bold;
 }
 
 
