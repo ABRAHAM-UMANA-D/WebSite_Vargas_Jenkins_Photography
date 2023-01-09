@@ -381,17 +381,22 @@
     font-weight: bold;
 }
 
+
 .about_paragrah {
     padding: 10px;
     text-align: justify;
     font-style: normal;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-weight: 450;
-    align-items: center;
-    font-size: 17px;
+    /* align-items: center; */
+    font-size: 18px;
     line-height: 1.7;
     margin-bottom: 15px;
     margin-left: 20px;
+}
+
+.paragraph-home{
+    font-size: 16px !important;
 }
 
 .btn_galery {
@@ -445,19 +450,19 @@
 }
 
 .col-paragraph {
-    width: 375px;
+    /* width: 375px; */
     justify-self: end;
     margin-right: 9px;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
 }
 
 .services_paragraph {
     font-size: 25px;
-    font-weight: 499;
+    /* font-weight: 500; */
 }
 
 .subtitle {
-    font-size: 1.5rem;
+    font-size: 25px;
     margin-bottom: 25px;
     left: 130px;
     top: 2223px;
@@ -482,14 +487,16 @@
 .service_title {
     position: relative;
     margin-bottom: 20px;
-    font-family: 'Roboto';
+    font-size: 30px;
+    /* font-family: 'Roboto'; */
 }
 
 .service_paragraph {
     position: relative;
     margin-bottom: 30px;
     text-align: justify;
-    font-family: 'Roboto';
+    font-size: 18px;
+    /* font-family: 'Roboto'; */
 }
 
 .service_btn {
@@ -497,7 +504,7 @@
     background-color: #E2B853 !important;
     text-align: center !important;
     margin: 0 !important;
-    border: 0.4px solid black !important;
+    /* border: 0.4px solid black !important; */
     font-weight: bold !important;
 }
 
@@ -509,6 +516,11 @@
 
 .service_icons {
     padding: 20px;
+}
+
+.subtitle-service{
+    font-size: 32px;
+    /* text-align: justify; */
 }
 
 .subtitle-service span{
@@ -523,11 +535,11 @@
 
 .portfolio_subtitle {
     position: relative;
-    top: 30px;
+    top: 20px;
     color: #FFF;
-    font-size: 40px;
+    font-size: 45px;
     height: 60px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 /*GALERIA SECTION PROPERTIES --------------------------------*/
@@ -541,7 +553,7 @@
     width: 100%;
     height: 550px;
     border-radius: 3px;
-    top: 75px;
+    top: 50px;
 }
 
 .galery-card {
@@ -737,8 +749,9 @@
     position: relative;
     top: 30px;
     color: #FFF;
-    font-size: 46px;
+    font-size: 45px;
     height: 78px;
+    font-weight: 600;
 }
 
 .btn_social {
@@ -837,13 +850,14 @@
 }
 
 .cta_subtitle {
-    font-size: 32px;
+    font-size: 35px;
+    font-weight: bold;
 }
 
-.cta_paragraph {
+/* .cta_paragraph {
     font-size: 20px;
     width: 450px !important;
-}
+} */
 
 
 .cta_content {
@@ -927,7 +941,7 @@
     margin-top: 20px;
     margin-bottom: 30px;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .our-teamwork {
