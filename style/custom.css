@@ -1,5 +1,6 @@
 /*------------------------------------------------------------------ GENERAL PROPERTIES ------------------------------------------------------*/
 /*GENERAL PROPERTIES*/
+
 * {
     padding: 0;
     margin: 0;
@@ -12,6 +13,8 @@
     margin: 0 auto;
     overflow: hidden;
 }
+
+/*------------------------------------------------------------------ NAVBAR PROPERTIES ------------------------------------------------------*/
 
 /*------------------------------------------------------------------ NAVBAR PROPERTIES ------------------------------------------------------*/
 
@@ -162,6 +165,8 @@
 
 /*----------------------------------------------------------------- HOME PAGE PROPERTIES --------------------------------------------------------*/
 
+/*----------------------------------------------------------------- HOME PAGE PROPERTIES --------------------------------------------------------*/
+
 /*MAIN AND ABOUT BANNER PROPIERTIES*/
 .banner {
     height: 590px;
@@ -256,6 +261,9 @@
 }
 
 /*MAIN CONTAINER SECTION -------------------------------------------------------*/
+
+/*MAIN CONTAINER SECTION -------------------------------------------------------*/
+
 .main-container {
     width: 100%;
     margin-bottom: 70px;
@@ -330,6 +338,8 @@
     font-weight: bold !important;
     color: #000000 !important;
 }
+
+/*SERVICES SECTION PROPERTIES --------------------------------------*/
 
 /*SERVICES SECTION PROPERTIES --------------------------------------*/
 
@@ -420,6 +430,8 @@
     background-color: #000000 !important;
     font-weight: bold !important;
 }
+
+/*GALERY GENERAL PROPERTIES ---------------------------------------------------------------------------------*/
 
 /*GALERY GENERAL PROPERTIES ---------------------------------------------------------------------------------*/
 
@@ -539,8 +551,10 @@
     text-shadow: 1px 1px 6px #fff;
 }
 
+/*NEWSLETTER SECTION PROPERTIES ----------------------------------------------------*/
 
 /*NEWSLETTER SECTION PROPERTIES ----------------------------------------------------*/
+
 .newsletter {
     position: relative;
     background-position: 0, 0, 10px 10px;
@@ -607,6 +621,8 @@
     color: #000000 !important;
     border-color: #E2B853 !important;
 }
+
+/*TESTIMONY SECTION ------------------------------------------*/
 
 /*TESTIMONY SECTION ------------------------------------------*/
 
@@ -716,7 +732,9 @@
     transition: opacity 1.5s ease-in-out;
 }
 
-/*HOME AND CONTACT CALL TO ACTION SECTION PROPERTIES*/
+/*HOME AND CONTACT CALL TO ACTION SECTION PROPERTIES ---------------------------------*/
+
+/*HOME AND CONTACT CALL TO ACTION SECTION PROPERTIES ---------------------------------*/
 .cta {
     position: relative;
     background-position: 0 0, 10px 10px;
@@ -768,6 +786,8 @@
 
 /*---------------------------------------------------------------- ABOUT PAGE PROPERTIES --------------------------------------------------------*/
 
+/*---------------------------------------------------------------- ABOUT PAGE PROPERTIES --------------------------------------------------------*/
+
 /*ABOUT BANNER PROPIERTIES*/
 .banner-about {
     position: relative;
@@ -812,7 +832,6 @@
 }
 
 .btn-card {
-    /* cursor: pointer !important; */
     outline: 1px solid !important;
     outline-color: rgba(49, 138, 172, 0.4) !important;
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
@@ -825,7 +844,6 @@
     color: #000 !important;
     font-weight: bold;
     border: #E2B853;
-    /* background-blend-mode: soft-light !important; */
     outline-color: rgba(49, 138, 172, 0) !important;
     outline-offset: 100px;
     text-shadow: 1px 1px 6px #fff;
@@ -897,6 +915,8 @@
     font-size: 40px;
     font-weight: bold;
 }
+
+/*---------------------------------------------------------------- SERVICES PAGE PROPERTIES --------------------------------------------------------*/
 
 /*---------------------------------------------------------------- SERVICES PAGE PROPERTIES --------------------------------------------------------*/
 
@@ -978,6 +998,8 @@
 
 /*---------------------------------------------------------------- GALERY PAGE PROPERTIES --------------------------------------------------------*/
 
+/*---------------------------------------------------------------- GALERY PAGE PROPERTIES --------------------------------------------------------*/
+
 /*GALERY BANNER PROPERTIES*/
 .galery-banner {
     height: 430px;
@@ -995,7 +1017,7 @@
     height: 400px;
 }
 
-/*GALERY DESCRIPTION PROPERTIES*/
+/*GALERY DESCRIPTION PROPERTIES ---------------------*/
 
 .galery-header {
     text-align: center;
@@ -1036,7 +1058,7 @@
     top: -100px;
 }
 
-/*GALERY SINGULAR PHOTOS PROPERTIES*/
+/*GALERY SINGULAR PHOTOS PROPERTIES ---------------*/
 
 .galery-page {
     background-color: #000;
@@ -1069,7 +1091,7 @@
     z-index: -1;
 }
 
-/*GALERY GRUPAL PHOTOS PROPERTIES*/
+/*GALERY GRUPAL PHOTOS PROPERTIES -------------------------*/
 
 .subtitle-grupal-photo {
     color: #000;
@@ -1103,7 +1125,7 @@
     z-index: -1;
 }
 
-/*LIGHTBOX EFECT*/
+/*LIGHTBOX EFECT --------------------*/
 
 .Modal-container {
     position: fixed;
@@ -1198,6 +1220,8 @@
     background: rgba(0, 0, 0, 0.45);
 }
 
+/*GALERY - CALL TO ACTION PROPERTIES*/
+
 
 /*GALERY - CALL TO ACTION PROPERTIES*/
 
@@ -1225,7 +1249,8 @@
 
 /*---------------------------------------------------------------- CONTACT PAGE PROPERTIES --------------------------------------------------------*/
 
-/*CONTACT BANNER PROPERTIES*/
+/*---------------------------------------------------------------- CONTACT PAGE PROPERTIES --------------------------------------------------------*/
+
 .banner-contact {
     height: 440px;
     background-image: url(../images/Banner-contacto.png) !important;
@@ -1255,8 +1280,6 @@
     font-family: 'Roboto' !important;
     font-weight: 500 !important;
 }
-
-/*CONTACT FORM PROPERTIES*/
 
 .contact {
     position: relative;
@@ -1338,9 +1361,16 @@
     padding-bottom: 10px;
 }
 
+
+
+/*---------------------------------------------------------------- LOGIN PAGE PROPERTIES --------------------------------------------------------*/
+
 /*---------------------------------------------------------------- LOGIN PAGE PROPERTIES --------------------------------------------------------*/
 
 
+
+
+/*---------------------------------------------------------------- FOOTER PROPERTIES --------------------------------------------------------*/
 
 /*---------------------------------------------------------------- FOOTER PROPERTIES --------------------------------------------------------*/
 .footer {
@@ -1441,6 +1471,9 @@
     margin-left: 0;
 }
 
+
+/*WHATSAPP BUTTON PROPERTIES -----------------------------------*/
+
 /*WHATSAPP BUTTON PROPERTIES -----------------------------------*/
 
 .float-button {
@@ -1504,6 +1537,10 @@
 .whatsapp-icon {
     margin-top: 5px;
 }
+
+
+
+/*-------------------------------------------------------------------- THANK YOU MODAL PAGE ---------------------------------------------------------*/
 
 /*-------------------------------------------------------------------- THANK YOU MODAL PAGE ---------------------------------------------------------*/
 
@@ -1584,6 +1621,11 @@
     transform: translate(-50%, -50%) scale(1);
 }
 
+
+
+
+/*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
+
 /*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
 
 /*RESPONSIVE DESING NAVBAR*/
@@ -1634,7 +1676,11 @@
     }
 }
 
+
 /*HOME PAGE--------------------------*/
+
+/*HOME PAGE--------------------------*/
+
 @media (max-width: 800px) {
     .info-banner {
         height: fit-content !important;
