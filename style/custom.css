@@ -1,10 +1,10 @@
 /*------------------------------------------------------------------ GENERAL PROPERTIES ------------------------------------------------------*/
+/*GENERAL PROPERTIES*/
 * {
     padding: 0;
     margin: 0;
-    text-decoration: none;
+    text-decoration: none !important;
     list-style: none;
-    box-sizing: border-box;
 }
 
 .container {
@@ -15,7 +15,7 @@
 
 /*------------------------------------------------------------------ NAVBAR PROPERTIES ------------------------------------------------------*/
 
-/*NAVBAR*/
+/*NAVBAR SECTION PROPERTIES*/
 
 .menu {
     height: 100px !important;
@@ -29,7 +29,6 @@
     margin-top: 25px !important;
     padding: 14px !important;
     float: right !important;
-    /* margin-right: 20px; */
 }
 
 .social-networks {
@@ -48,12 +47,10 @@
 
 .item {
     display: inline-block !important;
-    /* line-height: 80px !important; */
     margin: 0 5px !important;
 }
 
 .nav_link {
-    text-decoration: none !important;
     color: #ffff !important;
     font-size: 20px !important;
     padding: 7px 13px !important;
@@ -79,7 +76,6 @@
 }
 
 .contact-button {
-    text-decoration: none;
     border-radius: 8px;
     background-color: #ffff;
     color: black;
@@ -106,7 +102,6 @@
 
 .logo_enlace .logo.top:hover {
     opacity: 0;
-
 }
 
 .nav_menu {
@@ -131,7 +126,6 @@
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 
 .menu-galery {
@@ -170,7 +164,6 @@
     border-radius: 2px;
     color: black;
     padding: 12px 16px;
-    text-decoration: none;
     display: block;
     text-align: left;
     transition: all 150ms ease;
@@ -247,7 +240,6 @@
 /*----------------------------------------------------------------- HOME PAGE PROPERTIES --------------------------------------------------------*/
 
 .btn {
-    text-decoration: none;
     margin-top: 50px;
     margin: 10px;
     padding: 10px;
@@ -395,7 +387,7 @@
     margin-left: 20px;
 }
 
-.paragraph-home{
+.paragraph-home {
     font-size: 16px !important;
 }
 
@@ -518,12 +510,12 @@
     padding: 20px;
 }
 
-.subtitle-service{
+.subtitle-service {
     font-size: 32px;
     /* text-align: justify; */
 }
 
-.subtitle-service span{
+.subtitle-service span {
     font-weight: bold;
 }
 
@@ -568,7 +560,6 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    /* opacity: 1; */
     transition: .5s ease;
 }
 
@@ -638,7 +629,6 @@
     border-radius: 5px;
     cursor: pointer;
     color: #FFF !important;
-    text-decoration: none;
     font-size: 20px;
     outline: 1px solid;
     outline-color: rgba(49, 138, 172, 0.4);
@@ -731,7 +721,6 @@
     color: #FFF;
     position: relative;
     margin-top: 100px;
-    /* margin-bottom: 40px; */
     background-blend-mode: soft-light;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
 }
@@ -759,7 +748,6 @@
     color: #000;
     font-weight: bold;
     border-radius: 5px;
-    text-decoration: none;
     position: relative;
     left: 371px;
     top: -85px;
@@ -958,7 +946,7 @@
     padding-bottom: 100px !important;
 }
 
-.btn-card{
+.btn-card {
     /* cursor: pointer !important; */
     outline: 1px solid !important;
     outline-color: rgba(49, 138, 172, 0.4) !important;
@@ -990,7 +978,7 @@
     transform: scale(1.1);
 }
 
-.card-service:hover a{
+.card-service:hover a {
     animation: pulse .8s infinite;
 }
 
@@ -1227,7 +1215,7 @@
 
 /*GALERY GRUPAL PHOTOS PROPERTIES*/
 
-.subtitle-grupal-photo{
+.subtitle-grupal-photo {
     color: #000;
 }
 
@@ -1571,7 +1559,6 @@
 
 .privacy-policies {
     margin-left: 100px;
-    text-decoration: none;
 }
 
 .privacy-policies:hover {
@@ -1642,7 +1629,6 @@
 }
 
 .whatsapp:hover {
-    text-decoration: none;
     color: #25d366;
     background-color: #fff;
 }
