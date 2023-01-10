@@ -18,9 +18,9 @@
     <header>
         <nav class="menu navbar-expand-lg">
             <div class="container">
-                <a href="Home.html" class="logo_enlace" title="Ir a la página principal">
-                    <img class="logo" src="../images/Gold-logo-agencia.png">
-                    <img class="logo top" src="../images/White-logo-agencia.png">
+                <a href="home.html" class="logo_enlace" title="Ir a la página principal">
+                    <img class="logo" src="../images/Gold-logo-agency.png">
+                    <img class="logo top" src="../images/White-logo-agency.png">
                 </a>
                 <ul class="navbar-nav navbar-nav--menu">
                     <li class="item">
@@ -29,7 +29,7 @@
                     <li class="item"><a href="about.html" class="nav_link">Nosotros</a></li>
                     <li class="item"><a href="services.html" class="nav_link">Servicios</a></li>
                     <li class="item">
-                        <div class="menu-galery">
+                        <div class="dropdown-galery-options">
                             <a href="#" onclick="myFunction()" class="nav_link">Galeria <i
                                     class="bi bi-caret-down-fill"></i>
                             </a>
@@ -74,7 +74,7 @@
                     <div class="col buttons">
                         <a class="btn button-banner" href="Services.html" role="button"
                             title="Ir a la página de servicios">Servicios disponibles <img
-                                src="../images/Add a photo.png" alt="" class="img_services"> </a>
+                                src="../images/Add a photo.png" alt="" class="btn-services"> </a>
                         <a class="btn button-banner" href="Contact.html" role="button"
                             title="Ir a la página de contacto">Contáctanos <i class="fa-solid fa-phone-volume"></i></a>
                     </div>
@@ -82,9 +82,11 @@
             </div>
         </section>
     </header>
-    <main class="main">
+    <main class="main-container">
+
         <!------------------------------------------------------------------------------------------------------------------------------------------------->
         <!--ABOUT SECTION-->
+
         <section class="about">
             <div class="about_container container">
                 <div class="row">
@@ -93,9 +95,10 @@
                             <img class="img-fluid about_image " src="../images/about_img.png" alt="">
                         </figure>
                     </div>
-                    <div class="col about_text">
+                    <div class="col">
                         <h2 class="subtitle"> AGENCIA VARGAS JENKINS PHOTOGRAPHY </h2>
-                        <p class="about_paragrah paragraph-home">Entusiasta y aventurero creo que esas son la palabras que describen mi
+                        <p class="about_paragrah paragraph-home">Entusiasta y aventurero creo que esas son la palabras
+                            que describen mi
                             pasión
                             por la fotografía, espero que se sienta
                             como en casa y pueda explorar cada rincón de este sitio. Cree este espacio para contarles de
@@ -117,8 +120,8 @@
                             de este bello mundo de capturar momentos de luz. ¡Bienvenido! A un lugar de hermosos
                             paisajes.
                         </p>
-                        <div class="btn_galery">
-                            <a href="#galery-container" class="btn galery_btn" role="button"
+                        <div class="btn-about-galery-container">
+                            <a href="#galery-container" class="btn galery-about-btn" role="button"
                                 title="Ir a la sección de galerías en la página principal"> VER GALERIAS <i
                                     class="fa-sharp fa-solid fa-caret-down"></i></a>
                         </div>
@@ -126,73 +129,76 @@
                 </div>
             </div>
         </section>
+
         <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
         <!--SERVICES SECTION-->
-        <section class="services">
-            <div class="services_container container">
-                <div class="row service_header">
+
+        <section class="services-section">
+            <div class="services-container container">
+                <div class="row service-header">
                     <div class="col">
                         <h2 class="subtitle-service">Fotografia profesional, de la mano de
-                            <span class="title-color">personal capacitado,</span> que brinda extrema 
+                            <span class="title-color">personal capacitado,</span> que brinda extrema
                             <span class="title-color">calidad.</span>
                         </h2>
                         </h2>
                     </div>
                     <div class="col col-paragraph">
-                        <p class="services_paragraph">Somos especialistas en fotografia para eventos importantes, como
+                        <p class="services-paragraph">Somos especialistas en fotografia para eventos importantes, como
                             graduaciones,
                             bodas, cumpleaños etc.</p>
                     </div>
                 </div>
-                <div class="row service_main">
+                <div class="row service-main">
                     <div class="col">
-                        <article class="service_icons">
-                            <img src="../images/Wedding Rings.png" alt="Matrimonios" class="service_icon">
-                            <h3 class="service_title"> Matrimonios </h3>
-                            <p class="service_paragraph"> Ayudamos con sesiones completas de fotos a matrimonios, con
+                        <article class="service-icons">
+                            <img src="../images/Wedding Rings.png" alt="Matrimonios" class="service-icon">
+                            <h3 class="service-title"> Matrimonios </h3>
+                            <p class="service-paragraph"> Ayudamos con sesiones completas de fotos a matrimonios, con
                                 escenarios diferentes desde distintos angulos, para cultivar una experiencia agradable.
                             </p>
-                            <a class="btn service_btn" href="Contact.html" role="button"
+                            <a class="btn service-btn" href="Contact.html" role="button"
                                 title="Ir a la página de contacto">Contáctanos <i
                                     class="fa-solid fa-phone-volume"></i></a>
                         </article>
                     </div>
                     <div class="col">
-                        <article class="service_icons">
-                            <img src="../images/Student Male.png" alt="Graduaciones" class="service_icon">
-                            <h3 class="service_title"> Graduaciones </h3>
-                            <p class="service_paragraph"> Ayudamos con sesiones completas de fotos para graduaciones,
+                        <article class="service-icons">
+                            <img src="../images/Student Male.png" alt="Graduaciones" class="service-icon">
+                            <h3 class="service-title"> Graduaciones </h3>
+                            <p class="service-paragraph"> Ayudamos con sesiones completas de fotos para graduaciones,
                                 con
                                 escenarios diferentes desde distintos angulos, para cultivar una experiencia agradable.
                             </p>
-                            <a class="btn service_btn" href="Contact.html" role="button"
+                            <a class="btn service-btn" href="Contact.html" role="button"
                                 title="Ir a la página de contacto">Contáctanos <i
                                     class="fa-solid fa-phone-volume"></i></a>
                         </article>
                     </div>
                     <div class="col">
-                        <article class="service_icons">
-                            <img src="../images/Gift.png" alt=Cumpleaños"" class="service_icon">
-                            <h3 class="service_title"> Cumpleaños</h3>
-                            <p class="service_paragraph"> Ayudamos con sesiones completas de fotos a personas
+                        <article class="service-icons">
+                            <img src="../images/Gift.png" alt="" class="service-icon">
+                            <h3 class="service-title"> Cumpleaños</h3>
+                            <p class="service-paragraph"> Ayudamos con sesiones completas de fotos a personas
                                 cumpleañeras,
                                 con
                                 escenarios diferentes desde distintos angulos, para cultivar una experiencia agradable.
                             </p>
-                            <a class="btn service_btn" href="Contact.html" role="button"
+                            <a class="btn service-btn" href="Contact.html" role="button"
                                 title="Ir a la página de contacto">Contáctanos
                                 <i class="fa-solid fa-phone-volume"></i></a>
                         </article>
                     </div>
                 </div>
             </div>
-
         </section>
+
         <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
         <!--GALERY SECTION-->
+
         <section class="galery">
             <div class="galery-container" id="galery-container">
-                <h2 class="portfolio_subtitle container">Observa nuestro portafolio <span class="title-color">de
+                <h2 class="portfolio-subtitle container">Observa nuestro portafolio <span class="title-color">de
                         galerías</span>
                 </h2>
                 <div class="galery-photos">
@@ -231,34 +237,35 @@
         </section>
         <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
         <!--NEWSLETERR SECTION-->
+
         <section class="newsletter">
-            <div class="newsletter_container container">
+            <div class="container">
                 <div class="row ">
                     <div class="col">
-                        <figure class="newsletter_picture img-fluid">
-                            <img class="newsletter_image" src="../images/Newsletter-IMAGE.png" alt="">
+                        <figure class="newsletter-picture img-fluid">
+                            <img class="newsletter-image" src="../images/Newsletter-IMAGE.png" alt="">
                         </figure>
                     </div>
-                    <div class=" col news_form">
-                        <form class="newsletter_form" action="" method="POST">
+                    <div class=" col news-form">
+                        <form class="newsletter-form" action="" method="POST">
                             <div class="mb-3">
-                                <h2 class="newsletter_subtitle"> Suscribete a nuestro newsletter, <span
+                                <h2 class="newsletter-subtitle"> Suscribete a nuestro newsletter, <span
                                         class="title-color">no esperes más </span> </h2>
                                 <p class="newsletter_paragrah"> Recibe correos semanales, sobre actualizaciones en
                                     nuestros
                                     paquetes </p>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label form_subtitle" for="name">Nombre completo </label>
+                                <label class="form-label form-subtitle" for="name">Nombre completo </label>
                                 <input type="text" name="name" id="name" placeholder="Escribe tu nombre completo."
-                                    class="form-control newsletter_input" required>
+                                    class="form-control newsletter-input" required>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label form_subtitle" for="email"> Correo electrónico </label>
+                                <label class="form-label form-subtitle" for="email"> Correo electrónico </label>
                                 <input type="email" name="email" id="email" placeholder="Escribe tu correo electrónico."
-                                    class="form-control newsletter_input" required>
+                                    class="form-control newsletter-input" required>
                             </div>
-                            <input type="submit" value="Suscribirme" class="btn btn-dark newsletter_submit"
+                            <input type="submit" value="Suscribirme" class="btn btn-dark newsletter-submit"
                                 title="Suscribirme al boletín de correo electrónico">
                         </form>
                     </div>
@@ -266,127 +273,123 @@
             </div>
         </section>
 
-        <!-- <div class="testimony_subtitle">
-                
-            </div>-->
-
         <!--TESTIMONY SECTION -------------------------------------------------------------------------------------------------------------------------->
 
         <section class="testimony">
-            <div class="container">
-                <h2 class="testimony_title"> Lo que <span class="title-color">dicen nuestros clientes</span> sobre Nosotros </h2>
-            </div>
-            <div class="testimony_container contain">
-                <img src="../images/leftarrow.svg" class="testimony_arrow" id="before">
-                <section class="testimony_body testimony_body--show" data-id="1">
-                    <figure class="testimony_picture">
-                        <img src="../images/Testimony_profile1.svg" alt="testimonio" class="testimony_img">
+            <h2 class="testimony-title container"> Lo que <span class="title-color">dicen nuestros clientes</span> sobre
+                Nosotros</h2>
+            <div class="testimony-container testimony-content">
+                <img src="../images/leftarrow.svg" class="testimony-arrow" id="before">
+                <section class="testimony-body testimony-body--show" data-id="1">
+                    <figure>
+                        <img src="../images/Testimony_profile1.svg" alt="testimonio" class="testimony-img">
                     </figure>
-                    <div class="testimony_texts">
-                        <h2 class="testimony_subtitle">Mi nombre es Nestor Ramires,
+                    <div class="testimony-texts">
+                        <h2 class="testimony-subtitle">Mi nombre es Nestor Ramires,
                             orientador del colegio del Roble de Puntarenas.</h2>
-                        <p class="testimony_review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Corporis impedit debitis
                             explicabo adipisci soluta praesentium recusandae assumenda nesciunt iusto sequi magnam
                             dicta
                             totam repudiandae omnis, numquam sapiente sed perferendis iure.</p>
                     </div>
                     <div>
-                        <a title="Visitar Facebook del cliente" class="btn_social"> Validar <i
+                        <a class="btn-social" title="Visitar Facebook del cliente"> Validar <i
                                 class="fa-solid fa-user-check"></i></a>
                     </div>
                 </section>
 
-                <section class="testimony_body" data-id="2">
-                    <figure class="testimony_picture">
-                        <img src="../images/Testimony_profile2.svg" alt="testimonio" class="testimony_img">
+                <section class="testimony-body" data-id="2">
+                    <figure>
+                        <img src="../images/Testimony_profile2.svg" alt="testimonio" class="testimony-img">
                     </figure>
-                    <div class="testimony_texts">
-                        <h2 class="testimony_subtitle">Mi nombre es Darla Campos, Orientadora del
+                    <div class="testimony-texts">
+                        <h2 class="testimony-subtitle">Mi nombre es Darla Campos, Orientadora del
                             colegio de Abangares.</h2>
-                        <p class="testimony_review">Excelente trabajo y desempeño en todo lo que hacen, nos dejaron
+                        <p>Excelente trabajo y desempeño en todo lo que hacen, nos dejaron
                             encantados, excelente experiencia.</p>
                     </div>
                     <div>
-                        <a title="Visitar Facebook del cliente" class="btn_social"
+                        <a class="btn-social" title="Visitar Facebook del cliente"
                             href="https://www.facebook.com/darla.campos.505"> Validar <i
                                 class="fa-solid fa-user-check"></i></a>
                     </div>
                 </section>
 
-                <section class="testimony_body" data-id="3">
-                    <figure class="testimony_picture">
-                        <img src="../images/Testimony_Profile3.svg" alt="testimonio" class="testimony_img">
+                <section class="testimony-body" data-id="3">
+                    <figure>
+                        <img src="../images/Testimony_Profile3.svg" alt="testimonio" class="testimony-img">
                     </figure>
-                    <div class="testimony_texts">
-                        <h2 class="testimony_subtitle">Mi nombre es Pedro Acuña, Orientador del colegio de de Siquirres.
+                    <div class="testimony-texts">
+                        <h2 class="testimony-subtitle">Mi nombre es Pedro Acuña, Orientador del colegio de de Siquirres.
                         </h2>
-                        <p class="testimony_review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Corporis impedit debitis
                             explicabo adipisci soluta praesentium recusandae assumenda nesciunt iusto sequi magnam
                             dicta
                             totam repudiandae omnis, numquam sapiente sed perferendis iure.</p>
                     </div>
                     <div>
-                        <a title="Visitar Facebook del cliente" class="btn_social"> Validar <i
+                        <a class="btn-social" title="Visitar Facebook del cliente"> Validar <i
                                 class="fa-solid fa-user-check"></i></a>
                     </div>
                 </section>
 
-                <section class="testimony_body" data-id="4">
-                    <figure class="testimony_picture">
-                        <img src="../images/Testimony_Profile4.svg" alt="testimonio" class="testimony_img">
+                <section class="testimony-body" data-id="4">
+                    <figure>
+                        <img src="../images/Testimony_Profile4.svg" alt="testimonio" class="testimony-img">
                     </figure>
-                    <div class="testimony_texts">
-                        <h2 class="testimony_subtitle">Mi nombre es Karla Lopez, directora del colegio de la Fortuna de
+                    <div class="testimony-texts">
+                        <h2 class="testimony-subtitle">Mi nombre es Karla Lopez, directora del colegio de la Fortuna de
                             San Carlos.</h2>
-                        <p class="testimony_review">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Corporis impedit debitis
                             explicabo adipisci soluta praesentium recusandae assumenda nesciunt iusto sequi magnam
                             dicta
                             totam repudiandae omnis, numquam sapiente sed perferendis iure.</p>
                     </div>
                     <div>
-                        <a title="Visitar Facebook del cliente" class="btn_social"> Validar <i
+                        <a class="btn-social" title="Visitar Facebook del cliente"> Validar <i
                                 class="fa-solid fa-user-check"></i></a>
                     </div>
                 </section>
 
-                <img src="../images/rightarrow.svg" class="testimony_arrow" id="next">
+                <img src="../images/rightarrow.svg" class="testimony-arrow" id="next">
             </div>
         </section>
 
         <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
         <!--CALL TO ACTION SECTION-->
-        <section class="cta">
-            <div class="cta_container container">
-                <div class="row row-video">
-                    <div class="col cta_content">
-                        <h2 class="cta_subtitle">Quieres fotos de <span class="title-color">calidad</span> </h2>
-                        <p class="cta_paragraph">Te las tomamos, para que cultives momentos extraordinarios que puedas
-                            guardar para toda la vida.</p>
-                        <a href="#form-contact" class="btn cta_contact" title="Ir a la página de contacto">Contáctanos
-                            <i class="fa-solid fa-phone-volume"></i></a>
-                    </div>
-                    <div class="col">
-                        <figure class="video img-fluid">
-                            <video class="contact-video" src="../images/Video cta.mp4" controls></video>
-                        </figure>
-                    </div>
-                </div>
 
+        <section class="cta container">
+            <div class="row row-video">
+                <div class="col cta-content">
+                    <h2 class="cta-subtitle">Quieres fotos de <span class="title-color">calidad</span> </h2>
+                    <p class="cta-paragraph">Te las tomamos, para que cultives momentos extraordinarios que puedas
+                        guardar para toda la vida.</p>
+                    <a href="#form-contact" class="btn cta-contact" title="Ir a la página de contacto">Contáctanos
+                        <i class="fa-solid fa-phone-volume"></i></a>
+                </div>
+                <div class="col">
+                    <figure class="video img-fluid">
+                        <video class="contact-video" src="../images/Video cta.mp4" controls></video>
+                    </figure>
+                </div>
             </div>
         </section>
     </main>
+
+    <!--FOOTER SECTION --------------------------------------------------------------------->
+
     <footer class="footer">
         <div class="container">
             <div class="row brand">
                 <div class="col col-brand">
                     <div class="col">
                         <div class="col">
-                            <a href="Home.html" class="logo_enlace" title="Ir al inicio de la página principal">
-                                <img class="logo_footer" src="../images/Gold-logo-agencia.png">
-                                <img class="logo_footer top" src="../images/White-logo-agencia.png">
+                            <a href="home.html" class="logo_enlace" title="Ir al inicio de la página principal">
+                                <img class="logo-footer" src="../images/Gold-logo-agency.png">
+                                <img class="logo-footer top" src="../images/White-logo-agency.png">
                             </a>
                         </div>
                         <div class="col social">
@@ -403,7 +406,7 @@
                 </div>
                 <div class="col info-contact">
                     <h2 class="title-contact text-white">Contáctanos</h2>
-                    <p class="contact-info text-white">Envianos un correo a
+                    <p class="text-white">Envianos un correo a
                         <span class="data-contact">vargasjenkinsagency@vjagency.com</span>
                         o escríbenos al siguiente número
                         <span class="data-contact">+506 8456-8912</span>
@@ -416,7 +419,7 @@
                     <form class="form-footer" action="" method="POST">
                         <div class="mb-3">
                             <h2 class="title-newsletter text-white"> Suscribete al newsletter</h2>
-                            <p class="paragraph-news text-white"> Recibe correos semanales, sobre actualizaciones en
+                            <p class="text-white"> Recibe correos semanales, sobre actualizaciones en
                                 nuestros
                                 paquetes </p>
                         </div>
