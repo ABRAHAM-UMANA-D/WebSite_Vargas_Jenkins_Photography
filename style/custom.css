@@ -627,7 +627,8 @@
 
 .testimony {
     height: 530px;
-    background-image: url(../images/Testimony-banner.jpg);
+    /* background-image: url(../images/Testimony-banner.jpg); */
+    background-color: #000;
     overflow: hidden;
     color: #FFF;
     position: relative;
@@ -879,6 +880,7 @@
     width: 250px;
     position: relative;
     box-shadow: 0px 0.7px 3px 0px rgba(0.5, 0, 0, 0.85);
+    background-color: #000;
 }
 
 .card-team img {
@@ -887,6 +889,14 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+.card-team:hover img{
+    opacity: 0.5;
+}
+
+.card-team:hover .name-profession{
+    background-color: #E2B853;
 }
 
 .name-profession {
@@ -923,6 +933,10 @@
 .about-contact h2 {
     font-size: 45px;
     font-weight: bold;
+}
+
+.contact-about{
+    padding-bottom: 70px;
 }
 
 /*---------------------------------------------------------------- SERVICES PAGE PROPERTIES --------------------------------------------------------*/
