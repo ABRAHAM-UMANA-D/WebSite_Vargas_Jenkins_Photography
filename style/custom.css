@@ -809,36 +809,37 @@
 }
 
 .title-team {
-    color: #FFF;
+    color: #000;
     margin-top: 20px;
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 45px;
+    text-align: center;
 }
 
 .our-teamwork {
     margin-bottom: 20px;
-    background-color: #000;
+    /* background-color: #000; */
     width: 100%;
-    height: 530px;
+    height: 580px;
     display: flex;
     justify-content: center;
 }
 
 .about-galeries {
-    padding-top: 50px !important;
+    padding-top: 100px !important;
     padding-bottom: 100px !important;
 }
 
 .btn-card {
     outline: 1px solid !important;
-    outline-color: rgba(49, 138, 172, 0.4) !important;
+    /* outline-color: rgba(49, 138, 172, 0.4) !important; */
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 
 }
 
 .btn-card:hover {
-    box-shadow: inset 0 0 20px rgba(37, 44, 47, 0.5), 0 0 20px rgba(12, 14, 15, 0.4);
+    /* box-shadow: inset 0 0 20px rgba(37, 44, 47, 0.5), 0 0 20px rgba(12, 14, 15, 0.4); */
     background-color: #E2B853 !important;
     color: #000 !important;
     font-weight: bold;
@@ -868,18 +869,20 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    height: 430px;
+    gap: 10px;
+    height: 480px;
     width: 100%;
 }
 
 .card-team {
-    height: 100%;
-    width: 258px;
+    height: 430px;
+    width: 250px;
     position: relative;
     box-shadow: 0px 0.7px 3px 0px rgba(0.5, 0, 0, 0.85);
 }
 
 .card-team img {
+    /* position: relative; */
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -888,30 +891,37 @@
 
 .name-profession {
     position: absolute;
+    width: 80%;
+    background-color: #FFF;
     display: flex;
+    /* flex-wrap: wrap; */
     flex-direction: column;
-    top: 80%;
-    left: 10px;
+    top: 90%;
+    left: 25px;
+    box-shadow: 0px 0.7px 3px 0px rgba(0.5, 0, 0, 0.85);
+    padding: 10px;
 }
 
 .name {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
-    color: #FFF;
+    color: #000;
+    margin: 0;
 }
 
 .profession {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    color: #fff;
+    color: #000;
+    margin: 0;
 }
 
 .about-contact {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .about-contact h2 {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
 }
 
