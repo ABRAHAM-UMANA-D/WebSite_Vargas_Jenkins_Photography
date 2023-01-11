@@ -14,13 +14,17 @@
     <title> Agencia Vargas Jenkins</title>
 </head>
 
+<!--BODY SECTION ---------------------------------------------------------------------------------------->
+
+<!--BODY SECTION ---------------------------------------------------------------------------------------->
+
 <body>
     <header>
         <nav class="menu navbar-expand-lg">
             <div class="container">
-                <a href="Home.html" class="logo_enlace" title="Ir a la página principal">
-                    <img class="logo" src="../images/Gold-logo-agencia.png">
-                    <img class="logo top" src="../images/White-logo-agencia.png">
+                <a href="home.html" class="logo_enlace" title="Ir a la página principal">
+                    <img class="logo" src="../images/Gold-logo-agency.png">
+                    <img class="logo top" src="../images/White-logo-agency.png">
                 </a>
                 <ul class="navbar-nav navbar-nav--menu">
                     <li class="item">
@@ -29,7 +33,7 @@
                     <li class="item"><a href="about.html" class="nav_link">Nosotros</a></li>
                     <li class="item"><a href="services.html" class="nav_link">Servicios</a></li>
                     <li class="item">
-                        <div class="menu-galery">
+                        <div class="dropdown-galery-options">
                             <a href="#" onclick="myFunction()" class="nav_link">Galeria <i
                                     class="bi bi-caret-down-fill"></i>
                             </a>
@@ -65,7 +69,7 @@
         <section class="banner banner-contact">
             <div class="info-banner container">
                 <div class="row">
-                    <div class="col text-banner">
+                    <div class="col">
                         <h1 class="title-banner main-title">
                             NECESITAS FOTOS PROFESIONALES
                         </h1>
@@ -76,9 +80,13 @@
         </section>
     </header>
 
+    <!--MAIN SECTION ----------------------------------------------------------------------------->
+
+    <!--MAIN SECTION ----------------------------------------------------------------------------->
+
     <main class="main" id="main">
         <section class="contact">
-            <div class="contact-container container">
+            <div class="container">
                 <div class="row">
                     <div class="col">
                         <h2 class="contact-title">Contáctanos</h2>
@@ -114,8 +122,6 @@
                                         <option value="3">Cumpleaños</option>
                                         <option value="4">Bodas</option>
                                     </select>
-                                    <!-- <input type="text" name="service-type" id="service-type"
-                                        placeholder="Tipo de servicio" class="form-control input-contact"> -->
                                 </div>
                                 <div class="col">
                                     <label class="form-label label-form" for="tel">Teléfono</label>
@@ -136,11 +142,11 @@
                     </div>
                 </div>
                 <div class="row row-video">
-                    <div class="col cta_content">
-                        <h2 class="cta_subtitle">Quieres fotos de calidad</h2>
-                        <p class="cta_paragraph">Te las tomamos, para que cultives momentos extraordinarios que puedas
+                    <div class="col cta-content">
+                        <h2 class="cta-subtitle">Quieres fotos de calidad</h2>
+                        <p class="cta-paragraph">Te las tomamos, para que cultives momentos extraordinarios que puedas
                             guardar para toda la vida.</p>
-                        <a href="#main" class="btn cta_contact" title="Ir al formulario de contacto">Contáctanos <i
+                        <a href="#main" class="btn cta-contact" title="Ir al formulario de contacto">Contáctanos <i
                                 class="bi bi-caret-up-fill"></i></a>
                     </div>
                     <div class="col">
@@ -150,10 +156,12 @@
                     </div>
                 </div>
             </div>
-
         </section>
-
     </main>
+
+    <!--FOOTER SECTION ------------------------------------------------------------------------------------------>
+
+    <!--FOOTER SECTION ------------------------------------------------------------------------------------------>
 
     <footer class="footer">
         <div class="container">
@@ -161,9 +169,9 @@
                 <div class="col col-brand">
                     <div class="col">
                         <div class="col">
-                            <a href="Home.html" class="logo_enlace" title="Ir al inicio de la página principal">
-                                <img class="logo_footer" src="../images/Gold-logo-agencia.png">
-                                <img class="logo_footer top" src="../images/White-logo-agencia.png">
+                            <a href="home.html" class="logo_enlace" title="Ir al inicio de la página principal">
+                                <img class="logo-footer" src="../images/Gold-logo-agency.png">
+                                <img class="logo-footer top" src="../images/White-logo-agency.png">
                             </a>
                         </div>
                         <div class="col social">
@@ -180,7 +188,7 @@
                 </div>
                 <div class="col info-contact">
                     <h2 class="title-contact text-white">Contáctanos</h2>
-                    <p class="contact-info text-white">Envianos un correo a
+                    <p class="text-white">Envianos un correo a
                         <span class="data-contact">vargasjenkinsagency@vjagency.com</span>
                         o escríbenos al siguiente número
                         <span class="data-contact">+506 8456-8912</span>
@@ -193,7 +201,7 @@
                     <form class="form-footer" action="" method="POST">
                         <div class="mb-3">
                             <h2 class="title-newsletter text-white"> Suscribete al newsletter</h2>
-                            <p class="paragraph-news text-white"> Recibe correos semanales, sobre actualizaciones en
+                            <p class="text-white"> Recibe correos semanales, sobre actualizaciones en
                                 nuestros
                                 paquetes </p>
                         </div>
@@ -229,6 +237,10 @@
         </div>
     </footer>
 
+    <!--WHATSAPP BUTTON ------------------------------------------------------------------------------------------------>
+
+    <!--WHATSAPP BUTTON ------------------------------------------------------------------------------------------------>
+
     <div class="float-button">
         <a class="whatsapp" href="#" target="_blank"
             title="Iniciar una conversación por WhatsApp con un asesor de la empresa">
@@ -237,7 +249,10 @@
         </a>
     </div>
 
-    <!-- SCRIPTS -->
+    <!-- SCRIPTS ------------------------------------------------------------------------------------------------------------>
+
+    <!-- SCRIPTS ------------------------------------------------------------------------------------------------------------>
+
     <script src="../js/navbar.js"></script>
     <script src="../js/dropdown.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
