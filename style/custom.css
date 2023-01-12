@@ -1046,13 +1046,19 @@
     text-align: center;
 }
 
-.group-images{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 35px;
-    justify-content: space-between;
-    align-items: center;
 
+.individual-pictures{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    align-items: center;
+ }
+
+
+.group-images{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .image-single{
@@ -1066,10 +1072,20 @@
     cursor: pointer;
 }
 
-.row-single{
-   display: grid;
-   grid-template-columns: 10px 1fr 1fr 1fr;
+.control{
+    align-items: center;
 }
+
+.group-pictures{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    align-items: center;
+}
+
+.image-group{
+    width: 550px;
+}
+
 
 
 /*LIGHTBOX EFECT --------------------*/
