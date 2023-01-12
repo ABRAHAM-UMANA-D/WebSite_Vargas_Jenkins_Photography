@@ -1047,10 +1047,12 @@
 }
 
 .group-images{
-    display: flex;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 35px;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .image-single{
@@ -1065,9 +1067,8 @@
 }
 
 .row-single{
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-    width: 100%;
+   display: grid;
+   grid-template-columns: 10px 1fr 1fr 1fr;
 }
 
 
