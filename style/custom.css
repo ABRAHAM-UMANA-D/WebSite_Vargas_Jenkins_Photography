@@ -809,13 +809,6 @@
     margin: 0 !important;
 }
 
-.cards-title{
-    font-weight: bold;
-    font-size: 45px;
-    text-align: center;
-    padding-top: 100px !important;
-}
-
 .title-team {
     color: #000;
     margin-top: 20px;
@@ -833,7 +826,7 @@
 }
 
 .about-galeries {
-    padding-top: 40px !important;
+    padding-top: 90px !important;
     padding-bottom: 70px !important;
 }
 
