@@ -1291,8 +1291,8 @@
 }
 
 .contact-title {
-    font-weight: 600;
-    font-size: 32px;
+    font-weight: bold;
+    font-size: 35px;
 }
 
 .input-contact {
@@ -1345,12 +1345,20 @@
 }
 
 .hours-bold {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .row-form {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.row-video{
+    padding-top: 100px;
+}
+
+.cta-paragraph{
+    text-align: left;
 }
 
 
