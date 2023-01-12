@@ -1046,6 +1046,17 @@
     text-align: center;
 }
 
+.group-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.image-single{
+    width: 400px;
+    height: 450px;
+}
+
 
 /*LIGHTBOX EFECT --------------------*/
 
