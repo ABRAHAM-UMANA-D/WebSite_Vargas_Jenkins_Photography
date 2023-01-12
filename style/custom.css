@@ -349,14 +349,14 @@
     overflow: hidden;
     background-size: 20px 20px;
     display: grid;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 
 .services-container {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     position: relative;
     overflow: hidden;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .service-header {
