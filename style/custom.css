@@ -1031,6 +1031,12 @@
     justify-content: center;
 }
 
+.group-images-slide{
+    pointer-events: unset;
+    opacity: 1 !important;
+    transition: opacity 1.5s ease-in-out;
+}
+
 .galery-page {
     padding-top: 80px;
     background-color: #000;
@@ -1056,9 +1062,10 @@
 
 .group-images{
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
     gap: 20px;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .image-single{
