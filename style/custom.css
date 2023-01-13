@@ -1092,6 +1092,20 @@
     top: 310px !important;
 }
 
+.group-galery{
+    padding-top: 100px;
+}
+
+.title-photos{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.paragraph-photos{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
 
 /*LIGHTBOX EFECT --------------------*/
 
