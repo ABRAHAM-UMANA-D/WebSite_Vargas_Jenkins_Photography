@@ -5,7 +5,9 @@ var slider = document.getElementsByClassName("group-items")[0];
 var itemDisplay = 0;
 if (screen.width > 990) {
     itemDisplay = document.getElementsByClassName("pictures-galery")[0].getAttribute("item-display-d");
-    margin = itemDisplay * 10.5;
+    console.log(itemDisplay);
+    margin = itemDisplay * 15;
+    console.log(margin);
 }
 if (screen.width > 700 && screen.width < 990) {
     itemDisplay = document.getElementsByClassName("pictures-galery")[0].getAttribute("item-display-t");

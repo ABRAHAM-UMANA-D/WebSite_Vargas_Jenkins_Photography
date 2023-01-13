@@ -886,11 +886,11 @@
     z-index: -1;
 }
 
-.card-team:hover img {
+.card-team:hover img  {
     opacity: 0.5;
 }
 
-.card-team:hover .name-profession {
+.card-team:hover .name-profession  {
     background-color: #E2B853;
 }
 
@@ -1034,6 +1034,7 @@
 
 
 .galery-page {
+    position: relative;
     padding-top: 80px;
     background-color: #000;
 }
@@ -1063,7 +1064,7 @@
     outline: none;
     position: absolute;
     float: left;
-    left: 50%;
+    left: 10%;
     transform: translate(-50%);
     top: 40%;
     cursor: pointer;
@@ -1116,23 +1117,61 @@
     object-fit: cover;
 }
 
+.images-wrapper {
+    display: flex;
+    justify-content: center;
+   /*  width: 100%; */
+}
+
+@media screen and (min-width:568px) {
+    .images-wrapper{
+        display: flex;
+    }
+
+    .card-img{
+        margin: 0.5em;
+        width: calc(100%/3);
+    }   
+} 
+
+@media screen and (max-width:567px){
+    .card-img:not(:first-child){
+        display: none;
+    }
+}
+
+.card-img {
+    margin: 20px;
+    border: none;
+    height: 24rem !important;
+}
+
+.card-img img {
+    height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
 
 .galery-arrow {
-    width: 90%;
-    cursor: pointer;
+    /* position: absolute; */
+    width: 50px;
+    height: 50px;
+    /* top: 25%; */
+    /* cursor: pointer; */
 }
 
 .control {
     align-items: center;
 }
 
-.group-pictures {
+.group-pictures  {
     display: grid;
     grid-template-columns: 5% 90% 5%;
     align-items: center;
 }
 
-.image-group {
+.image-group  {
     width: 550px;
 }
 
@@ -1143,7 +1182,7 @@
     top: 310px !important;
 }
 
-.group-galery {
+.group-galery  {
     padding-top: 100px;
 }
 
@@ -1152,10 +1191,26 @@
     font-weight: bold;
 }
 
-.paragraph-photos {
+.paragraph-photos  {
     font-size: 20px;
     margin-bottom: 40px;
 }
+
+.col-text{
+    justify-content: center !important;
+}
+
+.individual-galery{
+    position: relative;
+}
+
+
+
+/* @media (min-width: 768px) {
+    .card-img img {
+        height: 24rem !important;
+    }
+ } */
 
 
 /*LIGHTBOX EFECT --------------------*/
