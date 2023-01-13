@@ -1054,8 +1054,9 @@
 
 
 .individual-pictures{
+    position: relative;
     display: grid;
-    grid-template-columns: 5% 90% 5%;
+    grid-template-columns: 100%;
     align-items: center;
  }
 
@@ -1083,11 +1084,22 @@
 
 
 .group-images{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    justify-content: space-between;
     gap: 20px;
     opacity: 0;
     pointer-events: none;
+
+    /*  display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none; */
 }
 
 .group-items{
@@ -1110,10 +1122,16 @@
 
 
 .galery-arrow{
+    /* position: absolute; */
     width: 50px;
     height: 50px;
+    /* top: 25%; */
     /* cursor: pointer; */
 }
+
+/* .next{
+    left: 98%;
+} */
 
 .control{
     align-items: center;
