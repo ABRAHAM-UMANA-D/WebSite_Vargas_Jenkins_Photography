@@ -15,18 +15,18 @@
 
     const cambio_de_posicion = (add) => {
 
-        const fotografiasIndividuales = document.querySelector('.group-images-slide').dataset.id;
+        const testimonioActual = document.querySelector('.group-images-slide').dataset.id;
 
         /*Una constante que va a seleccionar especificamente al testimonio de la seccion 1 el cual es
         el testimony_body--show y va a obtener el dataset de ese testimonio de la seccion uno, que es el ID = 1*/
 
-        valor = Number(fotografiasIndividuales);
+        valor = Number(testimonioActual);
         //Aqui estamos posicionando a valor sobre el testimonio numero 1
         valor += add;// A la variable que estaba en el testimonio actual le vamos a sumar los avances que hagamos sobre los elementos en el slider
 
         //elements.lengt = Maximo de elementos en el slider
 
-        elements[Number(fotografiasIndividuales) - 1].classList.remove('group-images-slide');
+        elements[Number(testimonioActual) - 1].classList.remove('group-images-slide');
         if (valor === elements.length + 1 || valor === 0) {
             valor = valor === 0 ? elements.length : 1;
         }
