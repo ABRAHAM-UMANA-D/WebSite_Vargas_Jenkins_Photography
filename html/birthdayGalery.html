@@ -86,54 +86,189 @@
             <div class="container">
                 <div class="individual-galery">
                     <div class="row">
-                        <div class="col"></div>
-                        <div class="col-6">
-                            <h2 class="title-photos">Fotos <span class="title-color">individuales</span></h2>
+                        <div class="col col-text">
+                            <h2 class="title-photos">Fotos <span class="title-color">individuales</span> </h2>
                             <p class="paragraph-photos">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Delectus ipsam eius sed alias omnis sunt asperiores repellat quaerat quibusdam
                                 dignissimos iste in, magni reiciendis corrupti, beatae atque perspiciatis! Iure, amet.
                             </p>
                         </div>
-                        <div class="col"></div>
                     </div>
-                    <div class="pictures-galery" item-display-d="4" item-display-t="3" item-display-m="1">
-                       <div class="group-items">
-                            <img class="image-single" src="../images/Photo-01-graduation.jpg" alt="">
-                            <img class="image-single" src="../images/Photo-02-graduation.jpg" alt="">
-                            <img class="image-single" src="../images/Photo-03-graduation.jpg" alt="">
-                            <img class="image-single" src="../images/Photo-04-graduation.jpg" alt="">
-                            <img class="image-single" src="../images/Photo-05-graduation.jpg" alt="">
-                            <img class="image-single" src="../images/Photo-06-graduation.jpg" alt="">
-                            <img class="image-single" src="../images/Photo-05-graduation.jpg" alt="">
-                            <img class="image-single" src="../images/Photo-02-graduation.jpg" alt="">
+                    <div class="row slide-row">
+                        <div class="col">
+                            <div id="carouselExampleControls" class="carousel slide d-none d-sm-block"
+                                data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="images-wrapper">
+                                            <div class="card card-img" style="width: 18.75rem; height: 25rem;">
+                                                <img src="../images/Photo-01-graduation.jpg" class="card-img-top"
+                                                    alt="...">
+                                            </div>
+                                            <div class="card card-img" style="width: 18.75rem; height: 25rem;">
+                                                <img src="../images/Photo-02-graduation.jpg" class="card-img-top"
+                                                    alt="...">
+                                            </div>
+                                            <div class="card card-img" style="width: 18.75rem; height: 25rem;">
+                                                <img src="../images/Photo-03-graduation.jpg" class="card-img-top"
+                                                    alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="images-wrapper">
+                                            <div class="card card-img" style="width: 18.75rem; height: 25rem;">
+                                                <img src="../images/Photo-04-graduation.jpg" class="card-img-top"
+                                                    alt="...">
+                                            </div>
+                                            <div class="card card-img" style="width: 18.75rem; height: 25rem;">
+                                                <img src="../images/Photo-05-graduation.jpg" class="card-img-top"
+                                                    alt="...">
+                                            </div>
+                                            <div class="card card-img" style="width: 18.75rem; height: 25rem;">
+                                                <img src="../images/Photo-06-graduation.jpg" class="card-img-top"
+                                                    alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span aria-hidden="true"><img src="../images/leftarrow.svg"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span aria-hidden="true"><img src="../images/rightarrow.svg"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div id="carouselMobile" class="carousel slide d-sm-none"
+                                data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card card-img">
+                                            <img src="../images/Photo-01-graduation.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card card-img">
+                                            <img src="../images/Photo-02-graduation.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card card-img">
+                                            <img src="../images/Photo-03-graduation.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card card-img">
+                                            <img src="../images/Photo-04-graduation.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card card-img">
+                                            <img src="../images/Photo-05-graduation.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card card-img">
+                                            <img src="../images/Photo-06-graduation.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselMobile" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselMobile" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </div>
-                        <button type="button" class="btn-control prev" onclick="prev()"><img src="../images/leftarrow.svg" class="galery-arrow" id="before"></button>
-                        <button type="button" class="btn-control next" onclick="next()"><img src="../images/rightarrow.svg" class="galery-arrow" id="next"></button>
-
                     </div>
                 </div>
                 <div class="group-galery">
                     <div class="row">
-                        <div class="col"></div>
-                        <div class="col-6">
-                            <h2 class="title-photos">Fotos <span class="title-color">Grupales</span></h2>
+                        <div class="col col-text">
+                            <h2 class="title-photos">Fotos <span class="title-color">Grupales</span> </h2>
                             <p class="paragraph-photos">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Delectus ipsam eius sed alias omnis sunt asperiores repellat quaerat quibusdam
                                 dignissimos iste in, magni reiciendis corrupti, beatae atque perspiciatis! Iure, amet.
                             </p>
                         </div>
-                        <div class="col"></div>
                     </div>
-                    <div class="individual-pictures">
-                        <div class="control">
-                            <img src="../images/leftarrow.svg" class="galery-arrow" id="before">
-                        </div>
-                        <div class="group-images">
-                            <img class="image-group" src="../images/Graduation-grupal-photo.jpg" alt="">
-                            <img class="image-group" src="../images/Graduation-grupal-photo.jpg" alt="">
-                        </div>
-                        <div class="control">
-                            <img src="../images/rightarrow.svg" class="galery-arrow" id="next">
+                    <div class="row slide-row">
+                        <div class="col">
+                            <div id="carouselGroupPictures" class="carousel slide d-none d-sm-block"
+                                data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="images-wrapper">
+                                            <div class="card card-img " style="width: 30rem; height: 30rem;">
+                                                <img src="../images/Graduation-grupal-photo.jpg" class="card-img-top"
+                                                    alt="...">
+                                            </div>
+                                            <div class="card card-img" style="width: 30rem; height: 30rem;">
+                                                <img src="../images/Graduation-grupal-photo.jpg" class="card-img-top"
+                                                    alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="images-wrapper">
+                                            <div class="card card-img">
+                                                <img src="../images/Graduation-grupal-photo.jpg" class="card-img-top"
+                                                    alt="...">
+                                            </div>
+                                            <div class="card card-img">
+                                                <img src="../images/Graduation-grupal-photo.jpg" class="card-img-top"
+                                                    alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselGroupPictures" data-bs-slide="prev">
+                                    <span aria-hidden="true"><img src="../images/leftarrow.svg"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselGroupPictures" data-bs-slide="next">
+                                    <span aria-hidden="true"><img src="../images/rightarrow.svg"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                            <div id="carouselGroupMobile" class="carousel slide d-sm-none"
+                                data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card card-img">
+                                            <img src="../images/Graduation-grupal-photo.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card card-img">
+                                            <img src="../images/Graduation-grupal-photo.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselGroupMobile" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselGroupMobile" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
                         </div>
                     </div>
                 </div>

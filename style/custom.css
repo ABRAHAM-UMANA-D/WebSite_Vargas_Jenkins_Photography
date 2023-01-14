@@ -1119,9 +1119,16 @@
 }
 
 .images-wrapper {
-    display: flex;
-    justify-content: center;
-   /*  width: 100%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 80%;
+   transform: translateX(12.5%);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 40px !important;
+    height: 40px !important;
+    font-weight: bold !important;
 }
 
 @media screen and (min-width:568px) {
