@@ -15,7 +15,7 @@
 
     const cambio_de_posicion = (add) => {
 
-        const testimonioActual = document.querySelector('.group-images-slide').dataset.id;
+        const testimonioActual = document.querySelector('.group-images--show').dataset.id;
 
         /*Una constante que va a seleccionar especificamente al testimonio de la seccion 1 el cual es
         el testimony_body--show y va a obtener el dataset de ese testimonio de la seccion uno, que es el ID = 1*/
@@ -26,14 +26,14 @@
 
         //elements.lengt = Maximo de elementos en el slider
 
-        elements[Number(testimonioActual) - 1].classList.remove('group-images-slide');
+        elements[Number(testimonioActual) - 1].classList.remove('group-images--show');
         if (valor === elements.length + 1 || valor === 0) {
             valor = valor === 0 ? elements.length : 1;
         }
         /* Si valor es igual al maximo de elementos del slider y yo intento sumar uno mas entonces que se me devuelva 
         a la posicion 1 del slider, o si valor es igual al primer elemento y yo resto 1, que se pase al ultimo elemento del slider */
 
-        elements[valor - 1].classList.add('group-images-slide');
+        elements[valor - 1].classList.add('group-images--show');
 
         //Accediendo al primer elemento del slider, -1 porque en programacion los algoritmos cuentan desde 0
         //La posicion 1 = 0, la 2 = 1, 3 = 2, por eso hay que hacer ese descuento

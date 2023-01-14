@@ -886,11 +886,11 @@
     z-index: -1;
 }
 
-.card-team:hover img  {
+.card-team:hover img {
     opacity: 0.5;
 }
 
-.card-team:hover .name-profession  {
+.card-team:hover .name-profession {
     background-color: #E2B853;
 }
 
@@ -1094,7 +1094,7 @@
     pointer-events: none;
 }
 
-.group-images-slide {
+.group-images--show {
     pointer-events: unset;
     opacity: 1;
     transition: opacity 1.5s ease-in-out;
@@ -1119,45 +1119,45 @@
 }
 
 .images-wrapper {
-    /* display: flex; */
-    /* justify-content: center; */
     width: 80%;
-   transform: translateX(12.5%);
+    transform: translateX(12.5%);
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     width: 40px !important;
     height: 40px !important;
     font-weight: bold !important;
 }
 
 @media screen and (min-width:568px) {
-    .images-wrapper{
+    .images-wrapper {
         display: flex;
     }
 
-    .card-img{
+    .card-img {
         margin: 0.5em;
         width: calc(100%/3);
-    }   
-} 
+    }
+}
 
-@media screen and (max-width:567px){
-    .card-img:not(:first-child){
+@media screen and (max-width:567px) {
+    .card-img:not(:first-child) {
         display: none;
     }
 }
 
 .card-img {
-    margin: 20px;
     border: none;
-    height: 24rem !important;
+    height: 400px !important;
+    width: 300px !important;
 }
 
 .card-img img {
-    height: 100% !important;
     max-width: 100% !important;
     max-height: 100% !important;
+    height: 100% !important;
+    width: 100% !important;
 }
 
 
@@ -1171,13 +1171,13 @@
     align-items: center;
 }
 
-.group-pictures  {
+.group-pictures {
     display: grid;
     grid-template-columns: 5% 90% 5%;
     align-items: center;
 }
 
-.image-group  {
+.image-group {
     width: 550px;
 }
 
@@ -1188,7 +1188,7 @@
     top: 310px !important;
 }
 
-.group-galery  {
+.group-galery {
     padding-top: 100px;
 }
 
@@ -1197,16 +1197,16 @@
     font-weight: bold;
 }
 
-.paragraph-photos  {
+.paragraph-photos {
     font-size: 20px;
     margin-bottom: 40px;
 }
 
-.col-text{
+.col-text {
     justify-content: center !important;
 }
 
-.individual-galery{
+.individual-galery {
     position: relative;
 }
 
