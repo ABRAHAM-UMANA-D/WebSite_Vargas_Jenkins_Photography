@@ -1122,18 +1122,13 @@
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* align-items: center; */
     justify-content: center;
-    /* width: 90%; */
     transform: translateX(12%);
     gap: 20px;
     padding: 20px;
 }
 
 .images-wrapper img{
-    /* width: 300px;
-    height: 400px; */
-    /* border-radius: 10px; */
     object-fit: cover;
     border: #FFF 2px solid;
 }
@@ -1400,9 +1395,9 @@
 }
 
 
-/*---------------------------------------------------------------- MARRIED GALERY PAGE PROPERTIES --------------------------------------------------------*/
+/*---------------------------------------------------------------- BIRTHDAY GALERY PAGE PROPERTIES --------------------------------------------------------*/
 
-/*---------------------------------------------------------------- MARRIED GALERY PAGE PROPERTIES --------------------------------------------------------*/
+/*---------------------------------------------------------------- BIRTHDAY GALERY PAGE PROPERTIES --------------------------------------------------------*/
 
 .birthday-galery-banner {
     height: 600px;
