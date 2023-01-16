@@ -1013,9 +1013,9 @@
     text-align: justify;
 }
 
-/*---------------------------------------------------------------- GRADUATION GALERY PAGE PROPERTIES --------------------------------------------------------*/
+/*---------------------------------------------------------------- GRADUATION - BIRTHDAY - MARRIED GALERY PAGE PROPERTIES --------------------------------------------------------*/
 
-/*---------------------------------------------------------------- GRADUATION GALERY PAGE PROPERTIES --------------------------------------------------------*/
+/*---------------------------------------------------------------- GRADUATION - BIRTHDAY - MARRIED GALERY PAGE PROPERTIES --------------------------------------------------------*/
 
 .graduation-galery-banner {
     height: 600px;
@@ -1031,7 +1031,39 @@
     justify-content: center;
 }
 
+.birthday-galery-banner {
+    height: 600px;
+    width: 100%;
+    padding: 1px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/galery-banner2.jpg);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.80);
+    border-bottom: 3px solid #000000;
+    align-items: center;
+    justify-content: center;
+}
 
+.married-galery-banner {
+    height: 600px;
+    width: 100%;
+    padding: 1px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/galery-banner1.jpg);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.80);
+    border-bottom: 3px solid #000000;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-banner-galery {
+    padding-top: 60px;
+    position: absolute !important;
+    top: 310px !important;
+}
 
 .galery-page {
     position: relative;
@@ -1049,8 +1081,35 @@
     text-align: center;
 }
 
+.individual-galery {
+    position: relative;
+}
 
+.title-photos {
+    font-size: 45px;
+    font-weight: bold;
+}
 
+.paragraph-photos {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.images-wrapper {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    transform: translateX(12%);
+    gap: 20px;
+    padding: 20px;
+}
+
+.images-wrapper img{
+    object-fit: cover;
+    box-shadow: 0.5px 0.9px 2px 1px rgba(205, 205, 205, 0.85);
+    overflow: hidden;
+}
 
 .pictures-galery {
     position: relative;
@@ -1118,22 +1177,6 @@
     border: #FFF 2px solid;
 }
 
-.images-wrapper {
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    transform: translateX(12%);
-    gap: 20px;
-    padding: 20px;
-}
-
-.images-wrapper img{
-    object-fit: cover;
-    box-shadow: 0.5px 0.9px 2px 1px rgba(205, 205, 205, 0.85);
-    overflow: hidden;
-}
-
 .indiviual-arrow span img{
     margin-top: 100px !important;
 }
@@ -1163,19 +1206,11 @@
     height: 500px !important;
 }
 
-
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     width: 40px !important;
     height: 40px !important;
     font-weight: bold !important;
-}
-
-@media screen and (max-width:567px) {
-    .card-img:not(:first-child) {
-        display: none;
-    }
 }
 
 .card-img {
@@ -1212,34 +1247,14 @@
     width: 550px;
 }
 
-
-.info-banner-galery {
-    padding-top: 60px;
-    position: absolute !important;
-    top: 310px !important;
-}
-
 .group-galery {
     padding-top: 100px;
-}
-
-.title-photos {
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.paragraph-photos {
-    font-size: 20px;
-    margin-bottom: 40px;
 }
 
 .col-text {
     justify-content: center !important;
 }
 
-.individual-galery {
-    position: relative;
-}
 
 /*GALERY - CALL TO ACTION PROPERTIES*/
 
@@ -1264,45 +1279,6 @@
 .galery-txt {
     font-weight: bold;
 }
-
-/*---------------------------------------------------------------- MARRIED GALERY PAGE PROPERTIES --------------------------------------------------------*/
-
-/*---------------------------------------------------------------- MARRIED GALERY PAGE PROPERTIES --------------------------------------------------------*/
-
-.married-galery-banner {
-    height: 600px;
-    width: 100%;
-    padding: 1px;
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../images/galery-banner1.jpg);
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.80);
-    border-bottom: 3px solid #000000;
-    align-items: center;
-    justify-content: center;
-}
-
-
-/*---------------------------------------------------------------- BIRTHDAY GALERY PAGE PROPERTIES --------------------------------------------------------*/
-
-/*---------------------------------------------------------------- BIRTHDAY GALERY PAGE PROPERTIES --------------------------------------------------------*/
-
-.birthday-galery-banner {
-    height: 600px;
-    width: 100%;
-    padding: 1px;
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../images/galery-banner2.jpg);
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.80);
-    border-bottom: 3px solid #000000;
-    align-items: center;
-    justify-content: center;
-}
-
-
 
 /*---------------------------------------------------------------- CONTACT PAGE PROPERTIES --------------------------------------------------------*/
 
@@ -1759,5 +1735,15 @@
 
     .about_paragrah {
         margin-left: 0;
+    }
+}
+
+/* ------------------------------------------ RESPONSIVE MEDIA GALERY PAGE --------------------------*/
+
+/* ------------------------------------------ RESPONSIVE MEDIA GALERY PAGE --------------------------*/
+
+@media screen and (max-width:567px) {
+    .card-img:not(:first-child) {
+        display: none;
     }
 }
