@@ -835,16 +835,19 @@
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
     background-color: #000 !important;
     color: #FFF !important;
+    padding: 40px;
+    width: 90%;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .btn-card:hover {
     background-color: #E2B853 !important;
     color: #000 !important;
     font-weight: bold;
-    border: #E2B853;
     outline-color: rgba(49, 138, 172, 0) !important;
     outline-offset: 100px;
-    text-shadow: 1px 1px 6px #fff;
 }
 
 .card-service {
@@ -907,14 +910,14 @@
 }
 
 .name {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: #000;
     margin: 0;
 }
 
 .profession {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 600;
     color: #000;
     margin: 0;
