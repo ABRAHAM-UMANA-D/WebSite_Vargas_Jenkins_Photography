@@ -1136,7 +1136,7 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(0.9);
     background: #fff;
-    max-width: 700px;
+    max-width: 500px;
     width: 100%;
     z-index: 5;
     opacity: 0;
