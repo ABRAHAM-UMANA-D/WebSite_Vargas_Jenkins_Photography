@@ -1,12 +1,5 @@
-const gallery = document.querySelectorAll(".image-box"),
-    previewBox = document.querySelector(".preview-lightbox"),
-    previewImg = previewBox.querySelector("img"),
-    closeIcon = previewBox.querySelector(".icon"),
-    currentImg = previewBox.querySelector(".current-img"),
-    totalImg = previewBox.querySelector(".total-img"),
-    shadow = document.querySelector(".shadow");
-
-    const galleryGroup = document.querySelectorAll(".image-group-box"),
+/* LIGHTBOX HORIZONTAL IMAGES */
+const galleryGroup = document.querySelectorAll(".image-group-box"),
     previewBoxGroup = document.querySelector(".preview-lightbox-horizontal"),
     previewImgGroup = previewBoxGroup.querySelector("img"),
     closeIconGroup = previewBoxGroup.querySelector(".icon-horizontal"),
@@ -14,28 +7,28 @@ const gallery = document.querySelectorAll(".image-box"),
     totalImgGroup = previewBoxGroup.querySelector(".total-img-horizontal"),
     shadowGroup = document.querySelector(".shadow-horizontal");
 
-window.onload = () => {
-        for (let i = 0; i < gallery.length; i++) {
-            totalImg.textContent = gallery.length;
+    window.onload = () => {
+        for (let i = 0; i < galleryGroup.length; i++) {
+            totalImgGroup.textContent = galleryGroup.length;
             let newIndex = i;
             let clickedImgIndex;
     
-            gallery[i].onclick = () => {
+            galleryGroup[i].onclick = () => {
                 clickedImgIndex = i;
                 function preview() {
-                    currentImg.textContent = newIndex + 1;
-                    let imageURL = gallery[newIndex].querySelector("img").src;
-                    previewImg.src = imageURL;
+                    currentImgGroup.textContent = newIndex + 1;
+                    let imageURL = galleryGroup[newIndex].querySelector("img").src;
+                    previewImgGroup.src = imageURL;
                 }
                 preview();
     
-                const prevBtn = document.querySelector(".prev");
-                const nextBtn = document.querySelector(".next");
+                const prevBtn = document.querySelector(".prev-img");
+                const nextBtn = document.querySelector(".next-img");
     
                 if (newIndex == 0) {
                     prevBtn.style.display = "none";
                 }
-                if (newIndex >= gallery.length - 1) {
+                if (newIndex >= galleryGroup.length - 1) {
                     nextBtn.style.display = "none";
                 }
                 prevBtn.onclick = () => {
@@ -50,7 +43,7 @@ window.onload = () => {
                 }
                 nextBtn.onclick = () => {
                     newIndex++; 
-                    if (newIndex >= gallery.length - 1) {
+                    if (newIndex >= galleryGroup.length - 1) {
                         preview();
                         nextBtn.style.display = "none";
                     } else {
@@ -59,19 +52,17 @@ window.onload = () => {
                     }
                 }
                 document.querySelector("body").style.overflow = "hidden"; 
-                previewBox.classList.add("show");
-                shadow.style.display = "block";
-                closeIcon.onclick = () => {
+                previewBoxGroup.classList.add("show");
+                shadowGroup.style.display = "block";
+                closeIconGroup.onclick = () => {
                     newIndex = clickedImgIndex; 
                     prevBtn.style.display = "block";
                     nextBtn.style.display = "block";
-                    previewBox.classList.remove("show");
-                    shadow.style.display = "none";
+                    previewBoxGroup.classList.remove("show");
+                    shadowGroup.style.display = "none";
                     document.querySelector("body").style.overflow = "scroll";
                 }
             }
         }
-        console.log(totalImg);
-    
-    
-}
+        console.log(totalImgGroup);
+    }

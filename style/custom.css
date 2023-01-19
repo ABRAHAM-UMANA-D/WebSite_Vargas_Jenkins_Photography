@@ -1116,18 +1116,21 @@
 
 .images-wrapper div:hover .icon-zoom {
     animation: palpito .9s infinite;
+}
 
+.images-group-wrapper div:hover .icon-zoom{
+    animation: palpito .9s infinite;
 }
 
 .icon-zoom {
     position: relative;
-    color: #E2B853;
+    color: #fff;
     font-weight: bolder;
     font-size: 40px;
     top: -35%;
-    left: 135px;
-    opacity: 0.8;
-
+    text-align: center;
+    /* left: 136px; */
+    opacity: 0.3;
 }
 
 /*--------------------------------------------------------------LIGHTBOX EFECT------------------------------------------------------------------*/
@@ -1151,6 +1154,23 @@
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
+.preview-lightbox-horizontal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    background: #000;
+    max-width: 700px;
+    width: 100%;
+    z-index: 5;
+    color: #fff;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 3px;
+    padding: 0 5px 5px 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
 .preview-lightbox.show {
     opacity: 1;
     pointer-events: auto;
@@ -1158,14 +1178,23 @@
     transition: all 0.3s ease;
 }
 
-.preview-lightbox .details {
+.preview-lightbox-horizontal.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(0.8); 
+    transition: all 0.3s ease;
+}
+
+.preview-lightbox .details,
+.preview-lightbox-horizontal .details {
     display: flex;
     align-items: center;
     padding: 12px 15px 12px 10px;
     justify-content: space-between;
 }
 
-.preview-lightbox .details .title {
+.preview-lightbox .details .title,
+.preview-lightbox-horizontal .details .title {
     display: flex;
     font-size: 22px;
     font-weight: 400;
@@ -1175,24 +1204,29 @@
     margin: 0 5px;
 }
 
-.details .title p.current-img {
+.details .title p.current-img,
+.details .title p.current-img-horizontal {
     font-weight: 500;
 }
 
-.details .title p.total-img {
+.details .title p.total-img,
+.details .title p.total-img-horizontal {
     font-weight: 500;
 }
 
-.details .icon { 
+.details .icon, 
+.details .icon-horizontal { 
     font-size: 40px;
     cursor: pointer;
 }
 
-.details .icon:hover { 
+.details .icon:hover,
+ .details .icon-horizontal:hover { 
     color: #E2B853;
 }
 
-.preview-lightbox .image-arrow {
+.preview-lightbox .image-arrow, 
+.preview-lightbox-horizontal .image-arrow {
     display: flex;
     width: 100%;
     position: relative;
@@ -1216,11 +1250,13 @@
     color: #E2B853;
 }
 
-.slide.prev {
+.slide.prev, 
+.slide.prev-img {
     left: 0px;
 }
 
-.slide.next {
+.slide.next, 
+.slide.next-img {
     right: 0px;
 }
 
@@ -1229,7 +1265,8 @@
     border-radius: 0 0 3px 3px;
 }
 
-.shadow {
+.shadow, 
+.shadow-horizontal {
     position: fixed;
     top: 0;
     left: 0;
