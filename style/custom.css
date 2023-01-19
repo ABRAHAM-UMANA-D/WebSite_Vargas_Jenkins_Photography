@@ -1130,15 +1130,20 @@
 
 }
 
+/*--------------------------------------------------------------LIGHTBOX EFECT------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------LIGHTBOX EFECT-----------------------------------------------------------------*/
+
 .preview-lightbox {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0.9);
-    background: #fff;
-    max-width: 500px;
+    transform: translate(-50%, -50%) scale(0.8);
+    background: #000;
+    max-width: 600px;
     width: 100%;
     z-index: 5;
+    color: #fff;
     opacity: 0;
     pointer-events: none;
     border-radius: 3px;
@@ -1149,7 +1154,7 @@
 .preview-lightbox.show {
     opacity: 1;
     pointer-events: auto;
-    /* transform: translate(-50%, -50%) scale(1); */
+    transform: translate(-50%, -50%) scale(0.8); 
     transition: all 0.3s ease;
 }
 
@@ -1162,7 +1167,7 @@
 
 .preview-lightbox .details .title {
     display: flex;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -1172,18 +1177,19 @@
 
 .details .title p.current-img {
     font-weight: 500;
-    color: #000;
 }
 
 .details .title p.total-img {
     font-weight: 500;
-    color: #000;
 }
 
-.details .icon {
-    color: #007bff; 
-    font-size: 20px;
+.details .icon { 
+    font-size: 40px;
     cursor: pointer;
+}
+
+.details .icon:hover { 
+    color: #E2B853;
 }
 
 .preview-lightbox .image-arrow {
@@ -1197,13 +1203,17 @@
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
-    font-size: 30px;
+    font-size: 45px;
     cursor: pointer;
     height: 50px;
     width: 60px;
     line-height: 50px;
     text-align: center;
     border-radius: 3px;
+}
+
+.image-arrow .slide:hover{
+    color: #E2B853;
 }
 
 .slide.prev {
@@ -1231,9 +1241,9 @@
 }
 
 
-/* .icon-zoom i{
-    animation: palpito .9s infinite;
-} */
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
 
 .pictures-galery {
     position: relative;
