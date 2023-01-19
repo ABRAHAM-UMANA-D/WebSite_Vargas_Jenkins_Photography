@@ -50,7 +50,7 @@ window.onload = () => {
                     prevBtn.style.display = "block";
                 }
             }
-            /* document.querySelector("body").style.overflow = "hidden"; */
+            document.querySelector("body").style.overflow = "hidden"; 
             previewBox.classList.add("show");
             shadow.style.display = "block";
             closeIcon.onclick = () => {
@@ -63,4 +63,5 @@ window.onload = () => {
             }
         }
     }
+    console.log(totalImg);
 }

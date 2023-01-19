@@ -1175,23 +1175,24 @@
     color: #000;
 }
 
-.total-img{
+.details .title p.total-img {
+    font-weight: 500;
     color: #000;
 }
 
 .details .icon {
-    /* color: #007bff; */
+    color: #007bff; 
     font-size: 20px;
     cursor: pointer;
 }
 
-.preview-lightbox .image-box {
+.preview-lightbox .image-arrow {
     display: flex;
     width: 100%;
     position: relative;
 }
 
-.image-box .slide {
+.image-arrow .slide {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -1213,7 +1214,7 @@
     right: 0px;
 }
 
-.image-box img {
+.image-arrow img {
     width: 100%;
     border-radius: 0 0 3px 3px;
 }
