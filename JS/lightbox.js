@@ -6,14 +6,6 @@ const gallery = document.querySelectorAll(".image-box"),
     totalImg = previewBox.querySelector(".total-img"),
     shadow = document.querySelector(".shadow");
 
-    const galleryGroup = document.querySelectorAll(".image-group-box"),
-    previewBoxGroup = document.querySelector(".preview-lightbox-horizontal"),
-    previewImgGroup = previewBoxGroup.querySelector("img"),
-    closeIconGroup = previewBoxGroup.querySelector(".icon-horizontal"),
-    currentImgGroup = previewBoxGroup.querySelector(".current-img-horizontal"),
-    totalImgGroup = previewBoxGroup.querySelector(".total-img-horizontal"),
-    shadowGroup = document.querySelector(".shadow-horizontal");
-
 window.onload = () => {
         for (let i = 0; i < gallery.length; i++) {
             totalImg.textContent = gallery.length;
