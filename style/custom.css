@@ -1407,25 +1407,40 @@
 /*GALERY - CALL TO ACTION PROPERTIES*/
 
 .cta-section {
-    height: 270px;
+    /* background: radial-gradient(135% 130.95% at 50.65% 100.09%, rgba(255, 255, 255, 0) 0.83%, rgba(255, 255, 255, 7.89793e-09) 58.12%, rgba(255, 255, 255, 0.2) 100%), #000000 !important; */
+    background: radial-gradient(136% 130.95% at 30.09% -30.09%, rgba(255, 255, 255, 0) 0.83%, rgba(255, 255, 255, 7.89793e-09) 58.12%, rgba(255, 255, 255, 0.2) 100%), #000000 !important;
+    height: 270px; 
 }
 
 
 .cta-gallery {
+    /* background-color: #151515b0 !important; */
     flex-direction: row;
     justify-items: center;
     text-align: justify;
     position: relative;
-    top: 70px;
+    padding: 20px;
+    top: 30px;
+    /* box-shadow: 1px 0.7px 0.5px 0.5px rgba(33, 31, 31, 0.85); */
 }
 
 .galery-cta-subtitle {
+    color: #FFF;
     font-weight: bold;
     font-size: 36px;
 }
 
 .galery-txt {
     font-weight: bold;
+}
+
+.btn-contact{
+    background-color: #E2B853 !important;
+    color: #000 !important;
+}
+
+.btn-contact:hover{
+    background-color: #FFF !important;
 }
 
 /*---------------------------------------------------------------- CONTACT PAGE PROPERTIES --------------------------------------------------------*/
