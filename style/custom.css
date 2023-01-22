@@ -1509,6 +1509,7 @@
     background-color: #000 !important;
     color: #FFF !important;
     padding: 10px 20px !important;
+    border-radius: 5px !important;
 }
 
 .sent-btn:hover {
