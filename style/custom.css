@@ -96,6 +96,7 @@
     padding: 4px 9px;
     font-weight: bold;
     font-family: 'Roboto';
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
 .contact-button:hover {
@@ -178,8 +179,8 @@
     flex-direction: column;
     background-size: cover;
     background-position: center;
-    background-image: url(../images/Banner-home.jpg);
-    background-color: rgba(0, 0, 0, 0.40) !important;
+    background-image: url(../images/banner-home.jpg);
+    background-color: rgba(0, 0, 0, 0.20) !important;
     background-blend-mode: soft-light;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
 }
@@ -187,7 +188,7 @@
 .info-banner {
     padding-top: 60px;
     position: absolute !important;
-    top: 350px !important;
+    top: 340px !important;
 }
 
 .subtitle-banner {
@@ -210,7 +211,6 @@
     width: 55%;
     font-size: 40px;
     font-family: 'Arial Black';
-    -webkit-text-stroke: 0.2px #000000;
     position: relative;
     top: -65px;
     max-width: 1024px;
@@ -235,8 +235,10 @@
     font-family: 'Roboto' !important;
     font-weight: bold !important;
     font-size: 18px !important;
+    height: 42px !important;
     position: relative !important;
     top: -80px !important;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
 .button-banner:hover {
@@ -331,6 +333,7 @@
     font-weight: bold !important;
     width: 200px !important;
     font-size: 18px !important;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
 .galery-about-btn:hover {
@@ -423,6 +426,7 @@
     text-align: center !important;
     margin: 0 !important;
     font-weight: bold !important;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
 .service-btn:hover {
@@ -463,6 +467,7 @@
 
 .galery-card {
     height: 100%;
+    width: 506px;
     position: relative;
     box-shadow: 0px 0.7px 3px 0px rgba(0.5, 0, 0, 0.85);
     overflow: hidden;
@@ -530,7 +535,7 @@
 
 .galery-overlay a {
     position: absolute;
-    top: 190px;
+    top: 200px;
     left: 6%;
     background: rgba(144, 144, 144, 0.2);
     background-blend-mode: soft-light;
@@ -609,10 +614,12 @@
 .newsletter-submit {
     margin: auto;
     background-color: #000000 !important;
+    color: #fff !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
     font-weight: bold !important;
     font-size: 18px !important;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
 .newsletter-submit:hover {
@@ -627,8 +634,7 @@
 
 .testimony {
     height: 530px;
-    /* background-image: url(../images/Testimony-banner.jpg); */
-    background-color: #000;
+    background-image: url("../images/testimony-banner.jpg");
     overflow: hidden;
     color: #FFF;
     position: relative;
@@ -713,6 +719,7 @@
     top: -85px;
     padding: 5px 15px;
     cursor: pointer;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
 .btn-social:hover {
@@ -768,6 +775,7 @@
     font-weight: bold !important;
     color: #FFF !important;
     font-size: 20px !important;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
 .cta-contact:hover {
@@ -846,14 +854,12 @@
     background-color: #E2B853 !important;
     color: #000 !important;
     font-weight: bold;
-    outline-color: rgba(49, 138, 172, 0) !important;
+    outline-color: rgba(0, 0, 0, 0) !important;
     outline-offset: 100px;
 }
 
 .card-service {
-    box-shadow: 7px 7px 5px 5px rgba(189, 189, 189, 0.1),
-        0 4px 3px 10px rgba(111, 105, 105, 0.1),
-        0 4px 3px 4px rgba(74, 69, 69, 0.25);
+    box-shadow: 0px 0.7px 3px 0px rgba(0.5, 0, 0, 0.15) !important;
 }
 
 .card-service:hover {
@@ -999,6 +1005,8 @@
     color: #fff !important;
     padding: 10px 15px !important;
     font-size: 18px !important;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
+
 }
 
 .button-service:hover {
@@ -1126,6 +1134,7 @@
     height: 400px;
 }
 
+<<<<<<< Updated upstream
 .images-wrapper div:hover .icon-zoom {
     animation: palpito .9s infinite;
 }
@@ -1174,6 +1183,8 @@
     width: 550px;
 } */
 
+=======
+>>>>>>> Stashed changes
 /*--------------------------------------------------------------LIGHTBOX EFECT------------------------------------------------------------------*/
 
 /*--------------------------------------------------------------LIGHTBOX EFECT-----------------------------------------------------------------*/
@@ -1198,7 +1209,7 @@
 .preview-lightbox.show {
     opacity: 1;
     pointer-events: auto;
-    transform: translate(-50%, -50%) scale(0.8); 
+    transform: translate(-50%, -50%) scale(0.8);
     transition: all 0.3s ease;
 }
 
@@ -1231,18 +1242,18 @@
     font-weight: 500;
 }
 
-.details .icon, 
-.details .icon-horizontal { 
+.details .icon,
+.details .icon-horizontal {
     font-size: 40px;
     cursor: pointer;
 }
 
 .details .icon:hover,
- .details .icon-horizontal:hover { 
+.details .icon-horizontal:hover {
     color: #E2B853;
 }
 
-.preview-lightbox .image-arrow, 
+.preview-lightbox .image-arrow,
 .preview-lightbox-horizontal .image-arrow {
     display: flex;
     width: 100%;
@@ -1263,16 +1274,16 @@
     border-radius: 3px;
 }
 
-.image-arrow .slide:hover{
+.image-arrow .slide:hover {
     color: #E2B853;
 }
 
-.slide.prev, 
+.slide.prev,
 .slide.prev-img {
     left: 0px;
 }
 
-.slide.next, 
+.slide.next,
 .slide.next-img {
     right: 0px;
 }
@@ -1282,7 +1293,7 @@
     border-radius: 0 0 3px 3px;
 }
 
-.shadow, 
+.shadow,
 .shadow-horizontal {
     position: fixed;
     top: 0;
@@ -1299,7 +1310,107 @@
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 
+<<<<<<< Updated upstream
 /* .carousel-control-prev-icon,
+=======
+.pictures-galery {
+    position: relative;
+    overflow-x: hidden;
+    height: 500px;
+}
+
+.btn-control {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    float: left;
+    left: 10%;
+    transform: translate(-50%);
+    top: 40%;
+    cursor: pointer;
+}
+
+.btn-control:nth-child(2) {
+    margin-left: -74px;
+}
+
+.individual-pictures {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+}
+
+
+.group-images {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.group-images--show {
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.group-items {
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.image-single {
+    width: 300px;
+    height: 400px;
+    border: radius 10px;
+    object-fit: cover;
+    border: #FFF 2px solid;
+}
+
+.indiviual-arrow span img {
+    margin-top: 100px !important;
+}
+
+.images-group-wrapper {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    transform: translateX(12%);
+    padding: 20px;
+}
+
+.images-group-wrapper img {
+    object-fit: cover;
+    box-shadow: 0.5px 0.9px 2px 1px rgba(205, 205, 205, 0.85);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.carousel-control-prev:hover img,
+.carousel-control-next:hover img {
+    background-color: #E2B853 !important;
+    border-radius: 5px;
+}
+
+.slide-row {
+    height: 500px !important;
+}
+
+.carousel-control-prev-icon,
+>>>>>>> Stashed changes
 .carousel-control-next-icon {
     width: 40px !important;
     height: 40px !important;
@@ -1312,7 +1423,7 @@
 .cta-section {
     /* background: radial-gradient(135% 130.95% at 50.65% 100.09%, rgba(255, 255, 255, 0) 0.83%, rgba(255, 255, 255, 7.89793e-09) 58.12%, rgba(255, 255, 255, 0.2) 100%), #000000 !important; */
     background: radial-gradient(136% 130.95% at 30.09% -30.09%, rgba(255, 255, 255, 0) 0.83%, rgba(255, 255, 255, 7.89793e-09) 58.12%, rgba(255, 255, 255, 0.2) 100%), #000000 !important;
-    height: 270px; 
+    height: 270px;
 }
 
 
@@ -1337,12 +1448,12 @@
     font-weight: bold;
 }
 
-.btn-contact{
+.btn-contact {
     background-color: #E2B853 !important;
     color: #000 !important;
 }
 
-.btn-contact:hover{
+.btn-contact:hover {
     background-color: #FFF !important;
 }
 
@@ -1413,12 +1524,13 @@
     color: #FFF !important;
     padding: 10px 20px !important;
     border-radius: 5px !important;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
 .sent-btn:hover {
     background-color: #E2B853 !important;
     border-color: #E2B853 !important;
-    color: #000000 !important;
+    color: #000000e4 !important;
 }
 
 .paragraph-form {
@@ -1516,6 +1628,7 @@
     background-color: #F3F3F3 !important;
     font-weight: bold !important;
     margin: auto !important;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
 .btn-login:hover {
@@ -1526,6 +1639,7 @@
     background-color: #F3F3F3 !important;
     margin: auto !important;
     font-weight: bold !important;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
 .suscribe-footer:hover {
@@ -1595,6 +1709,7 @@
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
     animation: palpito .9s infinite;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
 .whatsapp:hover {
