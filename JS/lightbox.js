@@ -63,7 +63,5 @@ window.onload = () => {
                 }
             }
         }
-        console.log(totalImg);
-    
-    
+        console.log(totalImg); 
 }
