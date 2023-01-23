@@ -214,6 +214,7 @@
     position: relative;
     top: -65px;
     max-width: 1024px;
+    -webkit-text-stroke: 0.2px #000000 !important;
 }
 
 .buttons {
@@ -449,7 +450,7 @@
 
 .portfolio-subtitle {
     position: relative;
-    top: 20px;
+    top: 25px;
     color: #FFF;
     font-size: 45px;
     height: 60px;
@@ -516,10 +517,10 @@
 .galery-overlay h2 {
     position: absolute;
     display: flex;
-    top: 40px;
+    top: 60px;
     left: 25px;
     color: #FFF;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 650;
 }
 
@@ -528,14 +529,14 @@
     font-weight: 300;
     font-size: 18px;
     position: absolute;
-    top: 18%;
+    top: 21%;
     left: 6%;
     width: 85%;
 }
 
 .galery-overlay a {
     position: absolute;
-    top: 200px;
+    top: 214px;
     left: 6%;
     background: rgba(144, 144, 144, 0.2);
     background-blend-mode: soft-light;
@@ -747,6 +748,10 @@
     background-position: 0 0, 10px 10px;
     overflow: hidden;
     background-size: 20px 20px;
+    padding-top: 10px;
+}
+
+.row-video-main{
     padding-top: 100px;
 }
 
@@ -1006,7 +1011,6 @@
     padding: 10px 15px !important;
     font-size: 18px !important;
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
-
 }
 
 .button-service:hover {
@@ -1122,7 +1126,6 @@
     transform: translateX(12%);
     gap: 20px;
     padding: 20px;
-    /* height:400px ; */
 }
 
 .images-wrapper img {
@@ -1132,6 +1135,11 @@
     cursor: pointer;
     width: 300px;
     height: 400px;
+}
+
+.images-wrapper img:hover{
+    transform: scale(1.1);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
 .carousel-control-prev:hover img,
@@ -1151,6 +1159,7 @@
     gap: 20px;
     transform: translateX(12%);
     padding: 20px;
+    cursor: pointer;
 }
 
 .images-group-wrapper img {
@@ -1159,9 +1168,10 @@
     overflow: hidden;
 }
 
-/* .image-group {
-    width: 550px;
-} */
+.images-group-wrapper img:hover{
+    transform: scale(0.9);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
+}
 
 /*--------------------------------------------------------------LIGHTBOX EFECT------------------------------------------------------------------*/
 
@@ -1420,7 +1430,8 @@
 }
 
 .row-video {
-    padding-top: 100px;
+    padding: 100px 0;
+
 }
 
 .cta-paragraph {
