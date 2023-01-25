@@ -571,12 +571,12 @@
 /*TESTIMONY SECTION ------------------------------------------*/
 
 .testimony {
-    height: 650px;
+    height: 680px;
     overflow: hidden;
     color: #000;
     position: relative;
     margin-top: 80px;
-    margin-bottom: 30px;
+    padding-bottom: 120px;
 }
 
 .testimony-title {
@@ -587,6 +587,25 @@
     height: 78px;
     font-weight: 600;
     margin-bottom: 60px;
+}
+
+.testimonial-wrapper{
+    width: 80%;
+    transform: translateX(12.5%);
+}
+
+.controls-slider{
+    color: #000 !important;
+    font-size: 50px !important;
+    opacity: 1 !important;
+    
+}
+
+.controls-slider:hover i {
+    background-color: #E2B853 !important;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px !important;
 }
 
 .card-testimonial img{
