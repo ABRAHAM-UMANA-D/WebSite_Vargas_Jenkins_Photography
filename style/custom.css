@@ -442,30 +442,32 @@
 /*GALERY GENERAL PROPERTIES ---------------------------------------------------------------------------------*/
 
 .galery {
-    background-color: #fff;
+    background-image: url(../images/background-galery.jpg);
+    background-blend-mode: soft-light;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.15);
 }
 
 .portfolio-subtitle {
     position: relative;
     top: 35px;
-    color: #000;
+    color: #fff;
     font-size: 45px;
     height: 60px;
     font-weight: 600;
-    text-align: center;
 }
 
 .card-galery {
     box-shadow: 0px 0.7px 3px 1px rgba(0.5, 0, 0, 0.15) !important;
 }
 
-.card-galery img{
-    height: 350px !important;
+.card-galery img {
+    height: 300px !important;
 }
 
 .card-galery:hover {
     margin-left: 15px;
     transform: scale(1.1);
+    transition: all 0.3s;
 }
 
 .card-galery:hover a {
@@ -565,23 +567,19 @@
 
 .testimony {
     height: 530px;
-    background-image: url("../images/testimony-banner.jpg");
     overflow: hidden;
-    color: #FFF;
+    color: #000;
     position: relative;
     margin-top: 100px;
-    background-blend-mode: soft-light;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.15);
 }
 
 .testimony-title {
     position: relative;
     top: 30px;
-    color: #FFF;
+    color: #000;
     font-size: 45px;
     height: 78px;
     font-weight: 600;
-    text-align: center;
 }
 
 .testimony-container {
@@ -605,10 +603,12 @@
 .testimony-arrow {
     width: 90%;
     cursor: pointer;
+    border-radius: 5px;
+    background: #000 !important;
 }
 
 .testimony-arrow:hover {
-    background-color: #E2B853;
+    background-color: #E2B853 !important;
     border-radius: 5px;
 }
 
@@ -627,7 +627,7 @@
 .testimony-img {
     width: 250px;
     height: 300px;
-    /* border-radius: 50%; */
+    border-radius: 10px;
     object-fit: cover;
     object-position: 50% 30%;
     order: 2;
@@ -644,12 +644,11 @@
 }
 
 .btn-social {
-    background-color: #FFF;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     font-weight: bold;
     border-radius: 5px;
     position: relative;
-    /* left: 371px; */
     top: -85px;
     padding: 5px 15px;
     cursor: pointer;
@@ -684,7 +683,7 @@
     padding-top: 10px;
 }
 
-.row-video-main{
+.row-video-main {
     padding-top: 100px;
 }
 
@@ -1070,7 +1069,7 @@
     height: 400px;
 }
 
-.images-wrapper img:hover{
+.images-wrapper img:hover {
     transform: scale(1.1);
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
@@ -1101,7 +1100,7 @@
     overflow: hidden;
 }
 
-.images-group-wrapper img:hover{
+.images-group-wrapper img:hover {
     transform: scale(0.9);
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
