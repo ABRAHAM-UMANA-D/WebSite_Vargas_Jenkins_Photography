@@ -354,6 +354,7 @@
     background-size: 20px 20px;
     display: grid;
     /* padding-top: 10px; */
+    margin: 100px 0 80px 0;
 }
 
 .services-container {
@@ -441,54 +442,34 @@
 /*GALERY GENERAL PROPERTIES ---------------------------------------------------------------------------------*/
 
 .galery {
-    background-color: #000;
-}
-
-.galery-container {
-    height: 630px;
+    background-color: #fff;
 }
 
 .portfolio-subtitle {
     position: relative;
     top: 35px;
-    color: #FFF;
+    color: #000;
     font-size: 45px;
     height: 60px;
     font-weight: 600;
+    text-align: center;
 }
 
-.galery-photos {
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: 500px;
-    border-radius: 3px;
-    top: 70px;
+.card-galery {
+    box-shadow: 0px 0.7px 3px 1px rgba(0.5, 0, 0, 0.15) !important;
 }
 
-.galery-card {
-    height: 100%;
-    width: 506px;
-    position: relative;
-    box-shadow: 0px 0.7px 3px 0px rgba(0.5, 0, 0, 0.85);
-    overflow: hidden;
+.card-galery img{
+    height: 350px !important;
 }
 
-.galery-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-    transition: .5s ease;
+.card-galery:hover {
+    margin-left: 15px;
+    transform: scale(1.1);
 }
 
-.galery-card:hover img {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-}
-
-.galery-card:hover img {
-    opacity: 0.3;
+.card-galery:hover a {
+    animation: pulse .8s infinite;
 }
 
 @keyframes pulse {
@@ -505,57 +486,6 @@
     }
 }
 
-.galery-card:hover a {
-    animation: pulse .8s infinite;
-}
-
-.galery-overlay {
-    transition: .5s ease;
-}
-
-
-.galery-overlay h2 {
-    position: absolute;
-    display: flex;
-    top: 60px;
-    left: 25px;
-    color: #FFF;
-    font-size: 35px;
-    font-weight: 650;
-}
-
-.galery-overlay p {
-    color: #fff;
-    font-weight: 300;
-    font-size: 18px;
-    position: absolute;
-    top: 21%;
-    left: 6%;
-    width: 85%;
-}
-
-.galery-overlay a {
-    position: absolute;
-    top: 205px;
-    left: 6%;
-    background: rgba(144, 144, 144, 0.2);
-    background-blend-mode: soft-light;
-    padding: 5px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #FFF !important;
-    font-size: 20px;
-    outline: 1px solid;
-    outline-color: rgba(49, 138, 172, 0.4);
-    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.galery-overlay a:hover {
-    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
-    outline-color: rgba(49, 138, 172, 0);
-    outline-offset: 80px;
-    text-shadow: 1px 1px 6px #fff;
-}
 
 /*NEWSLETTER SECTION PROPERTIES ----------------------------------------------------*/
 
@@ -651,6 +581,7 @@
     font-size: 45px;
     height: 78px;
     font-weight: 600;
+    text-align: center;
 }
 
 .testimony-container {
@@ -695,14 +626,16 @@
 
 .testimony-img {
     width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    height: 300px;
+    /* border-radius: 50%; */
     object-fit: cover;
     object-position: 50% 30%;
+    order: 2;
 }
 
 .testimony-texts {
     max-width: 700px;
+    order: -1;
 }
 
 .testimony-subtitle {
@@ -716,7 +649,7 @@
     font-weight: bold;
     border-radius: 5px;
     position: relative;
-    left: 371px;
+    /* left: 371px; */
     top: -85px;
     padding: 5px 15px;
     cursor: pointer;
