@@ -458,6 +458,7 @@
 
 .card-galery {
     box-shadow: 0px 0.7px 3px 1px rgba(0.5, 0, 0, 0.15) !important;
+    cursor: pointer;
 }
 
 .card-galery img {
@@ -566,11 +567,12 @@
 /*TESTIMONY SECTION ------------------------------------------*/
 
 .testimony {
-    height: 530px;
+    height: 650px;
     overflow: hidden;
     color: #000;
     position: relative;
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
 
 .testimony-title {
@@ -580,97 +582,14 @@
     font-size: 45px;
     height: 78px;
     font-weight: 600;
+    margin-bottom: 60px;
 }
 
-.testimony-container {
-    display: grid;
-    grid-template-columns: 50px 1fr 50px;
-    gap: 1em;
-    align-items: center;
-    position: relative;
-    margin: 0 auto;
-    top: 30px;
+.card-testimonial img{
+    height: 22rem;
 }
 
-.testimony-content {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 50px 0;
-}
 
-.testimony-arrow {
-    width: 90%;
-    cursor: pointer;
-    border-radius: 5px;
-    background: #000 !important;
-}
-
-.testimony-arrow:hover {
-    background-color: #E2B853 !important;
-    border-radius: 5px;
-}
-
-.testimony-body {
-    display: grid;
-    grid-template-columns: 1fr max-content;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2em;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    opacity: 0;
-    pointer-events: none;
-}
-
-.testimony-img {
-    width: 250px;
-    height: 300px;
-    border-radius: 10px;
-    object-fit: cover;
-    object-position: 50% 30%;
-    order: 2;
-}
-
-.testimony-texts {
-    max-width: 700px;
-    order: -1;
-}
-
-.testimony-subtitle {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.btn-social {
-    background-color: #000;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 5px;
-    position: relative;
-    top: -85px;
-    padding: 5px 15px;
-    cursor: pointer;
-    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
-}
-
-.btn-social:hover {
-    background-color: #E2B853;
-    color: #000;
-}
-
-.testimony_course {
-    color: #fff;
-    display: inline-block;
-    padding: 5px;
-}
-
-.testimony-body--show {
-    pointer-events: unset;
-    opacity: 1;
-    transition: opacity 1.5s ease-in-out;
-}
 
 /*HOME AND CONTACT CALL TO ACTION SECTION PROPERTIES ---------------------------------*/
 
