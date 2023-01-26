@@ -1,4 +1,4 @@
-const gallery = document.querySelectorAll(".image-box"),
+const gallery = document.querySelectorAll(".img-gallery"),
     previewBox = document.querySelector(".preview-lightbox"),
     previewImg = previewBox.querySelector("img"),
     closeIcon = previewBox.querySelector(".icon"),
