@@ -988,6 +988,32 @@
     margin-bottom: 40px;
 }
 
+.btn-load-more{
+    background-color: #E2B853 !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    padding: 10px 30px !important;
+    font-size: 18px !important;
+}
+
+.btn-load-more:hover{
+    background-color: #fff !important;
+    cursor: pointer;
+}
+
+.wrapper-gallery{
+    display: none;
+}
+
+.wrapper-gallery:nth-child(1){
+    display: block;
+}
+
+
+
+/* -------------------- */
+
+
 .slide-row {
     height: 500px !important;
 }
