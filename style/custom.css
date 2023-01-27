@@ -58,6 +58,10 @@
     font-weight: 499 !important;
 }
 
+.nav-link-drop{
+    padding: 1px 13px !important;
+}
+
 .item .nav_link:hover {
     color: #E2B853 !important;
     border: none;
