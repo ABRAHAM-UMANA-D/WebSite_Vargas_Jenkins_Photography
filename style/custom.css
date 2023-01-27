@@ -154,6 +154,10 @@
     display: block;
 }
 
+.show-package {
+    display: block;
+}
+
 .nav_menu {
     margin-left: auto;
     cursor: pointer;
