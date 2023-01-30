@@ -1373,6 +1373,22 @@
     display: block !important;
 }
 
+.benefits-platinum{
+    display: none;
+}
+
+.benefits-platinum:nth-child(1){
+    display: block !important;
+}
+
+.benefits-platinum:nth-child(2){
+    display: block !important;
+}
+
+.benefits-platinum:nth-child(3){
+    display: block !important;
+}
+
 .feature-package{
     text-align: center;
 }
