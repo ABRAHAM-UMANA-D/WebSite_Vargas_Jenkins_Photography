@@ -37,19 +37,31 @@
                                 data-bs-toggle="dropdown" aria-expanded="false" id="packages-menu">
                                 Paquetes
                             </a>
-                            <ul id="dropdownGalery" class="dropdown-content dropdown-menu" aria-labelledby="packages-menu">
-                                <li class="dropdown dropend">
-                                    <a class="menu-item dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false" id="multiLevelMenu">
-                                        <i class="bi bi-mortarboard-fill"></i> Graduaciones
-                                    </a>
+                            <ul id="dropdownGalery" class="dropdown-content dropdown-menu"
+                                aria-labelledby="packages-menu">
+                                <li class="accordion accordion-navbar" id="accordionExample"">
+                                    <div  class="accordion-item">
+                                        <h2 class="accordion-header accordion-package " id="headingOne">
+                                            <a class="accordion-button menu-item btn-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <i class="bi bi-mortarboard-fill"></i> Graduaciones
+                                            </a>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <a class="menu-item" href="PackageGdMaternal.html">Materno</a>
+                                                <a class="menu-item" href="PackageGdKinder.html">Kinder</a>
+                                                <a class="menu-item" href="PackageGdCollege.html">Colegios</a>
+                                            </div>
+                                          </div>
+                                    </div>
+
                                     <ul class="dropdown-menu" aria-labelledby="multiLevelMenu">
-                                        <li><a class="menu-item" href="PackageGdMaternal.html">Materno</a></li>
+                                        <li></li>
                                         <li><a class="menu-item" href="PackageGdKinder.html">Kinder</a></li>
-                                        <li><a class="menu-item" href="PackageGdCollege.html">Colegios</a>
+                                        <li>
                                         </li>
                                     </ul>
-                                </li>  
+                                </li>
                                 <li>
                                     <a class="menu-item" href="../html/PackageMarried.html">
                                         <i class="fa-solid fa-ring"></i> Matrimonios
@@ -604,7 +616,7 @@
 
     <!-- SCRIPTS ------------------------------------------------------------------------------>
     <script src="../js/testimony.js"></script>
-    <script src="../js/dropdown.js"></script>
+<!--     <script src="../js/dropdown.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
