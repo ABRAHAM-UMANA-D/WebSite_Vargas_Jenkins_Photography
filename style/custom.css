@@ -1285,12 +1285,13 @@
 /*---------------------------------------------------------------- PACKAGES PAGE PROPERTIES --------------------------------------------------------*/
 
 /*---------------------------------------------------------------- PACKAGES PAGE PROPERTIES --------------------------------------------------------*/
+
 .premium{
     padding-bottom: 50px;
 }
 
 .packages-graduation{
-    padding-top: 100px; 
+    padding-bottom: 10px; 
 }
 
 .title-package{
@@ -1317,7 +1318,7 @@
 }
 
 .package-price-title{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     font-weight: bold;
     font-size: 22px;
 }
@@ -1343,7 +1344,7 @@
 }
 
 .slider-packages{
-    width: 500px;
+    width: 550px;
     margin-left: 100px;
     /* transform: translate(20%); */
 }
@@ -1355,6 +1356,10 @@
 
 .benefits-package{
     padding-top: 40px !important;
+}
+
+.bold-text{
+    font-weight: bold;
 }
 
 .benefits{
@@ -1461,6 +1466,50 @@
 /* .golden .feature-package i{
     color: #E2B853;
 } */
+
+.package-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.accordion{
+    --bs-accordion-active-bg: #000 !important;   
+}
+
+.accordion-button:not(.collapsed){
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+.accordion-button{
+    font-weight: bold !important;
+}
+
+.maternal-one{
+    border-color: #9E0042 !important;
+}
+
+.header-maternal-one{
+    background-color: #9E0042 !important;
+    color: #FFF !important;
+}
+
+.maternal-two{
+    border-color: #000 !important;
+}
+.header-maternal-two{
+    background-color: #000 !important;
+    color: #FFF !important;
+}
+
+.maternal-three{
+    border-color: #CC9934 !important;
+}
+
+.header-maternal-three{
+    background-color: #CC9934 !important;
+    color: #000 !important;
+}
 
 
 
@@ -1836,3 +1885,4 @@
         display: none;
     }
 }
+
