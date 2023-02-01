@@ -145,13 +145,13 @@
     transition: all 150ms ease !important;
 }
 
-/* .btn-accordion .accordion-button:not(.collapsed){
-    font-weight: initial !important;
-    color: #000 !important;
-} */
+.item-graduation i{
+    font-size: 5px;
+}
 
 .accordion-package{
     background-color: #FFF !important;
+    padding: 12px 0px 0px 16px !important;
 }
 
 .accordion-navbar{
@@ -1304,61 +1304,9 @@
 
 /*---------------------------------------------------------------- PACKAGES PAGE PROPERTIES --------------------------------------------------------*/
 
-.premium{
-    padding-bottom: 50px;
-}
-
-.packages-graduation{
-    padding-bottom: 10px; 
-}
-
-.title-package{
-    margin-bottom: 10px;
-    font-weight: bold;
-    font-size: 40px;
-}
 
 .title-color-new{
     color: #9E0042;   
-}
-
-
-.description-package{
-    margin-bottom: 10px;
-    font-size: 16px;
-    font-weight: 450;
-    /* padding-right: 50px; */
-    text-align: justify;
-}
-
-.description-package i{
-    font-size: 20px;
-}
-
-.package-price-title{
-    /* margin-top: 30px; */
-    font-weight: bold;
-    font-size: 22px;
-}
-
-.package-price{
-    font-size: 20px;
-}
-
-.package-price .price-labeled{
-    text-decoration:line-through !important;
-}
-
-.btn-contact-pk{
-    margin: 0 !important;
-    background-color: #47011E !important;
-    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
-    color: #EFEFEF !important;
-}
-
-.btn-contact-pk:hover{
-    background-color: #000 !important;
-    color: #EFEFEF !important;
 }
 
 .slider-packages{
@@ -1372,6 +1320,47 @@
     
 }
 
+.price-section{
+    background-color: rgb(235, 235, 235);
+}
+
+.package-price-title{
+    font-weight: bold;
+    font-size: 22px;
+    float: left;
+}
+
+.package-price{
+    font-size: 25px;
+}
+
+.package-price .price-labeled{
+    text-decoration:line-through !important;
+    font-size: 20px;
+}
+
+.btn-contact-pk{
+    margin: 0 !important;
+    background-color: #47011E !important;
+    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
+    color: #EFEFEF !important;
+    padding: 10px 25px !important;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-contact-pk{
+    display: none;
+}
+
+.btn-contact-pk:hover{
+    background-color: #000 !important;
+    color: #EFEFEF !important;
+}
+
+
+
 .benefits-package{
     padding-top: 40px !important;
 }
@@ -1384,46 +1373,6 @@
     display: none;
 }
 
-.benefits:nth-child(1){
-    display: block !important;
-}
-
-.benefits:nth-child(2){
-    display: block !important;
-}
-
-.benefits:nth-child(3){
-    display: block !important;
-}
-
-.benefits-platinum{
-    display: none;
-}
-
-.benefits-platinum:nth-child(1){
-    display: block !important;
-}
-
-.benefits-platinum:nth-child(2){
-    display: block !important;
-}
-
-.benefits-platinum:nth-child(3){
-    display: block !important;
-}
-
-.feature-package{
-    text-align: center;
-}
-
-.feature-package i{
-    font-size: 30px;
-}
-
-.benefit-description{
-    text-align: justify;
-}
-
 .view-more-packages{
     text-align: center;
 }
@@ -1432,79 +1381,53 @@
     background-color: #47011E !important;
     box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
     color: #EFEFEF !important;
-    padding: 10px 15px !important;
+    padding: 5px 10px !important;
     font-weight: bold !important;
-    font-size: 18px;
+    font-size: 16px;
+    border-radius: 50%;
 }
 
 .btn-view-more:hover{
     background-color: #000 !important;
 }
 
-.platinum{
-    background-color: #000;
-    color: #EFEFEF;
-    padding-bottom: 20px;
-}
-
-.platinum .btn-view-more,
-.platinum .btn-contact-pk{
-    background-color: #D0D0D0 !important;
-    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.3) !important;
-    color: #000 !important;
-}
-
-.platinum .btn-view-more:hover,
-.platinum .btn-contact-pk:hover{
-    background: #f9f9f9 !important;
-}
-
-
-.golden{
-    background-color: #000;
-    color: #EFEFEF;
-}
-
-.golden .title-color-new{
-    color: #E2B853 !important;
-}
-
-.golden .btn-view-more,
-.golden .btn-contact-pk{
-    background-color: #CC9934 !important;
-    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7) !important;
-    color: #000 !important;
-}
-
-.golden .btn-view-more:hover,
-.golden .btn-contact-pk:hover{
-    background: #FFF !important;
-}
-
-/* .golden .feature-package i{
-    color: #E2B853;
-} */
 
 .package-section{
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-/* .accordion{
-    --bs-accordion-active-bg: #000 !important;   
-} */
+.card-package{
+    margin-bottom: 20px ;
+}
 
-/* .accordion-button:not(.collapsed){
-    color: #fff !important;
-    font-weight: bold !important;
-} */
-
-/* .accordion-button{
-    font-weight: bold !important;
-} */
 
 .maternal-one{
     border-color: #9E0042 !important;
+}
+
+.benefit-one{
+    display: none;
+}
+
+.benefit-one:nth-child(1){
+    display: block;
+}
+
+.benefit-two{
+    display: none;
+}
+
+.benefit-two:nth-child(1){
+    display: block;
+}
+
+.benefit-three{
+    display: none;
+}
+
+.benefit-three:nth-child(1){
+    display: block;
 }
 
 .header-maternal-one{

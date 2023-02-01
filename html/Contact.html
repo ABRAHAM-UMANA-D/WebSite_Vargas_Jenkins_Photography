@@ -34,47 +34,91 @@
                     <li class="item"><a href="services.html" class="nav_link">Servicios</a></li>
                     <li class="item">
                         <div class="dropdown-galery-options">
-                            <a href="#" onclick="myFunction()" class="nav_link">Galeria <i
-                                    class="bi bi-caret-down-fill"></i>
+                            <a href="#" class="dropdown-toggle nav_link nav-link-drop" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" id="packages-menu">
+                                Paquetes
                             </a>
-                            <div id="dropdownGalery" class="dropdown-content">
-                                <a class="menu-item" href="../html/graduationGalery.html">Graduaciones</a>
-                                <a class="menu-item" href="../html/marriedGalery.html">Matrimonios</a>
-                                <a class="menu-item" href="../html/birthdayGalery.html">Cumpleaños</a>
-                            </div>
+                            <ul id="dropdownGalery" class="dropdown-content dropdown-menu"
+                                aria-labelledby="packages-menu">
+                                <li class="accordion accordion-navbar" id="accordionExample"">
+                                    <div  class=" accordion-item">
+                                    <h6 class="accordion-header accordion-package" id="headingOne">
+                                        <i class="bi bi-mortarboard-fill"></i> Graduaciones
+                                    </h6>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <a class="menu-item item-graduation" href="PackageGdMaternal.html"><i class="bi bi-circle-fill"></i> Materno</a>
+                                            <a class="menu-item item-graduation" href="PackageGdKinder.html"><i class="bi bi-circle-fill"></i> Kinder</a>
+                                            <a class="menu-item item-graduation" href="PackageGdCollege.html"><i class="bi bi-circle-fill"></i> Colegios</a>
+                                        </div>
+                                    </div>
                         </div>
-                    </li>
-                    <li class="item">
-                        <div class="dropdown-packages-options">
-                            <a href="#" onclick="dropdownPackages()" class="nav_link">Paquetes
-                                <i class="bi bi-caret-down-fill"></i>
-                            </a>
-                            <div id="dropdownPackage" class="dropdown-content">
-                                <a class="menu-item" href="../html/PackageGraduaction.html">Graduaciones</a>
-                                <a class="menu-item" href="../html/PackageMarried.html">Matrimonios</a>
-                                <a class="menu-item" href="../html/PackageBirthday.html">Cumpleaños</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <a class="contact-button" href="contact.html">Contáctanos</a>
-                    </li>
-                    <ul class="social-networks">
-                        <li class="item"><a href="" class="icon" title="Visitar Facebook de la empresa"><i
-                                    class="bi bi-facebook"></i></a></li>
-                        <li class="item"><a href="" class="icon"><i class="bi bi-instagram"
-                                    title="Visitar el Instagram de la empresa"></i></a></li>
-                        <li class="item"><a href="" class="icon"><i class="bi bi-tiktok"
-                                    title="Visitar el TikTok de la empresa"></i></a></li>
-                    </ul>
-                    <img src="../images/close.svg" alt="cerrar" class="nav_close">
-                </ul>
-                <div class="nav_menu">
-                    <a href="">
-                        <img src="../images/Menu.svg" alt="menu" class="nav_img">
-                    </a>
 
+                        <ul class="dropdown-menu" aria-labelledby="multiLevelMenu">
+                            <li></li>
+                            <li><a class="menu-item" href="PackageGdKinder.html">Kinder</a></li>
+                            <li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="../html/PackageMarried.html">
+                            <i class="fa-solid fa-ring"></i> Matrimonios
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="../html/PackageBirthday.html">
+                            <i class="fa-solid fa-cake-candles"></i> Cumpleaños
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </li>
+            <li class="item">
+                <div class="dropdown-galery-options">
+                    <a href="#" class="dropdown-toggle nav_link nav-link-drop" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Galeria
+                    </a>
+                    <ul id="dropdownGalery" class="dropdown-content dropdown-menu">
+                        <li>
+                            <a class=" menu-item" href="../html/graduationGalery.html">
+                                <i class="bi bi-mortarboard-fill"></i> Graduaciones
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="../html/marriedGalery.html">
+                                <i class="fa-solid fa-ring"></i> Matrimonios
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="../html/birthdayGalery.html">
+                                <i class="fa-solid fa-cake-candles"></i> Cumpleaños
+                            </a>
+                        </li>
+                    </ul>
                 </div>
+            </li>
+            <li class="item">
+                <a class="contact-button" href="contact.html">Contáctanos</a>
+            </li>
+            <ul class="social-networks">
+                <li class="item"><a href="" class="icon" title="Visitar Facebook de la empresa"><i
+                            class="bi bi-facebook"></i></a></li>
+                <li class="item"><a href="" class="icon"><i class="bi bi-instagram"
+                            title="Visitar el Instagram de la empresa"></i></a></li>
+                <li class="item"><a href="" class="icon"><i class="bi bi-tiktok"
+                            title="Visitar el TikTok de la empresa"></i></a></li>
+            </ul>
+            <img src="../images/close.svg" alt="cerrar" class="nav_close">
+            </ul>
+            <div class="nav_menu">
+                <a href="">
+                    <img src="../images/Menu.svg" alt="menu" class="nav_img">
+                </a>
+
+            </div>
             </div>
         </nav>
         <section class="banner banner-contact">
