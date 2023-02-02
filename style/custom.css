@@ -1363,15 +1363,11 @@
     color: #EFEFEF !important;
 }
 
-<<<<<<< Updated upstream
 .benefits-package{
     padding-bottom: 40px !important;
 }
 
 .benefits-title{
-=======
-.benefits-title {
->>>>>>> Stashed changes
     font-weight: bold;
     margin: 10px 0 !important;
 }
@@ -1403,6 +1399,7 @@
 .btn-view-more-one {
     background-color: #fff !important;
     color: #000 !important;
+    margin-top: 10px !important;
 }
 
 .btn-view-more-one:hover {
