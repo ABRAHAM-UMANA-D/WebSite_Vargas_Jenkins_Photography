@@ -1359,6 +1359,10 @@
     color: #EFEFEF !important;
 }
 
+.benefits-package{
+    padding-bottom: 40px !important;
+}
+
 .benefits-title{
     font-weight: bold;
     margin: 10px 0 !important;
