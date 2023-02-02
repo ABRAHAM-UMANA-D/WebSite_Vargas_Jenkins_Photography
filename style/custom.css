@@ -1837,10 +1837,115 @@
 /* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
 
 /* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
-@media screen and (min-width:350px) and (max-width:480px) {
+@media screen and (max-width:480px) {
     .service{
         grid-template-columns: 100%;
         height: auto !important;
     }
+
+    .marriage-service .info-service{
+        order: -1;
+    }
+
+    .birthday-service .info-service{
+        order: -1;
+    }
+
+    .info-service{
+        height: auto !important;
+        padding-bottom: 10px;
+    }
+
+    .col-right {
+        padding: 40px 50px 0 30px;
+    }
+    
+    .col-left {
+        padding: 40px 50px 0 30px;
+    }
+
+    .button-service{
+        width: 100%;
+    }
+
+    .image-service{
+        padding: 10px 30px 0 30px;
+        height: auto;
+    }
+
+    .figure-service img{
+        border-radius: 10px;
+    }
+
+    .birthday-service .image-service{
+        padding-bottom: 50px !important;
+    }
 }
+
+@media screen and (max-width:600px) {
+    .service{
+        grid-template-columns: 100%;
+        height: auto !important;
+    }
+
+    .marriage-service .info-service{
+        order: -1;
+    }
+
+    .birthday-service .info-service{
+        order: -1;
+    }
+
+    .info-service{
+        height: auto !important;
+        padding-bottom: 10px;
+    }
+
+    .col-right {
+        padding: 40px 50px 0 30px;
+    }
+    
+    .col-left {
+        padding: 40px 50px 0 30px;
+    }
+
+    .button-service{
+        width: 100%;
+    }
+
+    .image-service{
+        padding: 10px 30px 0 30px;
+        height: auto;
+    }
+
+    .figure-service img{
+        border-radius: 10px;
+    }
+
+    .birthday-service .image-service{
+        padding-bottom: 50px !important;
+    }
+}
+
+@media screen and (max-width:800px){
+    .service{
+        height: auto !important;
+    }
+
+    .col-right, .col-left {
+        padding: 20px 20px 20px 20px; 
+    }
+
+    .image-service{
+        height: auto !important;
+    }
+
+    .info-service{
+        height: auto !important;
+        padding-bottom: 10px;
+    }
+    
+}
+
+
 
