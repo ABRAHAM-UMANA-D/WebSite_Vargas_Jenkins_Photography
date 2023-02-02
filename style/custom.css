@@ -145,8 +145,12 @@
     transition: all 150ms ease !important;
 }
 
+.item-graduation {
+    font-size: 14px;
+}
+
 .item-graduation i {
-    font-size: 5px;
+    font-size: 15px;
 }
 
 .accordion-package {
@@ -1310,7 +1314,7 @@
     margin: 20px 0 !important;
 }
 
-.information-package{
+.information-package {
     padding-bottom: 40px !important;
 }
 
@@ -1330,7 +1334,7 @@
     font-size: 25px;
 }
 
-.discount-package{
+.discount-package {
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -1343,8 +1347,8 @@
     font-size: 18px !important;
     font-weight: bold !important;
     width: 100% !important;
-    
-   /*  position: relative;
+
+    /*  position: relative;
     z-index: 0; */
 }
 
@@ -1359,22 +1363,26 @@
     color: #EFEFEF !important;
 }
 
+<<<<<<< Updated upstream
 .benefits-package{
     padding-bottom: 40px !important;
 }
 
 .benefits-title{
+=======
+.benefits-title {
+>>>>>>> Stashed changes
     font-weight: bold;
     margin: 10px 0 !important;
 }
 
-.benefit-description{
+.benefit-description {
     font-size: 14px;
     font-weight: 300 !important;
     margin-bottom: 15px !important;
 }
 
-.packages-benefits p i{
+.packages-benefits p i {
     color: #47011E;
 }
 
@@ -1392,12 +1400,12 @@
     width: 90%;
 }
 
-.btn-view-more-one{
+.btn-view-more-one {
     background-color: #fff !important;
     color: #000 !important;
 }
 
-.btn-view-more-one:hover{
+.btn-view-more-one:hover {
     color: #FFF !important;
     background-color: #000 !important;
 }
@@ -1406,7 +1414,7 @@
     padding: 10px 15px !important;
 }
 
-.text-bold{
+.text-bold {
     font-weight: bold;
 }
 
@@ -1841,6 +1849,7 @@
 /* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
 
 /* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
+<<<<<<< Updated upstream
 @media screen and (max-width:480px) {
     .service{
         grid-template-columns: 100%;
@@ -1953,3 +1962,11 @@
 
 
 
+=======
+@media screen and (min-width:350px) and (max-width:480px) {
+    .service {
+        grid-template-columns: 100%;
+        height: auto !important;
+    }
+}
+>>>>>>> Stashed changes
