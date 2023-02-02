@@ -2,8 +2,6 @@ var benefits_one = document.querySelectorAll('.benefit-one');
 var benefits_two = document.querySelectorAll('.benefit-two');
 var benefits_three = document.querySelectorAll('.benefit-three');
 
-var btn_contact = document.querySelector('.btn-contact-pk');
-
 var btn_load_first = document.getElementById("btn-one");
 var btn_load_two = document.getElementById("btn-two");
 var btn_load_three = document.getElementById("btn-three");
@@ -19,8 +17,7 @@ function viewMore() {
             console.log(benefits_one[i]);
             benefits_one[i].style.display = 'block';
         }
-        btn_load_first.style.display = 'none'
-        btn_contact.style.display = 'block'
+        btn_load_first.style.display = 'none';
     }
     benefitCurrent += 1;
 }
@@ -33,7 +30,6 @@ function viewMoreTwo() {
             benefits_two[i].style.display = 'block';
         }
         btn_load_two.style.display = 'none';
-        btn_contact.style.display = 'block'
     }
 
     benefitSecondCurrent += 1;
@@ -47,7 +43,6 @@ function viewMoreThree() {
             benefits_three[i].style.display = 'block';
         }
         btn_load_three.style.display = 'none'
-        btn_contact.style.display = 'block'
     }
     benefitsThreeCurrent += 2;
 }
