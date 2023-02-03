@@ -1319,14 +1319,17 @@
 }
 
 .title-package {
-    font-weight: bold;
+    font-size: 25px;
     margin-top: 15px !important;
+    font-family: 'Roboto Slab';
 }
 
 .package-price {
     font-size: 35px;
     padding-right: 15px;
     margin-bottom: 10px;
+    font-family: 'Roboto Slab';
+    font-weight: 550;
 }
 
 .package-price .price-labeled {
