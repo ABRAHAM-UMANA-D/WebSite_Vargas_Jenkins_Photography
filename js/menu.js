@@ -1,17 +1,14 @@
 (function () {
     const openButton = document.querySelector('.nav_menu');
-    const menu = document.querySelector('.nav_link');
+    const menu = document.querySelector('.navbar-nav');
     const closeMenu = document.querySelector('.nav_close');
 
     openButton.addEventListener('click', () => {
-        menu.classList.add('nav_link--show');
+        menu.classList.add('navbar-nav--show');
     });
 
     closeMenu.addEventListener('click', () => {
-        menu.classList.remove('nav_link--show');
+        menu.classList.remove('navbar-nav--show');
     });
-
-
-
-
+    
 })();
