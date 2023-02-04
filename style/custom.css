@@ -1754,7 +1754,7 @@
 /*RESPONSIVE DESING NAVBAR*/
 
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width:350px) and (max-width: 430px) {
 
     .nav_menu {
         display: flex;
@@ -1837,6 +1837,10 @@
 
     .principal-banner {
         margin-top: 10px !important;
+    }
+
+    .main-container{
+        margin-bottom: 50px;
     }
 
     .about {
@@ -1995,14 +1999,14 @@
 
     .contact-video {
         height: 300px;
-        margin-top: 40px !important;
+        margin-top: 30px !important;
     }
 
     .footer {
         padding-top: 0;
         padding-left: 20px;
         padding-right: 20px;
-        height: 1210px;
+        height: 885px;
     }
 
 
@@ -2045,6 +2049,10 @@
         position: relative;
         width: 352px;
         bottom: 90px;
+    }
+
+    .form-control{
+        display: flex;
     }
 
     .title-newsletter,
