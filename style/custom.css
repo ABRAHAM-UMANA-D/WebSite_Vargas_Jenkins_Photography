@@ -1854,8 +1854,12 @@
         margin-bottom: 10px !important;
     }
 
-    .about-view-more-btn{
+    .about-view-more-btn {
         font-size: 16px !important;
+    }
+
+    .testimony-view-more {
+        margin-top: 0 !important;
     }
 
     .service-header,
@@ -1897,7 +1901,7 @@
 
     .about-galeries {
         padding-top: 50px !important;
-        padding-bottom: 50px  !important;
+        padding-bottom: 50px !important;
         margin-bottom: 0 !important;
     }
 
@@ -1912,12 +1916,21 @@
         margin: 20px !important;
     }
 
-    .newsletter{
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-text,
+    .btn-card {
+        font-size: 16px;
+    }
+
+    .newsletter {
         padding: 50px 0;
         height: 470px;
     }
 
-    .newsletter-image{
+    .newsletter-image {
         display: none;
     }
 
@@ -1926,57 +1939,141 @@
         margin: 0 auto !important;
     }
 
-    .newsletter-subtitle{
-        font-size: 24px !important;
+    .newsletter-subtitle {
+        font-size: 23px !important;
     }
 
-    .newsletter_paragrah, .form-subtitle, .newsletter-submit{
+    .newsletter_paragrah,
+    .form-subtitle,
+    .newsletter-submit {
         font-size: 16px !important;
     }
 
-    .newsletter-input{
+    .newsletter-input {
         width: 354px !important;
     }
 
     /*-----------------------------------------------*/
-    .cta{
+    .cta {
         display: inline-block;
-        height: 630px;
+        height: 550px;
     }
 
-    .cta-content{
+    .cta-content {
         order: 1 !important;
         margin-bottom: 100px !important;
     }
 
-    .cta-subtitle{
-        font-size: 24px !important;
+    .cta-subtitle {
+        font-size: 23px !important;
         position: relative;
-        bottom: 80px !important;
+        bottom: 185px !important;
         width: 90% !important;
         margin: 0 auto !important;
     }
 
-    .cta-paragraph{
+    .cta-paragraph {
         font-size: 16px !important;
         position: relative;
-        bottom: 70px !important;
+        bottom: 175px !important;
         width: 90% !important;
         margin: 0 auto !important;
     }
 
-    .row-video-main{
+    .row-video-main {
         padding-top: 0;
     }
 
-    .cta-contact{
+    .cta-contact {
         position: relative;
-        bottom: 50px;
+        bottom: 160px;
         display: block !important;
         width: 90% !important;
         margin: 0 auto !important;
         font-size: 16px !important;
     }
+
+    .contact-video {
+        height: 300px;
+        margin-top: 40px !important;
+    }
+
+    .footer {
+        padding-top: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 1210px;
+    }
+
+
+    .logo-footer {
+        position: relative;
+        width: 220px;
+        height: 260px;
+        bottom: 50px;
+        right: 7px;
+    }
+
+    .gold-footer {
+        display: none;
+    }
+
+    .social {
+        position: relative;
+        width: 180px;
+        height: 20px;
+        display: inline-block;
+        top: -135px;
+    }
+
+    .info-contact {
+        left: 1px !important;
+        display: inline-block;
+        top: -115px;
+    }
+
+    .title-contact {
+        font-size: 18px;
+    }
+
+    .text-white,
+    .btn-login {
+        font-size: 16px;
+    }
+
+    .form-footer {
+        position: relative;
+        width: 352px;
+        bottom: 90px;
+    }
+
+    .title-newsletter,
+    .text-white {
+        width: 300px;
+    }
+
+    .copyright-policies {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-left: 10px !important;
+        bottom: 100px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .policies {
+        text-align: center;
+        left: 0;
+    }
+
+    .privacy-policies {
+        margin-left: 0 !important;
+    }
+
 }
 
 
