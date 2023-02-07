@@ -1976,26 +1976,68 @@
 
     /* ------------------------------ RESPONSIVE CTA SECTION DESIGN -------------------------------------------------------*/
 
-    .video {
+    .cta{
+        height: 650px !important;
+        padding-top: 95px !important;
+    }
+  
+
+    .cta-content{
+        order: 1;
         display: inline-block !important;
-        align-items: center !important;
-        justify-content: center !important;
-        margin: 0 auto !important;
-        width: 500px !important;
-        height: 340px !important;
+        top: -80px !important;
+        padding-top: 40px !important;
+    }
+
+    .cta-subtitle{
+        font-size: 30px !important;
+    }
+
+    .cta-paragraph{
+        font-size: 18px !important;
     }
 
     .contact-video {
         width: 500px !important;
         height: 340px !important;
+        margin: 0 auto !important;
     }
 
     .cta-video {
         padding: 0 !important;
-        width: 500px !important;
-        height: 340px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
+    .row-video-main{
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 100% !important;
+    }
+
+    /* ------------------------------ RESPONSIVE FOOTER SECTION DESIGN -------------------------------------------------------*/
+
+    .footer{
+        height: 1000px !important;
+    }
+
+    .form-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .policies{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .privacy-policies{
+        text-align: center;
+    }
+    
 }
 
 @media screen and (max-width: 600px) {
