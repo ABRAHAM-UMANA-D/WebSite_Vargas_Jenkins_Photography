@@ -1383,12 +1383,12 @@
     padding-bottom: 40px !important;
 }
 
-.benefits-title  {
+.benefits-title {
     font-weight: bold;
     margin: 10px 0 !important;
 }
 
-.benefit-description  {
+.benefit-description {
     font-size: 14px;
     font-weight: 300 !important;
     margin-bottom: 15px !important;
@@ -1398,7 +1398,7 @@
     color: #ae1d5a;
 }
 
-.packages-benefits p i  {
+.packages-benefits p i {
     color: #47011E;
 }
 
@@ -1416,7 +1416,7 @@
     width: 90%;
 }
 
-.btn-view-more-one  {
+.btn-view-more-one {
     background-color: #fff !important;
     color: #000 !important;
     margin-top: 10px !important;
@@ -1444,7 +1444,7 @@
     display: block;
 }
 
-.platinum-package{
+.platinum-package {
     color: #EFEFEF;
     background: #000 !important;
 
@@ -1975,6 +1975,27 @@
     }
 
     /* ------------------------------ RESPONSIVE CTA SECTION DESIGN -------------------------------------------------------*/
+
+    .video {
+        display: inline-block !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin: 0 auto !important;
+        width: 500px !important;
+        height: 340px !important;
+    }
+
+    .contact-video {
+        width: 500px !important;
+        height: 340px !important;
+    }
+
+    .cta-video {
+        padding: 0 !important;
+        width: 500px !important;
+        height: 340px !important;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -2376,30 +2397,30 @@
 
 /* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
 @media screen and (max-width:480px) {
-    .banner-services{
+    .banner-services {
         height: 250px !important;
     }
 
-    .banner-services .info-banner{
+    .banner-services .info-banner {
         top: 170px !important;
     }
 
-    .banner-services .title-banner{
+    .banner-services .title-banner {
         text-align: start !important;
         width: 100% !important;
         top: -80px !important;
     }
 
-    .banner-services .subtitle-banner{
+    .banner-services .subtitle-banner {
         justify-content: left !important;
         top: -75px !important;
     }
 
-    .banner-services .buttons{
+    .banner-services .buttons {
         text-align: justify;
     }
 
-    .banner-services .button-banner{
+    .banner-services .button-banner {
         top: -95px !important;
     }
 
@@ -2525,31 +2546,31 @@
 } */
 
 @media screen and (min-width:481px) and (max-width:800px) {
-    .banner-services{
+    .banner-services {
         height: 400px !important;
     }
 
-    .banner-services .info-banner{
+    .banner-services .info-banner {
         top: 200px !important;
     }
 
-    .banner-services .title-banner{
+    .banner-services .title-banner {
         text-align: left !important;
         width: 80% !important;
         top: -80px !important;
     }
 
-    .banner-services .subtitle-banner{
+    .banner-services .subtitle-banner {
         justify-content: left !important;
         top: -75px !important;
     }
 
-    .banner-services .buttons{
+    .banner-services .buttons {
         text-align: justify;
-        
+
     }
 
-    .banner-services .button-banner{
+    .banner-services .button-banner {
         top: -90px !important;
     }
 
@@ -2574,7 +2595,7 @@
 }
 
 
-@media screen and (min-width:801px) and (max-width:1024px){
+@media screen and (min-width:801px) and (max-width:1024px) {
     .col-right {
         padding: 40px 50px 0 30px;
     }
@@ -2604,38 +2625,38 @@ For Extra-large size device: 1200px and more
 
 /* ------------------------------------------ RESPONSIVE MEDIA PACKAGE PAGE --------------------------*/
 @media screen and (max-width:480px) {
-    .banner-packages .subtitle-banner{
+    .banner-packages .subtitle-banner {
         justify-content: left !important;
     }
 
-    .banner-packages .title-banner{
+    .banner-packages .title-banner {
         text-align: start !important;
     }
 
-    .banner-packages .buttons{
+    .banner-packages .buttons {
         text-align: justify;
     }
 
-    .package-section{
+    .package-section {
         padding-top: 70px;
         padding-bottom: 80px;
     }
 
-    .card-package{
+    .card-package {
         margin: 0;
         width: 100%;
     }
 
-    .card-mobile{
+    .card-mobile {
         flex: 1 0 100% !important;
     }
 
-    .card-kinder{
+    .card-kinder {
         width: auto !important;
     }
 
 
-    .cta-section{
+    .cta-section {
         height: auto;
         padding-bottom: 40px !important;
     }
