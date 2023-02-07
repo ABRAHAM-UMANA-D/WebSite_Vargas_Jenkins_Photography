@@ -1750,11 +1750,9 @@
 /*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
 
 /*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
+@media screen and (Max-width:800px) {
 
-/*RESPONSIVE DESING NAVBAR*/
-
-
-@media screen and (min-width:350px) and (max-width: 430px) {
+    /*------------------------------------------ RESPONSIVE DESING NAVBAR ----------------------------------------*/
 
     .nav_menu {
         display: flex;
@@ -1805,6 +1803,169 @@
         margin-left: 7px;
     }
 
+    /* ------------------------------ RESPONSIVE BANNER DESIGN -------------------------------------------------------*/
+
+    .banner {
+        background-color: rgba(0, 0, 0, 0.50) !important;
+        background-blend-mode: soft-light !important;
+    }
+
+    .info-banner {
+        margin-top: 50px;
+        display: grid !important;
+        gap: 1em !important;
+    }
+
+    .sub-main {
+        text-align: center;
+    }
+
+    .title-banner {
+        font-size: 30px !important;
+        text-align: center !important;
+    }
+
+    /* ------------------------------ RESPONSIVE ABOUT SECTION DESIGN -------------------------------------------------------*/
+
+    .about {
+        padding: 80px 0 !important;
+    }
+
+    .subtitle {
+        margin: 25px 0 !important;
+        font-size: 24px !important;
+    }
+
+    .about-figure {
+        margin: 0 auto !important;
+    }
+
+    .about_paragrah {
+        margin-bottom: 0 !important;
+        padding-top: 0 !important;
+        font-size: 16px !important;
+    }
+
+    .btn-about-view-more {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .about-view-more-btn {
+        margin: 0 !important;
+    }
+
+    /* ------------------------------ RESPONSIVE SERVICES SECTION DESIGN -------------------------------------------------------*/
+
+    .service-header {
+        display: inline-block !important;
+        margin-bottom: 0 !important;
+    }
+
+    .subtitle-service {
+        padding-bottom: 35px !important;
+        font-size: 25px !important;
+    }
+
+    .service-main {
+        display: inline-block !important;
+    }
+
+    .services-paragraph,
+    .service-title {
+        font-size: 20px !important;
+    }
+
+    .services-paragraph {
+        padding-bottom: 35px !important;
+    }
+
+    .service-icons {
+        padding-top: 0 !important;
+        padding-bottom: 25px !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .service-paragraph {
+        margin-bottom: 20px !important;
+    }
+
+    /* ------------------------------ RESPONSIVE GALERY SECTION DESIGN -------------------------------------------------------*/
+
+    .portfolio-subtitle {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .about-galeries {
+        display: grid !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 3.2em !important;
+        padding-top: 70px !important;
+    }
+
+    .card-title {
+        font-size: 18px !important;
+    }
+
+    /* ------------------------------ RESPONSIVE TESTIMONY SECTION DESIGN -------------------------------------------------------*/
+
+    .testimony {
+        height: 1973px !important;
+    }
+
+    .testimony-subtitle {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .about-testimonies {
+        display: grid !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 3.2em !important;
+        padding-top: 70px !important;
+        padding-bottom: 25px !important;
+    }
+
+    .card-title {
+        font-size: 18px !important;
+    }
+
+    .testimony-view-more {
+        margin-bottom: 70px !important;
+    }
+
+    /* ------------------------------ RESPONSIVE NEWSLETTER SECTION DESIGN -------------------------------------------------------*/
+
+
+    .newsletter {
+        height: 543px !important;
+        padding: 70px 0 !important;
+    }
+
+
+    .newsletter-image {
+        display: none !important;
+    }
+
+    .news-form {
+        display: block !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-right: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* ------------------------------ RESPONSIVE CTA SECTION DESIGN -------------------------------------------------------*/
+}
+
+@media screen and (max-width: 600px) {
+
+    /*------------------------------------------ RESPONSIVE DESIGN OF MAIN BANNER -----------------------------------------------------------*/
+
     .banner {
         height: 309px !important;
         left: 0px !important;
@@ -1839,7 +2000,7 @@
         margin-top: 10px !important;
     }
 
-    .main-container{
+    .main-container {
         margin-bottom: 50px;
     }
 
@@ -2051,7 +2212,7 @@
         bottom: 90px;
     }
 
-    .form-control{
+    .form-control {
         display: flex;
     }
 
