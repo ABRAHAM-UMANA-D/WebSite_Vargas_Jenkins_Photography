@@ -1394,16 +1394,12 @@
     margin-bottom: 15px !important;
 }
 
-.premium-package{
+.premium-package {
     background: #9E0042 !important;
 }
 
 .premium-package .packages-benefits p i {
     color: #9E0042;
-}
-
-.packages-benefits p i {
-    color: #47011E;
 }
 
 .benefit-one {
@@ -1451,7 +1447,20 @@
 .platinum-package {
     color: #EFEFEF;
     background: #000 !important;
+}
 
+.platinum-package .packages-benefits p i {
+    color: #000;
+}
+
+.btn-contact-pk-two {
+    background: #D0D0D0 !important;
+    box-shadow: inset 4px 4px 40px rgba(0, 0, 0, 0.4) !important;
+}
+
+.btn-contact-pk-two:hover {
+    background-color: #FFF !important;
+    /* color: #FFF !important; */
 }
 
 .benefit-two {
@@ -1466,8 +1475,22 @@
     display: block;
 }
 
-.golden-package{
+.golden-package {
     background: #E2B853 !important;
+}
+
+.golden-package .packages-benefits p i {
+    color: #E2B853;
+}
+
+.btn-contact-pk-three {
+    background: #CC9934 !important;
+    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
+}
+
+.btn-contact-pk-three:hover {
+    background-color: #000 !important;
+    color: #FFF !important;
 }
 
 .benefit-three {
@@ -1535,6 +1558,8 @@
 .logo-footer.top:hover {
     opacity: 0;
 }
+
+
 
 .col-brand .icon {
     font-size: 25px;
@@ -1984,24 +2009,24 @@
 
     /* ------------------------------ RESPONSIVE CTA SECTION DESIGN -------------------------------------------------------*/
 
-    .cta{
+    .cta {
         height: 650px !important;
         padding-top: 95px !important;
     }
-  
 
-    .cta-content{
+
+    .cta-content {
         order: 1;
         display: inline-block !important;
         top: -80px !important;
         padding-top: 40px !important;
     }
 
-    .cta-subtitle{
+    .cta-subtitle {
         font-size: 30px !important;
     }
 
-    .cta-paragraph{
+    .cta-paragraph {
         font-size: 18px !important;
     }
 
@@ -2018,7 +2043,7 @@
         justify-content: center !important;
     }
 
-    .row-video-main{
+    .row-video-main {
         margin: 0 !important;
         padding: 0 !important;
         height: 100% !important;
@@ -2026,26 +2051,26 @@
 
     /* ------------------------------ RESPONSIVE FOOTER SECTION DESIGN -------------------------------------------------------*/
 
-    .footer{
-        height: 1000px !important;
+    .footer-responsive{
+        flex: 1 0 100% !important;
     }
 
-    .form-footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .info-contact{
+        left: 0;
+    }
+
+    .info-contact{
+        margin-top: 200px !important;
     }
 
     .policies{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        order: -1;
     }
 
-    .privacy-policies{
-        text-align: center;
+    .footer{
+        padding-top: 0;
     }
-    
+
 }
 
 @media screen and (max-width: 600px) {
@@ -2258,7 +2283,7 @@
 
 
     .logo-footer {
-        position: relative;
+        /* position: relative; */
         width: 220px;
         height: 260px;
         bottom: 50px;
@@ -2780,6 +2805,10 @@ For Extra-large size device: 1200px and more
         height: auto;
         padding-bottom: 40px !important;
     }
+
+    .galery-cta-subtitle{
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width:800px) {
@@ -2802,11 +2831,19 @@ For Extra-large size device: 1200px and more
 
     .card-package {
         margin: 0;
-        width: 100%;
+        width: 28rem;
     }
 
     .card-mobile {
+        display: flex !important;
         flex: 1 0 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .row-mobile {
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     .card-kinder {
@@ -2816,6 +2853,17 @@ For Extra-large size device: 1200px and more
 
     .cta-section {
         height: auto;
-        padding-bottom: 40px !important;
+        padding-bottom: 80px !important;
     }
+
+    .galery-cta-subtitle{
+        font-size: 20px;
+        margin-bottom: 20px !important;
+    }
+
+    .cta-section .btn-contact{
+        display: inline !important;
+        margin-top: 10px !important;
+    }
+    
 }
