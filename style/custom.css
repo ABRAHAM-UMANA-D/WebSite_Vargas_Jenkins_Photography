@@ -1394,8 +1394,12 @@
     margin-bottom: 15px !important;
 }
 
+.premium-package{
+    background: #9E0042 !important;
+}
+
 .premium-package .packages-benefits p i {
-    color: #ae1d5a;
+    color: #9E0042;
 }
 
 .packages-benefits p i {
@@ -1460,6 +1464,10 @@
 
 .benefit-two:nth-child(2) {
     display: block;
+}
+
+.golden-package{
+    background: #E2B853 !important;
 }
 
 .benefit-three {
@@ -2589,6 +2597,88 @@
 
 @media screen and (min-width:481px) and (max-width:800px) {
     .banner-services {
+        height: 250px !important;
+    }
+
+    .banner-services .info-banner {
+        top: 120px !important;
+    }
+
+    .banner-services .title-banner {
+        text-align: start !important;
+        width: 100% !important;
+        top: -80px !important;
+    }
+
+    .banner-services .subtitle-banner {
+        justify-content: left !important;
+        top: -70px !important;
+    }
+
+    .banner-services .buttons {
+        text-align: justify;
+    }
+
+    .banner-services .button-banner {
+        top: -95px !important;
+    }
+
+    .service {
+        grid-template-columns: 100%;
+        height: auto !important;
+    }
+
+    .marriage-service .info-service {
+        order: -1;
+    }
+
+    .birthday-service .info-service {
+        order: -1;
+    }
+
+    .info-service {
+        height: auto !important;
+        padding-bottom: 10px;
+    }
+
+    /* .info-service h2{
+        font-size: 18px;
+    }
+
+    .info-service p{
+        font-size: 16px;
+    } */
+
+    .col-right {
+        padding: 40px 50px 0 30px;
+    }
+
+    .col-left {
+        padding: 40px 50px 0 30px;
+    }
+
+    .button-service {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .image-service {
+        padding: 10px 30px 0 30px;
+        height: auto;
+    }
+
+    .figure-service img {
+        border-radius: 10px;
+    }
+
+    .birthday-service .image-service {
+        padding-bottom: 50px !important;
+    }
+}
+
+
+@media screen and (min-width:801px) and (max-width:1024px) {
+    .banner-services {
         height: 400px !important;
     }
 
@@ -2632,18 +2722,6 @@
     .info-service {
         height: auto !important;
         padding-bottom: 10px;
-    }
-
-}
-
-
-@media screen and (min-width:801px) and (max-width:1024px) {
-    .col-right {
-        padding: 40px 50px 0 30px;
-    }
-
-    .col-left {
-        padding: 40px 50px 0 30px;
     }
 
 }
