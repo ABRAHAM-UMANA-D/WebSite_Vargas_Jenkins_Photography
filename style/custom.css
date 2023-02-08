@@ -2781,3 +2781,41 @@ For Extra-large size device: 1200px and more
         padding-bottom: 40px !important;
     }
 }
+
+@media screen and (min-width:481px) and (max-width:800px) {
+    .banner-packages .subtitle-banner {
+        justify-content: left !important;
+    }
+
+    .banner-packages .title-banner {
+        text-align: start !important;
+    }
+
+    .banner-packages .buttons {
+        text-align: justify;
+    }
+
+    .package-section {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    .card-package {
+        margin: 0;
+        width: 100%;
+    }
+
+    .card-mobile {
+        flex: 1 0 100% !important;
+    }
+
+    .card-kinder {
+        width: auto !important;
+    }
+
+
+    .cta-section {
+        height: auto;
+        padding-bottom: 40px !important;
+    }
+}
