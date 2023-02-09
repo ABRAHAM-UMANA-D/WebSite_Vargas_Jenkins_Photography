@@ -1799,127 +1799,7 @@
 
 /*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
 
-
-
-
-@media screen and (Max-width:480px) {
-
-    /* BANNER HOME */
-
-    .banner-home{
-        height: 365px !important;
-    }
-
-    .banner-home .subtitle-banner{
-        font-size: 16px !important;
-    }
-
-    .banner-home .title-banner{
-        font-size: 20px !important;
-        margin: 0 !important;
-    }
-
-    .banner-home .btn-contact-banner{
-        width: 220px !important;
-    }
-
-
-
-    /* ------------------------------ RESPONSIVE GALERY SECTION DESIGN -------------------------------------------------------*/
-
-    .about-galeries {
-        justify-content: center !important;
-        align-items: center !important;
-    }
-
-    .card {
-        width: 90% !important;
-        margin: 0 auto !important;
-    }
-
-    /* 1. Reducir el transform a menos crecimiento al momento de hacer hover 
-    porque se le sobrepone a los titulos de cada seccion*/
-
-    /* 2. Arreglar el que las imagenes no se despeguen de su contenedor en las cards
-    al momento de reducir la dimension del viewport*/
-
-    /* ------------------------------ RESPONSIVE TESTIMONY SECTION DESIGN -------------------------------------------------------*/
-
-    .testimony {
-        height: auto !important;
-    }
-
-    /* ------------------------------ RESPONSIVE NEWSLETTER SECTION DESIGN -------------------------------------------------------*/
-
-    .newsletter-subtitle {
-        font-size: 22px !important;
-    }
-
-    .newsletter_paragrah,
-    .newsletter-submit,
-    .form-subtitle {
-        font-size: 16px !important;
-    }
-
-    .news-form {
-        display: flex !important;
-        margin: 0 auto !important;
-        width: 90% !important;
-        height: 416px !important;
-    }
-
-    .newsletter-form {
-        height: 100% !important;
-    }
-
-    /* ------------------------------ RESPONSIVE CTA SECTION DESIGN -------------------------------------------------------*/
-
-    .contact-video {
-        width: 100% !important;
-        height: 223px !important;
-        width: 330px !important;
-    }
-
-    .cta {
-        padding-top: 60px !important;
-        height: 480px !important;
-    }
-
-    .row-video-main {
-        height: 500px !important;
-    }
-
-    .cta-subtitle {
-        font-size: 22px !important;
-    }
-
-    .cta-paragraph,
-    .cta-contact {
-        font-size: 16px !important;
-    }
-
-    .cta-content {
-        position: relative;
-        top: -205px !important;
-    }
-
-    /* FOOTER */
-
-    .logo-footer {
-        top: 977%;
-    }
-
-    .social {
-        top: 7rem;
-    }
-
-    .info-contact {
-        margin-top: 160px !important;
-    }
-
-}
-
-@media screen and (Max-width:800px) {
+@media screen and (Max-width:1024px) {
 
     /*------------------------------------------ RESPONSIVE DESING NAVBAR ----------------------------------------*/
 
@@ -1971,6 +1851,43 @@
     .logo {
         margin-left: 7px;
     }
+
+    /*---------------------------------------*/
+
+    .about-mobile {
+        flex: 1 0 100% !important;
+    }
+
+    .about-figure {
+        width: auto;
+        padding: 45px !important;
+    }
+
+    .about_paragrah {
+        font-size: 20px !important;
+    }
+
+    .service-paragraph {
+        font-size: 20px;
+    }
+
+    .portfolio-subtitle {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .about-galeries {
+        padding-top: 60px !important;
+    }
+
+    .card-galery {
+        margin: 0 auto !important;
+        margin-bottom: 25px !important;
+    }
+
+}
+
+@media screen and (Max-width:800px) {
 
     /* ------------------------------ RESPONSIVE BANNER DESIGN -------------------------------------------------------*/
 
@@ -2226,94 +2143,125 @@
 
 }
 
-@media screen and (min-width:801px) and (max-width:1024px)  {
+@media screen and (Max-width:480px) {
 
-    .about-mobile{
-        flex: 1 0 100% !important;
+    /* BANNER HOME */
+
+    .banner-home {
+        height: 365px !important;
     }
 
-    .about-figure{
-        width: auto;
-        padding: 45px !important;
+    .banner-home .subtitle-banner {
+        font-size: 16px !important;
     }
 
-    .about_paragrah{
+    .banner-home .title-banner {
         font-size: 20px !important;
+        margin: 0 !important;
     }
 
-    .service-paragraph{
-        font-size: 20px;
+    .banner-home .btn-contact-banner {
+        width: 220px !important;
     }
 
-    .portfolio-subtitle{
-        font-size: 35px;
-        text-align: center;
+
+
+    /* ------------------------------ RESPONSIVE GALERY SECTION DESIGN -------------------------------------------------------*/
+
+    .about-galeries {
+        justify-content: center !important;
+        align-items: center !important;
     }
 
-    .about-galeries{
-        padding-top: 60px !important;
-    }
-
-    .card-galery{
+    .card {
+        width: 90% !important;
         margin: 0 auto !important;
-        margin-bottom: 25px !important;
     }
 
-    
-    
+    /* 1. Reducir el transform a menos crecimiento al momento de hacer hover 
+    porque se le sobrepone a los titulos de cada seccion*/
+
+    /* 2. Arreglar el que las imagenes no se despeguen de su contenedor en las cards
+    al momento de reducir la dimension del viewport*/
+
+    /* ------------------------------ RESPONSIVE TESTIMONY SECTION DESIGN -------------------------------------------------------*/
+
+    .testimony {
+        height: auto !important;
+    }
+
+    /* ------------------------------ RESPONSIVE NEWSLETTER SECTION DESIGN -------------------------------------------------------*/
+
+    .newsletter-subtitle {
+        font-size: 22px !important;
+    }
+
+    .newsletter_paragrah,
+    .newsletter-submit,
+    .form-subtitle {
+        font-size: 16px !important;
+    }
+
+    .news-form {
+        display: flex !important;
+        margin: 0 auto !important;
+        width: 90% !important;
+        height: 416px !important;
+    }
+
+    .newsletter-form {
+        height: 100% !important;
+    }
+
+    /* ------------------------------ RESPONSIVE CTA SECTION DESIGN -------------------------------------------------------*/
+
+    .contact-video {
+        width: 100% !important;
+        height: 223px !important;
+        width: 330px !important;
+    }
+
+    .cta {
+        padding-top: 60px !important;
+        height: 480px !important;
+    }
+
+    .row-video-main {
+        height: 500px !important;
+    }
+
+    .cta-subtitle {
+        font-size: 22px !important;
+    }
+
+    .cta-paragraph,
+    .cta-contact {
+        font-size: 16px !important;
+    }
+
+    .cta-content {
+        position: relative;
+        top: -205px !important;
+    }
+
+    /* FOOTER */
+
+    .logo-footer {
+        top: 977%;
+    }
+
+    .social {
+        top: 7rem;
+    }
+
+    .info-contact {
+        margin-top: 160px !important;
+    }
+
 }
 
-/*@media screen and (max-width: 800px) {
 
-    
-    .move-container-all{
-        transform:translateX(300px) ;
-    }
-
-    .container-all{
-        transition: 300ms;
-        transition: all 300ms cubic-bezier(1,0,0,1);
-    }
-
-    .menu {
-        width: 0;
-        height: 100vh;
-        position: fixed;
-        top: 80px;
-        left: 0;
-        background: #fff;
-        overflow: hidden;
-        box-shadow: 10px 0px 20px -25px #000;
-        transition: all 300ms cubic-bezier(1,0,0,1);
-    }
-
-    .show-lateral{
-        width: 300px;
-        transform: translateX(0);
-    }
-
-    .menu ul{
-        flex-direction: column;
-    }
-
-    .menu ul li{
-        max-width: 200px;
-        height: 50px;
-        justify-content: flex-start;
-    }
-
-    .meny ul li a{
-        margin-top: 40px;
-        color: #858585;
-    }
-
-    #icon-menu{
-        display: flex;
-    }
-}*/
-
-
-
+/*----------------------------------------------------------------*/
 
 /*HOME PAGE--------------------------*/
 
@@ -2444,83 +2392,6 @@
         padding-bottom: 50px !important;
     }
 }
-
-/* @media screen and (max-width:600px) {
-    .banner{
-        height: 250px !important;
-    }
-
-    .banner-services .info-banner{
-        top: 170px !important;
-    }
-
-    .title-banner{
-        text-align: left !important;
-        width: 100% !important;
-        top: -80px !important;
-    }
-
-    .subtitle-banner{
-        justify-content: left !important;
-        top: -75px !important;
-    }
-
-    .buttons{
-        text-align: justify;
-        
-    }
-
-    .button-banner{
-        top: -95px !important;
-    }
-
-    .service {
-        grid-template-columns: 100%;
-        height: auto !important;
-    }
-
-    .marriage-service .info-service {
-        order: -1;
-    }
-
-    .birthday-service .info-service {
-        order: -1;
-    }
-
-    .info-service {
-        height: auto !important;
-        padding-bottom: 10px;
-    }
-
-    .col-right {
-        padding: 40px 50px 0 30px;
-    }
-
-    .col-left {
-        padding: 40px 50px 0 30px;
-    }
-
-    .button-service {
-        width: 100%;
-    }
-
-    .image-service {
-        padding: 10px 30px 0 30px;
-        height: auto;
-    }
-
-    .figure-service img {
-        border-radius: 10px;
-    }
-
-    .birthday-service .image-service {
-        padding-bottom: 50px !important;
-    }
-
-    .icon-service{
-        margin-bottom: 20px;
-    }
-} */
 
 @media screen and (min-width:481px) and (max-width:800px) {
     .banner-services {
@@ -2770,3 +2641,9 @@ For Extra-large size device: 1200px and more
     }
 
 }
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+
+/* -------------------------------- RESPONSIVE CONTACT PAGE BUILD ------------------------------ */
