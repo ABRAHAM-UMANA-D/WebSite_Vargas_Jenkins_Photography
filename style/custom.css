@@ -2000,11 +2000,10 @@
     }
 
     .news-form {
-        display: block !important;
-        align-items: center !important;
-        justify-content: center !important;
-        margin-right: 0 !important;
-        padding: 0 !important;
+        display: flex !important;
+        height: 540px !important;
+        width: 90% !important;
+        margin: 0 auto !important;
     }
 
     /* ------------------------------ RESPONSIVE CTA SECTION DESIGN -------------------------------------------------------*/
@@ -2050,314 +2049,125 @@
     }
 
     /* ------------------------------ RESPONSIVE FOOTER SECTION DESIGN -------------------------------------------------------*/
+    .footer {
+        height: 910px !important;
+    }
 
-    .footer-responsive{
+    .footer-responsive {
         flex: 1 0 100% !important;
     }
 
-    .info-contact{
+    .info-contact {
         left: 0;
-    }
-
-    .info-contact{
+        top: 5px;
+        margin-bottom: 30px;
         margin-top: 200px !important;
     }
 
-    .policies{
-        order: -1;
-    }
-
-    .footer{
-        padding-top: 0;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-
-    /*------------------------------------------ RESPONSIVE DESIGN OF MAIN BANNER -----------------------------------------------------------*/
-
-    .banner {
-        height: 309px !important;
-        left: 0px !important;
-        top: 87px !important;
-        background-color: rgba(0, 0, 0, 0.50) !important;
-        background-blend-mode: soft-light !important;
-    }
-
-    .subtitle-banner {
-        text-align: center !important;
-        font-size: 16px !important;
-    }
-
-    .title-banner {
-        text-align: center !important;
-        font-size: 18px !important;
-        line-height: 1.5 !important;
-        padding-right: 9px !important;
-    }
-
-    .button-banner {
-        width: 260px !important;
-        height: 40px !important;
-        font-size: 16px !important;
-    }
-
-    .button-banner img {
-        bottom: 2px !important;
-    }
-
-    .principal-banner {
-        margin-top: 10px !important;
-    }
-
-    .main-container {
-        margin-bottom: 50px;
-    }
-
-    .about {
-        padding-top: 60px !important;
-    }
-
-    .subtitle {
-        font-size: 18px !important;
-        margin: 18px !important;
-    }
-
-    .about_paragrah {
-        font-size: 16px !important;
-        padding: 5px !important;
-        margin-bottom: 10px !important;
-    }
-
-    .about-view-more-btn {
-        font-size: 16px !important;
-    }
-
-    .testimony-view-more {
-        margin-top: 0 !important;
-    }
-
-    .service-header,
-    .service-main {
-        display: inline-block !important;
-        margin-top: 18px !important;
-    }
-
-    .subtitle-service {
-        font-size: 18px !important;
-    }
-
-    .service-title {
-        font-size: 18px !important;
-    }
-
-    .services-paragraph {
-        padding-top: 25px !important;
-        font-size: 16px !important;
-    }
-
-    .service-paragraph {
-        font-size: 16px !important;
-    }
-
-    .service-icons {
-        padding-bottom: 15px !important;
-    }
-
-    .icon-service {
-        padding-top: 0 !important;
-    }
-
-    .portfolio-subtitle,
-    .testimony-subtitle {
-        font-size: 23px !important;
-        text-align: center !important;
-    }
-
-    .about-galeries {
-        padding-top: 50px !important;
-        padding-bottom: 50px !important;
-        margin-bottom: 0 !important;
-    }
-
-    .about-testimonies {
-        padding-top: 50px !important;
-        padding-bottom: 0 !important;
-        margin-bottom: 0 !important;
-    }
-
-    .card-galery,
-    .card-testimony {
-        margin: 20px !important;
-    }
-
-    .card-title {
-        font-size: 18px;
-    }
-
-    .card-text,
-    .btn-card {
-        font-size: 16px;
-    }
-
-    .newsletter {
-        padding: 50px 0;
-        height: 470px;
-    }
-
-    .newsletter-image {
-        display: none;
-    }
-
-    .newsletter-form {
-        width: 90%;
-        margin: 0 auto !important;
-    }
-
-    .newsletter-subtitle {
-        font-size: 23px !important;
-    }
-
-    .newsletter_paragrah,
-    .form-subtitle,
-    .newsletter-submit {
-        font-size: 16px !important;
-    }
-
-    .newsletter-input {
-        width: 354px !important;
-    }
-
-    /*-----------------------------------------------*/
-    .cta {
-        display: inline-block;
-        height: 550px;
-    }
-
-    .cta-content {
-        order: 1 !important;
-        margin-bottom: 100px !important;
-    }
-
-    .cta-subtitle {
-        font-size: 23px !important;
-        position: relative;
-        bottom: 185px !important;
-        width: 90% !important;
-        margin: 0 auto !important;
-    }
-
-    .cta-paragraph {
-        font-size: 16px !important;
-        position: relative;
-        bottom: 175px !important;
-        width: 90% !important;
-        margin: 0 auto !important;
-    }
-
-    .row-video-main {
-        padding-top: 0;
-    }
-
-    .cta-contact {
-        position: relative;
-        bottom: 160px;
-        display: block !important;
-        width: 90% !important;
-        margin: 0 auto !important;
-        font-size: 16px !important;
-    }
-
-    .contact-video {
-        height: 300px;
-        margin-top: 30px !important;
-    }
 
     .footer {
         padding-top: 0;
-        padding-left: 20px;
-        padding-right: 20px;
-        height: 1100px;
     }
 
-
-    .logo-footer {
-        /* position: relative; */
-        width: 220px;
-        height: 260px;
-        bottom: 50px;
-        right: 7px;
-    }
-
-    .gold-footer {
-        display: none;
-    }
-
-    .social {
-        position: relative;
-        width: 180px;
-        height: 20px;
-        display: inline-block;
-        top: -135px;
-    }
-
-    .info-contact {
-        left: 1px !important;
-        display: inline-block;
-        top: -115px;
-    }
-
-    .title-contact {
-        font-size: 18px;
-    }
-
-    .text-white,
-    .btn-login {
-        font-size: 16px;
-    }
-
-    .form-footer {
-        position: relative;
-        width: 352px;
-        bottom: 90px;
-    }
-
-    .form-control {
-        display: flex;
-    }
-
-    .title-newsletter,
-    .text-white {
-        width: 300px;
+    .title-contact,
+    .title-newsletter {
+        font-size: 20px !important;
     }
 
     .copyright-policies {
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        margin-left: 10px !important;
-        bottom: 100px;
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
-    .copyright {
-        text-align: center;
-    }
-
-    .policies {
-        text-align: center;
-        left: 0;
-    }
-
-    .privacy-policies {
-        margin-left: 0 !important;
-    }
+    /*Centrar el div de policies y mejorar la estructura del logo del footer*/
 
 }
 
 
 
+@media screen and (Max-width:430px) {
+
+
+    /* ------------------------------ RESPONSIVE GALERY SECTION DESIGN -------------------------------------------------------*/
+
+    .about-galeries {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .card {
+        width: 90% !important;
+        margin: 0 auto !important;
+    }
+
+    /* 1. Reducir el transform a menos crecimiento al momento de hacer hover 
+    porque se le sobrepone a los titulos de cada seccion*/
+
+    /* 2. Arreglar el que las imagenes no se despeguen de su contenedor en las cards
+    al momento de reducir la dimension del viewport*/
+
+    /* ------------------------------ RESPONSIVE TESTIMONY SECTION DESIGN -------------------------------------------------------*/
+
+    .testimony {
+        height: 2040px !important;
+    }
+
+    /* ------------------------------ RESPONSIVE NEWSLETTER SECTION DESIGN -------------------------------------------------------*/
+
+    .newsletter-subtitle {
+        font-size: 22px !important;
+    }
+
+    .newsletter_paragrah,
+    .newsletter-submit,
+    .form-subtitle {
+        font-size: 16px !important;
+    }
+
+    .news-form {
+        display: flex !important;
+        margin: 0 auto !important;
+        width: 90% !important;
+        height: 416px !important;
+    }
+
+    .newsletter-form {
+        height: 100% !important;
+    }
+
+    /* ------------------------------ RESPONSIVE CTA SECTION DESIGN -------------------------------------------------------*/
+
+    .contact-video {
+        width: 100% !important;
+        height: 223px !important;
+        width: 330px !important;
+    }
+
+    .cta {
+        padding-top: 60px !important;
+        height: 480px !important;
+    }
+
+    .row-video-main {
+        height: 500px !important;
+    }
+
+    .cta-subtitle {
+        font-size: 22px !important;
+    }
+
+    .cta-paragraph,
+    .cta-contact {
+        font-size: 16px !important;
+    }
+
+    .cta-content{
+        position: relative;
+        top: -205px !important;
+    }
+
+}
 
 /*@media screen and (max-width: 800px) {
 
@@ -2806,8 +2616,13 @@ For Extra-large size device: 1200px and more
         padding-bottom: 40px !important;
     }
 
+<<<<<<< Updated upstream
     .galery-cta-subtitle{
         font-size: 18px;
+=======
+    .galery-cta-subtitle {
+        font-size: 20px;
+>>>>>>> Stashed changes
     }
 }
 
@@ -2856,14 +2671,14 @@ For Extra-large size device: 1200px and more
         padding-bottom: 80px !important;
     }
 
-    .galery-cta-subtitle{
+    .galery-cta-subtitle {
         font-size: 20px;
         margin-bottom: 20px !important;
     }
 
-    .cta-section .btn-contact{
+    .cta-section .btn-contact {
         display: inline !important;
         margin-top: 10px !important;
     }
-    
+
 }
