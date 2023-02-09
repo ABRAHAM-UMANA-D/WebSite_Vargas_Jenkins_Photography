@@ -1885,6 +1885,19 @@
         margin-bottom: 25px !important;
     }
 
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+
+/* -------------------------------- RESPONSIVE CONTACT PAGE BUILD ------------------------------ */
+
+
+
+
+.main-title{
+    font-size: 35px !important;
+}
+    
+
 }
 
 @media screen and (min-width:481px) and (max-width:800px) {
@@ -2332,6 +2345,7 @@
     }
 
     .cta-content {
+        padding-top: 10px !important;
         order: 1;
     }
 
@@ -2358,6 +2372,7 @@
 
     .info-contact {
         margin-top: 0 !important;
+        top: -60px !important;
     }
 
     .gold-footer {
@@ -2544,14 +2559,6 @@
         height: auto !important;
         padding-bottom: 10px;
     }
-
-    /* .info-service h2{
-        font-size: 18px;
-    }
-
-    .info-service p{
-        font-size: 16px;
-    } */
 
     .col-right {
         padding: 40px 50px 0 30px;
@@ -2747,9 +2754,3 @@ For Extra-large size device: 1200px and more
     }
 
 }
-
-
-/*-----------------------------------------------------------------------------------------------*/
-/*-----------------------------------------------------------------------------------------------*/
-
-/* -------------------------------- RESPONSIVE CONTACT PAGE BUILD ------------------------------ */
