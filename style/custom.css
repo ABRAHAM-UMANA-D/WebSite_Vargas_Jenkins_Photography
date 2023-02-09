@@ -1799,7 +1799,7 @@
 
 /*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
 
-@media screen and (Max-width:1024px) {
+@media screen and (min-width:801px) and (max-width:1024px) {
 
     /*------------------------------------------ RESPONSIVE DESING NAVBAR ----------------------------------------*/
 
