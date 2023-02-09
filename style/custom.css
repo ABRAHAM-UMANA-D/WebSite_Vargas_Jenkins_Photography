@@ -2645,7 +2645,7 @@
     }
 
     .banner-services .button-banner {
-        top: -95px !important;
+        top: -105px !important;
     }
 
     .service {
@@ -2784,11 +2784,11 @@ For Extra-large size device: 1200px and more
 
     .package-section {
         padding-top: 70px;
-        padding-bottom: 80px;
+        padding-bottom: 70px;
     }
 
     .card-package {
-        margin: 0;
+        margin: 0 20px;
         width: 100%;
     }
 
@@ -2807,7 +2807,7 @@ For Extra-large size device: 1200px and more
     }
 
     .galery-cta-subtitle{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -2826,12 +2826,12 @@ For Extra-large size device: 1200px and more
 
     .package-section {
         padding-top: 70px;
-        padding-bottom: 80px;
+        padding-bottom: 70px;
     }
 
     .card-package {
         margin: 0;
-        width: 28rem;
+        width: 28rem !important;
     }
 
     .card-mobile {
@@ -2847,7 +2847,7 @@ For Extra-large size device: 1200px and more
     }
 
     .card-kinder {
-        width: auto !important;
+        width: 28rem !important;
     }
 
 
