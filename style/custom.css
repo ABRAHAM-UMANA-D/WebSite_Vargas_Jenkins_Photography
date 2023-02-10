@@ -1559,8 +1559,6 @@
     opacity: 0;
 }
 
-
-
 .col-brand .icon {
     font-size: 25px;
     margin-right: 8px;
@@ -1852,6 +1850,13 @@
         margin-left: 7px;
     }
 
+    /* BANNER HOME */
+
+    .banner-home .title-banner {
+        width: auto !important;
+    }
+
+
     /*---------------------------------------*/
 
     .about-mobile {
@@ -1883,6 +1888,104 @@
     .card-galery {
         margin: 0 auto !important;
         margin-bottom: 25px !important;
+    }
+
+    /* NEWSLETTER */
+    .newsletter {
+        height: auto;
+        padding: 100px;
+        width: 100%;
+    }
+
+    .newsletter-picture {
+        display: none;
+    }
+
+    .news-form {
+        flex: 1 0 100% !important;
+    }
+
+
+    /* .newsletter-image{
+        height: auto !important;
+    } */
+
+    .newsletter-form {
+        height: auto;
+    }
+
+    /* TESTIMONY */
+    .card-testimony {
+        margin: 0 auto !important;
+        margin-bottom: 25px !important;
+    }
+
+    .testimony {
+        height: auto !important;
+    }
+
+    /* CTA */
+    .cta-content {
+        order: 1;
+    }
+
+    .cta-content {
+        top: auto !important;
+    }
+
+    .video {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .cta-subtitle {
+        font-size: 28px;
+    }
+
+    .cta-paragraph {
+        font-size: 18px;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        padding-top: 0;
+    }
+
+    .info-contact {
+        left: auto;
+        margin-top: 130px !important;
+    }
+
+    .form-footer-col {
+        flex: 1 0 100% !important;
+        padding-bottom: 40px;
+    }
+
+    .logo-footer {
+        margin-top: -30px !important;
+    }
+
+    .social {
+        top: 8rem;
+    }
+
+    .footer-responsive {
+        flex: 1 0 100% !important;
+    }
+
+    .privacy-policies {
+        margin-left: 0 !important;
+    }
+
+    .policies {
+        left: auto !important;
+        text-align: center;
+    }
+
+    .copyright {
+        text-align: center;
     }
 
     /*-----------------------------------------------------------------------------------------------*/
@@ -1954,6 +2057,8 @@
         margin: 0 !important;
     }
 
+
+
     /* ------------------------------ RESPONSIVE SERVICES SECTION DESIGN -------------------------------------------------------*/
 
     .service-header {
@@ -2016,7 +2121,7 @@
     /* ------------------------------ RESPONSIVE TESTIMONY SECTION DESIGN -------------------------------------------------------*/
 
     .testimony {
-        height: 1973px !important;
+        height: auto !important;
     }
 
     .testimony-subtitle {
@@ -2114,8 +2219,8 @@
 
     .info-contact {
         left: 0;
-        top: 5px;
-        margin-bottom: 30px;
+        /* top: 5px; */
+        margin-bottom: 40px;
         margin-top: 200px !important;
     }
 
@@ -2135,12 +2240,12 @@
         align-items: center !important;
     }
 
-    .logo-footer {
+    /* .logo-footer {
         top: 760%;
-    }
+    } */
 
     .social {
-        top: 9rem;
+        margin-top: -55px !important;
     }
 
     .policies {
@@ -2152,11 +2257,21 @@
 
     }
 
+    .form-footer-col {
+        flex: 1 0 100% !important;
+    }
+
+    .logo-footer {
+        margin-top: -35px !important;
+    }
+
     /*Centrar el div de policies y mejorar la estructura del logo del footer*/
 
 }
 
 @media screen and (max-width:480px) {
+
+    /* ---------------HOME PAGE-------------------- */
 
     /* BANNER HOME */
 
@@ -2189,6 +2304,10 @@
     .about-figure {
         padding: 0 !important;
         padding-top: 40px !important;
+    }
+
+    .about-mobile {
+        flex: 1 0 100% !important;
     }
 
     .about-mobile .subtitle {
@@ -2415,38 +2534,38 @@
 
 /*----------------------------------------------------------------*/
 
-/*HOME PAGE--------------------------*/
+/*BANNER HOME PAGE--------------------------*/
 
-/*HOME PAGE--------------------------*/
+/*BANNER HOME PAGE--------------------------*/
 
 @media (max-width: 800px) {
-    .info-banner {
+    .banner-home .info-banner {
         height: fit-content !important;
         top: 150px !important;
         justify-content: center !important;
     }
 
-    .subtitle-banner {
+    .banner-home .subtitle-banner {
         width: 100% !important;
         font-size: 18px !important;
         margin-bottom: 10px !important;
         justify-content: center !important;
     }
 
-    .title-banner {
+    .banner-home .title-banner {
         width: 100% !important;
         font-size: 25px;
         justify-content: center !important;
         text-align: center;
     }
 
-    .buttons {
+    .banner-home .buttons {
         margin-top: 20px !important;
         text-align: center;
         margin: 0 !important;
     }
 
-    .button-banner {
+    .banner-home .button-banner {
         font-size: 18px !important;
         position: relative !important;
     }
@@ -2464,16 +2583,15 @@
 
 /* ------------------------------------------ RESPONSIVE MEDIA GALERY PAGE --------------------------*/
 
-@media screen and (max-width:567px) {
+/* @media screen and (max-width:567px) {
     .card-img:not(:first-child) {
         display: none;
     }
-}
+} */
 
-/* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
 
-/* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
 @media screen and (max-width:480px) {
+    /* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
     .banner-services {
         height: 250px !important;
     }
@@ -2543,9 +2661,54 @@
     .birthday-service .image-service {
         padding-bottom: 50px !important;
     }
+
+    /* ------------------------------------------ RESPONSIVE MEDIA PACKAGE PAGE --------------------------*/
+    .banner-packages .subtitle-banner {
+        justify-content: left !important;
+    }
+
+    .banner-packages .title-banner {
+        text-align: start !important;
+    }
+
+    .banner-packages .buttons {
+        text-align: justify;
+    }
+
+    .package-section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .card-package {
+        margin: 0 20px;
+        width: 100%;
+    }
+
+    .card-mobile {
+        flex: 1 0 100% !important;
+    }
+
+    .card-kinder {
+        width: auto !important;
+    }
+
+
+    .cta-section {
+        height: auto;
+        padding-bottom: 40px !important;
+    }
+
+    .galery-cta-subtitle {
+        font-size: 18px;
+
+    }
+
+    /* ------------------------------------------ RESPONSIVE MEDIA CONTACT PAGE --------------------------*/
 }
 
 @media screen and (min-width:481px) and (max-width:800px) {
+    /* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
     .banner-services {
         height: 250px !important;
     }
@@ -2616,130 +2779,27 @@
     .birthday-service .image-service {
         padding-bottom: 50px !important;
     }
-}
 
-
-@media screen and (min-width:801px) and (max-width:1024px) {
-    .banner-services {
-        height: 400px !important;
+    /* ------------------------------------------ RESPONSIVE MEDIA PACKAGES PAGE --------------------------*/
+    .banner-packages .info-banner {
+        margin-top: -100px !important;
     }
 
-    .banner-services .info-banner {
-        top: 200px !important;
-    }
-
-    .banner-services .title-banner {
-        text-align: left !important;
-        width: 80% !important;
-        top: -80px !important;
-    }
-
-    .banner-services .subtitle-banner {
-        justify-content: left !important;
-        top: -75px !important;
-    }
-
-    .banner-services .buttons {
-        text-align: justify;
-
-    }
-
-    .banner-services .button-banner {
-        top: -90px !important;
-    }
-
-    .service {
-        height: auto !important;
-    }
-
-    .col-right,
-    .col-left {
-        padding: 20px 20px 20px 20px;
-    }
-
-    .image-service {
-        height: auto !important;
-    }
-
-    .info-service {
-        height: auto !important;
-        padding-bottom: 10px;
-    }
-
-}
-
-/* For Mobile devices: 320px-480px */
-
-/* For Tablets or iPad: 480px - 768px */
-
-/* For Laptop or small-size screen: 768px -1024px */
-
-/* @media screen and (max-width:1200px){
-For Desktop or large-size screen: 1024px -1200px
-} */
-
-/* @media screen and (max-width:1200px){
-For Extra-large size device: 1200px and more
-} */
-
-
-/* ------------------------------------------ RESPONSIVE MEDIA PACKAGE PAGE --------------------------*/
-
-/* ------------------------------------------ RESPONSIVE MEDIA PACKAGE PAGE --------------------------*/
-@media screen and (max-width:480px) {
     .banner-packages .subtitle-banner {
         justify-content: left !important;
     }
 
     .banner-packages .title-banner {
         text-align: start !important;
+        width: 100% !important;
     }
 
     .banner-packages .buttons {
         text-align: justify;
     }
 
-    .package-section {
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-
-    .card-package {
-        margin: 0 20px;
-        width: 100%;
-    }
-
-    .card-mobile {
-        flex: 1 0 100% !important;
-    }
-
-    .card-kinder {
-        width: auto !important;
-    }
-
-
-    .cta-section {
-        height: auto;
-        padding-bottom: 40px !important;
-    }
-
-    .galery-cta-subtitle {
-        font-size: 18px;
-
-    }
-}
-
-@media screen and (min-width:481px) and (max-width:800px) {
-    .banner-packages .subtitle-banner {
-        justify-content: left !important;
-    }
-
-    .banner-packages .title-banner {
-        text-align: start !important;
-    }
-
-    .banner-packages .buttons {
-        text-align: justify;
+    .banner-packages .button-banner{
+        top: -116px !important;
     }
 
     .package-section {
@@ -2783,5 +2843,90 @@ For Extra-large size device: 1200px and more
         display: inline !important;
         margin-top: 10px !important;
     }
+}
+
+
+@media screen and (min-width:801px) and (max-width:1024px) {
+    /* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
+
+    .banner-services {
+        height: 400px !important;
+    }
+
+    .banner-services .info-banner {
+        top: 200px !important;
+    }
+
+    .banner-services .title-banner {
+        text-align: left !important;
+        width: 80% !important;
+        top: -80px !important;
+    }
+
+    .banner-services .subtitle-banner {
+        justify-content: left !important;
+        top: -75px !important;
+    }
+
+    .banner-services .buttons {
+        text-align: justify;
+        margin-top: 5px !important ;
+
+    }
+
+    .banner-services .button-banner {
+        top: -90px !important;
+    }
+
+    .service {
+        height: auto !important;
+    }
+
+    .col-right,
+    .col-left {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .image-service {
+        height: auto !important;
+    }
+
+    .info-service {
+        height: auto !important;
+        padding-bottom: 10px;
+    }
+
+    /* ------------------------------------------ RESPONSIVE MEDIA PACKAGES PAGE --------------------------*/
+
+    .banner-packages .title-banner {
+        text-align: start !important;
+        width: 100% !important;
+    }
+
+    .card-mobile {
+        display: flex !important;
+        flex: 1 0 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .card-package {
+        margin: 0;
+        width: 28rem !important;
+    }
+    
 
 }
+
+/* For Mobile devices: 320px-480px */
+
+/* For Tablets or iPad: 480px - 768px */
+
+/* For Laptop or small-size screen: 768px -1024px */
+
+/* For Desktop or large-size screen: 1024px -1200px */
+
+/* For Extra-large size device: 1200px and more*/
+
+
+@media screen and (min-width:481px) and (max-width:800px) {}
