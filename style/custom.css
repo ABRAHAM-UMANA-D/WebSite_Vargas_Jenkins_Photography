@@ -1790,9 +1790,6 @@
     transform: translate(-50%, -50%) scale(1);
 }
 
-
-
-
 /*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
 
 /*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
@@ -2705,6 +2702,50 @@
     }
 
     /* ------------------------------------------ RESPONSIVE MEDIA CONTACT PAGE --------------------------*/
+
+    .banner-contact{
+        text-align: center !important;
+        height: 300px;
+    }
+
+    .banner-contact .title-banner{
+        font-size: 20px !important;
+        width: auto !important;
+    }
+
+    .banner-contact .subtitle-contact{
+        display: inline !important;
+        font-size: 18px !important;
+        width: auto !important;
+    }
+
+    .contact{
+        padding-top: 55px;
+    }
+
+    .contact-title{
+        font-size: 20px;
+    }
+
+    .paragraph-form{
+        font-size: 16px;
+        width: auto !important;
+    }
+
+    .form-col{
+        flex: 1 0 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .contact-col{
+        flex: 1 0 100% !important;
+    }
+
+    .row-video{
+        padding-bottom: 0 !important;
+        padding-top: 80px !important;
+    }
+    
 }
 
 @media screen and (min-width:481px) and (max-width:800px) {
@@ -2927,6 +2968,3 @@
 /* For Desktop or large-size screen: 1024px -1200px */
 
 /* For Extra-large size device: 1200px and more*/
-
-
-@media screen and (min-width:481px) and (max-width:800px) {}
