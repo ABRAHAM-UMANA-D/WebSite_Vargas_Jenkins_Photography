@@ -2790,6 +2790,32 @@
     .cta-contact{
         width: 100%;
     }
+
+    /* ------------------------------------------ RESPONSIVE MEDIA ABOUT PAGE --------------------------*/
+    .banner-about .info-banner{
+        top: 125px !important;
+    }
+
+    .banner-about .title-banner{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-about .subtitle-banner{
+        font-size: 18px !important;
+        text-align: center !important;
+        margin-bottom: 10px !important;
+    }
+
+    .banner-about .buttons{
+        text-align: center !important;
+        margin-top: 10px !important;
+    }
+
+    .banner-about .contact-about{
+        width: 230px !important;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width:800px) {
