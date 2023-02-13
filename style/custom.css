@@ -1950,8 +1950,9 @@
     /* CTA */
 
     .cta {
-        height: 970px !important;
+        height: 900px !important;
         padding-top: 90px !important;
+     margin-bottom: 120px !important;
     }
 
     .cta-content {
