@@ -2233,17 +2233,39 @@
         margin-top: 60px;
         display: grid !important;
         gap: 1em !important;
-    }
-
-    .sub-main {
-        text-align: center;
+        height: fit-content !important;
+        top: 170px !important;
+        justify-content: center !important;
     }
 
     .title-banner {
         font-size: 25px !important;
         text-align: center !important;
         margin: 0 !important;
+        width: 100% !important;
+        font-size: 25px;
+        justify-content: center !important;
     }
+
+    .banner-home .subtitle-banner {
+        width: 100% !important;
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    .banner-home .buttons {
+        margin-top: 20px !important;
+        text-align: center;
+        margin: 0 !important;
+    }
+
+    .banner-home .button-banner {
+        font-size: 18px !important;
+        position: relative !important;
+    }
+
 
     /* ------------------------------ RESPONSIVE ABOUT SECTION DESIGN -------------------------------------------------------*/
 
@@ -2264,6 +2286,7 @@
         margin-bottom: 0 !important;
         padding-top: 0 !important;
         font-size: 16px !important;
+        margin-left: 0;
     }
 
     .btn-about-view-more {
@@ -2295,7 +2318,7 @@
 
     .services-paragraph,
     .service-title {
-        font-size: 20px !important;
+        font-size: 18px !important;
     }
 
     .services-paragraph {
@@ -2539,21 +2562,34 @@
     /*----------------------------  RESPONSIVE MEDIA MAIN PAGE  ----------------------------------------------------*/
 
     .banner-home {
-        height: 365px !important;
+        height: 450px !important;
     }
 
-    .banner-home .subtitle-banner {
+    .subtitle-banner {
         font-size: 16px !important;
+        display: inline !important;
+        margin: 0 !important;
     }
 
     .banner-home .title-banner {
+        display: inline !important;
         font-size: 20px !important;
         margin: 0 !important;
-        margin-bottom: 20px !important;
+        top: -55px !important;
     }
 
     .banner-home .btn-contact-banner {
         width: 220px !important;
+    }
+
+    .info-banner {
+        position: relative !important;
+        text-align: center !important;
+        top: 100px !important;
+    }
+
+    .buttons{
+        margin-top: 25px !important;
     }
 
     /*------------------------------------- ABOUT SECTION ------------------------------------*/
@@ -2587,16 +2623,16 @@
     /*------------------------------------- SERVICES SECTION ------------------------------------*/
 
     .subtitle-service {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .services-paragraph {
         margin-top: 10px;
-        font-size: 18px !important;
+        font-size: 16px !important;
     }
 
     .service-title {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .service-paragraph {
@@ -2606,8 +2642,9 @@
     /*------------------------------------- GALERY SECTION ------------------------------------*/
 
     .portfolio-subtitle {
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
+        height: 92px !important ;
     }
 
     .card-home-mobile {
@@ -2634,7 +2671,8 @@
     /*------------------------------------- TESTIMONY SECTION ------------------------------------*/
 
     .testimony-subtitle {
-        font-size: 20px !important;
+        font-size: 18px !important;
+        height: 92px !important ;
     }
 
     .card-testimony img {
@@ -2728,15 +2766,15 @@
         font-size: 16px !important;
     }
 
-    .cta-content {
-        position: relative;
-        top: -180px !important;
+    .cta-paragraph{
+        padding-right: 15px !important;
     }
 
     .cta-content {
-        padding-top: 10px !important;
+        position: relative;
+        padding-left: 30px !important;
         order: 1;
-        padding-left: 20px !important;
+        top: -150px !important;
     }
 
     .row-video-main {
