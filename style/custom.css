@@ -596,7 +596,7 @@
 /*TESTIMONY SECTION ------------------------------------------*/
 
 .testimony {
-    background: #FFF;
+    background: #fff;
     background-blend-mode: soft-light;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.15);
 }
@@ -619,11 +619,11 @@
     height: 300px !important;
 }
 
-.card-testimony:hover {
+/*.card-testimony:hover {
     margin-left: 15px;
-    transform: scale(1.1);
+    transform: scale(1.08);
     transition: all 0.3s;
-}
+}*/
 
 .card-testimony:hover a {
     animation: pulse .8s infinite;
@@ -1818,26 +1818,62 @@
 
 /*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
 
-@media screen and (max-width:800px) {
+/* For Mobile devices: 320px-480px */
+
+/* For Tablets or iPad: 480px - 768px */
+
+/* For Laptop or small-size screen: 768px -1024px */
+
+/* For Desktop or large-size screen: 1024px -1200px */
+
+/* For Extra-large size device: 1200px and more*/
+
+@media screen and (Max-Width:1280px) {
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE MAIN PAGE  -------------------------------------*/
 
 
-    /* For Mobile devices: 320px-480px */
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE ABOUT PAGE  -------------------------------------*/
 
-    /* For Tablets or iPad: 480px - 768px */
 
-    /* For Laptop or small-size screen: 768px -1024px */
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE  SERVICES PAGE  -------------------------------------*/
 
-    /* For Desktop or large-size screen: 1024px -1200px */
 
-    /* For Extra-large size device: 1200px and more*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
+
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE GALERY PAGE  -------------------------------------*/
+
+
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width:1024px) {
 
     /*------------------------------------------ RESPONSIVE DESING NAVBAR ----------------------------------------*/
-    .menu{
+    .menu {
         position: fixed;
         z-index: 100;
     }
 
-    hr.divider{
+    hr.divider {
         border-top: 2px solid #bbb;
         width: 100%;
         margin: 0 !important;
@@ -1903,15 +1939,13 @@
         background: #ffffff;
     }
 
-    .nav_menu.close span:nth-child(2){
+    .nav_menu.close span:nth-child(2) {
         transform: rotate(-45deg) translate(-8px, 5px);
     }
 
-    .nav_menu.close span:nth-child(3){
+    .nav_menu.close span:nth-child(3) {
         display: none;
     }
-
-
 
     .nav_img {
         margin-right: 10px;
@@ -1926,19 +1960,37 @@
         cursor: pointer;
     }
 
-
-
     .logo {
         margin-left: 7px;
     }
+
+    /* -------------------------- CUSTOM GALERY AND TESTIMONY PROPERTY SECTION ------------------*/
+
+    .portfolio-subtitle,
+    .testimony-subtitle {
+        padding-top: 30px !important;
+        height: auto !important;
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold !important;
+        text-transform: uppercase !important;
+        line-height: 1.4 !important;
+    }
+
+    .card-galery:hover {
+        transform: scale(1.04) !important;
+    }
+
 }
 
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width:801px) and (max-width:1024px) {
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
-    /*----------------------------  MAIN PAGE  ----------------------------------------------------*/
+    /*----------------------------  RESPONSIVE MEDIA MAIN PAGE  ----------------------------------------------------*/
 
     /*---------------------------- BANNER HOME SECTION -------------------------*/
 
@@ -1948,12 +2000,16 @@
 
     .info-banner {
         text-align: center !important;
-        top: 300px !important;
+        top: 260px !important;
     }
 
     .sub-main {
         display: inline !important;
         font-size: 25px !important;
+    }
+
+    .buttons {
+        margin-top: 20px !important;
     }
 
 
@@ -1978,33 +2034,27 @@
 
     /*---------------------------- SERVICES SECTION -------------------------*/
 
-    .service-paragraph, .services-paragraph {
+    .service-paragraph,
+    .services-paragraph {
         font-size: 18px !important;
         line-height: 1.5 !important;
     }
 
-    .subtitle-service{
+    .subtitle-service {
         line-height: 1.5;
         font-size: 25px;
         padding-bottom: 10px;
     }
 
-    .service-main{
+    .service-main {
         margin-bottom: 60px !important;
     }
 
-    .service-title{
+    .service-title {
         font-size: 25px !important;
     }
 
     /*---------------------------- GALERY SECTION -------------------------*/
-
-    .portfolio-subtitle {
-        padding-top: 30px !important;
-        height: 72px !important;
-        font-size: 35px;
-        text-align: center;
-    }
 
     .about-galeries {
         padding-top: 90px !important;
@@ -2022,15 +2072,17 @@
         margin-bottom: 25px !important;
     }
 
+
     .testimony {
         height: auto !important;
     }
 
-    .testimony-subtitle {
-        padding-top: 30px !important;
-        text-align: center !important;
-        font-size: 35px !important;
-        height: auto !important;
+    .testimony-view-more {
+        margin-top: 0 !important;
+    }
+
+    .about-testimonies {
+        padding-bottom: 0 !important;
     }
 
     /*---------------------------- NEWSLETTER SECTION -------------------------*/
@@ -2063,6 +2115,7 @@
     .cta-content {
         order: 1;
         top: 20px !important;
+        padding: 0 70px !important;
     }
 
     .video {
@@ -2072,7 +2125,7 @@
     }
 
     .cta-subtitle {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .cta-paragraph {
@@ -2085,6 +2138,10 @@
 
     .video-cta {
         flex: 1 0 100% !important;
+    }
+
+    .cta-contact {
+        font-size: 18px !important;
     }
 
     /*---------------------------- FOOTER SECTION -------------------------*/
@@ -2130,134 +2187,50 @@
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
-    /* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
+    /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
 
-    .banner-services {
-        height: 400px !important;
-    }
-
-    .banner-services .info-banner {
-        top: 200px !important;
-    }
-
-    .banner-services .title-banner {
-        text-align: left !important;
-        width: 80% !important;
-        top: -80px !important;
-    }
-
-    .banner-services .subtitle-banner {
-        justify-content: left !important;
-        top: -75px !important;
-    }
-
-    .banner-services .buttons {
-        text-align: justify;
-        margin-top: 5px !important;
-
-    }
-
-    .banner-services .button-banner {
-        top: -90px !important;
-    }
-
-    .service {
-        height: auto !important;
-    }
-
-    .col-right,
-    .col-left {
-        padding: 20px 20px 20px 20px;
-    }
-
-    .image-service {
-        height: auto !important;
-    }
-
-    .info-service {
-        height: auto !important;
-        padding-bottom: 10px;
-    }
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE  SERVICES PAGE  -------------------------------------*/
 
-    /* ------------------------------------------ RESPONSIVE MEDIA PACKAGES PAGE --------------------------*/
-
-    .banner-packages .title-banner {
-        text-align: start !important;
-        width: 100% !important;
-    }
-
-    .package-section {
-        padding-top: 70px !important;
-    }
-
-    .card-subtitle {
-        font-size: 16px !important;
-    }
-
-    .package-leyend {
-        text-align: center !important;
-        font-size: 28px !important;
-    }
-
-    .card-mobile {
-        display: flex !important;
-        flex: 1 0 100% !important;
-        justify-content: center !important;
-        align-items: center !important;
-    }
-
-    .card-package {
-        margin: 0;
-        width: 28rem !important;
-    }
-
-    .package-cta {
-        font-size: 28px !important;
-    }
-
-    .cta-section {
-        height: 250px !important;
-    }
-
-    /*UNICAMENTE FALTA ARREGLAR EL BANNER EN ESTA MEDIDA*/
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
 
-    /* ------------------------------------------ RESPONSIVE MEDIA CONTACT PAGE --------------------------*/
 
-    .main-title {
-        font-size: 35px !important;
-    }
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE GALERY PAGE  -------------------------------------*/
 
-    .contact-col {
-        flex: 1 0 100% !important;
-    }
 
-    .paragraph-form {
-        width: 100% !important;
-    }
 
-    .contact-page .cta-content {
-        padding-top: 20px !important;
-    }
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
 
 }
 
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
 @media screen and (min-width:481px) and (max-width:800px) {
 
-    /* ------------------------------ RESPONSIVE BANNER DESIGN -------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE MEDIA MAIN PAGE  ----------------------------------------------------*/
+
+    /*---------------------------- BANNER HOME SECTION -------------------------*/
 
     .banner {
         background-color: rgba(0, 0, 0, 0.50) !important;
         background-blend-mode: soft-light !important;
+        height: 500px !important;
     }
 
     .info-banner {
-        margin-top: 50px;
+        margin-top: 60px;
         display: grid !important;
         gap: 1em !important;
     }
@@ -2267,8 +2240,9 @@
     }
 
     .title-banner {
-        font-size: 30px !important;
+        font-size: 25px !important;
         text-align: center !important;
+        margin: 0 !important;
     }
 
     /* ------------------------------ RESPONSIVE ABOUT SECTION DESIGN -------------------------------------------------------*/
@@ -2403,6 +2377,10 @@
         display: none !important;
     }
 
+    .form-subtitle {
+        font-size: 16px !important;
+    }
+
     .news-form {
         display: flex !important;
         height: 540px !important;
@@ -2414,6 +2392,10 @@
         font-size: 25px !important;
     }
 
+    .newsletter-submit {
+        font-size: 16px !important;
+    }
+
     /* ------------------------------ RESPONSIVE CTA SECTION DESIGN -------------------------------------------------------*/
 
     .cta {
@@ -2421,16 +2403,15 @@
         padding-top: 75px !important;
     }
 
-
     .cta-content {
         order: 1;
         display: inline-block !important;
-        top: -80px !important;
+        top: -50px !important;
         padding-top: 30px !important;
     }
 
     .cta-subtitle {
-        font-size: 30px !important;
+        font-size: 25px !important;
     }
 
     .cta-paragraph {
@@ -2443,12 +2424,15 @@
         margin: 0 auto !important;
     }
 
+    .cta-contact {
+        font-size: 18px !important;
+    }
+
     .video {
         width: 505px !important;
     }
 
     .cta-video {
-        padding: 0 !important;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
@@ -2516,13 +2500,43 @@
         margin-top: -35px !important;
     }
 
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
+
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE  SERVICES PAGE  -------------------------------------*/
+
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
+
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE GALERY PAGE  -------------------------------------*/
+
+
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
+
+
+
 }
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width:480px) {
 
-    /* ---------------HOME PAGE-------------------- */
-
-    /* BANNER HOME */
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE MEDIA MAIN PAGE  ----------------------------------------------------*/
 
     .banner-home {
         height: 365px !important;
@@ -2541,6 +2555,8 @@
     .banner-home .btn-contact-banner {
         width: 220px !important;
     }
+
+    /*------------------------------------- ABOUT SECTION ------------------------------------*/
 
     .about {
         padding-top: 25px;
@@ -2568,6 +2584,8 @@
         font-size: 16px !important;
     }
 
+    /*------------------------------------- SERVICES SECTION ------------------------------------*/
+
     .subtitle-service {
         font-size: 20px;
     }
@@ -2585,6 +2603,8 @@
         font-size: 16px;
     }
 
+    /*------------------------------------- GALERY SECTION ------------------------------------*/
+
     .portfolio-subtitle {
         font-size: 20px;
         text-align: center;
@@ -2600,6 +2620,19 @@
         height: auto !important;
     }
 
+    .about-galeries {
+        justify-content: center !important;
+        align-items: center !important;
+        padding-top: 40px !important;
+    }
+
+    .card {
+        width: 90% !important;
+        margin: 0 auto !important;
+    }
+
+    /*------------------------------------- TESTIMONY SECTION ------------------------------------*/
+
     .testimony-subtitle {
         font-size: 20px !important;
     }
@@ -2607,6 +2640,8 @@
     .card-testimony img {
         height: auto !important;
     }
+
+    /*------------------------------------- NEWSLETTER SECTION ------------------------------------*/
 
     .newsletter {
         height: auto;
@@ -2617,30 +2652,12 @@
         display: none;
     }
 
-    .about-galeries {
-        padding-top: 40px !important;
-    }
-
     .about-testimonies {
         padding-top: 40px !important;
     }
 
     .info-contact {
         left: 0;
-    }
-
-
-
-    /* ------------------------------ RESPONSIVE GALERY SECTION DESIGN -------------------------------------------------------*/
-
-    .about-galeries {
-        justify-content: center !important;
-        align-items: center !important;
-    }
-
-    .card {
-        width: 90% !important;
-        margin: 0 auto !important;
     }
 
     /* ------------------------------ RESPONSIVE TESTIMONY SECTION DESIGN -------------------------------------------------------*/
@@ -2726,7 +2743,8 @@
         padding-top: 0;
     }
 
-    /* FOOTER */
+    /* ------------------------------ RESPONSIVE FOOTER SECTION DESIGN -------------------------------------------------------*/
+
 
     .footer {
         padding-top: 0;
@@ -2773,520 +2791,32 @@
         text-align: center;
     }
 
-}
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
 
 
-/*----------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE  SERVICES PAGE  -------------------------------------*/
 
-/*BANNER HOME PAGE--------------------------*/
 
-/*BANNER HOME PAGE--------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
 
-@media (max-width: 800px) {
-    .banner-home .info-banner {
-        height: fit-content !important;
-        top: 150px !important;
-        justify-content: center !important;
-    }
 
-    .banner-home .subtitle-banner {
-        width: 100% !important;
-        font-size: 18px !important;
-        margin-bottom: 10px !important;
-        justify-content: center !important;
-    }
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE GALERY PAGE  -------------------------------------*/
 
-    .banner-home .title-banner {
-        width: 100% !important;
-        font-size: 25px;
-        justify-content: center !important;
-        text-align: center;
-    }
 
-    .banner-home .buttons {
-        margin-top: 20px !important;
-        text-align: center;
-        margin: 0 !important;
-    }
 
-    .banner-home .button-banner {
-        font-size: 18px !important;
-        position: relative !important;
-    }
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
 
-    .banner {
-        height: 400px;
-    }
 
-    .about_paragrah {
-        margin-left: 0;
-    }
-}
 
-/* ------------------------------------------ RESPONSIVE MEDIA GALERY PAGE --------------------------*/
-
-/* ------------------------------------------ RESPONSIVE MEDIA GALERY PAGE --------------------------*/
-
-@media screen and (max-width:480px) {
-
-    /* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
-    .banner-services {
-        height: 250px !important;
-    }
-
-    .banner-services .info-banner {
-        top: 170px !important;
-    }
-
-    .banner-services .title-banner {
-        text-align: start !important;
-        width: 100% !important;
-        top: -80px !important;
-    }
-
-    .banner-services .subtitle-banner {
-        justify-content: left !important;
-        top: -75px !important;
-    }
-
-    .banner-services .buttons {
-        text-align: justify;
-    }
-
-    .banner-services .button-banner {
-        top: -95px !important;
-    }
-
-    .service {
-        grid-template-columns: 100%;
-        height: auto !important;
-    }
-
-    .marriage-service .info-service {
-        order: -1;
-    }
-
-    .birthday-service .info-service {
-        order: -1;
-    }
-
-    .info-service {
-        height: auto !important;
-        padding-bottom: 10px;
-    }
-
-    .col-right {
-        padding: 40px 50px 0 30px;
-    }
-
-    .col-left {
-        padding: 40px 50px 0 30px;
-    }
-
-    .button-service {
-        width: 100%;
-    }
-
-    .image-service {
-        padding: 10px 30px 0 30px;
-        height: auto;
-    }
-
-    .figure-service img {
-        border-radius: 10px;
-    }
-
-    .birthday-service .image-service {
-        padding-bottom: 50px !important;
-    }
-
-    /* ------------------------------------------ RESPONSIVE MEDIA PACKAGE PAGE --------------------------*/
-    .banner-packages .subtitle-banner {
-        justify-content: left !important;
-    }
-
-    .banner-packages .title-banner {
-        text-align: start !important;
-    }
-
-    .banner-packages .buttons {
-        text-align: justify;
-    }
-
-    .package-section {
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-
-    .card-package {
-        margin: 0 20px;
-        width: 100%;
-    }
-
-    .card-mobile {
-        flex: 1 0 100% !important;
-    }
-
-    .card-kinder {
-        width: auto !important;
-    }
-
-
-    .cta-section {
-        height: auto;
-        padding-bottom: 40px !important;
-    }
-
-    .galery-cta-subtitle {
-        font-size: 18px;
-
-    }
-
-    /* ------------------------------------------ RESPONSIVE MEDIA CONTACT PAGE --------------------------*/
-
-    .banner-contact {
-        height: 300px;
-    }
-
-    .banner-contact .title-banner {
-        font-size: 20px !important;
-        width: auto !important;
-    }
-
-    .banner-contact .subtitle-contact {
-        display: inline !important;
-        font-size: 18px !important;
-        width: auto !important;
-    }
-
-    .contact {
-        padding-top: 55px;
-    }
-
-    .contact-title {
-        font-size: 20px;
-    }
-
-    .paragraph-form {
-        font-size: 16px;
-        width: auto !important;
-    }
-
-    .form-col {
-        flex: 1 0 100% !important;
-        margin-bottom: 10px;
-    }
-
-    .contact-col {
-        flex: 1 0 100% !important;
-    }
-
-    .row-video {
-        padding-bottom: 0 !important;
-        padding-top: 80px !important;
-    }
-
-    .cta-contact {
-        width: 100%;
-    }
-
-    /* ------------------------------------------ RESPONSIVE MEDIA ABOUT PAGE --------------------------*/
-    .banner-about .info-banner {
-        top: 125px !important;
-    }
-
-    .banner-about .title-banner {
-        font-size: 20px;
-        width: 100%;
-        text-align: center;
-    }
-
-    .banner-about .subtitle-banner {
-        font-size: 18px !important;
-        text-align: center !important;
-        margin-bottom: 10px !important;
-    }
-
-    .banner-about .buttons {
-        text-align: center !important;
-        margin-top: 10px !important;
-    }
-
-    .banner-about .contact-about {
-        width: 230px !important;
-    }
-}
-
-@media screen and (min-width:481px) and (max-width:800px) {
-
-    /* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
-    .banner-services {
-        height: 250px !important;
-    }
-
-    .banner-services .info-banner {
-        top: 120px !important;
-    }
-
-    .banner-services .title-banner {
-        text-align: start !important;
-        width: 100% !important;
-        top: -80px !important;
-    }
-
-    .banner-services .subtitle-banner {
-        justify-content: left !important;
-        top: -70px !important;
-    }
-
-    .banner-services .buttons {
-        text-align: justify;
-    }
-
-    .banner-services .button-banner {
-        top: -105px !important;
-    }
-
-    .service {
-        grid-template-columns: 100%;
-        height: auto !important;
-    }
-
-    .marriage-service .info-service {
-        order: -1;
-    }
-
-    .birthday-service .info-service {
-        order: -1;
-    }
-
-    .info-service {
-        height: auto !important;
-        padding-bottom: 10px;
-    }
-
-    .col-right {
-        padding: 40px 50px 0 30px;
-    }
-
-    .col-left {
-        padding: 40px 50px 0 30px;
-    }
-
-    .button-service {
-        width: 100%;
-        font-size: 16px;
-    }
-
-    .image-service {
-        padding: 10px 30px 0 30px;
-        height: auto;
-    }
-
-    .figure-service img {
-        border-radius: 10px;
-    }
-
-    .birthday-service .image-service {
-        padding-bottom: 50px !important;
-    }
-
-    /* ------------------------------------------ RESPONSIVE MEDIA PACKAGES PAGE --------------------------*/
-    .banner-packages .info-banner {
-        margin-top: -100px !important;
-    }
-
-    .banner-packages .subtitle-banner {
-        justify-content: left !important;
-    }
-
-    .banner-packages .title-banner {
-        text-align: start !important;
-        width: 100% !important;
-    }
-
-    .banner-packages .buttons {
-        text-align: justify;
-    }
-
-    .banner-packages .button-banner {
-        top: -116px !important;
-    }
-
-    .package-section {
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-
-    .card-package {
-        margin: 0;
-        width: 28rem !important;
-    }
-
-    .card-mobile {
-        display: flex !important;
-        flex: 1 0 100% !important;
-        justify-content: center !important;
-        align-items: center !important;
-    }
-
-    .row-mobile {
-        justify-content: center !important;
-        align-items: center !important;
-    }
-
-    .card-kinder {
-        width: 28rem !important;
-    }
-
-
-    .cta-section {
-        height: auto;
-        padding-bottom: 80px !important;
-    }
-
-    .galery-cta-subtitle {
-        font-size: 20px;
-        margin-bottom: 20px !important;
-    }
-
-    .cta-section .btn-contact {
-        display: inline !important;
-        margin-top: 10px !important;
-    }
-
-    /* ------------------------------------------ RESPONSIVE MEDIA CONTACT PAGE --------------------------*/
-    .banner-contact {
-        height: 400px;
-    }
-
-    .banner-contact .main-title {
-        width: 100% !important;
-    }
-
-    .banner-contact .subtitle-contact {
-        display: inline !important;
-        font-size: 20px !important;
-        width: auto !important;
-    }
-
-    .contact-col {
-        flex: 1 0 100% !important;
-    }
-
-    .paragraph-form {
-        width: 100% !important;
-    }
-
-    .row-video {
-        padding-bottom: 0 !important;
-    }
-
-    .form-col {
-<<<<<<< Updated upstream
-        flex: 1 0 100% !important;
-    }
 
 }
-
-
-@media screen and (min-width:801px) and (max-width:1024px) {
-    /* ------------------------------------------ RESPONSIVE MEDIA SERVICES PAGE --------------------------*/
-
-    .banner-services {
-        height: 400px !important;
-    }
-
-    .banner-services .info-banner {
-        top: 200px !important;
-    }
-
-    .banner-services .title-banner {
-        text-align: left !important;
-        width: 80% !important;
-        top: -80px !important;
-    }
-
-    .banner-services .subtitle-banner {
-        justify-content: left !important;
-        top: -75px !important;
-    }
-
-    .banner-services .buttons {
-        text-align: justify;
-        margin-top: 5px !important;
-
-    }
-
-    .banner-services .button-banner {
-        top: -90px !important;
-    }
-
-    .service {
-        height: auto !important;
-    }
-
-    .col-right,
-    .col-left {
-        padding: 20px 20px 20px 20px;
-    }
-
-    .image-service {
-        height: auto !important;
-    }
-
-    .info-service {
-        height: auto !important;
-        padding-bottom: 10px;
-    }
-
-    /* ------------------------------------------ RESPONSIVE MEDIA PACKAGES PAGE --------------------------*/
-
-    .banner-packages .title-banner {
-        text-align: start !important;
-        width: 100% !important;
-    }
-
-    .card-mobile {
-        display: flex !important;
-        flex: 1 0 100% !important;
-        justify-content: center !important;
-        align-items: center !important;
-    }
-
-    .card-package {
-        margin: 0;
-        width: 28rem !important;
-    }
-
-    /* ------------------------------------------ RESPONSIVE MEDIA CONTACT PAGE --------------------------*/
-
-    .contact-col {
-        flex: 1 0 100% !important;
-    }
-
-    .paragraph-form {
-        width: 100% !important;
-    }
-
-    .contact-page .cta-content {
-        padding-top: 20px !important;
-    }
-
-}
-
-/* For Mobile devices: 320px-480px */
-
-/* For Tablets or iPad: 480px - 768px */
-
-/* For Laptop or small-size screen: 768px -1024px */
-
-/* For Desktop or large-size screen: 1024px -1200px */
-
-/* For Extra-large size device: 1200px and more*/
-=======
-        flex: 1 0 100% !important;
-    }
-
-}
->>>>>>> Stashed changes
