@@ -1802,40 +1802,93 @@
 
 /*---------------------------------------------------------------- MOBILE VIEW - RESPONSIVE DESIGN ---------------------------------------------*/
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:800px) {
 
     /*------------------------------------------ RESPONSIVE DESING NAVBAR ----------------------------------------*/
+    .menu{
+        position: fixed;
+        z-index: 100;
+    }
+
+    hr.divider{
+        border-top: 2px solid #bbb;
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .navbar-nav--menu {
+        position: fixed;
+        background: radial-gradient(rgba(255, 255, 255, 0) 0.9%, rgba(255, 255, 255, 7.89793e-09) 58.12%, rgba(255, 255, 255, 0.2) 100%), #000000;
+        background-blend-mode: difference, normal;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        top: 65px;
+        left: 0;
+        height: 350px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* align-items: center; */
+        z-index: 100;
+        opacity: 0;
+        pointer-events: none;
+        transition: .7s opacity;
+        /* margin-top: 99px !important; */
+    }
+
+    .navbar-nav.show {
+        --show: block;
+        opacity: 1;
+        pointer-events: unset;
+    }
 
     .nav_menu {
         display: flex;
         float: right;
         margin-top: 40px;
-        margin-right: 7px !important;
-    }
-
-    .navbar-nav--menu {
-        position: fixed;
-        background: radial-gradient(136.95% 136.95% at 50.65% -27.09%, rgba(255, 255, 255, 0) 0.83%, rgba(255, 255, 255, 7.89793e-09) 58.12%, rgba(255, 255, 255, 0.2) 100%), #000000;
-        background-blend-mode: difference, normal;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        top: 0;
-        left: 0;
-        height: 500px;
-        width: 100%;
-        display: flex;
+        margin-right: 10px !important;
+        z-index: 200;
+        width: 40px;
+        height: 40px;
+        border: none;
+        background: none;
         flex-direction: column;
-        justify-content: space-evenly;
         align-items: center;
-        z-index: 100;
-        opacity: 0;
-        pointer-events: none;
-        transition: .7s opacity;
+        justify-content: center;
+        cursor: pointer;
     }
 
-    .navbar-nav--show {
-        --show: block;
+    .nav_menu span {
+        width: 37px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #FFF;
+        border-radius: 3px;
+        transform-origin: 4px 0px;
+        transition: all .2s linear;
+        margin-right: 10px;
+    }
+
+    .nav_menu.close span {
         opacity: 1;
-        pointer-events: unset;
+        transform: rotate(45deg) translate(0px, 0px);
+        background: #ffffff;
+    }
+
+    .nav_menu.close span:nth-child(2){
+        transform: rotate(-45deg) translate(-8px, 5px);
+    }
+
+    .nav_menu.close span:nth-child(3){
+        display: none;
+    }
+
+
+
+    .nav_img {
+        margin-right: 10px;
+        width: 40px;
     }
 
     .nav_close {
@@ -1846,10 +1899,7 @@
         cursor: pointer;
     }
 
-    .nav_img {
-        margin-right: 10px;
-        width: 40px;
-    }
+
 
     .logo {
         margin-left: 7px;
@@ -2196,7 +2246,7 @@
         margin: 0 auto !important;
     }
 
-    .newsletter-subtitle{
+    .newsletter-subtitle {
         font-size: 25px !important;
     }
 
@@ -2224,12 +2274,12 @@
     }
 
     .contact-video {
-        width: 100%  !important;
+        width: 100% !important;
         height: 340px !important;
         margin: 0 auto !important;
     }
 
-    .video{
+    .video {
         width: 505px !important;
     }
 
@@ -2240,7 +2290,7 @@
         justify-content: center !important;
     }
 
-    .video-cta{
+    .video-cta {
         flex: 1 0 100% !important;
     }
 
@@ -2532,7 +2582,7 @@
         height: 300px;
     }
 
-    .form-footer-col{
+    .form-footer-col {
         padding-left: 0 !important;
     }
 
@@ -2745,7 +2795,7 @@
 
     /* ------------------------------------------ RESPONSIVE MEDIA CONTACT PAGE --------------------------*/
 
-    .banner-contact{
+    .banner-contact {
         height: 300px;
     }
 
@@ -2787,33 +2837,33 @@
         padding-top: 80px !important;
     }
 
-    .cta-contact{
+    .cta-contact {
         width: 100%;
     }
 
     /* ------------------------------------------ RESPONSIVE MEDIA ABOUT PAGE --------------------------*/
-    .banner-about .info-banner{
+    .banner-about .info-banner {
         top: 125px !important;
     }
 
-    .banner-about .title-banner{
+    .banner-about .title-banner {
         font-size: 20px;
         width: 100%;
         text-align: center;
     }
 
-    .banner-about .subtitle-banner{
+    .banner-about .subtitle-banner {
         font-size: 18px !important;
         text-align: center !important;
         margin-bottom: 10px !important;
     }
 
-    .banner-about .buttons{
+    .banner-about .buttons {
         text-align: center !important;
         margin-top: 10px !important;
     }
 
-    .banner-about .contact-about{
+    .banner-about .contact-about {
         width: 230px !important;
     }
 }
@@ -2957,36 +3007,36 @@
     }
 
     /* ------------------------------------------ RESPONSIVE MEDIA CONTACT PAGE --------------------------*/
-    .banner-contact{
+    .banner-contact {
         height: 400px;
     }
 
-    .banner-contact .main-title{
+    .banner-contact .main-title {
         width: 100% !important;
     }
 
-    .banner-contact .subtitle-contact{
+    .banner-contact .subtitle-contact {
         display: inline !important;
         font-size: 20px !important;
         width: auto !important;
     }
 
-    .contact-col{
+    .contact-col {
         flex: 1 0 100% !important;
     }
- 
-    .paragraph-form{
+
+    .paragraph-form {
         width: 100% !important;
     }
 
-    .row-video{
+    .row-video {
         padding-bottom: 0 !important;
     }
 
-    .form-col{
+    .form-col {
         flex: 1 0 100% !important;
     }
-    
+
 }
 
 
@@ -3061,15 +3111,15 @@
 
     /* ------------------------------------------ RESPONSIVE MEDIA CONTACT PAGE --------------------------*/
 
-    .contact-col{
+    .contact-col {
         flex: 1 0 100% !important;
     }
 
-    .paragraph-form{
+    .paragraph-form {
         width: 100% !important;
     }
 
-    .contact-page .cta-content{
+    .contact-page .cta-content {
         padding-top: 20px !important;
     }
 
