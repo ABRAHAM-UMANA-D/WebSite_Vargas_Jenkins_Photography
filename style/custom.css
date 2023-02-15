@@ -610,45 +610,41 @@
     font-weight: 600;
 }
 
-.title-testimony{
+.title-testimony {
     background-color: #000;
     color: #fff;
     padding: 20px;
     border-radius: 10px;
-    font-size: 40px !important; 
+    font-size: 40px !important;
 }
 
-.title-testimony h5{
+.title-testimony h5 {
     font-size: 20px !important;
-    font-weight: bold !important; 
+    font-weight: bold !important;
+}
 
+.wrapper-testimony{
+    display: none;
+}
+
+
+.wrapper-testimony:nth-child(1){
+    display: block;
+}
+
+.show-more{
+    display: block;
 }
 
 .card-testimony {
     box-shadow: 0px 0.7px 3px 1px rgba(0.5, 0, 0, 0.15) !important;
-    /* cursor: pointer; */
 }
 
 .card-testimony img {
-    height: auto;
-}
-
-.card-testimony img:nth-child(1){
-   /*  margin-left: 5px;  */
-    width: 180px;
-    height: auto;
-}
-
-.card-testimony img:nth-child(2){
-    position: relative;
     height: 300px;
-    width: 260px;
-    left: -20px;
-    top: 30px;
-    cursor: zoom-in;
 }
 
-.card-testimony .images-testimony{
+.card-testimony .images-testimony {
     position: relative;
     display: grid;
     grid-template-columns: 40% 50%;
@@ -659,9 +655,10 @@
     animation: pulse .8s infinite;
 }
 
-.card-testimony .stars i{
+.card-testimony .stars i {
     font-size: 30px;
     color: #CC9934;
+    content: "";
 }
 
 .about-testimonies {
@@ -1076,10 +1073,6 @@
 
 .wrapper-gallery {
     display: none;
-}
-
-.wrapper-gallery:nth-child(1) {
-    display: block;
 }
 
 .wrapper-gallery img:hover {
@@ -1871,9 +1864,9 @@
 
     /*--------------------------------------- BANNER SECTION ---------------------------------------------*/
 
-    .container {
+   /*  .container {
         padding: 0px !important;
-    }
+    } */
 
     nav ul {
         padding: 0 !important;
@@ -2089,7 +2082,7 @@
     .nav_menu.close span:nth-child(3) {
         display: none;
     }
-    
+
 
     .nav_img {
         margin-right: 10px;
@@ -2874,7 +2867,7 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
-     .banner-packages .subtitle-banner {
+    .banner-packages .subtitle-banner {
         justify-content: left !important;
     }
 
