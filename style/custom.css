@@ -248,7 +248,7 @@
 }
 
 .buttons {
-    margin-top: 30px !important;
+    margin-top: 10px !important;
 }
 
 .btn {
@@ -1856,18 +1856,21 @@
 
 /* For Extra-large size device: 1200px and more*/
 
-@media screen and (Max-Width:1280px) {
+@media screen and (Min-Width:1024px) and (Max-Width:1280px) {
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE MAIN PAGE  -------------------------------------*/
 
     /*--------------------------------------- BANNER SECTION ---------------------------------------------*/
+<<<<<<< Updated upstream
 
    /*  .container {
         padding: 0px !important;
     } */
 
+=======
+>>>>>>> Stashed changes
     nav ul {
         padding: 0 !important;
     }
