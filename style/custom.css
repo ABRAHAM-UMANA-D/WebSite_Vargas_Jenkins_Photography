@@ -50,6 +50,10 @@
     margin: 0 5px !important;
 }
 
+.nav_link i{
+    display: none;
+}
+
 .nav_link {
     color: #ffff !important;
     font-size: 20px !important;
@@ -1856,7 +1860,7 @@
 
 /* For Extra-large size device: 1200px and more*/
 
-@media screen and (Min-Width:1024px) and (Max-Width:1280px) {
+@media screen and (Min-Width:1025px) and (Max-Width:1200px) {
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
@@ -2020,7 +2024,16 @@
     hr.divider {
         border-top: 2px solid #bbb;
         width: 100%;
-        margin: 0 !important;
+        margin: auto !important;
+    }
+
+    .item{
+        margin-top: 20px !important;
+        padding-bottom: 10px;
+    }
+
+    .nav_link i{
+        display: inline-block;
     }
 
     .navbar-nav--menu {
@@ -2030,7 +2043,7 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         top: 65px;
         left: 0;
-        height: 350px;
+        height:auto;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -2049,11 +2062,18 @@
         pointer-events: unset;
     }
 
+    .social-networks{
+        margin-top: 20px;
+        font-size: 20px;
+        margin-right: 0 !important;
+        padding-left: 10px;
+    }
+
     .nav_menu {
         display: flex;
         float: right;
         margin-top: 40px;
-        margin-right: 10px !important;
+        margin-right: 30px !important;
         z-index: 200;
         width: 40px;
         height: 40px;
@@ -2063,6 +2083,10 @@
         align-items: center;
         justify-content: center;
         cursor: pointer;
+    }
+
+    .navbar-expand-lg .navbar-nav{
+        flex-direction: column !important;
     }
 
     .nav_menu span {
@@ -2302,6 +2326,7 @@
 
     .footer {
         padding-top: 0;
+        padding-bottom: 75px;
     }
 
     .info-contact {
@@ -2767,6 +2792,7 @@
 
     .footer {
         padding-top: 0;
+        padding-bottom: 80px;
     }
 
     .title-contact,
@@ -3059,6 +3085,7 @@
 
     .paragraph-home {
         font-size: 16px !important;
+        margin-left: 0 !important;
     }
 
     .about-view-more-btn {
@@ -3233,6 +3260,7 @@
 
     .footer {
         padding-top: 0;
+        padding-bottom: 80px;
     }
 
     .logo-footer {
@@ -3252,7 +3280,7 @@
 
     .info-contact {
         margin-top: 0 !important;
-        top: -60px !important;
+        top: -47px !important;
     }
 
     .gold-footer {
