@@ -610,23 +610,58 @@
     font-weight: 600;
 }
 
+.title-testimony{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 40px !important; 
+}
+
+.title-testimony h5{
+    font-size: 20px !important;
+    font-weight: bold !important; 
+
+}
+
 .card-testimony {
     box-shadow: 0px 0.7px 3px 1px rgba(0.5, 0, 0, 0.15) !important;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .card-testimony img {
-    height: 300px !important;
+    height: auto;
 }
 
-/*.card-testimony:hover {
-    margin-left: 15px;
-    transform: scale(1.08);
-    transition: all 0.3s;
-}*/
+.card-testimony img:nth-child(1){
+   /*  margin-left: 5px;  */
+    width: 180px;
+    height: auto;
+}
+
+.card-testimony img:nth-child(2){
+    position: relative;
+    height: 300px;
+    width: 260px;
+    left: -20px;
+    top: 30px;
+    cursor: zoom-in;
+}
+
+.card-testimony .images-testimony{
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    width: auto;
+}
 
 .card-testimony:hover a {
     animation: pulse .8s infinite;
+}
+
+.card-testimony .stars i{
+    font-size: 30px;
+    color: #CC9934;
 }
 
 .about-testimonies {
@@ -2054,6 +2089,7 @@
     .nav_menu.close span:nth-child(3) {
         display: none;
     }
+    
 
     .nav_img {
         margin-right: 10px;
@@ -2301,11 +2337,99 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  SERVICES PAGE  -------------------------------------*/
+    .banner-services {
+        height: 400px !important;
+    }
+
+    .banner-services .info-banner {
+        top: 200px !important;
+    }
+
+    .banner-services .title-banner {
+        text-align: left !important;
+        width: 80% !important;
+        top: -80px !important;
+    }
+
+    .banner-services .subtitle-banner {
+        justify-content: left !important;
+        top: -75px !important;
+    }
+
+    .banner-services .buttons {
+        text-align: justify;
+        margin-top: 5px !important;
+
+    }
+
+    .banner-services .button-banner {
+        top: -90px !important;
+    }
+
+    .service {
+        height: auto !important;
+    }
+
+    .col-right,
+    .col-left {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .image-service {
+        height: auto !important;
+    }
+
+    .info-service {
+        height: auto !important;
+        padding-bottom: 10px;
+    }
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+
+
 
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
+    .banner-packages .title-banner {
+        text-align: start !important;
+        width: 100% !important;
+    }
+
+    .package-section {
+        padding-top: 70px !important;
+    }
+
+    .card-subtitle {
+        font-size: 16px !important;
+    }
+
+    .package-leyend {
+        text-align: center !important;
+        font-size: 28px !important;
+    }
+
+    .card-mobile {
+        display: flex !important;
+        flex: 1 0 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .card-package {
+        margin: 0;
+        width: 28rem !important;
+    }
+
+    .package-cta {
+        font-size: 28px !important;
+    }
+
+    .cta-section {
+        height: 250px !important;
+    }
 
 
     /*-----------------------------------------------------------------------------------------------*/
@@ -2317,6 +2441,21 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
+    .main-title {
+        font-size: 35px !important;
+    }
+
+    .contact-col {
+        flex: 1 0 100% !important;
+    }
+
+    .paragraph-form {
+        width: 100% !important;
+    }
+
+    .contact-page .cta-content {
+        padding-top: 20px !important;
+    }
 
 }
 
@@ -2355,10 +2494,22 @@
         justify-content: center !important;
     }
 
+    .banner-home .info-banner {
+        height: fit-content !important;
+        top: 150px !important;
+        justify-content: center !important;
+    }
+
     .banner-home .subtitle-banner {
         width: 100% !important;
         font-size: 18px !important;
         margin-bottom: 10px !important;
+        justify-content: center !important;
+    }
+
+    .banner-home .title-banner {
+        width: 100% !important;
+        font-size: 25px;
         justify-content: center !important;
         text-align: center;
     }
@@ -2373,6 +2524,15 @@
         font-size: 18px !important;
         position: relative !important;
     }
+
+    .banner {
+        height: 400px;
+    }
+
+    .about_paragrah {
+        margin-left: 0;
+    }
+
 
 
     /* ------------------------------ RESPONSIVE ABOUT SECTION DESIGN -------------------------------------------------------*/
@@ -2639,11 +2799,134 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  SERVICES PAGE  -------------------------------------*/
+    .banner-services {
+        height: 250px !important;
+    }
+
+    .banner-services .info-banner {
+        top: 120px !important;
+    }
+
+    .banner-services .title-banner {
+        text-align: start !important;
+        width: 100% !important;
+        top: -80px !important;
+    }
+
+    .banner-services .subtitle-banner {
+        justify-content: left !important;
+        top: -70px !important;
+    }
+
+    .banner-services .buttons {
+        text-align: justify;
+    }
+
+    .banner-services .button-banner {
+        top: -105px !important;
+    }
+
+    .service {
+        grid-template-columns: 100%;
+        height: auto !important;
+    }
+
+    .marriage-service .info-service {
+        order: -1;
+    }
+
+    .birthday-service .info-service {
+        order: -1;
+    }
+
+    .info-service {
+        height: auto !important;
+        padding-bottom: 10px;
+    }
+
+    .col-right {
+        padding: 40px 50px 0 30px;
+    }
+
+    .col-left {
+        padding: 40px 50px 0 30px;
+    }
+
+    .button-service {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .image-service {
+        padding: 10px 30px 0 30px;
+        height: auto;
+    }
+
+    .figure-service img {
+        border-radius: 10px;
+    }
+
+    .birthday-service .image-service {
+        padding-bottom: 50px !important;
+    }
 
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
+     .banner-packages .subtitle-banner {
+        justify-content: left !important;
+    }
+
+    .banner-packages .title-banner {
+        text-align: start !important;
+    }
+
+    .banner-packages .buttons {
+        text-align: justify;
+    }
+
+    .package-section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .card-package {
+        margin: 0;
+        width: 28rem !important;
+    }
+
+    .card-mobile {
+        display: flex !important;
+        flex: 1 0 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .row-mobile {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .card-kinder {
+        width: 28rem !important;
+    }
+
+
+    .cta-section {
+        height: auto;
+        padding-bottom: 80px !important;
+    }
+
+    .galery-cta-subtitle {
+        font-size: 20px;
+        margin-bottom: 20px !important;
+    }
+
+    .cta-section .btn-contact {
+        display: inline !important;
+        margin-top: 10px !important;
+    }
 
 
     /*-----------------------------------------------------------------------------------------------*/
@@ -2655,6 +2938,52 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
+    .banner-contact {
+        height: 300px;
+    }
+
+    .banner-contact .title-banner {
+        font-size: 20px !important;
+        width: auto !important;
+    }
+
+    .banner-contact .subtitle-contact {
+        display: inline !important;
+        font-size: 18px !important;
+        width: auto !important;
+    }
+
+    .contact {
+        padding-top: 55px;
+    }
+
+    .contact-title {
+        font-size: 20px;
+    }
+
+    .paragraph-form {
+        font-size: 16px;
+        width: auto !important;
+    }
+
+    .form-col {
+        flex: 1 0 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .contact-col {
+        flex: 1 0 100% !important;
+    }
+
+    .row-video {
+        padding-bottom: 0 !important;
+        padding-top: 80px !important;
+    }
+
+    .cta-contact {
+        width: 100%;
+    }
+
 
 
 
@@ -2940,16 +3269,212 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
+    .banner-about .info-banner {
+        top: 125px !important;
+    }
+
+    .banner-about .title-banner {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-about .subtitle-banner {
+        font-size: 18px !important;
+        text-align: center !important;
+        margin-bottom: 10px !important;
+    }
+
+    .banner-about .buttons {
+        text-align: center !important;
+        margin-top: 10px !important;
+    }
+
+    .banner-about .contact-about {
+        width: 230px !important;
+    }
 
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  SERVICES PAGE  -------------------------------------*/
+    .banner-services {
+        height: 250px !important;
+    }
+
+    .banner-services .info-banner {
+        top: 170px !important;
+    }
+
+    .banner-services .title-banner {
+        text-align: start !important;
+        width: 100% !important;
+        top: -80px !important;
+    }
+
+    .banner-services .subtitle-banner {
+        justify-content: left !important;
+        top: -75px !important;
+    }
+
+    .banner-services .buttons {
+        text-align: justify;
+    }
+
+    .banner-services .button-banner {
+        top: -95px !important;
+    }
+
+    .service {
+        grid-template-columns: 100%;
+        height: auto !important;
+    }
+
+    .marriage-service .info-service {
+        order: -1;
+    }
+
+    .birthday-service .info-service {
+        order: -1;
+    }
+
+    .info-service {
+        height: auto !important;
+        padding-bottom: 10px;
+    }
+
+    .col-right {
+        padding: 40px 50px 0 30px;
+    }
+
+    .col-left {
+        padding: 40px 50px 0 30px;
+    }
+
+    .button-service {
+        width: 100%;
+    }
+
+    .image-service {
+        padding: 10px 30px 0 30px;
+        height: auto;
+    }
+
+    .figure-service img {
+        border-radius: 10px;
+    }
+
+    .birthday-service .image-service {
+        padding-bottom: 50px !important;
+    }
 
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
+    .banner-packages .subtitle-banner {
+        justify-content: left !important;
+    }
+
+    .banner-packages .title-banner {
+        text-align: start !important;
+    }
+
+    .banner-packages .buttons {
+        text-align: justify;
+    }
+
+    .package-section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .card-package {
+        margin: 0 20px;
+        width: 100%;
+    }
+
+    .card-mobile {
+        flex: 1 0 100% !important;
+    }
+
+    .card-kinder {
+        width: auto !important;
+    }
+
+
+    .cta-section {
+        height: auto;
+        padding-bottom: 40px !important;
+    }
+
+    .galery-cta-subtitle {
+        font-size: 18px;
+
+    }
+
+    .banner-packages .info-banner {
+        margin-top: -100px !important;
+    }
+
+    .banner-packages .subtitle-banner {
+        justify-content: left !important;
+    }
+
+    .banner-packages .title-banner {
+        text-align: start !important;
+        width: 100% !important;
+    }
+
+    .banner-packages .buttons {
+        text-align: justify;
+    }
+
+    .banner-packages .button-banner {
+        top: -116px !important;
+    }
+
+    .package-section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .card-package {
+        margin: 0;
+        width: 28rem !important;
+    }
+
+    .card-mobile {
+        display: flex !important;
+        flex: 1 0 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .row-mobile {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .card-kinder {
+        width: 28rem !important;
+    }
+
+
+    .cta-section {
+        height: auto;
+        padding-bottom: 80px !important;
+    }
+
+    .galery-cta-subtitle {
+        font-size: 20px;
+        margin-bottom: 20px !important;
+    }
+
+    .cta-section .btn-contact {
+        display: inline !important;
+        margin-top: 10px !important;
+    }
 
 
     /*-----------------------------------------------------------------------------------------------*/
@@ -2961,8 +3486,33 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
+    .banner-contact {
+        height: 400px;
+    }
 
+    .banner-contact .main-title {
+        width: 100% !important;
+    }
 
+    .banner-contact .subtitle-contact {
+        display: inline !important;
+        font-size: 20px !important;
+        width: auto !important;
+    }
 
+    .contact-col {
+        flex: 1 0 100% !important;
+    }
 
+    .paragraph-form {
+        width: 100% !important;
+    }
+
+    .row-video {
+        padding-bottom: 0 !important;
+    }
+
+    .form-col {
+        flex: 1 0 100% !important;
+    }
 }
