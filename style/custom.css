@@ -623,16 +623,16 @@
     font-weight: bold !important;
 }
 
-.wrapper-testimony{
+.wrapper-testimony {
     display: none;
 }
 
 
-.wrapper-testimony:nth-child(1){
+.wrapper-testimony:nth-child(1) {
     display: block;
 }
 
-.show-more{
+.show-more {
     display: block;
 }
 
@@ -1863,14 +1863,6 @@
     /*----------------------------  RESPONSIVE MAIN PAGE  -------------------------------------*/
 
     /*--------------------------------------- BANNER SECTION ---------------------------------------------*/
-<<<<<<< Updated upstream
-
-   /*  .container {
-        padding: 0px !important;
-    } */
-
-=======
->>>>>>> Stashed changes
     nav ul {
         padding: 0 !important;
     }
@@ -1879,24 +1871,26 @@
         padding-right: 0 !important;
     }
 
+    .social-networks {
+        margin-left: 20px !important;
+    }
+
     .info-banner {
-        top: 350px !important;
+        top: 310px !important;
         height: auto !important;
     }
 
     .subtitle-banner {
-        padding-top: 20px !important;
-        top: -35px !important;
+        top: -50px !important;
     }
 
     .title-banner {
         width: 55% !important;
         font-size: 35px !important;
-        top: -60px !important;
     }
 
     .buttons {
-        margin-top: 10px !important;
+        margin-top: 12px !important;
     }
 
     /*------------------------------------- ABOUT SECTION --------------------------------------*/
@@ -1936,12 +1930,17 @@
 
     /*------------------------------------- GALERY SECTION --------------------------------------*/
 
-    .card-galery:hover {
-        transform: scale(1.02) !important;
-    }
-
     .portfolio-subtitle {
         font-size: 40px !important;
+    }
+
+    .card {
+        width: 20rem !important;
+    }
+
+    .card-galery:hover img,
+    .card-galery img {
+        height: auto !important;
     }
 
     /*------------------------------------- TESTIMONY SECTION --------------------------------------*/
@@ -1964,12 +1963,18 @@
 
     /*------------------------------------- NEWSLETTER SECTION --------------------------------------*/
 
-    .news-form{
+    .news-form {
         margin-right: 0 !important;
+        padding-right: 0 !important;
     }
+
+    .newsletter-form {
+        padding-right: 0 !important;
+    }
+
     /*------------------------------------- CTA SECTION --------------------------------------*/
 
-    .cta{
+    .cta {
         padding: 100px 0 !important;
     }
 
@@ -2110,7 +2115,7 @@
     .testimony-subtitle {
         padding-top: 30px !important;
         height: auto !important;
-        font-size: 25px;
+        font-size: 25px !important;
         text-align: center;
         font-weight: bold !important;
         text-transform: uppercase !important;
@@ -2140,12 +2145,13 @@
 
     .info-banner {
         text-align: center !important;
-        top: 260px !important;
+        top: 250px !important;
     }
 
     .sub-main {
         display: inline !important;
         font-size: 25px !important;
+        top: -60px !important;
     }
 
     .buttons {
@@ -2156,7 +2162,7 @@
     /*---------------------------- ABOUT SECTION -------------------------*/
 
     .about {
-        padding: 60px 0 !important;
+        padding: 80px 0 !important;
     }
 
     .about-mobile {
@@ -2165,7 +2171,8 @@
 
     .about-figure {
         margin: 0 auto !important;
-        padding: 45px !important;
+        padding-bottom: 45px !important;
+        padding-top: 0 !important;
     }
 
     .about_paragrah {
@@ -2237,12 +2244,19 @@
         display: none;
     }
 
+    .newsletter_paragrah {
+        font-size: 20px !important;
+    }
+
     .news-form {
         flex: 1 0 100% !important;
+        margin-right: 0 !important;
+        padding: 0 !important;
     }
 
     .newsletter-form {
         height: auto;
+        padding: 0 !important;
     }
 
     /*---------------------------- CTA SECTION -------------------------*/
@@ -2603,7 +2617,7 @@
     /* ------------------------------ RESPONSIVE GALERY SECTION DESIGN -------------------------------------------------------*/
 
     .portfolio-subtitle {
-        font-size: 25px;
+        font-size: 20px !important;
         text-align: center;
     }
 
@@ -2976,9 +2990,7 @@
         padding-top: 80px !important;
     }
 
-    .cta-contact {
-        width: 100%;
-    }
+
 
 
 
@@ -3041,7 +3053,7 @@
     }
 
     .about-mobile .subtitle {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 10px;
     }
 
@@ -3075,9 +3087,10 @@
     /*------------------------------------- GALERY SECTION ------------------------------------*/
 
     .portfolio-subtitle {
-        font-size: 18px;
+        font-size: 18px !important;
         text-align: center;
-        height: 92px !important;
+        height: auto !important;
+        top: 0 !important;
     }
 
     .card-home-mobile {
@@ -3097,7 +3110,7 @@
     }
 
     .card {
-        width: 90% !important;
+        width: 19rem !important;
         margin: 0 auto !important;
     }
 
@@ -3105,7 +3118,8 @@
 
     .testimony-subtitle {
         font-size: 18px !important;
-        height: 92px !important;
+        height: auto !important;
+        top: 0 !important;
     }
 
     .card-testimony img {
@@ -3199,13 +3213,13 @@
         font-size: 16px !important;
     }
 
-    .cta-paragraph {
-        padding-right: 15px !important;
+    .cta-contact {
+        width: 100% !important;
     }
 
     .cta-content {
         position: relative;
-        padding-left: 30px !important;
+        padding: 0 30px !important;
         order: 1;
         top: -150px !important;
     }
@@ -3265,8 +3279,9 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
+    
     .banner-about .info-banner {
-        top: 125px !important;
+        top: 90px !important;
     }
 
     .banner-about .title-banner {
@@ -3289,6 +3304,16 @@
     .banner-about .contact-about {
         width: 230px !important;
     }
+
+    /*--------------------------------- TEAM WORK SECTION -------------------------------------------------------*/
+
+        .title-team{
+            font-size: 18px !important;
+        }
+
+        .our-teamwork{
+            height: 2000px !important;
+        }
 
 
     /*-----------------------------------------------------------------------------------------------*/
@@ -3511,4 +3536,6 @@
     .form-col {
         flex: 1 0 100% !important;
     }
+
+
 }
