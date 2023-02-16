@@ -22,36 +22,83 @@
                     <img class="logo" src="../images/Gold-logo-agency.png">
                     <img class="logo top" src="../images/White-logo-agency.png">
                 </a>
-                <ul class="navbar-nav navbar-nav--menu">
+
+                <ul class="navbar-nav navbar-nav--menu" id="nav">
                     <li class="item">
-                        <a href="home.html" class="nav_link">Inicio</a>
+                        <a href="home.html" class="nav_link"><i class="fa-solid fa-house"></i> Inicio</a>
                     </li>
-                    <li class="item"><a href="about.html" class="nav_link">Nosotros</a></li>
-                    <li class="item"><a href="services.html" class="nav_link">Servicios</a></li>
+                    <hr class="divider">
+                    <li class="item"><a href="about.html" class="nav_link"><i class="fa-solid fa-users"></i> Nosotros</a></li>
+                    <hr class="divider">
+                    <li class="item"><a href="services.html" class="nav_link"><i class="fa-solid fa-camera-retro"></i> Servicios</a></li>
+                    <hr class="divider">
                     <li class="item">
                         <div class="dropdown-galery-options">
-                            <a href="#" onclick="myFunction()" class="nav_link">Galeria <i
-                                    class="bi bi-caret-down-fill"></i>
+                            <a href="#" class="dropdown-toggle nav_link nav-link-drop" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" id="packages-menu">
+                                <i class="fa-solid fa-graduation-cap"></i> Paquetes
                             </a>
-                            <div id="dropdownGalery" class="dropdown-content">
-                                <a class="menu-item" href="../html/graduationGalery.html">Graduaciones</a>
-                                <a class="menu-item" href="../html/marriedGalery.html">Matrimonios</a>
-                                <a class="menu-item" href="../html/birthdayGalery.html">Cumpleaños</a>
-                            </div>
+                            <ul id="dropdownGalery" class="dropdown-content dropdown-menu dropdown-submenu"
+                                aria-labelledby="packages-menu">
+                                <li class="accordion accordion-navbar" id="accordionExample"">
+                                    <div  class=" accordion-item">
+                                    <h6 class="accordion-header accordion-package" id="headingOne">
+                                        <i class="bi bi-mortarboard-fill"></i> Graduaciones
+                                    </h6>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <a class="menu-item item-graduation" href="PackageGdMaternal.html"><i
+                                                    class="fa-solid fa-circle-check"></i> Materno</a>
+                                            <a class="menu-item item-graduation" href="PackageGdKinder.html"><i
+                                                    class="fa-solid fa-circle-check"></i> Kinder</a>
+                                            <a class="menu-item item-graduation" href="PackageGdCollege.html"><i
+                                                    class="fa-solid fa-circle-check"></i> Escuelas y colegios</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a class="menu-item" href="../html/PackageMarried.html">
+                                        <i class="fa-solid fa-ring"></i> Matrimonios
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="menu-item" href="../html/PackageBirthday.html">
+                                        <i class="fa-solid fa-cake-candles"></i> Cumpleaños
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
+                    <hr class="divider">
                     <li class="item">
-                        <div class="dropdown-packages-options">
-                            <a href="#" onclick="dropdownPackages()" class="nav_link">Paquetes
-                                <i class="bi bi-caret-down-fill"></i>
+                        <div class="dropdown-galery-options">
+                            <a href="#" class="dropdown-toggle nav_link nav-link-drop" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-images"></i> Galeria
                             </a>
-                            <div id="dropdownPackage" class="dropdown-content">
-                                <a class="menu-item" href="../html/PackageGraduaction.html">Graduaciones</a>
-                                <a class="menu-item" href="../html/PackageMarried.html">Matrimonios</a>
-                                <a class="menu-item" href="../html/PackageBirthday.html">Cumpleaños</a>
-                            </div>
+                            <ul id="dropdownGalery" class="dropdown-content dropdown-menu dropdown-submenu">
+                                <li>
+                                    <a class=" menu-item" href="../html/graduationGalery.html">
+                                        <i class="bi bi-mortarboard-fill"></i> Graduaciones
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-item" href="../html/marriedGalery.html">
+                                        <i class="fa-solid fa-ring"></i> Matrimonios
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-item" href="../html/birthdayGalery.html">
+                                        <i class="fa-solid fa-cake-candles"></i> Cumpleaños
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
+                    <hr class="divider">
                     <li class="item">
                         <a class="contact-button" href="contact.html">Contáctanos</a>
                     </li>
@@ -63,15 +110,16 @@
                         <li class="item"><a href="" class="icon"><i class="bi bi-tiktok"
                                     title="Visitar el TikTok de la empresa"></i></a></li>
                     </ul>
-                    <img src="../images/close.svg" alt="cerrar" class="nav_close">
                 </ul>
-                <div class="nav_menu">
-                    <a href="">
-                        <img src="../images/Menu.svg" alt="menu" class="nav_img">
-                    </a>
-
-                </div>
             </div>
+
+            <button class="nav_menu" id="nav_menu">
+
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
         </nav>
 
         <!------------------------------------------------------------------------------------------------------------------------------------------->
@@ -419,6 +467,8 @@
     <!-- SCRIPTS -->
     <script src="../js/lightbox.js"></script>
     <script src="../js/load-more.js"></script>
+    <script src="../JS/menu.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>

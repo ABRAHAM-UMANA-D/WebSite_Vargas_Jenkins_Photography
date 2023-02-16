@@ -27,22 +27,22 @@
                     <img class="logo top" src="../images/White-logo-agency.png">
                 </a>
 
-                <ul class="navbar-nav navbar-nav--menu">
+                <ul class="navbar-nav navbar-nav--menu" id="nav">
                     <li class="item">
-                        <a href="home.html" class="nav_link">Inicio</a>
+                        <a href="home.html" class="nav_link"><i class="fa-solid fa-house"></i> Inicio</a>
                     </li>
-
-                    <li class="item"><a href="about.html" class="nav_link">Nosotros</a></li>
-
-                    <li class="item"><a href="services.html" class="nav_link">Servicios</a></li>
-
+                    <hr class="divider">
+                    <li class="item"><a href="about.html" class="nav_link"><i class="fa-solid fa-users"></i> Nosotros</a></li>
+                    <hr class="divider">
+                    <li class="item"><a href="services.html" class="nav_link"><i class="fa-solid fa-camera-retro"></i> Servicios</a></li>
+                    <hr class="divider">
                     <li class="item">
                         <div class="dropdown-galery-options">
                             <a href="#" class="dropdown-toggle nav_link nav-link-drop" type="button"
                                 data-bs-toggle="dropdown" aria-expanded="false" id="packages-menu">
-                                Paquetes
+                                <i class="fa-solid fa-graduation-cap"></i> Paquetes
                             </a>
-                            <ul id="dropdownGalery" class="dropdown-content dropdown-menu"
+                            <ul id="dropdownGalery" class="dropdown-content dropdown-menu dropdown-submenu"
                                 aria-labelledby="packages-menu">
                                 <li class="accordion accordion-navbar" id="accordionExample"">
                                     <div  class=" accordion-item">
@@ -76,14 +76,14 @@
                             </ul>
                         </div>
                     </li>
-
+                    <hr class="divider">
                     <li class="item">
                         <div class="dropdown-galery-options">
                             <a href="#" class="dropdown-toggle nav_link nav-link-drop" type="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Galeria
+                                <i class="fa-solid fa-images"></i> Galeria
                             </a>
-                            <ul id="dropdownGalery" class="dropdown-content dropdown-menu">
+                            <ul id="dropdownGalery" class="dropdown-content dropdown-menu dropdown-submenu">
                                 <li>
                                     <a class=" menu-item" href="../html/graduationGalery.html">
                                         <i class="bi bi-mortarboard-fill"></i> Graduaciones
@@ -102,11 +102,10 @@
                             </ul>
                         </div>
                     </li>
-
+                    <hr class="divider">
                     <li class="item">
                         <a class="contact-button" href="contact.html">Contáctanos</a>
                     </li>
-
                     <ul class="social-networks">
                         <li class="item"><a href="" class="icon" title="Visitar Facebook de la empresa"><i
                                     class="bi bi-facebook"></i></a></li>
@@ -115,15 +114,18 @@
                         <li class="item"><a href="" class="icon"><i class="bi bi-tiktok"
                                     title="Visitar el TikTok de la empresa"></i></a></li>
                     </ul>
-                    <img src="../images/close.svg" alt="cerrar" class="nav_close">
                 </ul>
             </div>
 
-            <div class="nav_menu">
-                <img src="../images/Menu.svg" alt="menu" class="nav_img">
-            </div>
+            <button class="nav_menu" id="nav_menu">
+
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
         </nav>
+
         <section class="banner banner-contact">
             <div class="container info-banner">
                 <div class="row">
@@ -308,7 +310,8 @@
     <!-- SCRIPTS ------------------------------------------------------------------------------------------------------------>
 
     <!-- SCRIPTS ------------------------------------------------------------------------------------------------------------>
-    
+    <script src="../JS/menu.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
