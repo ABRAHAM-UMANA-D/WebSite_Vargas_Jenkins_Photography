@@ -2738,7 +2738,7 @@
     }
 
     .col-right {
-        padding: 40px 40px 0 40px;
+        padding: 40px 70px 0 70px;
     }
 
     .title-service {
@@ -2746,7 +2746,7 @@
     }
 
     .col-left {
-        padding: 40px 40px 0 40px;
+        padding: 40px 70px 0 70px;
     }
 
     /*  .button-service {
@@ -2755,7 +2755,7 @@
     } */
 
     .image-service {
-        padding: 10px 40px 0 40px;
+        padding: 10px 70px 0 70px;
         height: auto;
         text-align: center;
     }
