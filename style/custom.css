@@ -16,7 +16,7 @@
 
 
 /* HIDDEN ELEMENTS */
-.btn-login{
+.btn-login {
     display: none !important;
 }
 
@@ -3771,7 +3771,7 @@
     }
 
     /* ------------------------------ RESPONSIVE CTA SECTION DESIGN -------------------------------------------------------*/
-    
+
     .contact-video {
         height: 223px !important;
         width: 100% !important;
@@ -4172,7 +4172,8 @@
     }
 
     .contact {
-        height: auto !important;
+        height: 1350px !important;
+        margin-bottom: 50px !important;
     }
 
     .banner-contact .main-title {
@@ -4197,8 +4198,8 @@
     .contact-title {
         font-size: 18px !important;
     }
-    
-    .contact-page .contact-col .video{
+
+    .contact-page .contact-col .video {
         width: 330px !important;
     }
 
@@ -4207,24 +4208,30 @@
         font-size: 16px !important;
     }
 
-    .row-video {
-        padding-bottom: 0 !important;
-    }
-
     .form-col {
         flex: 1 0 100% !important;
     }
 
     .contact-page {
-        padding-top: 70px !important;
+        padding-top: 0 !important;
     }
 
     .sent-btn {
         width: 100% !important;
         margin-top: 20px;
+
     }
 
     .label-margin {
         margin-top: 20px;
+    }
+
+    .video-cta .video {
+        width: 330px !important;
+        margin: 0 auto !important;
+    }
+
+    .form-contact {
+        margin-bottom: 70px !important;
     }
 }
