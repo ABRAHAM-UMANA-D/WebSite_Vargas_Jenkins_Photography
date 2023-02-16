@@ -813,8 +813,8 @@
 
 .card-service {
     box-shadow: 0px 0.7px 3px 0px rgba(0.5, 0, 0, 0.15) !important;
+    margin-bottom: 40px;
 }
-
 
 
 .card-service:hover a {
@@ -1076,7 +1076,7 @@
     display: none;
 }
 
-.wrapper-gallery:nth-child(1){
+.wrapper-gallery:nth-child(1) {
     display: block;
 }
 
@@ -1942,7 +1942,7 @@
         font-size: 40px !important;
     }
 
-   /*  .card {
+    /*  .card {
         width: 20rem !important;
     } */
 
@@ -2013,7 +2013,7 @@
 
     /*---------------------------------------- CONTACT PAGE -----------------------------------------------------------------*/
 
-    .subtitle-contact{
+    .subtitle-contact {
         top: -70px !important;
     }
 
@@ -2162,21 +2162,21 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE ABOUT PAGE  -------------------------------------*/
-    .card-service{
+    .card-service {
         margin: 0 auto;
         margin-bottom: 40px !important;
     }
 
-    .our-teamwork{
+    .our-teamwork {
         height: auto !important;
     }
 
     .team-work {
-        height: auto ;
+        height: auto;
         justify-content: center;
     }
 
-    .card-team{
+    .card-team {
         margin-bottom: 40px;
     }
 
@@ -2202,11 +2202,11 @@
     /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
 
 
-    .banner-contact .info-banner{
+    .banner-contact .info-banner {
         top: 250px !important;
     }
 
-    .subtitle-contact{
+    .subtitle-contact {
         top: -70px !important;
     }
 }
@@ -2569,7 +2569,7 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
-    
+
 
     .banner-about .info-banner {
         top: 200px !important;
@@ -2577,7 +2577,8 @@
 
     .banner-about {
         height: 500px;
-        margin-bottom: 80px !important;
+        margin-bottom: 100px !important;
+        top: 85px !important;
     }
 
     .banner-about .title-banner {
@@ -2596,7 +2597,7 @@
         margin-top: 40px !important;
     }
 
-    .team-work{
+    .team-work {
         height: auto !important;
         justify-content: center;
     }
@@ -2605,11 +2606,11 @@
         height: auto;
     }
 
-    .card-team{
+    .card-team {
         margin-bottom: 40px;
     }
 
-    .about-galeries{
+    .about-galeries {
         padding-top: 0 !important;
     }
 
@@ -2647,21 +2648,53 @@
     }
 
     .service {
+        grid-template-columns: 100%;
         height: auto !important;
     }
 
-    .col-right,
-    .col-left {
-        padding: 20px 20px 20px 20px;
+    .marriage-service .info-service {
+        order: -1;
     }
 
-    .image-service {
-        height: auto !important;
+    .birthday-service .info-service {
+        order: -1;
     }
 
     .info-service {
         height: auto !important;
         padding-bottom: 10px;
+    }
+
+    .col-right {
+        padding: 40px 25px 0 30px;
+    }
+
+    .title-service {
+        text-align: justify;
+    }
+
+    .col-left {
+        padding: 40px 25px 0 30px;
+    }
+
+    /*  .button-service {
+        width: 50%;
+        transform: translate(50%);
+    } */
+
+    .image-service {
+        padding: 10px 30px 0 30px;
+        height: auto;
+        text-align: center;
+    }
+
+    .figure-service img {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .birthday-service .image-service {
+        padding-bottom: 50px !important;
     }
 
     /*-----------------------------------------------------------------------------------------------*/
@@ -2672,27 +2705,27 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
-    .banner-packages{
+    .banner-packages {
         position: relative;
         top: 80px !important;
         height: 500px !important;
         margin-bottom: 80px;
     }
 
-   .banner-packages .info-banner{
-    top: 215px !important;
-   }
+    .banner-packages .info-banner {
+        top: 170px !important;
+    }
 
     .banner-packages .title-banner {
         text-align: center !important;
         width: 100% !important;
     }
 
-    .banner-packages .subtitle-banner{
+    .banner-packages .subtitle-banner {
         display: inline !important;
     }
 
-    .banner-packages .button-banner{
+    .banner-packages .button-banner {
         width: 50% !important;
     }
 
@@ -2743,7 +2776,7 @@
         font-size: 35px !important;
     }
 
-    .contact{
+    .contact {
         padding-top: 80px !important;
     }
 
@@ -2759,25 +2792,25 @@
         padding-top: 20px !important;
     }
 
-    .title-banner-main{
+    .title-banner-main {
         font-size: 30px !important;
         width: auto !important;
     }
 
-    .subtitle-contact{
+    .subtitle-contact {
         font-size: 25px !important;
         top: -75px !important;
     }
 
-    .contact-title{
+    .contact-title {
         font-size: 30px !important;
     }
 
-    .sent-btn{
+    .sent-btn {
         margin-top: 10px !important;
         width: 50% !important;
-       transform: translate(45%) !important;
-       font-size: 20px !important;
+        transform: translate(45%) !important;
+        font-size: 20px !important;
     }
 
 }
@@ -3120,22 +3153,27 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
-    .banner-about .info-banner{
-        text-align: center;
-        top: 138px !important;
+    .banner-about {
+        height: 410px !important;
+        margin-bottom: 100px !important;
     }
-    
-    .banner-about .subtitle-banner{
+
+    .banner-about .info-banner {
+        text-align: center;
+        top: 105px !important;
+    }
+
+    .banner-about .subtitle-banner {
         display: inline !important;
         text-align: center !important;
         margin-bottom: 10px !important;
     }
 
-    .banner-about .title-banner{
+    .banner-about .title-banner {
         top: -50px;
         margin-bottom: 20px !important;
     }
-    
+
     .team-work {
         height: auto;
         justify-content: center;
@@ -3168,30 +3206,27 @@
     .banner-services {
         position: relative;
         top: 90px !important;
-        height: 400px !important;
+        height: 350px !important;
+        margin-bottom: 100px !important;
     }
 
     .banner-services .info-banner {
-        top: 120px !important;
+        top: 90px !important;
+        text-align: center !important;
     }
 
     .banner-services .title-banner {
-        text-align: start !important;
         width: 100% !important;
-        top: -80px !important;
     }
 
     .banner-services .subtitle-banner {
-        justify-content: left !important;
-        top: -70px !important;
-    }
-
-    .banner-services .buttons {
-        text-align: justify;
+        display: inline !important;
+        top: -65px !important;
+        text-align: center !important;
     }
 
     .banner-services .button-banner {
-        top: -105px !important;
+        width: 50%;
     }
 
     .service {
@@ -3213,11 +3248,11 @@
     }
 
     .col-right {
-        padding: 40px 50px 0 30px;
+        padding: 75px 28px 0 30px;
     }
 
     .col-left {
-        padding: 40px 50px 0 30px;
+        padding: 75px 28px 0 30px;
     }
 
     .button-service {
@@ -3242,13 +3277,13 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
-    .banner-packages{
+    .banner-packages {
         position: relative;
         top: 80px !important;
         height: 400px !important;
     }
 
-    .banner-packages .info-banner{
+    .banner-packages .info-banner {
         margin-top: 0;
         top: 145px !important;
         text-align: center;
@@ -3262,7 +3297,7 @@
         text-align: center;
     }
 
-    .banner-packages .button-banner{
+    .banner-packages .button-banner {
         width: 50% !important;
     }
 
@@ -3318,15 +3353,15 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
-    .contact{
+    .contact {
         padding-top: 0 !important;
     }
-    
+
     .banner-contact {
         height: 300px;
     }
 
-    .banner-contact .info-banner{
+    .banner-contact .info-banner {
         text-align: center !important;
         top: 190px !important;
     }
@@ -3360,7 +3395,7 @@
         flex: 1 0 100% !important;
     }
 
-    .contact-col figure{
+    .contact-col figure {
         margin: 0 auto !important;
     }
 
@@ -3369,13 +3404,13 @@
         padding-top: 80px !important;
     }
 
-    .sent-btn{
+    .sent-btn {
         width: 50% !important;
         transform: translate(50%);
         font-size: 18px !important;
     }
 
-    .contact-page{
+    .contact-page {
         padding-top: 60px !important;
     }
 
@@ -3389,6 +3424,18 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE MEDIA MAIN PAGE  ----------------------------------------------------*/
+
+    .button-banner {
+        font-size: 16px !important;
+    }
+
+    .title-banner {
+        font-size: 18px !important;
+    }
+
+    .btn-contact-banner {
+        width: 209px !important;
+    }
 
     .banner-home {
         height: 450px !important;
@@ -3407,9 +3454,7 @@
         top: -55px !important;
     }
 
-    .banner-home .btn-contact-banner {
-        width: 220px !important;
-    }
+
 
     .info-banner {
         position: relative !important;
@@ -3692,13 +3737,11 @@
         margin-top: 10px !important;
     }
 
-    .banner-about .contact-about {
-        width: 230px !important;
-    }
 
     /*--------------------------------- PACKAGES SECTION ---------------------------------------------------------------------------*/
-  
-
+    .card-service {
+        margin-bottom: 40px !important;
+    }
 
 
 
@@ -3734,29 +3777,29 @@
     /*----------------------------  RESPONSIVE  SERVICES PAGE  -------------------------------------*/
     .banner-services {
         height: 250px !important;
+        position: relative;
+        top: 85px;
+        margin-bottom: 100px;
     }
 
     .banner-services .info-banner {
-        top: 170px !important;
+        top: 50px !important;
+        text-align: center;
     }
 
     .banner-services .title-banner {
-        text-align: start !important;
+        text-align: center !important;
         width: 100% !important;
-        top: -80px !important;
-    }
-
-    .banner-services .subtitle-banner {
-        justify-content: left !important;
-        top: -75px !important;
+        /* top: -80px !important; */
     }
 
     .banner-services .buttons {
-        text-align: justify;
+        text-align: center;
     }
 
     .banner-services .button-banner {
         top: -95px !important;
+        width: 80%;
     }
 
     .service {
@@ -3778,11 +3821,11 @@
     }
 
     .col-right {
-        padding: 40px 50px 0 30px;
+        padding: 40px 30px 0 30px;
     }
 
     .col-left {
-        padding: 40px 50px 0 30px;
+        padding: 40px 30px 0 30px;
     }
 
     .button-service {
@@ -3806,12 +3849,12 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
-    .banner-packages{
+    .banner-packages {
         top: 90px;
         position: relative;
         height: 300px;
         margin-bottom: 50px;
-    } 
+    }
 
     .banner-packages .buttons {
         text-align: center;
@@ -3914,7 +3957,11 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE GALERY PAGE  -------------------------------------*/
-
+    .married-galery-banner, .graduation-galery-banner, .birthday-galery-banner{
+        height: 400px;
+        top: 85px;
+        position: relative;
+    }
 
 
     /*-----------------------------------------------------------------------------------------------*/
@@ -3924,7 +3971,7 @@
         height: 400px;
     }
 
-    .contact{
+    .contact {
         height: 1350px !important;
     }
 
@@ -3943,11 +3990,11 @@
         flex: 1 0 100% !important;
     }
 
-    .contact-col figure{
+    .contact-col figure {
         margin: 0 auto !important;
     }
 
-    .contact-title{
+    .contact-title {
         font-size: 18px !important;
     }
 
@@ -3964,11 +4011,11 @@
         flex: 1 0 100% !important;
     }
 
-    .contact-page{
+    .contact-page {
         padding-top: 70px !important;
     }
 
-    .sent-btn{
+    .sent-btn {
         width: 50% !important;
         transform: translate(50%) !important;
     }

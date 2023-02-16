@@ -11,6 +11,7 @@ function showMore() {
     }
     testimony_current += 1;
     if (testimony_current >= testimonies.length) {
-        btn_view_more.innerHTML = 'Ver menos';
+        btn_view_more.style.display = "none"
+        /* btn_view_more.innerHTML = 'Ver menos'; */
     }
 }
