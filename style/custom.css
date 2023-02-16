@@ -14,6 +14,12 @@
     overflow: hidden;
 }
 
+
+/* HIDDEN ELEMENTS */
+.btn-login{
+    display: none !important;
+}
+
 /*------------------------------------------------------------------ NAVBAR PROPERTIES ------------------------------------------------------*/
 
 /*------------------------------------------------------------------ NAVBAR PROPERTIES ------------------------------------------------------*/
@@ -2748,11 +2754,6 @@
     .col-left {
         padding: 40px 70px 0 70px;
     }
-
-    /*  .button-service {
-        width: 50%;
-        transform: translate(50%);
-    } */
 
     .image-service {
         padding: 10px 70px 0 70px;
