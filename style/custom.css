@@ -3437,6 +3437,32 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE GALERY PAGE  -------------------------------------*/
+    .married-galery-banner, .graduation-galery-banner, .birthday-galery-banner{
+        height: 400px;
+        top: 85px;
+        position: relative;
+    }
+
+    .info-banner-galery{
+        top: 95px !important;
+        text-align: center;
+    }
+
+    .info-banner-galery .title-banner{
+        width: 100%;
+    }
+
+    .info-banner-galery .subtitle-banner{
+        justify-content: center;
+
+    }
+   /*  .info-banner-galery .button-banner{
+        width: 80% !important;
+    } */
+
+    .info-banner-galery .buttons{
+        margin-top: 10px !important;
+    }
 
 
 
@@ -4067,6 +4093,32 @@
         top: 85px;
         position: relative;
     }
+
+    .info-banner-galery{
+        top: 70px !important;
+        text-align: center;
+    }
+
+    .info-banner-galery .title-banner{
+        width: 100%;
+    }
+
+    .info-banner-galery .button-banner{
+        width: 80% !important;
+    }
+    .info-banner-galery .buttons{
+        margin-top: 0 !important;
+    }
+
+    .title-photos{
+        font-size: 20px;
+    }
+
+    .paragraph-photos{
+        font-size: 16px;
+    }
+
+    
 
 
     /*-----------------------------------------------------------------------------------------------*/
