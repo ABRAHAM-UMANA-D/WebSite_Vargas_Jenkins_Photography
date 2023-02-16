@@ -2240,6 +2240,14 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
 
+    .package-leyend{
+        font-weight: 600px !important;
+        font-size: 35px !important;
+    }
+
+    .galery-cta-subtitle{
+        font-size: 35px !important;
+    }
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
@@ -2760,6 +2768,7 @@
     .package-leyend {
         text-align: center !important;
         font-size: 28px !important;
+        font-weight: 600 !important;
     }
 
     .card-mobile {
@@ -2780,6 +2789,10 @@
 
     .cta-section {
         height: 250px !important;
+    }
+
+    .galery-cta-subtitle, .title-package{
+        font-size: 25px !important;
     }
 
 
@@ -3331,6 +3344,16 @@
     .package-section {
         padding-top: 70px;
         padding-bottom: 70px;
+        text-align: center !important;
+    }
+
+    .package-leyend {
+        font-size: 25px !important;
+        font-weight: 600 !important;
+    }
+
+    .title-package {
+        font-size: 20px !important;
     }
 
     .card-package {
@@ -3764,7 +3787,7 @@
         margin-bottom: 30px !important;
     }
 
-    .packages-section{
+    .packages-section {
         padding-bottom: 40px !important;
     }
 
@@ -3881,11 +3904,15 @@
         margin-bottom: 50px;
     }
 
-    .package-leyend{
+    .package-leyend {
         font-size: 20px !important;
+        font-weight: 600 !important;
     }
 
-    .title-package, .discount-package, .benefits-title, .btn-contact-pk{
+    .title-package,
+    .discount-package,
+    .benefits-title,
+    .btn-contact-pk {
         font-size: 18px !important;
     }
 
@@ -3897,6 +3924,7 @@
     .package-section {
         padding-top: 70px;
         padding-bottom: 70px;
+        text-align: center !important;
     }
 
     .card-package {
