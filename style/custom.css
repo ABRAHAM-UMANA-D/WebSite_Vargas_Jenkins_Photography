@@ -496,7 +496,7 @@
 
 .card-galery:hover {
     margin-left: 15px;
-    transform: scale(1.1);
+    transform: scale(1.06);
     transition: all 0.3s;
 }
 
@@ -1076,7 +1076,7 @@
     display: none;
 }
 
-.wrapper-gallery:nth-child(1) {
+.wrapper-gallery:nth-child(1)  {
     display: block;
 }
 
@@ -1871,12 +1871,16 @@
     }
 
     nav ul .item .nav_link {
-        padding: 0px 18px !important;
+        padding: 0px 13px !important;
     }
 
     .navbar-nav {
         padding-right: 0 !important;
         padding-left: 0 !important;
+    }
+
+    .contact-button {
+        margin-left: 10px !important;
     }
 
     .info-banner {
@@ -1948,6 +1952,8 @@
 
     .card-galery {
         margin-bottom: 40px !important;
+        width: 20rem !important;
+        margin: 0 auto !important;
     }
 
     .card-galery:hover img,
@@ -1955,9 +1961,6 @@
         height: auto !important;
     }
 
-    .card-testimony {
-        margin-bottom: 30px;
-    }
 
     /*------------------------------------- TESTIMONY SECTION --------------------------------------*/
 
@@ -1971,13 +1974,28 @@
 
     .about-testimonies {
         padding-top: 75px !important;
+        padding-bottom: 0 !important;
     }
 
     .testimony-view-more {
         margin-bottom: 0 !important;
     }
 
+    .card-testimony {
+        margin: 0 auto !important;
+        margin-bottom: 50px !important;
+    }
+
+    .testimony-view-more {
+        margin-top: 0 !important;
+    }
+
     /*------------------------------------- NEWSLETTER SECTION --------------------------------------*/
+
+    .newsletter {
+        padding: 100px 0 !important;
+    }
+
 
     .news-form {
         margin-right: 0 !important;
@@ -1986,10 +2004,12 @@
 
     .newsletter-form {
         padding-right: 0 !important;
+        padding-left: 0 !important;
     }
 
     .newsletter-picture {
-        width: 500px;
+        width: 550px;
+        height: auto;
     }
 
     .newsletter-image {
@@ -2017,6 +2037,31 @@
         top: -70px !important;
     }
 
+
+    .packages-section {
+        padding-top: 0 !important;
+        padding-bottom: 50px !important;
+    }
+
+    .card-service {
+        margin: 0 auto !important;
+        margin-bottom: 30px !important;
+    }
+
+    .our-teamwork {
+        height: auto !important;
+    }
+
+    .team-work {
+        height: auto !important;
+        justify-content: center !important;
+    }
+
+    .card-team {
+        height: auto !important;
+        margin-bottom: 40px;
+    }
+
 }
 
 
@@ -2036,12 +2081,16 @@
     }
 
     nav ul .item .nav_link {
-        padding: 0px 18px !important;
+        padding: 0px 15px !important;
     }
 
     .navbar-nav {
         padding-right: 0 !important;
         padding-left: 0 !important;
+    }
+
+    .contact-button {
+        margin-left: 10px !important;
     }
 
     .info-banner {
@@ -2180,6 +2229,11 @@
         margin-bottom: 40px;
     }
 
+    .packages-section {
+        padding-top: 0 !important;
+        padding-bottom: 50px !important;
+    }
+
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
@@ -2190,6 +2244,14 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
 
+    .package-leyend{
+        font-weight: 600px !important;
+        font-size: 35px !important;
+    }
+
+    .galery-cta-subtitle{
+        font-size: 35px !important;
+    }
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
@@ -2430,7 +2492,7 @@
     /*---------------------------- GALERY SECTION -------------------------*/
 
     .about-galeries {
-        padding-top: 90px !important;
+        margin-top: 90px !important;
     }
 
     .card-galery {
@@ -2576,7 +2638,7 @@
     }
 
     .banner-about {
-        height: 500px;
+        height: 520px;
         margin-bottom: 100px !important;
         top: 85px !important;
     }
@@ -2597,7 +2659,7 @@
         margin-top: 40px !important;
     }
 
-    .team-work {
+    .team-work  {
         height: auto !important;
         justify-content: center;
     }
@@ -2606,12 +2668,16 @@
         height: auto;
     }
 
-    .card-team {
+    .card-team  {
         margin-bottom: 40px;
     }
 
-    .about-galeries {
+    .about-galeries  {
         padding-top: 0 !important;
+    }
+
+    .packages-section {
+        margin-top: 0 !important;
     }
 
     /*-----------------------------------------------------------------------------------------------*/
@@ -2721,11 +2787,11 @@
         width: 100% !important;
     }
 
-    .banner-packages .subtitle-banner {
+    .banner-packages .subtitle-banner  {
         display: inline !important;
     }
 
-    .banner-packages .button-banner {
+    .banner-packages .button-banner  {
         width: 50% !important;
     }
 
@@ -2740,6 +2806,7 @@
     .package-leyend {
         text-align: center !important;
         font-size: 28px !important;
+        font-weight: 600 !important;
     }
 
     .card-mobile {
@@ -2760,6 +2827,10 @@
 
     .cta-section {
         height: 250px !important;
+    }
+
+    .galery-cta-subtitle, .title-package{
+        font-size: 25px !important;
     }
 
 
@@ -2792,25 +2863,25 @@
         padding-top: 20px !important;
     }
 
-    .title-banner-main {
+    .title-banner-main  {
         font-size: 30px !important;
         width: auto !important;
     }
 
-    .subtitle-contact {
+    .subtitle-contact  {
         font-size: 25px !important;
         top: -75px !important;
     }
 
-    .contact-title {
+    .contact-title  {
         font-size: 30px !important;
     }
 
-    .sent-btn {
+    .sent-btn  {
         margin-top: 10px !important;
         width: 50% !important;
-        transform: translate(45%) !important;
-        font-size: 20px !important;
+         transform: translate(45%) !important;
+         font-size: 20px !important;
     }
 
 }
@@ -2896,7 +2967,7 @@
     /* ------------------------------ RESPONSIVE ABOUT SECTION DESIGN -------------------------------------------------------*/
 
     .about {
-        padding: 80px 0 !important;
+        padding: 60px 0 !important;
     }
 
     .subtitle {
@@ -2992,7 +3063,7 @@
     }
 
     .testimony-subtitle {
-        font-size: 25px;
+        font-size: 20px !important;
         text-align: center;
     }
 
@@ -3169,10 +3240,11 @@
         margin-bottom: 10px !important;
     }
 
-    .banner-about .title-banner {
+    .banner-about .title-banner  {
         top: -50px;
         margin-bottom: 20px !important;
     }
+
 
     .team-work {
         height: auto;
@@ -3181,6 +3253,10 @@
 
     .our-teamwork {
         height: auto;
+    }
+
+    .title-team {
+        font-size: 25px !important;
     }
 
     .card-team {
@@ -3192,11 +3268,15 @@
     }
 
     .about-cta-title {
-        font-size: 24px !important;
+        font-size: 25px !important;
     }
 
     .card-service {
         margin: 0 auto !important;
+    }
+
+    .packages-section {
+        padding-top: 30px !important;
     }
 
 
@@ -3277,13 +3357,13 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
-    .banner-packages {
+    .banner-packages  {
         position: relative;
         top: 80px !important;
         height: 400px !important;
     }
 
-    .banner-packages .info-banner {
+    .banner-packages .info-banner  {
         margin-top: 0;
         top: 145px !important;
         text-align: center;
@@ -3297,13 +3377,23 @@
         text-align: center;
     }
 
-    .banner-packages .button-banner {
+    .banner-packages .button-banner  {
         width: 50% !important;
     }
 
     .package-section {
         padding-top: 70px;
         padding-bottom: 70px;
+        text-align: center !important;
+    }
+
+    .package-leyend {
+        font-size: 25px !important;
+        font-weight: 600 !important;
+    }
+
+    .title-package {
+        font-size: 20px !important;
     }
 
     .card-package {
@@ -3353,15 +3443,16 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
-    .contact {
+    .contact  {
         padding-top: 0 !important;
     }
+
 
     .banner-contact {
         height: 300px;
     }
 
-    .banner-contact .info-banner {
+    .banner-contact .info-banner  {
         text-align: center !important;
         top: 190px !important;
     }
@@ -3395,7 +3486,7 @@
         flex: 1 0 100% !important;
     }
 
-    .contact-col figure {
+    .contact-col figure  {
         margin: 0 auto !important;
     }
 
@@ -3404,13 +3495,13 @@
         padding-top: 80px !important;
     }
 
-    .sent-btn {
+    .sent-btn  {
         width: 50% !important;
         transform: translate(50%);
         font-size: 18px !important;
     }
 
-    .contact-page {
+    .contact-page  {
         padding-top: 60px !important;
     }
 
@@ -3711,7 +3802,7 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
     .banner-about {
-        height: 300px;
+        height: 320px;
         top: 90px;
         margin-bottom: 100px;
     }
@@ -3744,15 +3835,18 @@
     }
 
 
+    .packages-section {
+        padding-bottom: 40px !important;
+    }
 
     /*--------------------------------- TEAM WORK SECTION ---------------------------------------------------------------------------*/
 
     .title-team {
         font-size: 18px !important;
+        text-transform: uppercase !important;
     }
 
     .our-teamwork {
-        height: auto !important;
         height: auto !important;
     }
 
@@ -3767,7 +3861,7 @@
     }
 
     .about-cta-title {
-        font-size: 20px !important;
+        font-size: 18px !important;
     }
 
 
@@ -3849,11 +3943,23 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
-    .banner-packages {
+    .banner-packages  {
         top: 90px;
         position: relative;
         height: 300px;
         margin-bottom: 50px;
+    }
+
+    .package-leyend {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+    }
+
+    .title-package,
+    .discount-package,
+    .benefits-title,
+    .btn-contact-pk {
+        font-size: 18px !important;
     }
 
     .banner-packages .buttons {
@@ -3864,6 +3970,7 @@
     .package-section {
         padding-top: 70px;
         padding-bottom: 70px;
+        text-align: center !important;
     }
 
     .card-package {
@@ -3879,15 +3986,13 @@
         width: auto !important;
     }
 
-
     .cta-section {
         height: auto;
         padding-bottom: 40px !important;
     }
 
     .galery-cta-subtitle {
-        font-size: 18px;
-
+        font-size: 18px !important;
     }
 
     .banner-packages .info-banner {
@@ -3990,11 +4095,11 @@
         flex: 1 0 100% !important;
     }
 
-    .contact-col figure {
+    .contact-col figure  {
         margin: 0 auto !important;
     }
 
-    .contact-title {
+    .contact-title  {
         font-size: 18px !important;
     }
 
@@ -4015,7 +4120,7 @@
         padding-top: 70px !important;
     }
 
-    .sent-btn {
+    .sent-btn  {
         width: 50% !important;
         transform: translate(50%) !important;
     }
