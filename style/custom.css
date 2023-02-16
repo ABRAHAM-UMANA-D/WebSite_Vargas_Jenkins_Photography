@@ -1076,6 +1076,10 @@
     display: none;
 }
 
+.wrapper-gallery:nth-child(1){
+    display: block;
+}
+
 .wrapper-gallery img:hover {
     cursor: zoom-in;
     transform: scale(0.95);
@@ -1369,7 +1373,7 @@
 
 .package-leyend {
     font-weight: 500;
-    line-height: 92px;
+    margin-bottom: 40px;
 }
 
 .card-subtitle {
@@ -2358,9 +2362,7 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE MEDIA MAIN PAGE  ----------------------------------------------------*/
-    .banner {
-        top: 90px !important;
-    }
+
     /*---------------------------- BANNER HOME SECTION -------------------------*/
 
     .banner-home .title-banner {
@@ -2667,13 +2669,31 @@
 
 
 
-
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
+    .banner-packages{
+        position: relative;
+        top: 80px !important;
+        height: 500px !important;
+        margin-bottom: 80px;
+    }
+
+   .banner-packages .info-banner{
+    top: 215px !important;
+   }
+
     .banner-packages .title-banner {
-        text-align: start !important;
+        text-align: center !important;
         width: 100% !important;
+    }
+
+    .banner-packages .subtitle-banner{
+        display: inline !important;
+    }
+
+    .banner-packages .button-banner{
+        width: 50% !important;
     }
 
     .package-section {
@@ -3100,6 +3120,22 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
+    .banner-about .info-banner{
+        text-align: center;
+        top: 138px !important;
+    }
+    
+    .banner-about .subtitle-banner{
+        display: inline !important;
+        text-align: center !important;
+        margin-bottom: 10px !important;
+    }
+
+    .banner-about .title-banner{
+        top: -50px;
+        margin-bottom: 20px !important;
+    }
+    
     .team-work {
         height: auto;
         justify-content: center;
@@ -3206,16 +3242,28 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
-    .banner-packages .subtitle-banner {
-        justify-content: left !important;
+    .banner-packages{
+        position: relative;
+        top: 80px !important;
+        height: 400px !important;
     }
 
-    .banner-packages .title-banner {
-        text-align: start !important;
+    .banner-packages .info-banner{
+        margin-top: 0;
+        top: 145px !important;
+        text-align: center;
+    }
+
+    .banner-packages .subtitle-banner {
+        display: inline !important;
     }
 
     .banner-packages .buttons {
-        text-align: justify;
+        text-align: center;
+    }
+
+    .banner-packages .button-banner{
+        width: 50% !important;
     }
 
     .package-section {
@@ -3617,9 +3665,14 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
+    .banner-about {
+        height: 300px;
+        top: 90px;
+        margin-bottom: 100px;
+    }
 
     .banner-about .info-banner {
-        top: 90px !important;
+        top: 70px !important;
     }
 
     .banner-about .title-banner {
@@ -3644,12 +3697,7 @@
     }
 
     /*--------------------------------- PACKAGES SECTION ---------------------------------------------------------------------------*/
-    .banner-packages{
-        top: 84px;
-        position: relative;
-        height: 400px;
-        margin-bottom: 50px;
-    }
+  
 
 
 
@@ -3758,16 +3806,16 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
-    .banner-packages .subtitle-banner {
-        justify-content: left !important;
-    }
-
-    .banner-packages .title-banner {
-        text-align: start !important;
-    }
+    .banner-packages{
+        top: 90px;
+        position: relative;
+        height: 300px;
+        margin-bottom: 50px;
+    } 
 
     .banner-packages .buttons {
-        text-align: justify;
+        text-align: center;
+        width: 100% !important;
     }
 
     .package-section {
@@ -3801,6 +3849,7 @@
 
     .banner-packages .info-banner {
         margin-top: -100px !important;
+        text-align: center !important;
     }
 
     .banner-packages .subtitle-banner {
@@ -3808,16 +3857,14 @@
     }
 
     .banner-packages .title-banner {
-        text-align: start !important;
+        text-align: center !important;
         width: 100% !important;
-    }
-
-    .banner-packages .buttons {
-        text-align: justify;
+        font-size: 20px;
     }
 
     .banner-packages .button-banner {
-        top: -116px !important;
+        top: -99px !important;
+        width: 80% !important;
     }
 
     .package-section {
