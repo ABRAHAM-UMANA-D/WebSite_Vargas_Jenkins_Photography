@@ -1908,7 +1908,7 @@
 
     .about-figure {
         margin: 0;
-        width: 550px !important;
+        width: 500px !important;
     }
 
     .about_paragrah {
@@ -1945,9 +1945,17 @@
         width: 20rem !important;
     }
 
+    .card-galery {
+        margin-bottom: 40px !important;
+    }
+
     .card-galery:hover img,
     .card-galery img {
         height: auto !important;
+    }
+
+    .card-testimony {
+        margin-bottom: 30px;
     }
 
     /*------------------------------------- TESTIMONY SECTION --------------------------------------*/
@@ -1977,6 +1985,14 @@
 
     .newsletter-form {
         padding-right: 0 !important;
+    }
+
+    .newsletter-picture {
+        width: 500px;
+    }
+
+    .newsletter-image {
+        height: auto;
     }
 
     /*------------------------------------- CTA SECTION --------------------------------------*/
@@ -2144,6 +2160,23 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE ABOUT PAGE  -------------------------------------*/
+    .card-service{
+        margin: 0 auto;
+        margin-bottom: 40px !important;
+    }
+
+    .our-teamwork{
+        height: auto !important;
+    }
+
+    .team-work {
+        height: auto ;
+        justify-content: center;
+    }
+
+    .card-team{
+        margin-bottom: 40px;
+    }
 
 
     /*-----------------------------------------------------------------------------------------------*/
@@ -2327,7 +2360,9 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE MEDIA MAIN PAGE  ----------------------------------------------------*/
-
+    .banner {
+        top: 90px !important;
+    }
     /*---------------------------- BANNER HOME SECTION -------------------------*/
 
     .banner-home .title-banner {
@@ -2534,17 +2569,60 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
+    
 
+    .banner-about .info-banner {
+        top: 200px !important;
+    }
+
+    .banner-about {
+        height: 500px;
+        margin-bottom: 80px !important;
+    }
+
+    .banner-about .title-banner {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-about .subtitle-banner {
+        display: inline !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+
+    .card-service {
+        margin: 0 auto !important;
+        margin-top: 40px !important;
+    }
+
+    .team-work{
+        height: auto !important;
+        justify-content: center;
+    }
+
+    .our-teamwork {
+        height: auto;
+    }
+
+    .card-team{
+        margin-bottom: 40px;
+    }
+
+    .about-galeries{
+        padding-top: 0 !important;
+    }
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  SERVICES PAGE  -------------------------------------*/
     .banner-services {
         height: 400px !important;
+
     }
 
     .banner-services .info-banner {
-        top: 200px !important;
+        top: 158px !important;
     }
 
     .banner-services .title-banner {
@@ -2676,6 +2754,8 @@
         background-color: rgba(0, 0, 0, 0.50) !important;
         background-blend-mode: soft-light !important;
         height: 500px !important;
+        top: 85px !important;
+        margin-bottom: 60px !important;
     }
 
     .info-banner {
@@ -2997,13 +3077,39 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
+    .team-work {
+        height: auto;
+        justify-content: center;
+    }
+
+    .our-teamwork {
+        height: auto;
+    }
+
+    .card-team {
+        margin-bottom: 20px;
+    }
+
+    .btn-about-contact {
+        width: auto !important;
+    }
+
+    .about-cta-title {
+        font-size: 24px !important;
+    }
+
+    .card-service {
+        margin: 0 auto !important;
+    }
 
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  SERVICES PAGE  -------------------------------------*/
     .banner-services {
-        height: 250px !important;
+        position: relative;
+        top: 90px !important;
+        height: 400px !important;
     }
 
     .banner-services .info-banner {
@@ -3514,18 +3620,23 @@
 
     .our-teamwork {
         height: auto !important;
+        height: auto !important;
     }
 
-    /*------------------------------------------------- CTA SECTION -----------------------------------------------------------------*/
+    .team-work {
+        position: relative;
+        height: auto;
+        justify-content: center;
+    }
+
+    .card-team {
+        margin-bottom: 40px;
+    }
 
     .about-cta-title {
-        font-size: 18px !important;
+        font-size: 20px !important;
     }
 
-    .button-service {
-        font-size: 16px !important;
-        padding: 7px !important;
-    }
 
 
     /*-----------------------------------------------------------------------------------------------*/
@@ -3748,6 +3859,4 @@
     .form-col {
         flex: 1 0 100% !important;
     }
-
-
 }
