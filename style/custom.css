@@ -1082,7 +1082,7 @@
     display: none;
 }
 
-.wrapper-gallery:nth-child(1)  {
+.wrapper-gallery:nth-child(1) {
     display: block;
 }
 
@@ -2250,12 +2250,12 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
 
-    .package-leyend{
+    .package-leyend {
         font-weight: 600px !important;
         font-size: 35px !important;
     }
 
-    .galery-cta-subtitle{
+    .galery-cta-subtitle {
         font-size: 35px !important;
     }
 
@@ -2665,7 +2665,7 @@
         margin-top: 40px !important;
     }
 
-    .team-work  {
+    .team-work {
         height: auto !important;
         justify-content: center;
     }
@@ -2674,11 +2674,11 @@
         height: auto;
     }
 
-    .card-team  {
+    .card-team {
         margin-bottom: 40px;
     }
 
-    .about-galeries  {
+    .about-galeries {
         padding-top: 0 !important;
     }
 
@@ -2686,7 +2686,7 @@
         margin-top: 0 !important;
     }
 
-    .about-cta-title{
+    .about-cta-title {
         font-size: 35px !important;
     }
 
@@ -2794,11 +2794,11 @@
         width: 100% !important;
     }
 
-    .banner-packages .subtitle-banner  {
+    .banner-packages .subtitle-banner {
         display: inline !important;
     }
 
-    .banner-packages .button-banner  {
+    .banner-packages .button-banner {
         width: 50% !important;
     }
 
@@ -2836,7 +2836,8 @@
         height: 250px !important;
     }
 
-    .galery-cta-subtitle, .title-package{
+    .galery-cta-subtitle,
+    .title-package {
         font-size: 25px !important;
     }
 
@@ -2844,27 +2845,29 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE GALERY PAGE  -------------------------------------*/
-    .married-galery-banner, .graduation-galery-banner, .birthday-galery-banner{
+    .married-galery-banner,
+    .graduation-galery-banner,
+    .birthday-galery-banner {
         height: 500px;
         top: 85px;
         position: relative;
     }
 
-    .info-banner-galery{
+    .info-banner-galery {
         top: 95px !important;
         text-align: center;
     }
 
-    .info-banner-galery .title-banner{
+    .info-banner-galery .title-banner {
         width: 100%;
     }
 
-    .info-banner-galery .subtitle-banner{
+    .info-banner-galery .subtitle-banner {
         justify-content: center;
 
     }
 
-    .info-banner-galery .buttons{
+    .info-banner-galery .buttons {
         margin-top: 10px !important;
     }
 
@@ -2893,25 +2896,25 @@
         padding-top: 20px !important;
     }
 
-    .title-banner-main  {
+    .title-banner-main {
         font-size: 30px !important;
         width: auto !important;
     }
 
-    .subtitle-contact  {
+    .subtitle-contact {
         font-size: 25px !important;
         top: -75px !important;
     }
 
-    .contact-title  {
+    .contact-title {
         font-size: 30px !important;
     }
 
-    .sent-btn  {
+    .sent-btn {
         margin-top: 10px !important;
         width: 50% !important;
-         transform: translate(45%) !important;
-         font-size: 20px !important;
+        transform: translate(50%) !important;
+        font-size: 20px !important;
     }
 
 }
@@ -3030,7 +3033,7 @@
     /* ------------------------------ RESPONSIVE SERVICES SECTION DESIGN -------------------------------------------------------*/
 
 
-    .banner-services .info-banner{
+    .banner-services .info-banner {
         margin-top: 20px !important;
     }
 
@@ -3275,7 +3278,7 @@
         margin-bottom: 10px !important;
     }
 
-    .banner-about .title-banner  {
+    .banner-about .title-banner {
         top: -50px;
         margin-bottom: 20px !important;
     }
@@ -3391,13 +3394,13 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
-    .banner-packages  {
+    .banner-packages {
         position: relative;
         top: 80px !important;
         height: 400px !important;
     }
 
-    .banner-packages .info-banner  {
+    .banner-packages .info-banner {
         margin-top: 0;
         top: 145px !important;
         text-align: center;
@@ -3411,7 +3414,7 @@
         text-align: center;
     }
 
-    .banner-packages .button-banner  {
+    .banner-packages .button-banner {
         width: 50% !important;
     }
 
@@ -3471,27 +3474,29 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE GALERY PAGE  -------------------------------------*/
-    .married-galery-banner, .graduation-galery-banner, .birthday-galery-banner{
+    .married-galery-banner,
+    .graduation-galery-banner,
+    .birthday-galery-banner {
         height: 400px;
         top: 85px;
         position: relative;
     }
 
-    .info-banner-galery{
+    .info-banner-galery {
         top: 95px !important;
         text-align: center;
     }
 
-    .info-banner-galery .title-banner{
+    .info-banner-galery .title-banner {
         width: 100%;
     }
 
-    .info-banner-galery .subtitle-banner{
+    .info-banner-galery .subtitle-banner {
         justify-content: center;
 
     }
 
-    .info-banner-galery .buttons{
+    .info-banner-galery .buttons {
         margin-top: 10px !important;
     }
 
@@ -3500,7 +3505,7 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
-    .contact  {
+    .contact {
         padding-top: 0 !important;
     }
 
@@ -3509,7 +3514,7 @@
         height: 300px;
     }
 
-    .banner-contact .info-banner  {
+    .banner-contact .info-banner {
         text-align: center !important;
         top: 190px !important;
     }
@@ -3543,7 +3548,7 @@
         flex: 1 0 100% !important;
     }
 
-    .contact-col figure  {
+    .contact-col figure {
         margin: 0 auto !important;
     }
 
@@ -3552,13 +3557,13 @@
         padding-top: 80px !important;
     }
 
-    .sent-btn  {
+    .sent-btn {
         width: 50% !important;
         transform: translate(50%);
         font-size: 18px !important;
     }
 
-    .contact-page  {
+    .contact-page {
         padding-top: 60px !important;
     }
 
@@ -3766,10 +3771,10 @@
     }
 
     /* ------------------------------ RESPONSIVE CTA SECTION DESIGN -------------------------------------------------------*/
-
+    
     .contact-video {
         height: 223px !important;
-        width: 330px !important;
+        width: 100% !important;
         margin: 0 auto;
     }
 
@@ -4000,7 +4005,7 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
-    .banner-packages  {
+    .banner-packages {
         top: 90px;
         position: relative;
         height: 300px;
@@ -4119,37 +4124,40 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE GALERY PAGE  -------------------------------------*/
-    .married-galery-banner, .graduation-galery-banner, .birthday-galery-banner{
+    .married-galery-banner,
+    .graduation-galery-banner,
+    .birthday-galery-banner {
         height: 400px;
         top: 85px;
         position: relative;
     }
 
-    .info-banner-galery{
+    .info-banner-galery {
         top: 70px !important;
         text-align: center;
     }
 
-    .info-banner-galery .title-banner{
+    .info-banner-galery .title-banner {
         width: 100%;
     }
 
-    .info-banner-galery .button-banner{
+    .info-banner-galery .button-banner {
         width: 80% !important;
     }
-    .info-banner-galery .buttons{
+
+    .info-banner-galery .buttons {
         margin-top: 0 !important;
     }
 
-    .title-photos{
+    .title-photos {
         font-size: 20px;
     }
 
-    .paragraph-photos{
+    .paragraph-photos {
         font-size: 16px;
     }
 
-    
+
 
 
     /*-----------------------------------------------------------------------------------------------*/
@@ -4164,7 +4172,7 @@
     }
 
     .contact {
-        height: 1350px !important;
+        height: auto !important;
     }
 
     .banner-contact .main-title {
@@ -4182,12 +4190,16 @@
         flex: 1 0 100% !important;
     }
 
-    .contact-col figure  {
+    .contact-col figure {
         margin: 0 auto !important;
     }
 
-    .contact-title  {
+    .contact-title {
         font-size: 18px !important;
+    }
+    
+    .contact-page .contact-col .video{
+        width: 330px !important;
     }
 
     .paragraph-form {
@@ -4207,12 +4219,12 @@
         padding-top: 70px !important;
     }
 
-    .sent-btn  {
+    .sent-btn {
         width: 100% !important;
         margin-top: 20px;
     }
 
-    .label-margin{
+    .label-margin {
         margin-top: 20px;
     }
 }
