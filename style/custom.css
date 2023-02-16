@@ -2738,7 +2738,7 @@
     }
 
     .col-right {
-        padding: 40px 25px 0 30px;
+        padding: 40px 40px 0 40px;
     }
 
     .title-service {
@@ -2746,7 +2746,7 @@
     }
 
     .col-left {
-        padding: 40px 25px 0 30px;
+        padding: 40px 40px 0 40px;
     }
 
     /*  .button-service {
@@ -2755,7 +2755,7 @@
     } */
 
     .image-service {
-        padding: 10px 30px 0 30px;
+        padding: 10px 40px 0 40px;
         height: auto;
         text-align: center;
     }
@@ -4159,6 +4159,10 @@
         height: 400px;
     }
 
+    .banner-contact .info-banner {
+        top: 75px !important;
+    }
+
     .contact {
         height: 1350px !important;
     }
@@ -4204,7 +4208,11 @@
     }
 
     .sent-btn  {
-        width: 50% !important;
-        transform: translate(50%) !important;
+        width: 100% !important;
+        margin-top: 20px;
+    }
+
+    .label-margin{
+        margin-top: 20px;
     }
 }
