@@ -815,10 +815,7 @@
     box-shadow: 0px 0.7px 3px 0px rgba(0.5, 0, 0, 0.15) !important;
 }
 
-.card-service:hover {
-    margin-left: 15px;
-    transform: scale(1.2);
-}
+
 
 .card-service:hover a {
     animation: pulse .8s infinite;
@@ -3647,7 +3644,12 @@
     }
 
     /*--------------------------------- PACKAGES SECTION ---------------------------------------------------------------------------*/
-
+    .banner-packages{
+        top: 84px;
+        position: relative;
+        height: 400px;
+        margin-bottom: 50px;
+    }
 
 
 
@@ -3826,6 +3828,7 @@
     .card-package {
         margin: 0;
         width: 28rem !important;
+        margin-bottom: 40px !important;
     }
 
     .card-mobile {
