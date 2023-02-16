@@ -50,7 +50,7 @@
     margin: 0 5px !important;
 }
 
-.nav_link i{
+.nav_link i {
     display: none;
 }
 
@@ -1860,23 +1860,22 @@
 
 /* For Extra-large size device: 1200px and more*/
 
-@media screen and (Min-Width:1025px) and (Max-Width:1200px) {
-
-    /*-----------------------------------------------------------------------------------------------*/
-    /*-----------------------------------------------------------------------------------------------*/
-    /*----------------------------  RESPONSIVE MAIN PAGE  -------------------------------------*/
-
-    /*--------------------------------------- BANNER SECTION ---------------------------------------------*/
+@media screen and (Min-width:1201px) {
     nav ul {
         padding: 0 !important;
     }
 
-    .navbar-nav {
-        padding-right: 0 !important;
+    nav ul .item {
+        margin: 0 !important;
     }
 
-    .social-networks {
-        margin-left: 20px !important;
+    nav ul .item .nav_link {
+        padding: 7px 13px !important;
+    }
+
+    .navbar-nav {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
     }
 
     .info-banner {
@@ -1886,6 +1885,10 @@
 
     .subtitle-banner {
         top: -50px !important;
+    }
+
+    .social-networks {
+        margin-left: 15px !important;
     }
 
     .title-banner {
@@ -1982,6 +1985,161 @@
         padding: 100px 0 !important;
     }
 
+    /*-------------------------------------FOOTER SECTION -----------------------------------------*/
+
+    .footer {
+        padding-bottom: 50px !important;
+    }
+
+    /*------------------------------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------------------------------*/
+
+    /*---------------------------------------- CONTACT PAGE -----------------------------------------------------------------*/
+
+    .subtitle-contact{
+        top: -70px !important;
+    }
+
+}
+
+
+@media screen and (Min-Width:1025px) and (Max-Width:1200px) {
+
+    /*-----------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
+    /*----------------------------  RESPONSIVE MAIN PAGE  -------------------------------------*/
+
+    /*--------------------------------------- BANNER SECTION ---------------------------------------------*/
+    nav ul {
+        padding: 0 !important;
+    }
+
+    nav ul .item {
+        margin: 0 !important;
+    }
+
+    nav ul .item .nav_link {
+        padding: 7px 8px !important;
+    }
+
+    .navbar-nav {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .info-banner {
+        top: 310px !important;
+        height: auto !important;
+    }
+
+    .subtitle-banner {
+        top: -50px !important;
+    }
+
+    .social-networks {
+        margin-left: 10px !important;
+    }
+
+    .title-banner {
+        width: 55% !important;
+        font-size: 35px !important;
+    }
+
+    .buttons {
+        margin-top: 12px !important;
+    }
+
+    /*------------------------------------- ABOUT SECTION --------------------------------------*/
+
+    .about {
+        padding: 100px 0 !important;
+    }
+
+    .about-figure {
+        margin: 0;
+        width: 550px !important;
+    }
+
+    .about_paragrah {
+        margin-left: 0;
+    }
+
+    .btn-about-view-more {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .about-view-more-btn {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    /*------------------------------------- SERVICES SECTION --------------------------------------*/
+
+    .service-paragraph {
+        font-size: 16px !important;
+    }
+
+    .service-title {
+        font-size: 25px !important;
+    }
+
+    /*------------------------------------- GALERY SECTION --------------------------------------*/
+
+    .portfolio-subtitle {
+        font-size: 40px !important;
+    }
+
+    .card {
+        width: 20rem !important;
+    }
+
+    .card-galery:hover img,
+    .card-galery img {
+        height: auto !important;
+    }
+
+    /*------------------------------------- TESTIMONY SECTION --------------------------------------*/
+
+    .testimony {
+        padding-bottom: 90px !important;
+    }
+
+    .testimony-subtitle {
+        font-size: 40px !important;
+    }
+
+    .about-testimonies {
+        padding-top: 75px !important;
+    }
+
+    .testimony-view-more {
+        margin-bottom: 0 !important;
+    }
+
+    /*------------------------------------- NEWSLETTER SECTION --------------------------------------*/
+
+    .news-form {
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .newsletter-form {
+        padding-right: 0 !important;
+    }
+
+    /*------------------------------------- CTA SECTION --------------------------------------*/
+
+    .cta {
+        padding: 100px 0 !important;
+    }
+
+    /*------------------------------------- FOOTER SECTION --------------------------------------*/
+
+    .footer {
+        padding-bottom: 50px !important;
+    }
+
 
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
@@ -2007,6 +2165,15 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
+
+
+    .banner-contact .info-banner{
+        top: 250px !important;
+    }
+
+    .subtitle-contact{
+        top: -70px !important;
+    }
 }
 
 
@@ -2027,12 +2194,12 @@
         margin: auto !important;
     }
 
-    .item{
+    .item {
         margin-top: 20px !important;
         padding-bottom: 10px;
     }
 
-    .nav_link i{
+    .nav_link i {
         display: inline-block;
     }
 
@@ -2043,7 +2210,7 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         top: 65px;
         left: 0;
-        height:auto;
+        height: auto;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -2062,7 +2229,7 @@
         pointer-events: unset;
     }
 
-    .social-networks{
+    .social-networks {
         margin-top: 20px;
         font-size: 20px;
         margin-right: 0 !important;
@@ -2085,7 +2252,7 @@
         cursor: pointer;
     }
 
-    .navbar-expand-lg .navbar-nav{
+    .navbar-expand-lg .navbar-nav {
         flex-direction: column !important;
     }
 
@@ -3307,7 +3474,7 @@
     /*-----------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------------------------------------------------*/
     /*----------------------------  RESPONSIVE ABOUT MAIN PAGE  -------------------------------------*/
-    
+
     .banner-about .info-banner {
         top: 90px !important;
     }
@@ -3335,30 +3502,30 @@
 
     /*--------------------------------- PACKAGES SECTION ---------------------------------------------------------------------------*/
 
-    
+
 
 
 
     /*--------------------------------- TEAM WORK SECTION ---------------------------------------------------------------------------*/
 
-        .title-team{
-            font-size: 18px !important;
-        }
+    .title-team {
+        font-size: 18px !important;
+    }
 
-        .our-teamwork{
-            height: auto !important;
-        }
+    .our-teamwork {
+        height: auto !important;
+    }
 
     /*------------------------------------------------- CTA SECTION -----------------------------------------------------------------*/
 
-        .about-cta-title{
-            font-size: 18px !important;
-        }
+    .about-cta-title {
+        font-size: 18px !important;
+    }
 
-        .button-service{
-            font-size: 16px !important;
-            padding: 7px !important;
-        }
+    .button-service {
+        font-size: 16px !important;
+        padding: 7px !important;
+    }
 
 
     /*-----------------------------------------------------------------------------------------------*/
