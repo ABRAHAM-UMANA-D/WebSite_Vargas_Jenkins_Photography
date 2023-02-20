@@ -758,9 +758,13 @@
 /*ABOUT BANNER PROPIERTIES*/
 .banner-about {
     position: relative;
-    height: 700px;
+    height: 600px;
     background-position: top;
-    background-image: url(../images/Banner-about.png) !important;
+    background-image: url(../images/Banner-about.jpg) !important;
+}
+
+.banner-about .info-banner{
+    top: 220px !important;
 }
 
 /*ABOUT DESCRIPTION PROPERTIES*/
@@ -904,12 +908,12 @@
 
 /*SERVICES BANNER PROPERTIES*/
 .banner-services {
-    height: 500px;
+    height: 580px;
     background-image: url(../images/Banner-services-page.jpg) !important;
 }
 
 .banner-services .info-banner {
-    top: 220px !important;
+    top: 280px !important;
 }
 
 /*SERVICES DESCRIPTION PROPERTIES*/
@@ -2068,6 +2072,8 @@
         font-size: 30px !important;
     }
 
+    
+
 }
 
 
@@ -2255,7 +2261,7 @@
         font-size: 35px !important;
     }
 
-    .title-banner{
+    .title-banner {
         font-size: 30px !important;
     }
 
@@ -2933,10 +2939,10 @@
 
     .banner {
         background-color: rgba(0, 0, 0, 0.50) !important;
-        background-blend-mode: soft-light !important;
         height: 500px !important;
         top: 85px !important;
         margin-bottom: 60px !important;
+        background-position: 80% !important;
     }
 
     .info-banner {
@@ -3591,7 +3597,9 @@
     }
 
     .banner-home {
+        background-color: rgba(0, 0, 0, 0.50) !important;
         height: 450px !important;
+        background-position: 70% !important;
     }
 
     .subtitle-banner {
@@ -3860,7 +3868,7 @@
         text-align: center;
     }
 
-    .suscribe-footer{
+    .suscribe-footer {
         width: 100% !important;
         margin-top: 5px !important;
     }
