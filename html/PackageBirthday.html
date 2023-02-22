@@ -18,23 +18,29 @@
     <header>
         <nav class="menu navbar-expand-lg">
             <div class="container">
-                <a href="home.html" class="logo_enlace" title="Ir a la página principal">
+                <a href="index.html" class="logo_enlace" title="Ir a la página principal">
                     <img class="logo" src="../images/Gold-logo-agency.png">
                     <img class="logo top" src="../images/White-logo-agency.png">
                 </a>
-                <ul class="navbar-nav navbar-nav--menu">
+
+                <ul class="navbar-nav navbar-nav--menu" id="nav">
                     <li class="item">
-                        <a href="home.html" class="nav_link">Inicio</a>
+                        <a href="index.html" class="nav_link"><i class="fa-solid fa-house"></i> Inicio</a>
                     </li>
-                    <li class="item"><a href="about.html" class="nav_link">Nosotros</a></li>
-                    <li class="item"><a href="services.html" class="nav_link">Servicios</a></li>
+                    <hr class="divider">
+                    <li class="item"><a href="about.html" class="nav_link"><i class="fa-solid fa-users"></i>
+                            Nosotros</a></li>
+                    <hr class="divider">
+                    <li class="item"><a href="services.html" class="nav_link"><i class="fa-solid fa-camera-retro"></i>
+                            Servicios</a></li>
+                    <hr class="divider">
                     <li class="item">
                         <div class="dropdown-galery-options">
                             <a href="#" class="dropdown-toggle nav_link nav-link-drop" type="button"
                                 data-bs-toggle="dropdown" aria-expanded="false" id="packages-menu">
-                                Paquetes
+                                <i class="fa-solid fa-graduation-cap"></i> Paquetes
                             </a>
-                            <ul id="dropdownGalery" class="dropdown-content dropdown-menu"
+                            <ul id="dropdownGalery" class="dropdown-content dropdown-menu dropdown-submenu"
                                 aria-labelledby="packages-menu">
                                 <li class="accordion accordion-navbar" id="accordionExample"">
                                     <div  class=" accordion-item">
@@ -44,78 +50,75 @@
                                     <div id="collapseOne" class="accordion-collapse collapse show"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <a class="menu-item item-graduation" href="PackageGdMaternal.html"><i class="bi bi-circle-fill"></i> Materno</a>
-                                            <a class="menu-item item-graduation" href="PackageGdKinder.html"><i class="bi bi-circle-fill"></i> Kinder</a>
-                                            <a class="menu-item item-graduation" href="PackageGdCollege.html"><i class="bi bi-circle-fill"></i> Colegios</a>
+                                            <a class="menu-item item-graduation" href="packageGdMaternal.html"><i
+                                                    class="fa-solid fa-circle-check"></i> Materno</a>
+                                            <a class="menu-item item-graduation" href="packageGdKinder.html"><i
+                                                    class="fa-solid fa-circle-check"></i> Kinder</a>
+                                            <a class="menu-item item-graduation" href="packageGdCollege.html"><i
+                                                    class="fa-solid fa-circle-check"></i> Escuelas y colegios</a>
                                         </div>
                                     </div>
-                        </div>
+                                </li>
 
-                        <ul class="dropdown-menu" aria-labelledby="multiLevelMenu">
-                            <li></li>
-                            <li><a class="menu-item" href="PackageGdKinder.html">Kinder</a></li>
-                            <li>
-                            </li>
-                        </ul>
+                                <li>
+                                    <a class="menu-item" href="packageMarried.html">
+                                        <i class="fa-solid fa-ring"></i> Matrimonios
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="menu-item" href="packageBirthday.html">
+                                        <i class="fa-solid fa-cake-candles"></i> Cumpleaños
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
-                    <li>
-                        <a class="menu-item" href="../html/PackageMarried.html">
-                            <i class="fa-solid fa-ring"></i> Matrimonios
-                        </a>
+                    <hr class="divider">
+                    <li class="item">
+                        <div class="dropdown-galery-options">
+                            <a href="#" class="dropdown-toggle nav_link nav-link-drop" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-images"></i> Galeria
+                            </a>
+                            <ul id="dropdownGalery" class="dropdown-content dropdown-menu dropdown-submenu">
+                                <li>
+                                    <a class=" menu-item" href="graduationGalery.html">
+                                        <i class="bi bi-mortarboard-fill"></i> Graduaciones
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-item" href=marriedGalery.html">
+                                        <i class="fa-solid fa-ring"></i> Matrimonios
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu-item" href="birthdayGalery.html">
+                                        <i class="fa-solid fa-cake-candles"></i> Cumpleaños
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
-                    <li>
-                        <a class="menu-item" href="../html/PackageBirthday.html">
-                            <i class="fa-solid fa-cake-candles"></i> Cumpleaños
-                        </a>
+                    <hr class="divider">
+                    <li class="item">
+                        <a class="contact-button" href="contact.html">Contáctanos</a>
                     </li>
+                    <ul class="social-networks">
+                        <li class="item"><a href="" class="icon" title="Visitar Facebook de la empresa"><i
+                                    class="bi bi-facebook"></i></a></li>
+                        <li class="item"><a href="" class="icon"><i class="bi bi-instagram"
+                                    title="Visitar el Instagram de la empresa"></i></a></li>
+                        <li class="item"><a href="" class="icon"><i class="bi bi-tiktok"
+                                    title="Visitar el TikTok de la empresa"></i></a></li>
+                    </ul>
                 </ul>
             </div>
-            </li>
-            <li class="item">
-                <div class="dropdown-galery-options">
-                    <a href="#" class="dropdown-toggle nav_link nav-link-drop" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Galeria
-                    </a>
-                    <ul id="dropdownGalery" class="dropdown-content dropdown-menu">
-                        <li>
-                            <a class=" menu-item" href="../html/graduationGalery.html">
-                                <i class="bi bi-mortarboard-fill"></i> Graduaciones
-                            </a>
-                        </li>
-                        <li>
-                            <a class="menu-item" href="../html/marriedGalery.html">
-                                <i class="fa-solid fa-ring"></i> Matrimonios
-                            </a>
-                        </li>
-                        <li>
-                            <a class="menu-item" href="../html/birthdayGalery.html">
-                                <i class="fa-solid fa-cake-candles"></i> Cumpleaños
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li class="item">
-                <a class="contact-button" href="contact.html">Contáctanos</a>
-            </li>
-            <ul class="social-networks">
-                <li class="item"><a href="" class="icon" title="Visitar Facebook de la empresa"><i
-                            class="bi bi-facebook"></i></a></li>
-                <li class="item"><a href="" class="icon"><i class="bi bi-instagram"
-                            title="Visitar el Instagram de la empresa"></i></a></li>
-                <li class="item"><a href="" class="icon"><i class="bi bi-tiktok"
-                            title="Visitar el TikTok de la empresa"></i></a></li>
-            </ul>
-            <img src="../images/close.svg" alt="cerrar" class="nav_close">
-            </ul>
-            <div class="nav_menu">
-                <a href="">
-                    <img src="../images/Menu.svg" alt="menu" class="nav_img">
-                </a>
-
-            </div>
-            </div>
+            <button class="nav_menu" id="nav_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
         <section class="banner banner-birthday-packages">
             <div class="container info-banner">
@@ -127,10 +130,10 @@
                 </div>
                 <div class="row">
                     <div class="col buttons">
-                        <a class="btn button-banner" href="Services.html" role="button"
+                        <a class="btn button-banner" href="services.html" role="button"
                             title="Ir a la página de servicios">Servicios disponibles <img
                                 src="../images/Add a photo.png" alt="" class="btn-services"> </a>
-                        <a class="btn button-banner" href="Contact.html" role="button"
+                        <a class="btn button-banner" href="contact.html" role="button"
                             title="Ir a la página de contacto">Contáctanos <i class="fa-solid fa-phone-volume"></i></a>
                     </div>
                 </div>
@@ -145,7 +148,7 @@
                     con nuestro
                     servicio de fotografía?
                 </h2>
-                <a class="btn button-service btn-contact" href="Contact.html" role="button"
+                <a class="btn button-service btn-contact" href="contact.html" role="button"
                     title="Ir a la página de contacto">Contáctanos <i class="fa-solid fa-phone-volume"></i></a>
             </div>
         </section>
@@ -157,7 +160,7 @@
                 <div class="col col-brand">
                     <div class="col">
                         <div class="col">
-                            <a href="home.html" class="logo_enlace" title="Ir al inicio de la página principal">
+                            <a href="index.html" class="logo_enlace" title="Ir al inicio de la página principal">
                                 <img class="logo-footer" src="../images/Gold-logo-agency.png">
                                 <img class="logo-footer top" src="../images/White-logo-agency.png">
                             </a>
@@ -181,7 +184,7 @@
                         o escríbenos al siguiente número
                         <span class="data-contact">+506 8456-8912</span>
                     </p>
-                    <a class="btn btn-login" href="Login.html" role="button"
+                    <a class="btn btn-login" href="login.html" role="button"
                         title="Ir a la página de inicio de sesión">Iniciar sesión <i
                             class="fa-solid fa-arrow-right-to-bracket"></i></a>
                 </div>
