@@ -31,7 +31,6 @@ function viewMoreTwo() {
         }
         btn_load_two.style.display = 'none';
     }
-
     benefitSecondCurrent += 1;
 }
 
