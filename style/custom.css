@@ -338,6 +338,10 @@
     text-align: center !important;
 }
 
+.about-view-more-btn{
+    display: none !important;
+}
+
 .about-view-more-btn {
     border-radius: 7px !important;
     color: #ffff !important;
