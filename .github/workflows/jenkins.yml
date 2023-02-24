@@ -1,24 +1,20 @@
-name: Vargas Jenkins
-
+name: Publish Website to CPanel
 on:
   push:
-    branches: [ main ]
-
+    branches:
+      - main
 jobs:
-  deploy:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Install dependencies
-      run: |
-        npm install
-
-    - name: FTP Deploy
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
-      with:
-        ftp-server: ftp.vargasjenkinsphotography.com
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./Vargas-Jenkins-Agency
+      - uses: actions/checkout@v2.1.0
+        with:
+          fetch-depth: 2
+      - name: FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: ftp.vargasjenkinsphotography.com
+          ftp-username: ${{ secrets.FTP_USERNAME }}
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./Vargas-Jenkins-Agency
