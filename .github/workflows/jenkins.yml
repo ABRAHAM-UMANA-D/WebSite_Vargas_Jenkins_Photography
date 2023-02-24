@@ -1,4 +1,4 @@
-name: Publish Website to CPanel
+name: Vargas Jenkins
 on:
   push:
     branches:
@@ -17,4 +17,3 @@ jobs:
           ftp-server: ftp.vargasjenkinsphotography.com
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: C:\Users\abrah\git\Vargas-Jenkins-Agency
