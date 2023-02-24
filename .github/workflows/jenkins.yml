@@ -17,4 +17,4 @@ jobs:
           ftp-server: ftp.vargasjenkinsphotography.com
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./git
+          local-dir: C:\Users\abrah\git\Vargas-Jenkins-Agency
