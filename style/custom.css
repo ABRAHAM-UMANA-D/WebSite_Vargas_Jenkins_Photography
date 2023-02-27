@@ -1,17 +1,34 @@
 /*------------------------------------------------------------------ GENERAL PROPERTIES ------------------------------------------------------*/
 /*GENERAL PROPERTIES*/
 
-.container {
+/* .container {
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
-}
+} */
 
 
 /* HIDDEN ELEMENTS */
 .btn-login {
     display: none !important;
 }
+
+h1 {
+    font-size: 35px !important;
+}
+
+h2 {
+    font-size: 30px !important;
+}
+
+h3 {
+    font-size: 20px !important;
+}
+
+p {
+    font-size: 18px !important;
+}
+
 
 /*------------------------------------------------------------------ NAVBAR PROPERTIES ------------------------------------------------------*/
 
@@ -222,7 +239,6 @@
     margin: 10px !important;
     margin-bottom: 20px !important;
     font-weight: bold !important;
-    font-size: 22px !important;
     position: relative !important;
     -webkit-text-stroke: 0.5px #000000 !important;
     top: -60px !important;
@@ -233,7 +249,6 @@
     color: #ffff;
     margin: 10px;
     width: 55%;
-    font-size: 40px;
     font-family: 'Arial Black';
     position: relative;
     top: -65px;
@@ -249,8 +264,6 @@
     margin-top: 50px;
     margin: 10px;
     padding: 10px;
-    border-radius: 5px;
-    font-weight: bold;
     font-family: 'Roboto';
 }
 
@@ -313,7 +326,6 @@
 }
 
 .subtitle {
-    font-size: 25px;
     margin-bottom: 25px;
     margin-top: 10px;
     text-align: center;
@@ -329,17 +341,12 @@
     line-height: 1.7;
     margin-bottom: 15px;
     margin-left: 20px;
-    font-size: 16px !important;
 }
 
 .btn-about-view-more {
     margin: 10px !important;
     padding: 10px !important;
     text-align: center !important;
-}
-
-.about-view-more-btn{
-    display: none !important;
 }
 
 .about-view-more-btn {
@@ -380,10 +387,6 @@
     margin-bottom: 20px;
 }
 
-.subtitle-service {
-    font-size: 32px;
-}
-
 .subtitle-service span {
     font-weight: bold;
 }
@@ -395,10 +398,6 @@
 .col-paragraph {
     justify-self: end;
     margin-right: 9px;
-}
-
-.services-paragraph {
-    font-size: 25px;
 }
 
 .service-main {
@@ -420,14 +419,13 @@
 .service-title {
     position: relative;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-weight: bold;
 }
 
 .service-paragraph {
     position: relative;
     margin-bottom: 30px;
     text-align: justify;
-    font-size: 18px;
 }
 
 .service-btn {
@@ -452,27 +450,32 @@
     background-blend-mode: soft-light;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.15);
 }
+
 .portfolio-subtitle {
     position: relative;
     top: 35px;
     color: #fff;
-    font-size: 45px;
     height: 60px;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 60px;
 }
+
 .card-galery {
     box-shadow: 0px 0.7px 3px 1px rgba(0.5, 0, 0, 0.15) !important;
     cursor: pointer;
+    margin-bottom: 20px !important;
 }
+
 .card-galery img {
     height: 300px !important;
 }
+
 .card-galery:hover {
     margin-left: 15px;
     transform: scale(1.06);
     transition: all 0.3s;
 }
+
 .card-galery:hover a {
     animation: pulse .8s infinite;
 }
@@ -530,15 +533,6 @@
 
 .newsletter-subtitle {
     font-weight: bold;
-    font-size: 35px;
-}
-
-.newsletter-paragrah {
-    font-size: 20px;
-}
-
-.form-subtitle {
-    font-size: 20px;
 }
 
 .newsletter-input {
@@ -563,20 +557,14 @@
 }
 
 /*TESTIMONY SECTION ------------------------------------------*/
-
-/* .testimony {
-    background: #fff;
-    background-blend-mode: soft-light;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.15);
-} */
-
+.testimony {
+    padding-top: 80px;
+}
 .testimony-subtitle {
     position: relative;
     top: 35px;
     color: #000;
-    font-size: 45px;
-    height: 60px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .title-testimony {
@@ -584,11 +572,9 @@
     color: #fff;
     padding: 20px;
     border-radius: 10px;
-    font-size: 40px !important;
 }
 
 .title-testimony h5 {
-    font-size: 20px !important;
     font-weight: bold !important;
 }
 
@@ -668,12 +654,10 @@
 }
 
 .cta-subtitle {
-    font-size: 35px;
     font-weight: bold;
 }
 
 .cta-content {
-    font-size: 20px;
     width: 480px;
 }
 
@@ -685,7 +669,6 @@
     padding-right: 15px !important;
     font-weight: bold !important;
     color: #FFF !important;
-    font-size: 20px !important;
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
@@ -737,7 +720,6 @@
     margin-top: 20px;
     margin-bottom: 30px;
     font-weight: bold;
-    font-size: 45px;
     text-align: center;
 }
 
@@ -826,14 +808,14 @@
 }
 
 .name {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     color: #000;
     margin: 0;
 }
 
 .profession {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     color: #000;
     margin: 0;
@@ -843,8 +825,7 @@
     margin-top: 40px;
 }
 
-.about-contact h2 {
-    font-size: 36px;
+.about-contact h1 {
     font-weight: bold;
 }
 
@@ -879,29 +860,12 @@
     border-radius: 10px;
 }
 
-.main-services {
-    margin-bottom: 0 !important;
-}
-
-.service {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: 600px !important;
-    padding: 0 !important;
-    width: 100% !important;
-    margin: 0 !important;
-}
-
 .image-service {
     position: relative;
     padding-bottom: 0 !important;
 }
 
 .col-right {
-    padding: 55px;
-}
-
-.col-left {
     padding: 55px;
 }
 
@@ -926,7 +890,6 @@
 }
 
 .paragraph-service {
-    font-size: 20px;
     text-align: justify;
 }
 
@@ -986,7 +949,7 @@
     background-color: #000;
 }
 
-.galery-page h2 {
+.galery-page h1 {
     color: #FFF;
     text-align: center;
 }
@@ -1005,12 +968,10 @@
 }
 
 .title-photos {
-    font-size: 30px;
     font-weight: bold;
 }
 
 .paragraph-photos {
-    font-size: 20px;
     margin-bottom: 40px;
 }
 
@@ -1176,7 +1137,6 @@
 .galery-cta-subtitle {
     color: #FFF;
     font-weight: bold;
-    font-size: 36px;
 }
 
 .galery-txt {
@@ -1203,7 +1163,6 @@
     margin-left: 10px !important;
     margin-bottom: 5px !important;
     -webkit-text-stroke: 0 #000000 !important;
-    font-size: 30px !important;
     font-family: 'Roboto' !important;
     font-weight: 500 !important;
 }
@@ -1218,7 +1177,6 @@
 
 .contact-title {
     font-weight: bold;
-    font-size: 35px;
 }
 
 .input-contact {
@@ -1234,10 +1192,6 @@
 
 .banner-contact .info-banner {
     top: 220px !important;
-}
-
-.main-title {
-    font-size: 50px !important;
 }
 
 .video {
@@ -1266,7 +1220,6 @@
 }
 
 .paragraph-form {
-    font-size: 20px;
     text-align: justify;
     width: 450px !important;
 }
@@ -1308,14 +1261,9 @@
     background-image: url(../images/banner-married-packages.jpg);
 }
 
-
 .package-leyend {
     font-weight: 500;
     margin-bottom: 40px;
-}
-
-.card-subtitle {
-    font-size: 16px !important;
 }
 
 .package-section {
@@ -1336,21 +1284,20 @@
 }
 
 .title-package {
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 15px !important;
 }
 
 .package-price {
-    font-size: 35px;
     padding-right: 15px;
     margin-bottom: 10px;
-
+    font-size: 25px !important;
     font-weight: 550;
 }
 
 .package-price .price-labeled {
     text-decoration: line-through !important;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .discount-package {
@@ -1366,17 +1313,7 @@
     font-weight: bold !important;
     width: 100% !important;
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
-}
-
-.btn-contact-pk-one {
-    background-color: #9E0042 !important;
-    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
-    color: #EFEFEF !important;
-}
-
-.btn-contact-pk-one:hover {
-    background-color: #000 !important;
-    color: #EFEFEF !important;
+    color: #FFF !important;
 }
 
 .benefits-package {
@@ -1389,17 +1326,69 @@
 }
 
 .benefit-description {
-    font-size: 14px;
     font-weight: 300 !important;
     margin-bottom: 15px !important;
 }
 
-.premium-package {
-    background: #9E0042 !important;
+.maternal-package {
+    background-color: #000 !important;
+    border-width: 2px !important;
 }
 
-.premium-package .packages-benefits p i {
-    color: #9E0042;
+.maternal-package:hover{
+    background-color: #CC9934 !important;
+}
+
+.maternal-two .benefits-package i{
+    color: #CC9934 ;
+}
+
+.maternal-package .maternal-two .list-group-item {
+    background-color: #000 !important;
+    color: #FFF !important;
+}
+
+.maternal-package .maternal-two .list-group-item:last-child {
+    background: radial-gradient(136.95% 136.95% at 50.65% -27.09%, rgba(255, 255, 255, 0) 0.83%, rgba(255, 255, 255, 7.89793e-09) 58.12%, rgba(255, 255, 255, 0.2) 100%), #000000 !important;
+}
+
+.maternal-package .btn-contact-pk,
+.card-kinder .btn-contact-pk {
+    background: radial-gradient(136.95% 136.95% at 50.65% -27.09%, rgba(255, 255, 255, 0) 0.83%, rgba(255, 255, 255, 7.89793e-09) 58.12%, rgba(255, 255, 255, 0.2) 100%), #000000 !important;
+}
+
+.maternal-package .btn-contact-pk-two {
+    background: #FFF !important;
+    color: #000 !important;
+}
+
+.maternal-package .btn-contact-pk:hover,
+.card-kinder .btn-contact-pk:hover {
+    background: #CC9934 !important;
+    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
+    color: #000 !important;
+}
+
+.premium-package .btn-contact-pk,
+.golden-package .btn-contact-pk {
+    background-color: #000 !important;
+}
+
+.premium-package,
+.golden-package {
+    background: #000 !important;
+}
+
+.premium-package:hover {
+    background-color: #9E0042 !important;
+    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
+    border-width: 2px;
+}
+
+.premium-package .btn-contact-pk-one:hover {
+    background-color: #9E0042 !important;
+    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
+    color: #EFEFEF !important;
 }
 
 .benefit-one {
@@ -1414,27 +1403,18 @@
     animation: palpito 1s infinite;
     transition: all 1s cubic-bezier(0.15, 1, 0.20, 1) !important;
     width: 90%;
-}
-
-.btn-view-more-one {
-    background-color: #fff !important;
-    color: #000 !important;
-    margin-top: 10px !important;
-}
-
-.btn-view-more-one:hover {
-    color: #FFF !important;
-    background-color: #000 !important;
+    background-color: #FFF !important;
 }
 
 .btn-view-more:hover {
+    color: #FFF !important;
+    background-color: #000 !important;
     padding: 10px 15px !important;
 }
 
 .text-bold {
     font-weight: bold;
 }
-
 
 .benefit-one:nth-child(1) {
     display: block;
@@ -1446,21 +1426,33 @@
 
 .platinum-package {
     color: #EFEFEF !important;
-    background-color: #000 !important;
+}
+
+.platinum-package:hover {
+    background-color: #D0D0D0 !important;
+    border-width: 2px;
 }
 
 .platinum-package .packages-benefits p i {
-    color: #000;
+    color: #D0D0D0;
 }
 
-.btn-contact-pk-two {
+.platinum-package .list-group-item {
+    background-color: #000 !important;
+    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
+    color: #ffff;
+}
+
+.platinum-package .btn-contact-pk-two {
+    background: #fff !important;
+    border: #D0D0D0 !important;
+    color: #000 !important;
+}
+
+.platinum-package .btn-contact-pk-two:hover {
     background: #D0D0D0 !important;
     box-shadow: inset 4px 4px 40px rgba(0, 0, 0, 0.4) !important;
-}
-
-.btn-contact-pk-two:hover {
-    background-color: #000 !important;
-    color: #fff !important;
+    color: #000 !important;
 }
 
 .benefit-two {
@@ -1475,22 +1467,21 @@
     display: block;
 }
 
-.golden-package {
-    background: #E2B853 !important;
-}
-
-.golden-package .packages-benefits p i {
-    color: #E2B853;
-}
-
-.btn-contact-pk-three {
-    background: #ffba2f !important;
-    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
+.btn-more-platinum:hover,
+.btn-more-maternal-two:hover {
+    border-color: #fff !important;
 }
 
 .btn-contact-pk-three:hover {
-    background-color: #000 !important;
-    color: #FFF !important;
+    background-color: #ffba2f !important;
+    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
+    color: #000 !important;
+}
+
+.golden-package:hover {
+    background-color: #CC9934 !important;
+    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
+    border-width: 2px;
 }
 
 .benefit-three {
@@ -1503,6 +1494,15 @@
 
 .benefit-three:nth-child(2) {
     display: block;
+}
+
+.card-kinder{
+    border-width: 2px !important;
+    background-color: #000 !important;
+}
+
+.card-kinder:hover{
+    background-color: #CC9934 !important;
 }
 
 /*---------------------------------------------------------------- FOOTER PROPERTIES --------------------------------------------------------*/
@@ -1796,11 +1796,6 @@
         margin-left: 15px !important;
     }
 
-    .title-banner {
-        width: 55% !important;
-        font-size: 30px !important;
-    }
-
     .buttons {
         margin-top: 12px !important;
     }
@@ -1830,26 +1825,13 @@
         margin-bottom: 0;
     }
 
-    /*------------------------------------- SERVICES SECTION --------------------------------------*/
-
-    .service-paragraph {
-        font-size: 16px !important;
-    }
-
-    .service-title {
-        font-size: 25px !important;
-    }
-
     /*------------------------------------- GALERY SECTION --------------------------------------*/
 
-    .portfolio-subtitle {
-        font-size: 40px !important;
-    }
     .card-galery {
-        margin-bottom: 40px !important;
         width: 20rem !important;
         margin: 0 auto !important;
     }
+
     .card-galery:hover img,
     .card-galery img {
         height: auto !important;
@@ -1859,10 +1841,6 @@
 
     .testimony {
         padding-bottom: 90px !important;
-    }
-
-    .testimony-subtitle {
-        font-size: 40px !important;
     }
 
     .about-testimonies {
@@ -1950,12 +1928,7 @@
         margin-bottom: 40px;
     }
 
-    .title-team,
-    .about-cta-title {
-        font-size: 30px !important;
-    }
 }
-
 
 @media screen and (Min-Width:1025px) and (Max-Width:1200px) {
     /*----------------------------  RESPONSIVE MAIN PAGE  -------------------------------------*/
@@ -1998,7 +1971,6 @@
 
     .title-banner {
         width: 55% !important;
-        font-size: 30px !important;
     }
 
     .buttons {
@@ -2030,21 +2002,7 @@
         margin-bottom: 0;
     }
 
-    /*------------------------------------- SERVICES SECTION --------------------------------------*/
-
-    .service-paragraph {
-        font-size: 16px !important;
-    }
-
-    .service-title {
-        font-size: 25px !important;
-    }
-
     /*------------------------------------- GALERY SECTION --------------------------------------*/
-
-    .portfolio-subtitle {
-        font-size: 40px !important;
-    }
 
     .card {
         width: 20rem !important;
@@ -2055,14 +2013,14 @@
         height: auto !important;
     }
 
+    .card-galery{
+        margin: 0 auto 20px auto !important;
+    }
+
     /*------------------------------------- TESTIMONY SECTION --------------------------------------*/
 
     .testimony {
         padding-bottom: 90px !important;
-    }
-
-    .testimony-subtitle {
-        font-size: 40px !important;
     }
 
     .about-testimonies {
@@ -2071,6 +2029,10 @@
 
     .testimony-view-more {
         margin-bottom: 0 !important;
+    }
+
+    .card-testimony{
+        margin: 0 auto 20px auto !important;
     }
 
     /*------------------------------------- NEWSLETTER SECTION --------------------------------------*/
@@ -2095,6 +2057,7 @@
     .footer {
         padding-bottom: 50px !important;
     }
+
     /*----------------------------  RESPONSIVE ABOUT PAGE  -------------------------------------*/
     .card-service {
         margin: 0 auto;
@@ -2128,10 +2091,6 @@
     .package-leyend {
         font-weight: 600px !important;
         font-size: 35px !important;
-    }
-
-    .title-banner {
-        font-size: 30px !important;
     }
 
     .galery-cta-subtitle {
@@ -2266,7 +2225,6 @@
     .testimony-subtitle {
         padding-top: 30px !important;
         height: auto !important;
-        font-size: 25px !important;
         text-align: center;
         font-weight: bold !important;
         text-transform: uppercase !important;
@@ -2281,6 +2239,22 @@
 
 
 @media screen and (min-width:801px) and (max-width:1024px) {
+    h1 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+        font-size: 25px !important;
+    }
+
+    h3 {
+        font-size: 18px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+
     /*----------------------------  RESPONSIVE MEDIA MAIN PAGE  ----------------------------------------------------*/
 
     /*---------------------------- BANNER HOME SECTION -------------------------*/
@@ -2296,7 +2270,6 @@
 
     .sub-main {
         display: inline !important;
-        font-size: 25px !important;
     }
 
     .buttons {
@@ -2320,28 +2293,14 @@
         padding-top: 0 !important;
     }
 
-    .about_paragrah {
-        font-size: 18px !important;
-    }
-
     /*---------------------------- SERVICES SECTION -------------------------*/
-
-    .services-paragraph {
-        font-size: 18px !important;
-    }
-
     .subtitle-service {
         line-height: 1.5;
-        font-size: 25px;
         padding-bottom: 10px;
     }
 
     .service-main {
         margin-bottom: 60px !important;
-    }
-
-    .service-title {
-        font-size: 25px !important;
     }
 
     /*---------------------------- GALERY SECTION -------------------------*/
@@ -2387,10 +2346,6 @@
         display: none;
     }
 
-    .newsletter_paragrah {
-        font-size: 20px !important;
-    }
-
     .news-form {
         flex: 1 0 100% !important;
         margin-right: 0 !important;
@@ -2419,14 +2374,6 @@
         height: auto !important;
         margin: 0 auto !important;
         padding-bottom: 40px !important;
-    }
-
-    .cta-subtitle {
-        font-size: 25px;
-    }
-
-    .cta-paragraph {
-        font-size: 18px;
     }
 
     .row-video-main {
@@ -2532,11 +2479,6 @@
         margin-top: 0 !important;
     }
 
-    .about-cta-title,
-    .title-team {
-        font-size: 30px !important;
-    }
-
     /*----------------------------  RESPONSIVE  SERVICES PAGE  -------------------------------------*/
 
     .banner-services {
@@ -2550,7 +2492,6 @@
 
     .banner-services .title-banner {
         width: 100% !important;
-        font-size: 30px !important;
         display: block !important;
     }
 
@@ -2568,28 +2509,28 @@
 
     }
 
-    .services-section{
+    .services-section {
         margin-top: 150px;
     }
 
-    .service-mobile{
+    .service-mobile {
         flex: 1 0 100% !important;
     }
-    .col-right, .col-left {
+
+    .col-right {
         padding: 0;
     }
 
     .image-service {
-        /*  padding: 10px 30px 0 30px; */
-         height: auto;
-     }
+        height: auto;
+    }
 
     .info-service {
         height: auto !important;
         padding-bottom: 10px;
         padding-top: 40px;
     }
-    
+
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
     .banner-packages {
         position: relative;
@@ -2605,7 +2546,6 @@
     .banner-packages .title-banner {
         text-align: center !important;
         width: 100% !important;
-        font-size: 30px !important;
     }
 
     .banner-packages .subtitle-banner {
@@ -2620,13 +2560,8 @@
         padding-top: 70px !important;
     }
 
-    .card-subtitle {
-        font-size: 16px !important;
-    }
-
     .package-leyend {
         text-align: center !important;
-        font-size: 28px !important;
         font-weight: 600 !important;
     }
 
@@ -2642,17 +2577,8 @@
         width: 28rem !important;
     }
 
-    .package-cta {
-        font-size: 28px !important;
-    }
-
     .cta-section {
         height: 250px !important;
-    }
-
-    .galery-cta-subtitle,
-    .title-package {
-        font-size: 25px !important;
     }
 
     /*----------------------------  RESPONSIVE GALERY PAGE  -------------------------------------*/
@@ -2683,10 +2609,6 @@
     }
 
     /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
-    .main-title {
-        font-size: 35px !important;
-    }
-
     .contact {
         padding-top: 80px !important;
     }
@@ -2704,17 +2626,11 @@
     }
 
     .title-banner-main {
-        font-size: 30px !important;
         width: auto !important;
     }
 
     .subtitle-contact {
-        font-size: 25px !important;
         top: -75px !important;
-    }
-
-    .contact-title {
-        font-size: 30px !important;
     }
 
     .sent-btn {
@@ -2723,10 +2639,24 @@
         transform: translate(50%) !important;
         font-size: 20px !important;
     }
-
 }
 
 @media screen and (min-width:481px) and (max-width:800px) {
+    h1 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+        font-size: 25px !important;
+    }
+
+    h3 {
+        font-size: 18px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
 
     /*----------------------------  RESPONSIVE MEDIA MAIN PAGE  ----------------------------------------------------*/
 
@@ -2750,11 +2680,9 @@
     }
 
     .title-banner {
-        font-size: 25px !important;
         text-align: center !important;
         margin: 0 !important;
         width: 100% !important;
-        font-size: 25px;
         justify-content: center !important;
     }
 
@@ -2766,14 +2694,9 @@
 
     .banner-home .subtitle-banner {
         width: 100% !important;
-        font-size: 18px !important;
         margin-bottom: 10px !important;
         justify-content: center !important;
     }
-
-    /* .banner-home .title-banner {
-        justify-content: center !important;
-    } */
 
     .banner-home .buttons {
         margin-top: 20px !important;
@@ -2782,7 +2705,6 @@
     }
 
     .banner-home .button-banner {
-        font-size: 18px !important;
         position: relative !important;
     }
 
@@ -2798,7 +2720,6 @@
 
     .subtitle {
         margin: 25px 0 !important;
-        font-size: 24px !important;
     }
 
     .about-figure {
@@ -2808,7 +2729,6 @@
     .about_paragrah {
         margin-bottom: 0 !important;
         padding-top: 0 !important;
-        font-size: 16px !important;
         margin-left: 0;
     }
 
@@ -2834,16 +2754,10 @@
 
     .subtitle-service {
         padding-bottom: 35px !important;
-        font-size: 25px !important;
     }
 
     .service-main {
         display: inline-block !important;
-    }
-
-    .services-paragraph,
-    .service-title {
-        font-size: 18px !important;
     }
 
     .services-paragraph {
@@ -2863,20 +2777,12 @@
 
     /* ------------------------------ RESPONSIVE GALERY SECTION DESIGN -------------------------------------------------------*/
 
-    .portfolio-subtitle {
-        font-size: 20px !important;
-    }
-
     .about-galeries {
         display: grid !important;
         justify-content: center !important;
         align-items: center !important;
         gap: 3.2em !important;
         padding-top: 70px !important;
-    }
-
-    .card-title {
-        font-size: 18px !important;
     }
 
     .card-galery img {
@@ -2889,10 +2795,6 @@
         height: auto !important;
     }
 
-    .testimony-subtitle {
-        font-size: 20px !important;
-    }
-
     .about-testimonies {
         display: grid !important;
         justify-content: center !important;
@@ -2901,15 +2803,7 @@
         padding-top: 70px !important;
         padding-bottom: 25px !important;
     }
-
-    .card-title {
-        font-size: 18px !important;
-    }
-
-    .testimony-view-more {
-        margin-bottom: 70px !important;
-    }
-
+    
     /* ------------------------------ RESPONSIVE NEWSLETTER SECTION DESIGN -------------------------------------------------------*/
 
 
@@ -2922,19 +2816,11 @@
         display: none !important;
     }
 
-    .form-subtitle {
-        font-size: 16px !important;
-    }
-
     .news-form {
         display: flex !important;
         height: 540px !important;
         width: 90% !important;
         margin: 0 auto !important;
-    }
-
-    .newsletter-subtitle {
-        font-size: 25px !important;
     }
 
     .newsletter-submit {
@@ -2955,22 +2841,10 @@
         padding-top: 30px !important;
     }
 
-    .cta-subtitle {
-        font-size: 25px !important;
-    }
-
-    .cta-paragraph {
-        font-size: 18px !important;
-    }
-
     .contact-video {
         width: 100% !important;
         height: 340px !important;
         margin: 0 auto !important;
-    }
-
-    .cta-contact {
-        font-size: 18px !important;
     }
 
     .video {
@@ -3012,11 +2886,6 @@
     .footer {
         padding-top: 0;
         padding-bottom: 80px;
-    }
-
-    .title-contact,
-    .title-newsletter {
-        font-size: 20px !important;
     }
 
     .copyright-policies {
@@ -3077,20 +2946,12 @@
         height: auto;
     }
 
-    .title-team {
-        font-size: 25px !important;
-    }
-
     .card-team {
         margin-bottom: 20px;
     }
 
     .btn-about-contact {
         width: auto !important;
-    }
-
-    .about-cta-title {
-        font-size: 25px !important;
     }
 
     .card-service {
@@ -3128,21 +2989,21 @@
         width: 50%;
     }
 
-    .services-section{
+    .services-section {
         margin-top: 150px;
     }
 
-    .service-mobile{
+    .service-mobile {
         flex: 1 0 100% !important;
     }
-    .col-right, .col-left {
+
+    .col-right {
         padding: 0;
     }
 
     .image-service {
-        /*  padding: 10px 30px 0 30px; */
-         height: auto;
-     }
+        height: auto;
+    }
 
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
     .banner-packages {
@@ -3176,12 +3037,7 @@
     }
 
     .package-leyend {
-        font-size: 25px !important;
         font-weight: 600 !important;
-    }
-
-    .title-package {
-        font-size: 20px !important;
     }
 
     .card-package {
@@ -3211,7 +3067,6 @@
     }
 
     .galery-cta-subtitle {
-        font-size: 20px;
         margin-bottom: 20px !important;
     }
 
@@ -3262,22 +3117,15 @@
     }
 
     .banner-contact .title-banner {
-        font-size: 25px !important;
         width: auto !important;
     }
 
     .banner-contact .subtitle-contact {
         display: inline !important;
-        font-size: 20px !important;
         width: auto !important;
     }
 
-    .contact-title {
-        font-size: 20px;
-    }
-
     .paragraph-form {
-        font-size: 16px;
         width: auto !important;
     }
 
@@ -3311,15 +3159,26 @@
 }
 
 @media screen and (max-width:480px) {
+    h1 {
+        font-size: 20px !important;
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+
+    h3 {
+        font-size: 16px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
 
     /*----------------------------  RESPONSIVE MEDIA MAIN PAGE  ----------------------------------------------------*/
 
     .button-banner {
         font-size: 16px !important;
-    }
-
-    .title-banner {
-        font-size: 18px !important;
     }
 
     .btn-contact-banner {
@@ -3336,7 +3195,6 @@
     }
 
     .subtitle-banner {
-        font-size: 16px !important;
         display: block !important;
         margin: 0 !important;
     }
@@ -3347,7 +3205,7 @@
         width: 100%;
     }
 
-    .banner-home .info-banner{
+    .banner-home .info-banner {
         top: 50px !important;
     }
 
@@ -3376,7 +3234,6 @@
     }
 
     .about-mobile .subtitle {
-        font-size: 18px;
         margin-bottom: 10px;
     }
 
@@ -3390,29 +3247,11 @@
 
     /*------------------------------------- SERVICES SECTION ------------------------------------*/
 
-    .subtitle-service {
-        font-size: 18px;
-    }
-
     .services-paragraph {
         margin-top: 10px;
-        font-size: 16px !important;
-    }
-
-    .service-title {
-        font-size: 18px;
-    }
-
-    .service-paragraph {
-        font-size: 16px;
     }
 
     /*------------------------------------- GALERY SECTION ------------------------------------*/
-
-    .portfolio-subtitle {
-        font-size: 18px !important;
-        top: 0 !important;
-    }
 
     .card-home-mobile {
         flex: 1 0 100% !important;
@@ -3437,7 +3276,6 @@
     /*------------------------------------- TESTIMONY SECTION ------------------------------------*/
 
     .testimony-subtitle {
-        font-size: 18px !important;
         top: 0 !important;
     }
 
@@ -3479,21 +3317,11 @@
         padding-bottom: 0 !important;
     }
 
-    .title-testimony h5{
+    .title-testimony h5 {
         font-size: 16px !important;
     }
 
     /* ------------------------------ RESPONSIVE NEWSLETTER SECTION DESIGN -------------------------------------------------------*/
-
-    .newsletter-subtitle {
-        font-size: 20px !important;
-    }
-
-    .newsletter_paragrah,
-    .newsletter-submit,
-    .form-subtitle {
-        font-size: 16px !important;
-    }
 
     .news-form {
         display: flex !important;
@@ -3521,15 +3349,6 @@
 
     .row-video-main {
         height: 500px !important;
-    }
-
-    .cta-subtitle {
-        font-size: 22px !important;
-    }
-
-    .cta-paragraph,
-    .cta-contact {
-        font-size: 16px !important;
     }
 
     .cta-contact {
@@ -3616,11 +3435,6 @@
         text-align: center;
     }
 
-    /* .banner-about .subtitle-banner {
-        text-align: center !important;
-        margin-bottom: 10px !important;
-    } */
-
     .banner-about .buttons {
         text-align: center !important;
         margin-top: 10px !important;
@@ -3638,7 +3452,6 @@
     /*--------------------------------- TEAM WORK SECTION ---------------------------------------------------------------------------*/
 
     .title-team {
-        font-size: 18px !important;
         text-transform: uppercase !important;
     }
 
@@ -3653,10 +3466,6 @@
 
     .card-team {
         margin-bottom: 40px;
-    }
-
-    .about-cta-title {
-        font-size: 18px !important;
     }
 
     /*----------------------------  RESPONSIVE  SERVICES PAGE  -------------------------------------*/
@@ -3686,27 +3495,27 @@
         width: 80%;
     }
 
-    .services-section{
+    .services-section {
         margin-top: 150px;
     }
 
-    .service-mobile{
+    .service-mobile {
         flex: 1 0 100% !important;
     }
-    .col-right, .col-left {
+
+    .col-right {
         padding: 0;
     }
 
     .image-service {
-        /*  padding: 10px 30px 0 30px; */
-         height: auto;
-     }
+        height: auto;
+    }
 
     .button-service {
         width: 100%;
     }
 
-    
+
 
     /*----------------------------  RESPONSIVE  PACKAGES PAGE  -------------------------------------*/
     .banner-packages {
@@ -3717,7 +3526,6 @@
     }
 
     .package-leyend {
-        font-size: 20px !important;
         font-weight: 600 !important;
     }
 
@@ -3757,10 +3565,6 @@
         padding-bottom: 40px !important;
     }
 
-    .galery-cta-subtitle {
-        font-size: 18px !important;
-    }
-
     .banner-packages .info-banner {
         margin-top: -100px !important;
         text-align: center !important;
@@ -3770,7 +3574,6 @@
     .banner-packages .title-banner {
         text-align: center !important;
         width: 100% !important;
-        font-size: 20px;
     }
 
     .banner-packages .button-banner {
@@ -3846,14 +3649,6 @@
         margin-top: 0 !important;
     }
 
-    .title-photos {
-        font-size: 20px;
-    }
-
-    .paragraph-photos {
-        font-size: 16px;
-    }
-
     /*----------------------------  RESPONSIVE CONTACT PAGE  -------------------------------------*/
     .banner-contact {
         height: 400px;
@@ -3870,12 +3665,10 @@
 
     .banner-contact .main-title {
         width: 100% !important;
-        font-size: 20px !important;
     }
 
     .banner-contact .subtitle-contact {
         display: inline !important;
-        font-size: 20px !important;
         width: auto !important;
     }
 
@@ -3887,17 +3680,12 @@
         margin: 0 auto !important;
     }
 
-    .contact-title {
-        font-size: 18px !important;
-    }
-
     .contact-page .contact-col .video {
         width: 330px !important;
     }
 
     .paragraph-form {
         width: 100% !important;
-        font-size: 16px !important;
     }
 
     .form-col {
