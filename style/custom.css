@@ -1922,7 +1922,7 @@ p {
 
 }
 
-@media screen and (Min-Width:1025px) and (Max-Width:1200px) {
+@media screen and (min-Width:1025px) and (max-Width:1200px) {
     /*----------------------------  RESPONSIVE MAIN PAGE  -------------------------------------*/
 
     /*--------------------------------------- BANNER SECTION ---------------------------------------------*/
@@ -1935,7 +1935,8 @@ p {
     }
 
     nav ul .item .nav_link {
-        padding: 0px 15px !important;
+        padding: 0px 10px !important;
+        font-size: 18px !important;
     }
 
     .navbar-nav {
@@ -1957,7 +1958,7 @@ p {
     }
 
     .social-networks {
-        margin-left: 10px !important;
+        margin-left: 5px !important;
         padding-left: 0 !important;
     }
 
@@ -2967,7 +2968,7 @@ p {
         position: relative;
         top: 90px !important;
         height: 400px !important;
-        margin-bottom: 100px !important;
+        margin-bottom: 170px !important;
     }
 
     .banner-services .info-banner {
@@ -2987,10 +2988,6 @@ p {
 
     .banner-services .button-banner {
         width: 50%;
-    }
-
-    .services-section {
-        margin-top: 150px;
     }
 
     .service-mobile {
@@ -3107,9 +3104,7 @@ p {
         padding-top: 0 !important;
     }
 
-    .banner-contact {
-        height: 300px;
-    }
+    
 
     .banner-contact .info-banner {
         text-align: center !important;
