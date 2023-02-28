@@ -349,7 +349,6 @@ p {
     padding: 7px !important;
     font-weight: bold !important;
     width: 150px !important;
-    font-size: 18px !important;
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) !important;
 }
 
@@ -732,7 +731,7 @@ p {
     background-color: #000 !important;
     color: #FFF !important;
     padding: 40px;
-    width: 90%;
+    width: 100%;
     font-size: 16px;
     border-radius: 5px;
     font-weight: bold;
@@ -747,8 +746,10 @@ p {
 }
 
 .card-service {
+    margin: 0 auto !important;
     box-shadow: 0px 0.7px 3px 0px rgba(0.5, 0, 0, 0.15) !important;
-    margin-bottom: 40px;
+    margin-bottom: 30px !important;
+    cursor: pointer;
 }
 
 
@@ -797,6 +798,7 @@ p {
     left: 25px;
     box-shadow: 0px 0.7px 3px 0px rgba(0.5, 0, 0, 0.85);
     padding: 10px;
+    text-align: center;
 }
 
 .name {
@@ -1794,6 +1796,10 @@ p {
 
     /*------------------------------------- ABOUT SECTION --------------------------------------*/
 
+    .btn-hidden{
+        display: none !important;
+    }
+
     .about {
         padding: 100px 0 !important;
     }
@@ -1902,11 +1908,6 @@ p {
         padding-bottom: 50px !important;
     }
 
-    .card-service {
-        margin: 0 auto !important;
-        margin-bottom: 30px !important;
-    }
-
     .our-teamwork {
         height: auto !important;
     }
@@ -1923,7 +1924,6 @@ p {
 }
 
 @media screen and (min-Width:1025px) and (max-Width:1200px) {
-    /*----------------------------  RESPONSIVE MAIN PAGE  -------------------------------------*/
 
     /*--------------------------------------- BANNER SECTION ---------------------------------------------*/
     nav ul {
@@ -1971,6 +1971,9 @@ p {
     }
 
     /*------------------------------------- ABOUT SECTION --------------------------------------*/
+    .btn-hidden{
+        display: none !important;
+    }
 
     .about {
         padding: 100px 0 !important;
@@ -2053,7 +2056,6 @@ p {
 
     /*----------------------------  RESPONSIVE ABOUT PAGE  -------------------------------------*/
     .card-service {
-        margin: 0 auto;
         margin-bottom: 40px !important;
     }
 
@@ -2228,6 +2230,21 @@ p {
         transform: scale(1.04) !important;
     }
 
+    .hidden-text{
+        display: none;
+    }
+
+    .hidden-txt-about{
+        display: none;
+    }
+
+    .show-text{
+        display: block;
+    }
+
+    .show-text-about{
+        display: block;
+    }
 }
 
 
@@ -2280,7 +2297,7 @@ p {
         padding: 80px 0 !important;
     }
 
-    .about-mobile {
+    .paragraph-responsive {
         flex: 1 0 100% !important;
     }
 
@@ -2451,7 +2468,6 @@ p {
     }
 
     .card-service {
-        margin: 0 auto !important;
         margin-top: 40px !important;
     }
 
@@ -2504,10 +2520,6 @@ p {
     .banner-services .buttons {
         margin-top: 5px !important;
 
-    }
-
-    .services-section {
-        margin-top: 150px;
     }
 
     .service-mobile {
@@ -2955,10 +2967,6 @@ p {
         width: auto !important;
     }
 
-    .card-service {
-        margin: 0 auto !important;
-    }
-
     .packages-section {
         padding-top: 30px !important;
     }
@@ -3178,6 +3186,7 @@ p {
 
     .button-banner {
         font-size: 16px !important;
+        margin-bottom: 10px;
     }
 
     .btn-contact-banner {
@@ -3600,7 +3609,6 @@ p {
     .card-kinder {
         width: 28rem !important;
     }
-
 
     .cta-section {
         height: auto;

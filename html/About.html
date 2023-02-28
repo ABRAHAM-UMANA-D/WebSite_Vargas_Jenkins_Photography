@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="icon" type="image/x-icon" href="../images/camera.png"/>
+    <link rel="icon" type="image/x-icon" href="../images/camera.png" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0c8f29e388.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav class="menu navbar-expand-lg">
@@ -149,34 +150,27 @@
                     <div>
                         <h2 class="subtitle"> AGENCIA VARGAS JENKINS PHOTOGRAPHY </h2>
                         <p class="about_paragrah paragraph-home">Entusiasta y aventurero creo que esas son la
-                            palabras
-                            que describen mi
-                            pasión
-                            por la fotografía, espero que se sienta
+                            palabras que describen mi pasión por la fotografía, espero que se sienta
                             como en casa y pueda explorar cada rincón de este sitio. Cree este espacio para
-                            contarles de
-                            mis
-                            aventuras fotográficas
-                            por Costa Rica y el mundo, de esa experiencia que a lo largo de los años se han llenado
-                            de
-                            muchos
-                            aciertos pero también
+                            contarles de mis aventuras fotográficas por Costa Rica y el mundo, de esa experiencia
+                            que a lo largo de los años se han llenado de muchos aciertos pero también
                             de errores, en donde he aprendido hacer fotos con mi particular visión y sobre todo con
-                            mucho
-                            cariño.<br><br>
-
-                            Aquí puede encontrar diferentes colecciones fotográficas que he hecho en diferentes
-                            disciplinas, también he visto la
-                            oportunidad para compartir el conocimiento que he conseguido.
-
-                            <br><br>Les ofrezco mis servicios y los
-                            invito a aventurarse en el sitio donde podrá encontrar toda clase de temas relacionadas
-                            de este bello mundo de capturar momentos de luz. ¡Bienvenido! A un lugar de hermosos
-                            paisajes.
+                            mucho cariño.<br><br>
+                            <span class="hidden-text" id="hide-text-about">
+                                Aquí puede encontrar diferentes colecciones fotográficas que he hecho en diferentes
+                                disciplinas, también he visto la
+                                oportunidad para compartir el conocimiento que he conseguido.
+                                <br><br>Les ofrezco mis servicios y los
+                                invito a aventurarse en el sitio donde podrá encontrar toda clase de temas relacionadas
+                                de este bello mundo de capturar momentos de luz. ¡Bienvenido! A un lugar de hermosos
+                                paisajes.
+                            </span>
+                            
                         </p>
                     </div>
                     <div class="btn-about-view-more">
-                        <a class="btn about-view-more-btn" role="button" title="Ver más información"> Ver más </a>
+                        <a class="btn about-view-more-btn btn-hidden" id="about-hideText-btn" role="button" 
+                        title="Ver más información"> Leer más </a>
                     </div>
                 </div>
             </div>
@@ -186,17 +180,18 @@
         <div class="container">
             <div class="row about-galeries packages-section">
                 <div class="col ">
-                    <div class="card card-service text-center card-packages" style="width: 23rem;">
+                    <div class="card card-service text-center" style="width: 23rem;"
+                        title="Dale clic para ver los paquetes">
                         <img data-src="../images/About-graduation-package.jpg" class="card-img-top lazy"
-                            alt="Servicio de fotografía para graduaciones"
-                            title="Dale clic al boton de ver galería para ir a visualizarla">
+                            alt="Pauqtes fotografícos para graduaciones">
                         <div class="card-body">
                             <h5 class="card-title">Paquetes de Graduaciones</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
                                 bulk of the card's content.</p>
                             <div class="dropdown-packages-options ">
                                 <a href="" class="btn btn-card dropdown-toggle" role="button"
-                                    title="Ir a la galería de graduaciones" data-bs-toggle="dropdown" aria-expanded="false">
+                                    title="Ir a la galería de graduaciones" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
                                     Ver Paquetes</a>
                                 <ul class="dropdown-menu dropdown-content">
                                     <li><a class="menu-item" href="packageGdMaternal.html">Materno</a></li>
@@ -208,10 +203,10 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card card-service text-center" style="width: 23rem;">
+                    <div class="card card-service text-center" style="width: 23rem;"
+                        onclick="location.href='packageMarried.html';" title="Dale clic para ver los paquetes">
                         <img data-src="../images/About-married-package.jpg" class="card-img-top lazy"
-                            alt="Servicio de fotografía para bodas"
-                            title="Dale clic al boton de ver galería para ir a visualizarla">
+                            alt="Paquetes fotografícos para bodas">
                         <div class="card-body">
                             <h5 class="card-title">Paquetes de Matrimonios</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
@@ -222,10 +217,10 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card card-service text-center" style="width: 23rem;">
+                    <div class="card card-service text-center" style="width: 23rem;"
+                        onclick="location.href='packageBirthday.html';" title="Dale clic para ver los paquetes">
                         <img data-src="../images/About-birthday-package.jpg" class="card-img-top lazy"
-                            alt="Servicio de fotografía para Cumpleaños"
-                            title="Dale clic al boton de ver galería para ir a visualizarla">
+                            alt="Paquetes fotografícos para Cumpleaños">
                         <div class="card-body">
                             <h5 class="card-title">Paquete de Cumpleaños</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
@@ -265,7 +260,7 @@
                         <div class="card-team">
                             <img data-src="../images/Team-3.jpg" alt="" class="lazy">
                             <div class="name-profession">
-                                <h5 class="name">Complete Name</h5>
+                                <h5 class="name">David Vargas</h5>
                                 <h6 class="profession">Profession</h6>
                             </div>
                         </div>
@@ -380,9 +375,10 @@
             <i class="fa-brands fa-whatsapp"></i>
         </a>
     </div>
-    
+
     <script src="../js/menu.js"></script>
-    <script src="../js/lazy-load.js"></script> 
+    <script src="../js/lazy-load.js"></script>
+    <script src="../js/btn-more-about.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
