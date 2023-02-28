@@ -1592,7 +1592,7 @@ p {
 
 .policies {
     position: relative;
-    left: 120px;
+    left: 95px;
 }
 
 .conditions {
@@ -2234,15 +2234,7 @@ p {
         display: none;
     }
 
-    .hidden-txt-about{
-        display: none;
-    }
-
     .show-text{
-        display: block;
-    }
-
-    .show-text-about{
         display: block;
     }
 }
