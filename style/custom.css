@@ -573,9 +573,24 @@ p {
     display: none;
 }
 
+.hide-testimony{
+    display: none;
+}
 
-.wrapper-testimony:nth-child(1) {
+.hide-testimony:nth-child(1){
     display: block;
+}
+
+.hide-testimony:nth-child(2){
+    display: block;
+}
+
+.hide-testimony:nth-child(3){
+    display: block;
+}
+
+.testimony .testimony-view-less{
+    display: none;
 }
 
 .show-more {
@@ -636,7 +651,6 @@ p {
     background-position: 0 0, 10px 10px;
     overflow: hidden;
     background-size: 20px 20px;
-    padding: 100px 0 !important;
 }
 
 .cta-content {
@@ -2737,8 +2751,7 @@ p {
     }
 
     .btn-about-view-more {
-        padding-bottom: 0 !important;
-        margin-bottom: 0 !important;
+        margin-bottom: 50px !important;
     }
 
     .about-view-more-btn {
@@ -3240,10 +3253,6 @@ p {
         margin-left: 0 !important;
     }
 
-    .about-view-more-btn {
-        font-size: 16px !important;
-    }
-
     /*------------------------------------- SERVICES SECTION ------------------------------------*/
     .services-paragraph {
         margin-top: 10px;
@@ -3390,6 +3399,7 @@ p {
     .social {
         top: -6rem;
         left: 52px;
+        width: 200px;
     }
 
     .info-contact {
