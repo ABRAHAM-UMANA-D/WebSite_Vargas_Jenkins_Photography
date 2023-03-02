@@ -45,4 +45,3 @@ function viewMoreThree() {
     }
     benefitsThreeCurrent += 2;
 }
-

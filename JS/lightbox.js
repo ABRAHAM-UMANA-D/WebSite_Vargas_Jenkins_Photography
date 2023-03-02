@@ -5,6 +5,7 @@ const gallery = document.querySelectorAll(".img-gallery"),
     currentImg = previewBox.querySelector(".current-img"),
     totalImg = previewBox.querySelector(".total-img"),
     shadow = document.querySelector(".shadow");
+    navbar = document.querySelector(".menu");
 
 window.onload = () => {
     for (let i = 0; i < gallery.length; i++) {
@@ -13,6 +14,7 @@ window.onload = () => {
         let clickedImgIndex;
 
         gallery[i].onclick = () => {
+            navbar.style.zIndex = "1";
             clickedImgIndex = i;
             function preview() {
                 currentImg.textContent = newIndex + 1;
