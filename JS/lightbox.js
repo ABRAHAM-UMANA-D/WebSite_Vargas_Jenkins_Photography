@@ -33,7 +33,7 @@ window.onload = () => {
                 nextBtn.style.display = "none";
             }
             prevBtn.onclick = () => {
-                newIndex--; //decrement index
+                newIndex--;
                 if (newIndex == 0) {
                     preview();
                     prevBtn.style.display = "none";
