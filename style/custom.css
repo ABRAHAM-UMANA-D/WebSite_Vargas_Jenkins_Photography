@@ -793,6 +793,12 @@ p {
     padding: 55px;
 }
 
+.col-right .icon-service{
+    width: 96px;
+    height: 96px;
+    aspect-ratio: 1;
+}
+
 .button-service {
     margin-left: 0 !important;
     font-weight: bold !important;
