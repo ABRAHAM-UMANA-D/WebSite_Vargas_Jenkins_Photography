@@ -216,7 +216,6 @@ p {
     display: flex !important;
     font-family: 'Roboto' !important;
     color: #ffff !important;
-    margin: 10px !important;
     margin-bottom: 20px !important;
     font-weight: bold !important;
     position: relative !important;
@@ -226,7 +225,6 @@ p {
 .title-banner {
     display: flex;
     color: #ffff;
-    margin: 10px;
     width: 55%;
     font-family: 'Arial Black';
     position: relative;
@@ -812,6 +810,16 @@ p {
     padding-bottom: 70px;
 }
 
+.btn-about-contact {
+    padding: 7px 15px !important;
+    margin-top: 20px !important;
+}
+
+.btn-about-contact:hover {
+    background: #ffba2f !important;
+    color: #000 !important;
+}
+
 .banner-services {
     height: 580px;
     background-image: url(../images/Banner-services-page.jpg) !important;
@@ -949,11 +957,12 @@ p {
 }
 
 .btn-load-more {
-    background-color: #E2B853 !important;
-    color: #000 !important;
     font-weight: bold !important;
     padding: 10px 30px !important;
     font-size: 18px !important;
+    background: #ffba2f !important;
+    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
+    color: #000 !important;
 }
 
 .btn-load-more:hover {
@@ -1102,6 +1111,7 @@ p {
 .galery-cta-subtitle {
     color: #FFF;
     font-weight: bold;
+    margin-bottom: 20px !important;
 }
 
 .galery-txt {
@@ -1109,8 +1119,10 @@ p {
 }
 
 .btn-contact {
-    background-color: #E2B853 !important;
+    background: #ffba2f !important;
+    box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
     color: #000 !important;
+    padding: 7px 15px !important;
 }
 
 .btn-contact:hover {
@@ -1324,7 +1336,7 @@ p {
 
 .maternal-package .btn-contact-pk:hover,
 .card-kinder .btn-contact-pk:hover {
-    background: #CC9934 !important;
+    background: #ffba2f !important;
     box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
     color: #000 !important;
 }
