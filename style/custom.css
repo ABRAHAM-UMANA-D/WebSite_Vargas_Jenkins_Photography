@@ -622,7 +622,7 @@ p {
 .banner-about {
     position: relative;
     height: 550px;
-    background-image: url(../images/Banner-about.jpg) !important;
+    background-image: url(../images/banner-about.webp) !important;
 }
 
 .banner-about .info-banner {
@@ -762,7 +762,7 @@ p {
 
 .banner-services {
     height: 550px;
-    background-image: url(../images/Banner-services-page.jpg) !important;
+    background-image: url(../images/Banner-services-page.webp) !important;
 }
 
 .banner-services .info-banner {
@@ -843,7 +843,7 @@ p {
     display: flex;
     background-size: cover;
     background-position: center;
-    background-image: url(../images/galery-banner2.jpg);
+    background-image: url(../images/galery-banner2.webp);
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.80);
     border-bottom: 3px solid #000000;
     align-items: center;
@@ -857,7 +857,7 @@ p {
     display: flex;
     background-size: cover;
     background-position: center;
-    background-image: url(../images/galery-banner1.jpg);
+    background-image: url(../images/galery-banner1.webp);
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.80);
     border-bottom: 3px solid #000000;
     align-items: center;
@@ -1077,7 +1077,7 @@ p {
 
 .banner-contact {
     height: 440px;
-    background-image: url(../images/contact-banner.jpg) !important;
+    background-image: url(../images/contact-banner.webp) !important;
 }
 
 .subtitle-contact {
