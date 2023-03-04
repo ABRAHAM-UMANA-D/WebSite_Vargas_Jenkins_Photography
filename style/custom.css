@@ -185,7 +185,7 @@ p {
 }
 
 .banner {
-    height: 590px;
+    height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,7 +200,6 @@ p {
 
 .info-banner {
     padding-top: 60px;
-    position: absolute !important;
     top: 340px !important;
 }
 
@@ -622,7 +621,7 @@ p {
 
 .banner-about {
     position: relative;
-    height: 600px;
+    height: 550px;
     background-image: url(../images/Banner-about.jpg) !important;
 }
 
@@ -762,7 +761,7 @@ p {
 }
 
 .banner-services {
-    height: 580px;
+    height: 550px;
     background-image: url(../images/Banner-services-page.jpg) !important;
 }
 
@@ -1512,7 +1511,7 @@ p {
 
 .policies {
     position: relative;
-    left: 95px;
+    left: 52px;
 }
 
 .conditions {
@@ -2948,7 +2947,7 @@ p {
     }
 
     .buttons {
-        margin-top: 25px !important;
+        margin-top: 30px !important;
     }
 
     .about {
