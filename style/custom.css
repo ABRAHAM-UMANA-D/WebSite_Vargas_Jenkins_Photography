@@ -108,7 +108,7 @@ p {
 }
 
 .contact-button:hover {
-    background-color: #E2B853;
+    background-color: #CC9934;
     border-radius: 8px;
     font-weight: bold;
     color: #000000;
@@ -343,7 +343,7 @@ p {
 }
 
 .title-color {
-    color: #E2B853;
+    color: #CC9934;
 }
 
 .col-paragraph {
@@ -1472,6 +1472,11 @@ p {
 
 .data-contact {
     font-weight: bold;
+    color: #FFF;
+}
+
+.data-contact:hover{
+    color: #CC9934;
 }
 
 .btn-login {
