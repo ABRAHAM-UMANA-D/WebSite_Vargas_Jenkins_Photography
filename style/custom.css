@@ -1855,6 +1855,10 @@ p {
         padding-bottom: 50px !important;
     }
 
+    .policies{
+        left: 30px;
+    }
+
     .card-service {
         margin-bottom: 40px !important;
     }
