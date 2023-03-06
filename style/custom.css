@@ -1170,6 +1170,8 @@ p {
 
 .banner-collage-packages {
     background-image: url(../images/banner-secundary-package.jpg);
+    background-color: rgba(0, 0, 0, 0.10) !important;
+    background-blend-mode: soft-light;
 }
 
 .banner-garden-packages {
