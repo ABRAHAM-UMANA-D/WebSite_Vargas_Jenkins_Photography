@@ -330,7 +330,7 @@ p {
     background-position: 0, 0, 10px 10px;
     overflow: hidden;
     background-size: 20px 20px;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .services-container {
@@ -770,7 +770,6 @@ p {
 
 .banner-services {
     height: 540px;
-    background-color: none !important;
     background-image: url(../images/Banner-services-page.jpg) !important;
 }
 
@@ -1817,9 +1816,9 @@ p {
         margin-bottom: 0;
     }
 
-    .card {
+    /* .card {
         width: 20rem !important;
-    }
+    } */
 
     .card-galery:hover img,
     .card-galery img {
@@ -1904,6 +1903,15 @@ p {
 
     .subtitle-contact {
         top: -70px !important;
+    }
+
+    .card-package{
+        margin: 0 auto !important;
+        margin-bottom: 20px !important;
+    }
+
+    .col-right{
+        padding: 0 30px 55px 30px ;
     }
 }
 
@@ -3201,7 +3209,7 @@ p {
         height: 400px !important;
         position: relative;
         top: 85px;
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
 
     .banner-services .info-banner {
