@@ -200,7 +200,6 @@ p {
 
 .info-banner {
     padding-top: 60px;
-    top: 340px !important;
 }
 
 .subtitle-banner {
@@ -257,7 +256,7 @@ p {
     color: #000000 !important;
 }
 
-.btn-contact-banner{
+.btn-contact-banner {
     margin-top: 6px !important;
 }
 
@@ -327,7 +326,7 @@ p {
     color: #000000 !important;
 }
 
-.packages-section{
+.packages-section {
     margin-top: 90px !important;
 }
 
@@ -806,7 +805,7 @@ p {
     padding: 55px;
 }
 
-.col-right .icon-service{
+.col-right .icon-service {
     width: 96px;
     height: 96px;
     aspect-ratio: 1;
@@ -1102,7 +1101,7 @@ p {
     font-weight: 500 !important;
 }
 
-.btn-banner-contact{
+.btn-banner-contact {
     margin-top: 15px !important;
 }
 
@@ -1384,8 +1383,8 @@ p {
 }
 
 .platinum-package .btn-contact-pk-two:hover {
-    background: #D0D0D0 !important;
-    box-shadow: inset 4px 4px 40px rgba(0, 0, 0, 0.4) !important;
+    background: #fff !important;
+    box-shadow: inset 4px 4px 40px rgba(0, 0, 0, 0.6) !important;
     color: #000 !important;
 }
 
@@ -1495,7 +1494,7 @@ p {
     color: #FFF;
 }
 
-.data-contact:hover{
+.data-contact:hover {
     color: #CC9934;
 }
 
@@ -1629,7 +1628,6 @@ p {
     }
 
     .info-banner {
-        top: 310px !important;
         height: auto !important;
     }
 
@@ -1872,7 +1870,7 @@ p {
         padding-bottom: 50px !important;
     }
 
-    .policies{
+    .policies {
         left: 30px;
     }
 
@@ -1915,13 +1913,13 @@ p {
         top: -70px !important;
     }
 
-    .card-package{
+    .card-package {
         margin: 0 auto !important;
         margin-bottom: 20px !important;
     }
 
-    .col-right{
-        padding: 0 30px 55px 30px ;
+    .col-right {
+        padding: 0 30px 55px 30px;
     }
 }
 
@@ -2988,7 +2986,7 @@ p {
         padding-top: 25px;
     }
 
-    .subtitle{
+    .subtitle {
         margin-left: 0 !important;
     }
 
@@ -2997,7 +2995,7 @@ p {
         padding-top: 40px !important;
     }
 
-    .about-view-more-btn{
+    .about-view-more-btn {
         margin-right: 0;
     }
 
@@ -3014,7 +3012,7 @@ p {
         margin-bottom: 0 !important;
     }
 
-    .services-section{
+    .services-section {
         margin-top: 50px;
     }
 
@@ -3191,17 +3189,18 @@ p {
     }
 
     .banner-about .info-banner {
-        top: 70px !important;
+        top: 60px !important;
     }
 
     .banner-about .title-banner {
         width: 100%;
         text-align: center;
+        margin: 10px 0 !important;
     }
 
     .banner-about .buttons {
         text-align: center !important;
-        margin-top: 10px !important;
+        margin-top: 6px !important;
     }
 
     .card-service {
@@ -3228,6 +3227,13 @@ p {
 
     .card-team {
         margin-bottom: 40px;
+    }
+
+    .about-cta-title {
+        font-size: 18px !important;
+        text-transform: uppercase !important;
+        line-height: 1.5 !important;
+        text-align: center;
     }
 
     .banner-services {
