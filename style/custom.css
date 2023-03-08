@@ -907,6 +907,10 @@ p {
     justify-content: center !important;
 }
 
+.info-banner-galery .subtitle-banner {
+    margin-bottom: 6px !important;
+}
+
 .title-photos {
     font-weight: bold;
 }
@@ -3248,6 +3252,10 @@ p {
         text-align: center;
     }
 
+    .banner-services .subtitle-banner {
+        margin-bottom: 6px !important;
+    }
+
     .banner-services .title-banner {
         text-align: center !important;
         width: 100% !important;
@@ -3321,7 +3329,11 @@ p {
     .banner-packages .info-banner {
         margin-top: -100px !important;
         text-align: center !important;
-        top: 120px !important;
+        top: 105px !important;
+    }
+
+    .banner-packages .subtitle-banner {
+        margin-bottom: 6px !important;
     }
 
     .banner-packages .title-banner {
