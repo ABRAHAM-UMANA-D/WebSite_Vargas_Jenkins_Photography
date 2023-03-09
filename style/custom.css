@@ -782,6 +782,10 @@ p {
     top: 280px !important;
 }
 
+.banner-services .button-banner {
+    margin-top: 5px !important;
+}
+
 .info-service {
     margin-bottom: 80px;
 }
@@ -877,10 +881,22 @@ p {
     justify-content: center;
 }
 
+.graduation-galery-banner .info-banner-galery .subtitle-banner {
+    margin-bottom: 15px !important;
+}
+
+.married-galery-banner .info-banner-galery .subtitle-banner {
+    margin-bottom: 15px !important;
+}
+
+.birthday-galery-banner .info-banner-galery .subtitle-banner {
+    margin-bottom: 15px !important;
+}
+
 .info-banner-galery {
     padding-top: 60px;
     position: absolute !important;
-    top: 310px !important;
+    top: 290px !important;
 }
 
 .galery-page {
@@ -1202,9 +1218,15 @@ p {
     background-image: url(../images/banner-married-packages.jpg);
 }
 
+.banner-pregarden-packages .button-banner {
+    margin-top: 5px !important;
+}
+
 .package-leyend {
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 40px;
+    font-family: 'roboto' !important;
+    text-align: center !important;
 }
 
 .package-section {
@@ -1675,6 +1697,16 @@ p {
         margin: 0 auto !important;
     }
 
+    .services-paragraph {
+        font-size: 22px !important;
+    }
+
+    .card-galery {
+        margin: 0 auto !important;
+        width: 23rem !important;
+        margin-bottom: 70px !important;
+    }
+
     .card-galery:hover img,
     .card-galery img {
         height: auto !important;
@@ -1828,17 +1860,28 @@ p {
         margin-bottom: 0;
     }
 
-    /* .card {
-        width: 20rem !important;
-    } */
+    .services-section {
+        margin-top: 30px !important;
+    }
 
     .card-galery:hover img,
     .card-galery img {
         height: auto !important;
     }
 
+    .portfolio-subtitle,
+    .testimony-subtitle {
+        text-align: center !important;
+    }
+
+    .portfolio-subtitle {
+        margin-bottom: 90px !important;
+        margin-top: 40px !important;
+    }
+
     .card-galery {
         margin: 0 auto 20px auto !important;
+        margin-bottom: 60px !important;
     }
 
     .testimony {
@@ -2061,12 +2104,9 @@ p {
 
 
 @media screen and (min-width:801px) and (max-width:1024px) {
-    h1 {
-        font-size: 30px !important;
-    }
 
     h2 {
-        font-size: 25px !important;
+        font-size: 22px !important;
     }
 
     h3 {
@@ -2074,7 +2114,7 @@ p {
     }
 
     p {
-        font-size: 16px !important;
+        font-size: 18px !important;
     }
 
     .btn {
@@ -2083,27 +2123,34 @@ p {
 
     .banner-home .title-banner {
         width: auto !important;
+        justify-content: center;
+        margin-top: 9px !important;
     }
 
     .info-banner {
+        margin-top: 120px !important;
         text-align: center !important;
-        top: 250px !important;
-    }
-
-    .title-banner {
-        justify-content: center;
     }
 
     .sub-main {
         display: inline !important;
     }
 
-    .buttons {
-        margin-top: 20px !important;
+    .btn-contact-banner {
+        padding: 6px 140px !important;
     }
 
     .about {
         padding: 80px 0 !important;
+    }
+
+    .about_paragrah {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .about-view-more-btn {
+        margin-right: 0 !important;
     }
 
     .paragraph-responsive {
@@ -2119,6 +2166,19 @@ p {
     .subtitle-service {
         line-height: 1.5;
         padding-bottom: 10px;
+        font-size: 25px !important;
+    }
+
+    .services-paragraph {
+        font-size: 22px !important;
+    }
+
+    .services-section {
+        margin-top: 40px !important;
+    }
+
+    .about-mobile {
+        flex: 1 0 100% !important;
     }
 
     .service-main {
@@ -2129,9 +2189,19 @@ p {
         margin-top: 90px !important;
     }
 
+    .portfolio-subtitle,
+    .testimony-subtitle {
+        font-size: 25px !important;
+    }
+
+    .portfolio-subtitle {
+        margin-bottom: 0 !important;
+    }
+
+
     .card-galery {
         margin: 0 auto !important;
-        margin-bottom: 25px !important;
+        margin-bottom: 50px !important;
     }
 
     .card-testimony {
@@ -2141,6 +2211,11 @@ p {
 
     .testimony {
         height: auto !important;
+        margin-bottom: 100px !important;
+    }
+
+    .testimony-subtitle {
+        padding-top: 0 !important;
     }
 
     .testimony-view-more {
@@ -2469,11 +2544,10 @@ p {
     }
 
     .info-banner {
-        margin-top: 60px;
+        margin-top: 140px;
         display: grid !important;
         gap: 1em !important;
         height: fit-content !important;
-        top: 170px !important;
         justify-content: center !important;
     }
 
@@ -2486,7 +2560,6 @@ p {
 
     .banner-home .info-banner {
         height: fit-content !important;
-        top: 150px !important;
         justify-content: center !important;
     }
 
@@ -2547,6 +2620,7 @@ p {
 
     .subtitle-service {
         padding-bottom: 35px !important;
+        font-size: 22px !important;
     }
 
     .service-main {
@@ -2555,6 +2629,7 @@ p {
 
     .services-paragraph {
         padding-bottom: 35px !important;
+        font-size: 20px !important;
     }
 
     .service-icons {
@@ -2573,7 +2648,11 @@ p {
         justify-content: center !important;
         align-items: center !important;
         gap: 3.2em !important;
-        padding-top: 70px !important;
+        padding-top: 50px !important;
+    }
+
+    .portfolio-subtitle {
+        font-size: 22px !important;
     }
 
     .card-galery img {
@@ -2582,6 +2661,12 @@ p {
 
     .testimony {
         height: auto !important;
+        margin-bottom: 100px !important;
+    }
+
+    .testimony-subtitle {
+        padding-top: 0 !important;
+        font-size: 22px !important;
     }
 
     .about-testimonies {
@@ -2676,6 +2761,11 @@ p {
         align-items: center !important;
     }
 
+    .title-newsletter,
+    .title-contact {
+        font-size: 22px !important;
+    }
+
     .social {
         margin-top: -55px !important;
     }
@@ -2718,6 +2808,14 @@ p {
         margin-bottom: 20px !important;
     }
 
+    .about {
+        padding-bottom: 0 !important;
+    }
+
+    .btn-about-view-more {
+        margin-bottom: 0 !important;
+    }
+
     .team-work {
         height: auto;
         justify-content: center;
@@ -2737,6 +2835,10 @@ p {
 
     .packages-section {
         padding-top: 30px !important;
+    }
+
+    .services-section {
+        margin-top: 100px !important;
     }
 
     .banner-services {
