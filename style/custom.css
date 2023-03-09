@@ -680,6 +680,10 @@ p {
     cursor: pointer;
 }
 
+.card-service img{
+    aspect-ratio: 4 / 3;
+}
+
 .team-work {
     position: relative;
     display: flex;
@@ -2903,6 +2907,10 @@ p {
 
     .btn-contact-banner {
         width: 209px !important;
+    }
+
+    .btn-contact-banner{
+        aspect-ratio: 1;
     }
 
     .banner-home {
