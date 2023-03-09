@@ -14,12 +14,18 @@ h3 {
     font-size: 20px !important;
 }
 
+.btn,
 p {
     font-size: 18px !important;
 }
 
-.btn {
-    font-size: 18px !important;
+.about,
+.services-section,
+.services-container,
+.newsletter,
+.cta,
+.contact {
+    overflow: hidden;
 }
 
 .menu {
@@ -35,7 +41,8 @@ p {
     position: absolute;
 }
 
-.logo_enlace .logo.top:hover {
+.logo_enlace .logo.top:hover,
+.logo-footer.top:hover {
     opacity: 0;
 }
 
@@ -50,7 +57,12 @@ p {
     margin: 0 5px !important;
 }
 
-.nav_link i {
+.benefit-one,
+.benefit-three,
+.benefit-two,
+.hide-testimony,
+.nav_link i,
+.wrapper-gallery {
     display: none;
 }
 
@@ -78,11 +90,9 @@ p {
 }
 
 .social-networks {
-    padding: 1px;
-    padding-left: 30px;
+    padding: 1px 35px 1px 30px;
     float: right;
     margin-right: 5px;
-    padding-right: 35px;
 }
 
 .social-networks .item {
@@ -109,7 +119,6 @@ p {
 
 .contact-button:hover {
     background-color: #CC9934;
-    border-radius: 8px;
     font-weight: bold;
     color: #000000;
 }
@@ -251,7 +260,8 @@ p {
     aspect-ratio: 1;
 }
 
-.button-banner:hover {
+.button-banner:hover,
+.about-view-more-btn:hover {
     background: #E2B853 !important;
     color: #000000 !important;
 }
@@ -260,16 +270,9 @@ p {
     margin-top: 6px !important;
 }
 
-.btn-services {
-    width: 30px !important;
-    height: 27px !important;
-    position: relative !important;
-}
-
 .about {
     position: relative;
     background-position: 0 0, 10px 10px;
-    overflow: hidden;
     padding: 10px;
     padding-top: 110px;
 }
@@ -321,9 +324,7 @@ p {
 }
 
 .about-view-more-btn:hover {
-    background: #E2B853 !important;
     font-weight: bold !important;
-    color: #000000 !important;
 }
 
 .packages-section {
@@ -333,14 +334,12 @@ p {
 .services-section {
     position: relative;
     background-position: 0, 0, 10px 10px;
-    overflow: hidden;
     background-size: 20px 20px;
     margin-top: 120px;
 }
 
 .services-container {
     position: relative;
-    overflow: hidden;
 }
 
 .service-header {
@@ -460,7 +459,6 @@ p {
 .newsletter {
     position: relative;
     background-position: 0, 0, 10px 10px;
-    overflow: hidden;
     padding-top: 100px;
     height: 610px;
     background: radial-gradient(136.95% 136.95% at 50.65% -27.09%, rgba(255, 255, 255, 0) 0.83%, rgba(255, 255, 255, 7.89793e-09) 58.12%, rgba(181, 181, 181, 0.2) 100%), #000000 !important;
@@ -539,18 +537,8 @@ p {
     font-weight: bold !important;
 }
 
-.hide-testimony {
-    display: none;
-}
-
-.hide-testimony:nth-child(1) {
-    display: block;
-}
-
-.hide-testimony:nth-child(2) {
-    display: block;
-}
-
+.hide-testimony:nth-child(1),
+.hide-testimony:nth-child(2),
 .hide-testimony:nth-child(3) {
     display: block;
 }
@@ -586,7 +574,6 @@ p {
 .cta {
     position: relative;
     background-position: 0 0, 10px 10px;
-    overflow: hidden;
     background-size: 20px 20px;
 }
 
@@ -691,6 +678,10 @@ p {
     box-shadow: 0px 0.7px 3px 0px rgba(0.5, 0, 0, 0.15) !important;
     margin-bottom: 30px !important;
     cursor: pointer;
+}
+
+.card-service img{
+    aspect-ratio: 4 / 3;
 }
 
 .team-work {
@@ -798,6 +789,7 @@ p {
 .figure-service img {
     width: 100%;
     border-radius: 10px;
+    aspect-ratio: 4/3;
 }
 
 .image-service {
@@ -947,10 +939,6 @@ p {
 .btn-load-more:hover {
     background-color: #fff !important;
     cursor: pointer;
-}
-
-.wrapper-gallery {
-    display: none;
 }
 
 .wrapper-gallery:nth-child(1) {
@@ -1128,7 +1116,6 @@ p {
 .contact {
     position: relative;
     background-position: 0 0, 10px 10px;
-    overflow: hidden;
     padding: 10px;
     padding-top: 100px;
 }
@@ -1350,10 +1337,6 @@ p {
     color: #EFEFEF !important;
 }
 
-.benefit-one {
-    display: none;
-}
-
 .btn-view-more {
     padding: 5px 10px !important;
     font-weight: bold !important;
@@ -1375,11 +1358,12 @@ p {
     font-weight: bold;
 }
 
-.benefit-one:nth-child(1) {
-    display: block;
-}
-
-.benefit-one:nth-child(2) {
+.benefit-one:nth-child(1),
+.benefit-one:nth-child(2),
+.benefit-two:nth-child(1),
+.benefit-two:nth-child(2),
+.benefit-three:nth-child(1),
+.benefit-three:nth-child(2) {
     display: block;
 }
 
@@ -1414,18 +1398,6 @@ p {
     color: #000 !important;
 }
 
-.benefit-two {
-    display: none;
-}
-
-.benefit-two:nth-child(1) {
-    display: block;
-}
-
-.benefit-two:nth-child(2) {
-    display: block;
-}
-
 .btn-more-platinum:hover,
 .btn-more-maternal-two:hover {
     border-color: #fff !important;
@@ -1441,18 +1413,6 @@ p {
     background-color: #CC9934 !important;
     box-shadow: inset 4px 4px 30px rgba(0, 0, 0, 0.7);
     border-width: 2px;
-}
-
-.benefit-three {
-    display: none;
-}
-
-.benefit-three:nth-child(1) {
-    display: block;
-}
-
-.benefit-three:nth-child(2) {
-    display: block;
 }
 
 .card-kinder {
@@ -1479,9 +1439,6 @@ p {
     height: 240px;
 }
 
-.logo-footer.top:hover {
-    opacity: 0;
-}
 
 .col-brand .icon {
     font-size: 25px;
@@ -3053,6 +3010,10 @@ p {
 
     .btn-contact-banner {
         width: 209px !important;
+    }
+
+    .btn-contact-banner{
+        aspect-ratio: 1;
     }
 
     .banner-home {
