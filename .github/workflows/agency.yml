@@ -1,17 +1,22 @@
-name: Vargas Photography Agency
+name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v2
-      - name: Deploy
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      - name: Install dependencies
+        run: npm install
+      - name: Build the project
+        run: npm run build
+      - name: Deploy to FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
           ftp-server: ftp.vargasjenkinsphotography.com
+          port: 21
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
