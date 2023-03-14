@@ -1,1 +1,17 @@
-
+name: Vargas Photography Agency
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Deploy
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          server: ftp.vargasjenkinsphotography.com
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
