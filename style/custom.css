@@ -1485,18 +1485,19 @@
     justify-content: center;
 }
 
-.privacy-policies {
-    margin-left: 100px;
-}
-
 .privacy-policies:hover {
     color: #E2B853 !important;
 }
 
 .policies {
     position: relative;
-    left: 52px;
+    left: 30px;
 }
+
+.policies p{
+    text-align: end;
+}
+
 
 .conditions {
     margin-left: 0;
@@ -1903,7 +1904,6 @@
     .policies {
         left: 30px;
     }
-
     .card-service {
         margin-bottom: 40px !important;
     }
@@ -2086,6 +2086,10 @@
 
     .banner-packages .subtitle-banner {
         top: -67px !important;
+    }
+
+    .policies p{
+        text-align: center;
     }
 
 }
