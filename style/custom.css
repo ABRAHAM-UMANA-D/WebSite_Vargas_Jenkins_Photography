@@ -1951,7 +1951,7 @@
     }
 
     .services-section {
-        margin-bottom: 50px !important
+        margin-bottom: 80px !important
     }
 
     .banner-packages .subtitle-banner {
@@ -2165,7 +2165,7 @@
 
     .banner-about .title-banner {
         width: 100%;
-        text-align: center
+        display: block;
     }
 
     .banner-about .subtitle-banner,
@@ -2235,8 +2235,9 @@
     }
 
     .banner-packages .title-banner {
-        text-align: center !important;
+        display: block !important;
         width: 100% !important
+
     }
 
     .banner-packages .button-banner {
@@ -2359,7 +2360,7 @@
     }
 
     .info-banner {
-        margin-top: 140px;
+        margin-top: 70px;
         display: grid !important;
         gap: 1em !important;
         height: fit-content !important;
@@ -2407,8 +2408,8 @@
         height: auto !important
     }
 
-    .about {
-        padding: 100px 0 !important
+    .about-main{
+        margin-top: 120px !important;
     }
 
     .subtitle {
@@ -2457,14 +2458,13 @@
     .about-galeries {
         justify-content: center !important;
         align-items: center !important;
-        padding-top: 50px !important
+        margin-top: 70px !important;
     }
 
     .testimony {
         margin-bottom: 100px !important
     }
 
-    .contact,
     .testimony-subtitle {
         padding-top: 0 !important
     }
@@ -2575,7 +2575,12 @@
 
     .our-teamwork,
     .team-work {
-        height: auto
+        height: auto;
+        margin-bottom: 50px !important;
+    }
+
+    .card-team{
+        margin-bottom: 45px !important;
     }
 
     .banner-about .info-banner {
@@ -2600,8 +2605,9 @@
         margin-top: 0 !important
     }
 
-    .about {
-        padding-bottom: 0 !important
+    .about{
+        padding-bottom: 0 !important;
+        padding-top: 70px !important;
     }
 
     .btn-about-view-more {
@@ -2884,6 +2890,10 @@
 
     .about {
         padding-top: 25px
+    }
+
+    .about-page{
+        padding-top: 50px !important;
     }
 
     .about-figure {
