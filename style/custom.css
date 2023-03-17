@@ -2,6 +2,21 @@
     display: none !important
 }
 
+h1,
+label {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, .btn {
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
 .about,
 .contact,
 .cta,
@@ -40,18 +55,20 @@
     margin: 0 5px !important
 }
 
-.benefit-one,
-.benefit-three,
-.benefit-two,
+.item a{
+    font-family: 'Poppins', sans-serif !important;
+}
+
 .hide-testimony,
 .nav_link i,
-.wrapper-gallery {
+.wrapper-gallery,
+.hidden-benefits {
     display: none
 }
 
 .nav_link {
     color: #ffff !important;
-    font-size: 20px !important;
+    font-size: 16px !important;
     padding: 7px 13px !important;
     border-radius: 3px !important;
     font-weight: 499 !important
@@ -95,9 +112,8 @@
     color: #000;
     padding: 4px 9px;
     font-weight: 700;
-    font-family: Roboto;
     transition: 1s cubic-bezier(.19, 1, .22, 1) !important;
-    font-size: 20px !important
+    font-size: 16px !important
 }
 
 .contact-button:hover {
@@ -148,10 +164,6 @@
     transition: 1s cubic-bezier(.19, 1, .22, 1) !important
 }
 
-.item-graduation {
-    font-size: 14px
-}
-
 .item-graduation i {
     font-size: 15px
 }
@@ -174,17 +186,13 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5)
 }
 
-.benefit-one:first-child,
-.benefit-one:nth-child(2),
-.benefit-three:first-child,
-.benefit-three:nth-child(2),
-.benefit-two:first-child,
-.benefit-two:nth-child(2),
+
 .hide-testimony:first-child,
 .hide-testimony:nth-child(2),
 .hide-testimony:nth-child(3),
 .show,
-.wrapper-gallery:first-child {
+.wrapper-gallery:first-child,
+.show-benefits {
     display: block
 }
 
@@ -213,7 +221,6 @@
 
 .subtitle-banner {
     display: flex !important;
-    font-family: Roboto !important;
     color: #ffff !important;
     margin-bottom: 20px !important;
     font-weight: 700 !important;
@@ -225,10 +232,10 @@
     display: flex;
     color: #ffff;
     width: 55%;
-    font-family: 'Arial Black';
     position: relative;
     top: -65px;
     max-width: 1024px;
+    font-weight: bold;
     -webkit-text-stroke: 0.1px #000000 !important
 }
 
@@ -239,7 +246,6 @@
 .btn {
     margin-right: 10px;
     padding: 10px;
-    font-family: Roboto
 }
 
 .button-banner {
@@ -247,7 +253,6 @@
     color: #000 !important;
     padding-left: 40px !important;
     padding-right: 40px !important;
-    font-family: Roboto !important;
     font-weight: 700 !important;
     height: 42px !important;
     position: relative !important;
@@ -320,7 +325,7 @@
 .about-view-more-btn,
 .about-view-more-btn:hover,
 .label-form,
-.title-testimony h5 {
+.title-testimony h3 {
     font-weight: 700 !important
 }
 
@@ -468,6 +473,18 @@
     animation: .8s infinite pulse
 }
 
+.card-testimony .card-title{
+    font-size: 18px !important;
+}
+
+.card-testimony h4{
+    font-size: 16px;
+}
+
+.card-galery h3{
+    font-size: 18px !important;
+}
+
 @keyframes pulse {
 
     from,
@@ -546,7 +563,11 @@
     background-color: #000;
     color: #fff;
     padding: 20px;
-    border-radius: 10px
+    border-radius: 10px;
+}
+
+.title-testimony h3{
+    font-size: 20px !important;
 }
 
 .btn-card,
@@ -1052,7 +1073,6 @@
     margin-left: 10px !important;
     margin-bottom: 5px !important;
     -webkit-text-stroke: 0 #000000 !important;
-    font-family: Roboto !important;
     font-weight: 500 !important
 }
 
@@ -1137,7 +1157,6 @@
 .package-leyend {
     font-weight: 600;
     margin-bottom: 40px;
-    font-family: roboto !important;
     text-align: center !important
 }
 
@@ -1193,6 +1212,10 @@
 .benefit-description {
     font-weight: 300 !important;
     margin-bottom: 15px !important
+}
+
+.hidden-benefits {
+    margin-bottom: 20px;
 }
 
 .maternal-package {
@@ -1649,7 +1672,6 @@
     }
 
     .btn,
-    nav ul .item .nav_link,
     p {
         font-size: 18px !important
     }
@@ -1924,11 +1946,11 @@
         background-position: right
     }
 
-    .banner-packages{
+    .banner-packages {
         background-position: 90%;
     }
 
-    .birthday-galery-banner{
+    .birthday-galery-banner {
         background-position: 70%;
     }
 
@@ -2237,7 +2259,6 @@
     .banner-packages .title-banner {
         display: block !important;
         width: 100% !important
-
     }
 
     .banner-packages .button-banner {
@@ -2408,7 +2429,7 @@
         height: auto !important
     }
 
-    .about-main{
+    .about-main {
         margin-top: 120px !important;
     }
 
@@ -2579,7 +2600,7 @@
         margin-bottom: 50px !important;
     }
 
-    .card-team{
+    .card-team {
         margin-bottom: 45px !important;
     }
 
@@ -2605,7 +2626,7 @@
         margin-top: 0 !important
     }
 
-    .about{
+    .about {
         padding-bottom: 0 !important;
         padding-top: 70px !important;
     }
@@ -2892,7 +2913,7 @@
         padding-top: 25px
     }
 
-    .about-page{
+    .about-page {
         padding-top: 50px !important;
     }
 
