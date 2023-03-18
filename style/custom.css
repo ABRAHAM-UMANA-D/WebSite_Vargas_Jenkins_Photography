@@ -3,7 +3,8 @@
 }
 
 h1,
-label {
+label,
+input {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -13,7 +14,7 @@ h4 {
     font-family: 'Montserrat', sans-serif;
 }
 
-p, .btn {
+p, .btn, h5, .btn-hide-benefits {
     font-family: 'Roboto Condensed', sans-serif !important;
 }
 
@@ -1170,7 +1171,7 @@ p, .btn {
 }
 
 .title-package {
-    font-size: 22px;
+    font-size: 22px !important;
     margin-top: 15px !important
 }
 
@@ -1205,13 +1206,15 @@ p, .btn {
 }
 
 .benefits-title {
+    font-size: 18px;
     font-weight: 700;
     margin: 10px 0 !important
 }
 
 .benefit-description {
     font-weight: 300 !important;
-    margin-bottom: 15px !important
+    margin-bottom: 15px !important;
+    font-size: 16px;
 }
 
 .hidden-benefits {
@@ -1496,7 +1499,7 @@ p, .btn {
     }
 
     h3 {
-        font-size: 25px !important
+        font-size: 20px;
     }
 
     .btn,
