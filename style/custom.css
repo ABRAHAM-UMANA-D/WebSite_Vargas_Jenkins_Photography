@@ -806,12 +806,13 @@ p, .btn, h5, .btn-hide-benefits {
 }
 
 .figure-service {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 .figure-service img {
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     aspect-ratio: 5/4;
     margin: 0 auto;
